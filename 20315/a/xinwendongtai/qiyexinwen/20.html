@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>关于小程序运营的一些问题汇总_</title>
+<meta name="keywords" content="关于,小,程序,运营,的,一些,问题,汇总,一,、," />
+<meta name="description" content="一、关于搜索、建立用户评价和小程序的找回 微信之夜演讲提到，2019年小程序有几个重要的事去做：搜索的直达、完善用户的评价体系和小程序的找回。 最新版的微信小程序已经有了" />
+<meta name="viewport" content="width=1280">
+<link href="../../../skin/css/aos.css"  rel="stylesheet">
+<link href="../../../skin/css/css.css"  rel="stylesheet">
+<link href="../../../skin/css/style.css"  rel="stylesheet">
+<link href="../../../skin/css/common.css"  rel="stylesheet">
+<script src="../../../skin/js/jquery.js" ></script>
+<script src="../../../skin/js/jquery.superslide.2.1.1.js" ></script>
+<script src="../../../skin/js/common.js" ></script>
+</head>
+<body>
+<!--顶部开始--> 
+<div class="head_main">
+  <div class="head_main_nav" aos="fade-down" aos-easing="ease" aos-duration="700" aos-delay="100">
+    <div class="w1200">
+      <div class="wa_left left">
+        <div id="logo" class="logo left"><a href="../../../index.htm"  title=""> <img src="../../../skin/images/logo.png"  alt=""></a></div>
+      </div>
+      <!--搜索栏开始-->
+      <div class="right" id="rikj">
+        <div class="box left">
+          <div class="demo header-button"  id="toggle-search" ><a href="javascript:;"  class="bounceIn" title="搜索" ><span></span></a></div>
+          <form id="search-form" action="http://zf051005.demo.mxyhn.xyz/plus/search.php">
+            <input type="hidden" name="kwtype" value="0" />
+            <fieldset>
+              <input class="stxt" type="text" name="q" value="请输入关键字" onfocus="if(this.value==defaultValue)this.value=''" onblur="if(this.value=='')this.value=defaultValue"/>
+            </fieldset>
+            <input type="submit" class="s_btn left" value="搜 索"/>
+          </form>
+        </div>
+      </div>
+      <!--搜索栏结束--> 
+      
+      <!--导航开始-->
+      <div class="wa_right right">
+        <ul class="nav" id="nav">
+          <li id="cur" ><a href="../../../index.htm" >网站首页<i></i></a></li>
+          <li class=''><a href="../../guanyuwomen/index.htm"  title="关于我们">关于我们<i></i></a>
+            <ul>
+              
+              <li><a href="../../guanyuwomen/linian/index.htm"  title="企业理念">企业理念</a></li>
+              
+              <li><a href="../../guanyuwomen/qiyewenhua/index.htm"  title="企业文化">企业文化</a></li>
+              
+              <li><a href="../../guanyuwomen/gongsirongyu/index.htm"  title="公司荣誉">公司荣誉</a></li>
+              
+            </ul>
+          </li><li class=''><a href="../../chanpinzhongxin/index.htm"  title="产品中心">产品中心<i></i></a>
+            <ul>
+              
+              <li><a href="../../chanpinzhongxin/cp1/index.htm"  title="水产料">水产料</a></li>
+              
+              <li><a href="../../chanpinzhongxin/cp2/index.htm"  title="特种水产料">特种水产料</a></li>
+              
+              <li><a href="../../chanpinzhongxin/cp3/index.htm"  title="猪饲料">猪饲料</a></li>
+              
+            </ul>
+          </li><li class='on'><a href="../index.htm"  title="新闻动态">新闻动态<i></i></a>
+            <ul>
+              
+              <li><a href="../xingyexinwen/index.htm"  title="行业新闻">行业新闻</a></li>
+              
+              <li><a href="index.htm"  title="企业新闻">企业新闻</a></li>
+              
+              <li><a href="../changjianwenti/index.htm"  title="常见问题">常见问题</a></li>
+              
+            </ul>
+          </li><li class=''><a href="../../jidi/index.htm"  title="生态基地">生态基地<i></i></a>
+            <ul>
+              
+              <li><a href="../../jidi/jidi1/index.htm"  title="生态基地一">生态基地一</a></li>
+              
+              <li><a href="../../jidi/jidi2/index.htm"  title="生态基地二">生态基地二</a></li>
+              
+              <li><a href="../../jidi/jidi3/index.htm"  title="生态基地三">生态基地三</a></li>
+              
+              <li><a href="../../jidi/jidi4/index.htm"  title="生态基地四">生态基地四</a></li>
+              
+            </ul>
+          </li><li class=''><a href="../../zaixianliuyan/index.htm"  title="在线留言">在线留言<i></i></a>
+            <ul>
+              
+            </ul>
+          </li><li class=''><a href="../../rencaizhaopin/index.htm"  title="人才招聘">人才招聘<i></i></a>
+            <ul>
+              
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--导航结束--> 
+    </div>
+  </div>
+</div>
+ 
+<!--顶部结束--> 
+<!--内页大图开始-->
+<div class="nybanner" style="background-image: url(/skin/images/nybanner3.jpg);">
+  <div class="w1200">
+    <h3>新闻动态</h3>
+    <span class="en"></span> <span class="line"></span></div>
+</div>
+<!--内页大图结束-->
+<div class="wrapper"> 
+  <!--栏目分类开始-->
+  <div class="menu">
+    <ul class="list clearfix">
+      
+      <li><a class="nav1" href="../xingyexinwen/index.htm"  title="行业新闻">行业新闻<s></s></a> </li>
+      <li class='hover'><a href="index.htm"  class='nav1'>企业新闻<s></s></a></li>
+      <li><a class="nav1" href="../changjianwenti/index.htm"  title="常见问题">常见问题<s></s></a> </li>
+      
+    </ul>
+  </div>
+  <!--栏目分类结束-->
+  <div class="sitepath w1200"><s class="nyIcon"></s>您的位置：<a href="javascript:if(confirm('http://4.yingzicms.com/  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·���С� w.location='http://4. > <a href="../index.htm" tppabs="htindex.htm" tppabs="http://zf051005.demo.mxyhn.xyz/a/xinwendongtai/qiyexinwen/">企业新闻</a> > </div>
+  <!--文章内容开始-->
+  <div class="content showNews clearfix" aos="fade-up" aos-easing="ease" aos-duration="700" aos-delay="100">
+    <h1 class="title">关于小程序运营的一些问题汇总</h1>
+    <div class="mark"><span>发布日期：2019-10-21 14:48</span><span>浏览次数：<i id="hits"><script src="../../../plus/count.php-view=yes&aid=20&mid=1"  type='text/javascript' language="javascript"></script></i></span></div>
+    <div class="showContxt"> <h2>
+	一、关于搜索、建立用户评价和小程序的找回</h2>
+<p>
+	&ldquo;微信之夜&rdquo;演讲提到，2019年小程序有几个重要的事去做：搜索的直达、完善用户的评价体系和小程序的找回。</p>
+<p>
+	最新版的微信小程序已经有了搜索和查看我的小程序的功能。虽然搜索还未达到提出的&ldquo;可以直接搜索到小程序里面的内容&rdquo;的程度，目前还是根据&ldquo;搜索小程序的功能&rdquo;来找到小程序。</p>
+<p>
+	拿演讲上举的例子来说，&ldquo;输入一个航班号&rdquo;搜到的小程序可以是有各种功能的，可以是查询航班号，可以是吐槽投诉该航班，还可以是想找到航班上的人或物等等，但用户通常是只想要某个功能的。</p>
+<p>
+	所以我想，用户输入的真的会是一个航班号吗？或许他更多场景下输入的是想要的&ldquo;某个功能或服务&rdquo;，比如&ldquo;航班查询&rdquo;或&ldquo;航班投诉&rdquo;这样的描述一个小程序的功能的信息。</p>
+<p>
+	那么需要小程序本身能提供这样的一个描述自己功能的信息，这一点小程序开发者通常都是有做到的。</p>
+<p>
+	不过现在这一展示信息有一个不足的地方就是，如果描述语过多，会将过多的内容显示为省略号，但用户没法查看更多的内容（点进去之后是小程序的页面）。所以，这样的情况下，开发者提供的关于小程序功能的描述是失效的。</p>
+<p>
+	但是，用户需要直接通过在搜索结果页面就能查看到完整的描述，才能更好地决定到底点不点进去这个具体的小程序。所以，建议可以添加个&ldquo;更多描述&rdquo;的按钮，可以展开完整的信息。</p>
+<p>
+	&nbsp;</p>
+<p>
+	图 1&nbsp;搜索结果页面的显示</p>
+<p>
+	此外，用户多数时候不止想看开发者是怎么描述小程序的，还想看到其他使用过的用户是怎么描述该小程序的，也就是&ldquo;小程序需要一个完善的评价体系，使得用户可以作出选择&rdquo;。</p>
+<p>
+	既然这个评价的作用是帮助用户做出选择，那么它也是属于&ldquo;描述小程序&rdquo;的一部分，同样需要展示在搜索结果页。如果仅展示最热或最新的评论，无法较全面地展示这个小程序的功能和优缺点。</p>
+<p>
+	如果想展示所有用户评价也是不行的，这个页面显然放不下所有的用户评价，而且也不需要放下所有的评价，因为多数评价都是没有明确表达信息的（参考类似场景下，用户在应用商店里的评价），用户通过这些评价来获取一个较完整的小程序的描述要花的成本很高。</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	图 2&nbsp;应用商店里的评价</p>
+<p>
+	用户在留下评价时的表达是不明确的、不本质的，留下&ldquo;好，体验很好&rdquo;的评价，他可能是觉得功能很好，也可能是觉得界面很舒服；留下&ldquo;不好，不要用&rdquo;可能是觉得内容太少，也可能是功能不能满足需求；&ldquo;垃圾，周杰伦的歌都没有&rdquo;可能是想表达小程序大众音乐版权的缺失，&ldquo;很好，XX的歌都有&rdquo;可能是想说小众音乐内容很多等等。</p>
+<p>
+	我们需要找出这些评价的本质是什么，用户到底想表达什么。</p>
+<p>
+	我想到的一个方法是，在用户评价时，设置几个关键词，引导用户留下相应的评价。比如在听音乐的小程序中，可以有&ldquo;内容完整度（曲库全与否）、歌词完整度、特色功能&rdquo;等（根据不同类型的小程序设置不同的评价关键词，应该是较理想的。</p>
+<p>
+	不过第一版可以从为所有小程序设置通用的评价关键词开始，之后再根据累积的用户评价逐渐完善不同类型小程序的关键词）。然后通过技术抓取和分析用户的关键词评价，来更全面、准确也更精炼地描述小程序的功能。同时，这些用户反馈也可以封装起来给开发者，让开发者更好地了解自己的用户使用情况以改进和迭代小程序。</p>
+<p>
+	此外，如果是熟人使用过该小程序，还可以优先展示熟人的评价（不过在用户发表评价时，应该让用户选择是否愿意在熟人之间实名展示自己的评价；如果不愿意实名，此时对于用户A看到的应该是&ldquo;匿名熟人&rdquo;的评价），让用户更好地做出选择。</p>
+<p>
+	还有一个场景，当用户分享某个小程序到朋友圈时，也是可以作为评价的一个来源，可询问用户&ldquo;是否将此分享内容作为评价&rdquo;。</p>
+<p>
+	在&ldquo;小程序的找回&rdquo;中，目前没有搜索使用过的小程序的功能，但用户用过的小程序可能很多，不能一一查看，估计后续将有搜索功能的完善。</p>
+<p>
+	在有了评价功能后，还可通过搜索用户自己的评价找回，毕竟有时用户并不太能记得小程序的名字，而评价会是一个较好的情景回顾，帮助用户回想起是哪个小程序。</p>
+<h2>
+	二、发现更多使用小程序的场景，从而扩展小程序的入口</h2>
+<p>
+	最新版微信中有个众望所归的浮窗功能，能很好地满足用户在使用小程序或者阅读文章时，还需要回复消息的场景下的快速切换需求。</p>
+<p>
+	我在使用这一功能时有个想法，就是使用浮窗是从&ldquo;使用小程序或者阅读文章时有消息需要回复&rdquo;这一基本场景出发的，所以浮窗也是在小程序和公众号文章下才能找到（找到后将小程序和文章的入口&ldquo;添加&rdquo;进浮窗）。</p>
+<p>
+	而在聊天页面、朋友圈页面并不能主动唤起（只能点击由小程序或公众号文章页面唤起的浮窗，进入这些预先留下的入口）。</p>
+<p>
+	这可以很好地满足用户的切换需求，却没有对&ldquo;扩展小程序的入口&rdquo;起到太大帮助，因为这一场景下用户使用的，仍然是原本就使用的小程序，而没有去寻找新的小程序。</p>
+<p>
+	如果要&ldquo;扩展小程序的入口&rdquo;，即让用户能除了搜索和顶部入口外，还去寻找新的小程序，需要挖掘更多用户可能使用到小程序的场景。比如，用户在聊天时、看文章时、逛朋友圈时，这些典型的场景下，有没有对某些小程序的需求？</p>
+<p>
+	我想是有的。</p>
+<p>
+	用户可能想听歌，但是又不想退出文章或朋友圈，或者看文章时想要找一下某个东西的解释，或者是看到了文章中提到的某个东西，想要在京东加个购物车。</p>
+<p>
+	如果在聊天页面、朋友圈页面也能有主动唤起浮窗的功能，而且在浮窗中能默认有对小程序的查找功能，也许能让用户在聊天、看朋友圈这样的大场景下的众多细分场景中找到更多对小程序的需求。</p>
+<p>
+	扩展浮窗的功能，不仅能从小程序、文章页面中唤起浮窗，并将正在使用的小程序和文章的入口添加进浮窗；还能在聊天、朋友圈、公众号文章页面中唤起浮窗来查找小程序。因为用户在这几个大的场景下还会有许多细分场景，在这些小场景中用户存在对某些小程序的需求，这些需求能有效扩展小程序的入口。</p>
+ </div>
+    <!--分享代码开始-->
+    <div class="shareNew bdsharebuttonbox"> <a href="#" class="bds_more" data-cmd="more"></a> <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a> <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a> <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a> <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a> <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a></div>
+    <!--分享代码结束-->
+    <div class="reLink clearFix">
+      <div class="prevLink fl"><a href="21.html" >下一篇：双十一有什么新玩法</a> </div>
+      <div class="nextLink fl"><a href="19.html" >上一篇：高阶SEO是基于搜索引擎优化的一个策略行为</a> </div>
+    </div>
+    <!--产品推荐开始-->
+    <div class="relateNews">
+      <div class="n-tit"><a class="more fr" href="../index.htm"  title="查看更多 &gt;&gt;">查看更多 &gt;&gt;</a>
+        <h3><s></s>新闻推荐</h3>
+      </div>
+      <ul class="list clearfix">
+        <li class="item"><a href="22.html"  title="关于医院类网站优化的一些见解"><img src="../../../images/defaultpic.gif"  alt="关于医院类网站优化的一些见解">
+          <h3 >关于医院类网站优化的一些见解</h3>
+          <span class="time">2019-10-21</span>
+          <p>一说到医院，大家都比较紧张。毕竟自古以来没有一个人愿意去医院的。但即使这样，医院每天还是人满为患。而在去医院前，尤其是第一次去的医院前，...</p>
+          </a></li>
+<li class="item"><a href="21.html"  title="双十一有什么新玩法"><img src="../../../images/defaultpic.gif"  alt="双十一有什么新玩法">
+          <h3 >双十一有什么新玩法</h3>
+          <span class="time">2019-10-21</span>
+          <p>在电商时代落幕的今天，曾经风靡一时的双十一正在成为一种记忆。 从表面上看，各大平台都在不遗余力地对双十一进行宣传，甚至还为了所谓的二选一开...</p>
+          </a></li>
+<li class="item"><a href="20.html"  title="关于小程序运营的一些问题汇总"><img src="../../../images/defaultpic.gif"  alt="关于小程序运营的一些问题汇总">
+          <h3 >关于小程序运营的一些问题汇总</h3>
+          <span class="time">2019-10-21</span>
+          <p>一、关于搜索、建立用户评价和小程序的找回 微信之夜演讲提到，2019年小程序有几个重要的事去做：搜索的直达、完善用户的评价体系和小程序的找回。...</p>
+          </a></li>
+<li class="item"><a href="19.html"  title="高阶SEO是基于搜索引擎优化的一个策略行"><img src="../../../images/defaultpic.gif"  alt="高阶SEO是基于搜索引擎优化的一个策略行">
+          <h3 >高阶SEO是基于搜索引擎优化的一个策略行</h3>
+          <span class="time">2019-10-21</span>
+          <p>SEO行业这么多年，可以说是鱼龙混杂，有很多SEO新手，也有很多SEO大神。通常有时候我们会听到高级SEO或者是高阶SEO这个名词，有很大一部分人都会觉得高...</p>
+          </a></li>
+
+      </ul>
+    </div>
+    <!--产品推荐结束--> 
+  </div>
+  <!--文章内容结束--> 
+</div>
+<!--页尾开始--> 
+<div class="bottom_main">
+  <div class="w1200 clearfix" aos="fade-up" aos-easing="ease" aos-duration="700"> 
+    <!--友情链接开始-->
+    <div class="links"> <span>友情链接：</span>   <a href="javascript:if(confirm('http:///  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·ӷ�����������?'))window.location='http:///'" tppabs="http:///" target='_blank'>网站建设</a>    </div>
+    <!--友情链接结束--> 
+    
+    <!--底部导航开始-->
+    <div class="left bottom_nav"> <ul class="left">
+        <li>
+          <h3><a href="../../guanyuwomen/index.htm"  title="关于我们">关于我们</a><i></i></h3>
+        </li>
+        
+        <li><a href="../../guanyuwomen/linian/index.htm"  title="企业理念">企业理念</a></li>
+        
+        <li><a href="../../guanyuwomen/qiyewenhua/index.htm"  title="企业文化">企业文化</a></li>
+        
+        <li><a href="../../guanyuwomen/gongsirongyu/index.htm"  title="公司荣誉">公司荣誉</a></li>
+        
+      </ul><ul class="left">
+        <li>
+          <h3><a href="../../chanpinzhongxin/index.htm"  title="产品中心">产品中心</a><i></i></h3>
+        </li>
+        
+        <li><a href="../../chanpinzhongxin/cp1/index.htm"  title="水产料">水产料</a></li>
+        
+        <li><a href="../../chanpinzhongxin/cp2/index.htm"  title="特种水产料">特种水产料</a></li>
+        
+        <li><a href="../../chanpinzhongxin/cp3/index.htm"  title="猪饲料">猪饲料</a></li>
+        
+      </ul><ul class="left">
+        <li>
+          <h3><a href="../index.htm"  title="新闻动态">新闻动态</a><i></i></h3>
+        </li>
+        
+        <li><a href="../xingyexinwen/index.htm"  title="行业新闻">行业新闻</a></li>
+        
+        <li><a href="index.htm"  title="企业新闻">企业新闻</a></li>
+        
+        <li><a href="../changjianwenti/index.htm"  title="常见问题">常见问题</a></li>
+        
+      </ul> </div>
+    <!--底部导航结束--> 
+    
+    <!--联系方式开始-->
+    <div class="right bottom_tit">
+      <div class="r1">
+        <p> <img src="../../../skin/images/erweima.png" /><span>微信扫码 关注我们</span></p>
+      </div>
+      <div class="r2 fl">
+        <ul>
+          <li><img src="../../../skin/images/tel.png"  alt="24小时咨询热线"/>
+            <p>24小时咨询热线<span>18637890085</span></p>
+          </li>
+          <li><img src="../../../skin/images/phone.png" />
+            <p>移动电话<span>18637890085</span></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--联系方式结束--> 
+  </div>
+</div>
+<!--页尾结束--> 
+
+<!--版权开始-->
+<div class="bottom_copy">
+  <div class="w1200 clearfix">Copyright &copy; 2002-2019 某某水产饲料有限公司 版权所有　地址：广东省广州市番禺经济开发区　备案号：<a href="javascript:if(confirm('http://www.beian.miit.gov.cn/  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·���С�  \n\n�http://www.beian.miit.gov.cn/'" tppabs="http://www.beian.miit.gov.cn/"  target="_blank" titl./sitemap.html" tppabs="http://zf051005.demo.mxyhn.xyz/sitemap.html">网站地图</a></div>
+</div>
+<!--版权结束--> 
+
+<!--浮动客服开始-->
+<div class="rightFix">
+  <div class="share"><a href="javascript:void(0);" class="ico share_tit"></a>
+    <div class="box hidden"> <a href="javascript:;" class="ico share_sqq"> <img src="../../../skin/images/erweima.png" /></a> <a class="ico share_lt" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=6364544&site=qq&menu=yes  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·���С�  \n\n����Ҫ�ӷ���544&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=6364544&site=qq&menu=yes"  title="QQ"></a> <a class="ico fix-tel" href="javascript:;" title="咨询热线"><span class="ftel">18637890085</span></a> </div>
+  </div>
+  <a href="javascript:void(0);" class="ico fix_top"></a></div>
+<!--浮动客服结束--> 
+<script src="../../../skin/js/aos.js" ></script> 
+<script src="../../../skin/js/app.js" ></script> 
+<script type="text/javascript">
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
+</script>
+</body>
+</html>
