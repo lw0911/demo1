@@ -1,0 +1,299 @@
+/* （yingzicms.com）做专业的网站建设专家 */
+.content {
+	width: 1200px;
+	margin: 0 auto;
+}
+.header {
+	height: 150px;
+	line-height: 0;
+	position: relative;
+	z-index: 3;
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+}
+.header .logo {
+	width: 156px;
+}
+.header .h_tel {
+	text-align: right;
+	font-size: 15px;
+	color: #fff;
+	line-height: 40px;
+	padding-right: 20px;
+	margin-bottom: 4px;
+}
+.header .h_tel span {
+	padding-left: 40px;
+	background: url("../images/tel.png"/*tpa=http://zf051014.demo.mxyhn.xyz/skin/images/tel.png*/) no-repeat left top;
+	line-height: 40px;
+	display: inline-block;
+}
+.header .h_tel em {
+	font-style: normal;
+	font-size: 22px;
+	color: #fff;
+	font-weight: bold;
+}
+.header .menu {
+	margin-top: 24px;
+}
+.header .menu li {
+	position: relative;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.header .menu li a {
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 33px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 20px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+}
+.header .menu li:hover a, .header .menu li.cur a {
+	border: 1px solid #fff;
+}
+.clearfix:after {
+	content: ".";
+	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.footer {
+	background: #B20405;
+	height: 374px;
+	overflow: hidden;
+}
+.footer i {
+	font-style: normal;
+}
+.f_con {
+	height: 114px;
+	margin-bottom: 41px;
+}
+.f_con h3 {
+	width: 165px;
+	padding-top: 34px;
+	float: left;
+}
+.f_menu {
+	float: right;
+}
+.f_menu a {
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	line-height: 114px;
+	float: left;
+	padding: 0 21px;
+	transition: .3s ease;
+	-o-transition: .3s ease;
+}
+.f_menu a:hover {
+	background: #fff;
+	color: #453825;
+}
+.footer h4 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 100%;
+}
+.footer h4 span {
+	padding-left: 10px;
+}
+.footer h4 i {
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 14px;
+	line-height: 100%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.f_info {
+	padding-top: 28px;
+	width: 557px;
+	float: left;
+	position: relative;
+}
+.f_info:after {
+	position: absolute;
+	content: "";
+	width: 1px;
+	height: 148px;
+	background: rgba(255, 255, 255, .3);
+	top: 28px;
+	right: 0;
+}
+.f_info h4 {
+	margin-bottom: 37px;
+}
+.f_info p {
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+}
+.f_info p a {
+	color: #fff;
+}
+.f_info p span {
+	padding-left: 10px;
+}
+.f_info p:last-child {
+	font-size: 12px;
+}
+.f_contact {
+	padding-top: 28px;
+	padding-left: 73px;
+	float: left;
+}
+.f_contact h4 {
+	margin-bottom: 32px;
+}
+.f_contact p {
+	font-size: 12px;
+	color: #fff;
+	line-height: 26px;
+}
+.f_qr {
+	width: 201px;
+	float: right;
+	padding-top: 54px;
+	height: 187px;
+}
+.f_qr p {
+	width: 201px;
+	height: 133px;
+	background: rgba(69, 56, 37, .26);
+	position: relative;
+}
+.f_qr img {
+	width: 147px;
+	height: 147px;
+	display: block;
+	position: absolute;
+	top: -54px;
+	left: 27px;
+}
+.f_qr span {
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	line-height: 100%;
+	padding-top: 105px;
+}
+.client-2 {
+	position: fixed;
+	right: -170px;
+	top: 50%;
+	z-index: 900;
+}
+.client-2 li a {
+	text-decoration: none;
+}
+.client-2 li {
+	margin-top: 1px;
+	clear: both;
+	height: 62px;
+	position: relative;
+}
+.client-2 li i {
+	background: url("../images/fx.png"/*tpa=http://zf051014.demo.mxyhn.xyz/skin/images/fx.png*/) no-repeat;
+	display: block;
+	width: 30px;
+	height: 27px;
+	margin: 0px auto;
+	text-align: center;
+}
+.client-2 li p {
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+}
+.client-2 .my-kefu-qq i {
+	background-position: 4px 5px;
+}
+.client-2 .my-kefu-tel i {
+	background-position: 0 -21px;
+}
+.client-2 .my-kefu-liuyan i {
+	background-position: 4px -53px;
+}
+.client-2 .my-kefu-weixin i {
+	background-position: -34px 4px;
+}
+.client-2 .my-kefu-weibo i {
+	background-position: -30px -22px;
+}
+.client-2 .my-kefu-ftop {
+	display: none;
+}
+.client-2 .my-kefu-ftop i {
+	width: 33px;
+	height: 31px;
+	background-position: -23px -47px;
+	background-size: 52px 82px;
+}
+.client-2 .my-kefu-ftop .my-kefu-main {
+	padding-top: 6px;
+}
+.client-2 .my-kefu-left {
+	float: left;
+	width: 62px;
+	height: 47px;
+	position: relative;
+}
+.client-2 .my-kefu-tel-right {
+	font-size: 16px;
+	color: #fff;
+	float: left;
+	height: 24px;
+	line-height: 22px;
+	padding: 0 15px;
+	border-left: 1px solid #fff;
+	margin-top: 14px;
+}
+.client-2 .my-kefu-right {
+	width: 20px;
+}
+.client-2 .my-kefu-tel-main {
+	background: #B20405;
+	color: #fff;
+	height: 53px;
+	width: 230px;
+	padding: 9px 0 0;
+	float: left;
+}
+.client-2 .my-kefu-main {
+	background: #B20405;
+	width: 97px;
+	height: 53px;
+	position: relative;
+	padding: 9px 0 0;
+	float: left;
+}
+.client-2 .my-kefu-weixin-pic {
+	position: absolute;
+	left: -130px;
+	top: -24px;
+	display: none;
+	z-index: 333;
+}
+.my-kefu-weixin-pic img {
+	width: 115px;
+	height: 115px;
+}
