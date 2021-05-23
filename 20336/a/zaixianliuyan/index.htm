@@ -1,0 +1,431 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset=utf-8"utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport" />
+<title>在线留言_响应式五金制品附件工具类织梦模板(自适应手机端)</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="../../skin/css/font-awesome.css" >
+<link rel="stylesheet" href="../../skin/css/global.css" >
+<link rel="stylesheet" href="../../skin/css/widget.css" >
+<link rel="stylesheet" href="../../skin/css/variouscomponents.css" >
+<link rel="stylesheet" href="../../skin/css/images.css" >
+<link rel="stylesheet" href="../../skin/css/theme.css" >
+<link rel="stylesheet" href="../../skin/css/color_0.css" >
+<script src="../../skin/js/jquery-1.11.3.min.js" ></script>
+<!--[if !IE]><!-->
+<script src="../../skin/js/base.js" ></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="../../skin/js/base.js" ></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="../../skin/css/font-awesome-ie7.min.css" >
+      <script src="../../skin/js/selectivizr.js" ></script>
+      <script src="../../skin/js/html5shiv.min.js" ></script>
+      <script src="../../skin/js/respond.min.js" ></script>
+      <script src="../../skin/js/modernizr.min.js" ></script>
+    <![endif]-->
+<link href="../../skin/css/lightbox.min.css"  rel="stylesheet">
+<script src="../../skin/js/jquery.superslide.js" ></script>
+<script src="../../skin/js/common.js" ></script>
+<script src="../../skin/js/theme.js" ></script>
+<!-- feib -->
+<script type="text/javascript" src="../../skin/js/layer.js" ></script>
+<script type="text/javascript" src="../../skin/js/language.js" ></script>
+<script type="text/javascript" src="../../skin/js/ajax-url.js" ></script>
+<!-- plugins -->
+<script type="text/javascript" src="../../skin/js/jquery.formsvalidation.js" ></script>
+<script type="text/javascript" src="../../skin/js/jquery.nodecommon.js" ></script>
+<script type="text/javascript" src="../../skin/js/extend.js" ></script>
+<link rel="stylesheet" href="../../skin/css/animate.min.css" >
+<script src="../../skin/js/animate.min.js" ></script>
+<script type="text/javascript" src="../../skin/js/components.js" ></script>
+<script type="text/javascript" src="../../skin/js/jquery.menu_style.js" ></script>
+<script type="text/javascript" src="../../skin/js/jquery.init.js" ></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body">
+<div class="w-container w-header w-header-common">
+  <div class="row clearfix">
+    <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+    <div class="nav_right_mask"></div>
+    <div class="row_top">
+      <div class="row_top_in clearfix">
+        <div class="column column6">
+          <div class="col-logo">
+            <div class="w-logo">
+              <h1 style="display:none;"><a href="../../index.htm" tppabs=""></a></h1>
+              <a  href="../../index.htm" tppabs=""  class="w-logo-img"> <img src="../../skin/images/logo.png" /> </a> </div>
+          </div>
+        </div>
+        <div class="column column6 clearfix">
+          <div class="topLogBox topLogBoxPc">
+            <div class="topLogBox-in">
+              <div class="lscPc clearfix"> </div>
+              <div class="searchPc clearfix"> </div>
+              <div class="clearfix"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menuPc">
+      <div class="menuPc_in">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+              <li ><a href="../../index.htm" tppabs="">网站首页</a><i class="nav_simpline_cur"></i></li>
+              <li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="../guanyu/index.htm" >关于我们<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="../chanpin/index.htm" >产品中心<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                    <li><a href="../chanpin/cp1/index.htm" >产品一类</a></li>
+                    
+                    <li><a href="../chanpin/cp2/index.htm" >产品二类</a></li>
+                    
+                    <li><a href="../chanpin/cp3/index.htm" >产品三类</a></li>
+                    
+                    <li><a href="../chanpin/cp4/index.htm" >产品四类</a></li>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="../xinwen/index.htm" >新闻中心<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                    <li><a href="../xinwen/gsxw/index.htm" >公司新闻</a></li>
+                    
+                    <li><a href="../xinwen/hydt/index.htm" >行业动态</a></li>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="../anli/index.htm" >案例展示<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li><li class='active'>
+                <div class="li-parent-div li-parentOne-div"><a href="index.htm" >在线留言<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="../lianxi/index.htm" >联系我们<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li>
+              <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        <script type="text/javascript">
+    (function($){
+        if($(".g-active-add").length > 0){
+            var joinMenu = ["48374"];
+            for(var i in joinMenu){
+                $(".g-active-add li").each(function(key){
+                    if($(this).data("menuid") == joinMenu[i]){
+                        $(this).addClass("active");
+                    }
+                });
+            }
+        }
+    })(jQuery);
+</script> 
+      </div>
+    </div>
+    <div class="col-right clearfix">
+      <div class="w-nav g-active-add">
+        <div class="w-nav-in">
+          <ul class="nav_inner clearfix">
+            <li ><a href="../../index.htm" tppabs="">网站首页</a><i class="nav_simpline_cur"></i></li>
+            <li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="../guanyu/index.htm" >关于我们
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="../chanpin/index.htm" >产品中心
+                <i class="fa fa-plus"></i></a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                  <li><a href="../chanpin/cp1/index.htm" >产品一类</a></li>
+                  
+                  <li><a href="../chanpin/cp2/index.htm" >产品二类</a></li>
+                  
+                  <li><a href="../chanpin/cp3/index.htm" >产品三类</a></li>
+                  
+                  <li><a href="../chanpin/cp4/index.htm" >产品四类</a></li>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="../xinwen/index.htm" >新闻中心
+                <i class="fa fa-plus"></i></a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                  <li><a href="../xinwen/gsxw/index.htm" >公司新闻</a></li>
+                  
+                  <li><a href="../xinwen/hydt/index.htm" >行业动态</a></li>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="../anli/index.htm" >案例展示
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li><li class='active'>
+              <div class="li-parent-div li-parentOne-div"><a href="index.htm" >在线留言
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="../lianxi/index.htm" >联系我们
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li>
+            <div class="nav_moveBox"></div>
+          </ul>
+        </div>
+      </div>
+      <script type="text/javascript">
+    (function($){
+        if($(".g-active-add").length > 0){
+            var joinMenu = ["48374"];
+            for(var i in joinMenu){
+                $(".g-active-add li").each(function(key){
+                    if($(this).data("menuid") == joinMenu[i]){
+                        $(this).addClass("active");
+                    }
+                });
+            }
+        }
+    })(jQuery);
+</script>
+      <div class="topLogBox topLogBoxTel">
+        <div class="topLogBox-in"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="w-container bannerBox">
+  <div class="banner"> <img src="../../skin/images/banner.jpg" /> <a href="javascript:void(0);"><span id="d2c5f05ad21428d9077a845148e6198b" style="display:none;">none</span></a> </div>
+</section>
+
+<div class="w-container w-main">
+  <div class="w-section pdTop-big pdBottom-large"  id="533198">
+    <div class="row" style="max-width:1000px;">
+      <div class="row-mask" ></div>
+      <div class="wrap-content-in  pdTop-default pdBottom-default" data-id="533198" data-type="31">
+        <div class="li-div" data-comunique="0e7f23ed2ab844efcafb6761e98235b2">
+          <div class="w-title w-title30 border_colorleft_main"  style="">
+            <div class="w-title-inner">
+              <div class="title-h-in">
+                <div class="tith ">
+                  <h2 style="" data-type="title">在线留言</h2>
+                  <span class="color_vice_light" data-type="subtitle">MESSAGE</span> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="023da37ea08755e059a9fa8748b50ddd">
+          <div class="w-space space-b noChoose"  style="height:30px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div" id="feedback-246bc310a913a22e1ce2e0668f2f2821" data-id="533201" data-type="20">
+          <div class="w-form">
+            <form action="plus/diy.php" enctype="multipart/form-data" method="post">
+              <input type="hidden" name="action" value="post" />
+              <input type="hidden" name="diyid" value="1" />
+              <input type="hidden" name="do" value="2" />
+              <div class="li-div" id="input_2ccac37f7278aa5ae3397270a00301ee" data-comunique="2ccac37f7278aa5ae3397270a00301ee">
+                <div class="w-form-section  clearfix" style="">
+                  <div class="w-form-shartText">
+                    <label class="w-label-form"> <span>姓名</span> <span class="star_note">*</span> </label>
+                    <div class="" style="">
+                      <input class="w-text-form" style="width:100%" type="text" name='lxr' id='lxr'/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="li-div" id="input_d6c72796d807fc0b2a0176e874aa27de" data-comunique="d6c72796d807fc0b2a0176e874aa27de">
+                <div class="w-form-section  clearfix" style="">
+                  <div class="w-form-tel">
+                    <label class="w-label-form"> <span>电话号码</span> <span class="star_note">*</span> </label>
+                    <div class="" style="">
+                      <input class="w-text-form" style="width:100%" type="text" name='tel' id='tel'/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="li-div" id="input_1049f0b71068f554d32b0eccd4899d39" data-comunique="1049f0b71068f554d32b0eccd4899d39">
+                <div class="w-form-section  clearfix" style="">
+                  <div class="w-form-Email">
+                    <label class="w-label-form"> <span>电子邮箱</span> <span class="star_note">*</span> </label>
+                    <div class="" style="">
+                      <input class="w-text-form" style="width:100%" type="text" name='email' id='email'/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="li-div" data-comunique="f38728ed6dc81ed6de6f9fd74a6835bc" id="map-textarea-f38728ed6dc81ed6de6f9fd74a6835bc">
+                <div class="w-form-section clearfix"  style="">
+                  <div class="w-form-largeText">
+                    <label class="w-label-form"> 留言内容 <span class="star_note">*</span> </label>
+                    <div class="" style="">
+                      <textarea class="w-textarea-form" style="width:100%;" type='text' name='content' id='content'></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input type="hidden" name="dede_fields" value="lxr,text;tel,text;email,text;content,text" />
+              <input type="hidden" name="dede_fieldshash" value="376dc352952feed6a57d63203eb99a0e" />
+              <div class="w-form-submit">
+                <div class="w-buttom">
+                  <div class="btn-default-w g-form-components" onclick="$('form').submit()"> <span class="btn-inner">提交</span> </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="6e2fcf986f27e99563bc9e29e527ffda">
+          <div class="w-space space-b noChoose"  style="height:40px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">$(function(){$(".div-table-first").find(".div-table-first").each(function(){$(this).removeClass("div-table-first")});});</script> 
+</div>
+<div class="w-container w-footer">
+  <div class="w-footer-section pdTop-default pdBottom-default" >
+    <div class="w-footer-in" style="max-width:;">
+      <div class="foot-mask" ></div>
+      <div class="w-foot-content  pdTop-large pdBottom-large" data-id="533216" data-type="31">
+        <div class="li-div" data-comunique="db1766cc882f11b9fb367c998ebb5dd0">
+          <div class="w-text"  style="">
+            <div align="center">Copyright &copy; 2002-2021 某某五金制品有限公司 版权所有</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-service-fixed">
+    <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+      <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+  </div>
+</div>
+</div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<div class="ad_boxfixed clearfix">
+  <div class="ad_tel clearfix">
+    <div class="ad_tel_icon"><i class="icon_adTel"></i></div>
+    <div class="ad_tel_text">
+      <div class="ad_tel_txt">购买咨询电话</div>
+      <div class="ad_tel_num">400-123-4567</div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="../../skin/js/jquery.global.js" ></script> 
+<script type="text/javascript" src="../../skin/js/jquery.form.js" ></script> 
+<script type="text/javascript" src="../../skin/js/lightbox.min.js" ></script> 
+<script type="text/javascript" src="../../skin/js/jquery.custom.js" ></script>
+</body>
+</html>

@@ -1,0 +1,477 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset=utf-8"utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport" />
+<title>新闻中心_响应式五金制品附件工具类织梦模板(自适应手机端)</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="../../skin/css/font-awesome.css" >
+<link rel="stylesheet" href="../../skin/css/global.css" >
+<link rel="stylesheet" href="../../skin/css/widget.css" >
+<link rel="stylesheet" href="../../skin/css/variouscomponents.css" >
+<link rel="stylesheet" href="../../skin/css/images.css" >
+<link rel="stylesheet" href="../../skin/css/theme.css" >
+<link rel="stylesheet" href="../../skin/css/color_0.css" >
+<script src="../../skin/js/jquery-1.11.3.min.js" ></script>
+<!--[if !IE]><!-->
+<script src="../../skin/js/base.js" ></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="../../skin/js/base.js" ></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="../../skin/css/font-awesome-ie7.min.css" >
+      <script src="../../skin/js/selectivizr.js" ></script>
+      <script src="../../skin/js/html5shiv.min.js" ></script>
+      <script src="../../skin/js/respond.min.js" ></script>
+      <script src="../../skin/js/modernizr.min.js" ></script>
+    <![endif]-->
+<link href="../../skin/css/lightbox.min.css"  rel="stylesheet">
+<script src="../../skin/js/jquery.superslide.js" ></script>
+<script src="../../skin/js/common.js" ></script>
+<script src="../../skin/js/theme.js" ></script>
+<!-- feib -->
+<script type="text/javascript" src="../../skin/js/layer.js" ></script>
+<script type="text/javascript" src="../../skin/js/language.js" ></script>
+<script type="text/javascript" src="../../skin/js/ajax-url.js" ></script>
+<!-- plugins -->
+<script type="text/javascript" src="../../skin/js/jquery.formsvalidation.js" ></script>
+<script type="text/javascript" src="../../skin/js/jquery.nodecommon.js" ></script>
+<script type="text/javascript" src="../../skin/js/extend.js" ></script>
+<link rel="stylesheet" href="../../skin/css/animate.min.css" >
+<script src="../../skin/js/animate.min.js" ></script>
+<script type="text/javascript" src="../../skin/js/components.js" ></script>
+<script type="text/javascript" src="../../skin/js/jquery.menu_style.js" ></script>
+<script type="text/javascript" src="../../skin/js/jquery.init.js" ></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body">
+<div class="w-container w-header w-header-common">
+  <div class="row clearfix">
+    <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+    <div class="nav_right_mask"></div>
+    <div class="row_top">
+      <div class="row_top_in clearfix">
+        <div class="column column6">
+          <div class="col-logo">
+            <div class="w-logo">
+              <h1 style="display:none;"><a href="../../index.htm" tppabs=""></a></h1>
+              <a  href="../../index.htm" tppabs=""  class="w-logo-img"> <img src="../../skin/images/logo.png" /> </a> </div>
+          </div>
+        </div>
+        <div class="column column6 clearfix">
+          <div class="topLogBox topLogBoxPc">
+            <div class="topLogBox-in">
+              <div class="lscPc clearfix"> </div>
+              <div class="searchPc clearfix"> </div>
+              <div class="clearfix"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menuPc">
+      <div class="menuPc_in">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+              <li ><a href="../../index.htm" tppabs="">网站首页</a><i class="nav_simpline_cur"></i></li>
+              <li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="../guanyu/index.htm" >关于我们<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="../chanpin/index.htm" >产品中心<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                    <li><a href="../chanpin/cp1/index.htm" >产品一类</a></li>
+                    
+                    <li><a href="../chanpin/cp2/index.htm" >产品二类</a></li>
+                    
+                    <li><a href="../chanpin/cp3/index.htm" >产品三类</a></li>
+                    
+                    <li><a href="../chanpin/cp4/index.htm" >产品四类</a></li>
+                    
+                  </ul>
+                </div>
+              </li><li class='active'>
+                <div class="li-parent-div li-parentOne-div"><a href="index.htm" >新闻中心<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                    <li><a href="gsxw/index.htm" >公司新闻</a></li>
+                    
+                    <li><a href="hydt/index.htm" >行业动态</a></li>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="../anli/index.htm" >案例展示<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="../zaixianliuyan/index.htm" >在线留言<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="../lianxi/index.htm" >联系我们<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li>
+              <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        <script type="text/javascript">
+    (function($){
+        if($(".g-active-add").length > 0){
+            var joinMenu = ["48374"];
+            for(var i in joinMenu){
+                $(".g-active-add li").each(function(key){
+                    if($(this).data("menuid") == joinMenu[i]){
+                        $(this).addClass("active");
+                    }
+                });
+            }
+        }
+    })(jQuery);
+</script> 
+      </div>
+    </div>
+    <div class="col-right clearfix">
+      <div class="w-nav g-active-add">
+        <div class="w-nav-in">
+          <ul class="nav_inner clearfix">
+            <li ><a href="../../index.htm" tppabs="">网站首页</a><i class="nav_simpline_cur"></i></li>
+            <li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="../guanyu/index.htm" >关于我们
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="../chanpin/index.htm" >产品中心
+                <i class="fa fa-plus"></i></a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                  <li><a href="../chanpin/cp1/index.htm" >产品一类</a></li>
+                  
+                  <li><a href="../chanpin/cp2/index.htm" >产品二类</a></li>
+                  
+                  <li><a href="../chanpin/cp3/index.htm" >产品三类</a></li>
+                  
+                  <li><a href="../chanpin/cp4/index.htm" >产品四类</a></li>
+                  
+                </ul>
+              </div>
+            </li><li class='active'>
+              <div class="li-parent-div li-parentOne-div"><a href="index.htm" >新闻中心
+                <i class="fa fa-plus"></i></a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                  <li><a href="gsxw/index.htm" >公司新闻</a></li>
+                  
+                  <li><a href="hydt/index.htm" >行业动态</a></li>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="../anli/index.htm" >案例展示
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="../zaixianliuyan/index.htm" >在线留言
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="../lianxi/index.htm" >联系我们
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li>
+            <div class="nav_moveBox"></div>
+          </ul>
+        </div>
+      </div>
+      <script type="text/javascript">
+    (function($){
+        if($(".g-active-add").length > 0){
+            var joinMenu = ["48374"];
+            for(var i in joinMenu){
+                $(".g-active-add li").each(function(key){
+                    if($(this).data("menuid") == joinMenu[i]){
+                        $(this).addClass("active");
+                    }
+                });
+            }
+        }
+    })(jQuery);
+</script>
+      <div class="topLogBox topLogBoxTel">
+        <div class="topLogBox-in"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="w-container bannerBox">
+  <div class="banner"> <img src="../../skin/images/banner.jpg" /> <a href="javascript:void(0);"><span id="d2c5f05ad21428d9077a845148e6198b" style="display:none;">none</span></a> </div>
+</section>
+
+<div class="w-container w-main">
+  <div class="row">
+    <div class="wrap-content-in w-system w-productcom">
+      <div class="w-system-in"> 
+        <!--新闻左侧列表分类-->
+        <div class="side_bar">
+          <div class="w-com-menu w-com-menu-V">
+            <div class="w-com-menu-in" id="Lroccomp-a9cbca367bb4ea7294a90fccbd1b4855">
+              <div class="systitle">
+                <div class="systitle-in">新闻中心</div>
+                <i class="fa icon_menuControl"></i></div>
+              <ul class="ul-parent">
+                
+                <li class="li-parent">
+                  <div class="div-parent"> <a href="gsxw/index.htm" >公司新闻</a><span class="menu_simpline_cur"></span></div>
+                </li>
+                
+                <li class="li-parent">
+                  <div class="div-parent"> <a href="hydt/index.htm" >行业动态</a><span class="menu_simpline_cur"></span></div>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+    (function($){
+        if($("#Lroccomp-a9cbca367bb4ea7294a90fccbd1b4855").length > 0){
+            var joinCate = [""];
+            for(var i in joinCate){
+                $("#Lroccomp-a9cbca367bb4ea7294a90fccbd1b4855 li").each(function(key){
+                    if($(this).data("cateid") == joinCate[i]){
+                        $(this).addClass("cur");
+                    }
+                });
+            }
+        }
+    })(jQuery);
+</script> 
+        <!--新闻左侧列表分类 end--> 
+        
+        <!--新闻列表1-->
+        <div class="side_left">
+          <div class="crumbs">
+            <div class="crumbs_in">您当前的位置: &nbsp;<a href="../../index.htm" tppabs="">主页</a> > <a href="index.htm" >新闻中心</a> > </div>
+          </div>
+          <div class="w-News-list w-News-list7">
+            <div class="w-News-list-in clearfix">
+              <ul>
+                <li>
+                  <div class="news-item">
+                    <div class="date">
+                      <div class="date-day">18</div>
+                      <div class="date-yearMonth">2018-09</div>
+                    </div>
+                    <div class="news-com">
+                      <div class="news-together">
+                        <div class="news-h"> <a href="hydt/index.htm"  class="news-kind" title="行业动态">【行业动态】</a> <a href="javascript:if(confirm('a/xinwen/hydt/58.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ���.location='h/xinwen/hydt/58.html'"  title="注册域名需要考虑的四个基本问题">注册域名需要考虑的四个基本问题</a> </div>
+                      </div>
+                      <div class="news-sum">域名，通俗点说就是网站的名字，就相当于人的名字一样。对于一个网站，人们首先接触的是其域名，域名是否设置得当，直接影响着用户对网站的印象，因此，网站域名的选择很重要...</div>
+                    </div>
+                  </div>
+                </li><li>
+                  <div class="news-item">
+                    <div class="date">
+                      <div class="date-day">18</div>
+                      <div class="date-yearMonth">2018-09</div>
+                    </div>
+                    <div class="news-com">
+                      <div class="news-together">
+                        <div class="news-h"> <a href="hydt/index.htm"  class="news-kind" title="行业动态">【行业动态】</a> <a href="hydt/47.html"  title="建立网站要怎样选择主机呢">建立网站要怎样选择主机呢</a> </div>
+                      </div>
+                      <div class="news-sum">个人站长在建设网站的时候，要选择什么样的主机才可以满足需要呢？想要选择好一款主机，就需要掌握相关的知识。网站建设过程中，虚拟主机是常使用的，因为更有普遍性和适用性...</div>
+                    </div>
+                  </div>
+                </li><li>
+                  <div class="news-item">
+                    <div class="date">
+                      <div class="date-day">18</div>
+                      <div class="date-yearMonth">2018-09</div>
+                    </div>
+                    <div class="news-com">
+                      <div class="news-together">
+                        <div class="news-h"> <a href="gsxw/index.htm"  class="news-kind" title="公司新闻">【公司新闻】</a> <a href="gsxw/40.html"  title="网站建设SEO优化的4个关键点">网站建设SEO优化的4个关键点</a> </div>
+                      </div>
+                      <div class="news-sum">今年闰七月，将有两个阴历七月七日，中国传统的情人节七夕将额外地多出了一次。但记者昨天采访南京多家花店时了解到，即使是双份的中国情人节，其影响并不明显。 采访中，不少...</div>
+                    </div>
+                  </div>
+                </li><li>
+                  <div class="news-item">
+                    <div class="date">
+                      <div class="date-day">18</div>
+                      <div class="date-yearMonth">2018-09</div>
+                    </div>
+                    <div class="news-com">
+                      <div class="news-together">
+                        <div class="news-h"> <a href="gsxw/index.htm"  class="news-kind" title="公司新闻">【公司新闻】</a> <a href="gsxw/39.html"  title="网站建设SEO之内容优化">网站建设SEO之内容优化</a> </div>
+                      </div>
+                      <div class="news-sum">网站建设绝不只是建设那么简单，更重要的是长期的优化和发展。网站SEO优化包括很多部分，结构、内链、外链等等都是属于SEO的一部分，但说到底，网站内容才是重要的。那么怎么做...</div>
+                    </div>
+                  </div>
+                </li><li>
+                  <div class="news-item">
+                    <div class="date">
+                      <div class="date-day">18</div>
+                      <div class="date-yearMonth">2018-09</div>
+                    </div>
+                    <div class="news-com">
+                      <div class="news-together">
+                        <div class="news-h"> <a href="gsxw/index.htm"  class="news-kind" title="公司新闻">【公司新闻】</a> <a href="gsxw/38.html"  title="看看SEO高手是怎样策划网站的">看看SEO高手是怎样策划网站的</a> </div>
+                      </div>
+                      <div class="news-sum">对网站进行SEO优化的初期，对网站建设进行策划是很有必要的。如果网站建设没有做好策划，那么网站的排名也就不高，直接影响网站的转化率。下面我们一起来分析一下SEO高手是怎样...</div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="pagination-wrapper">
+          <div class="pagination"> <li><a>首页</a></li>
+<li class="thisclass"><a>1</a></li>
+<li><a href="javascript:if(confirm('a/xinwen/list_13_2.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ���.location='h/xinwen/list_13_2.html'" >2</a></li>
+<li><a href="javascript:if(confirm('a/xinwen/list_13_2.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ���.location='h/xinwen/list_13_2.html'" >下一页</a></li>
+<li><a href="javascript:if(confirm('a/xinwen/list_13_2.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ���.location='h/xinwen/list_13_2.html'" >末页</a></li>
+ </div>
+        </div>
+        <!--新闻列表1 end--> 
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w-container w-footer">
+  <div class="w-footer-section pdTop-default pdBottom-default" >
+    <div class="w-footer-in" style="max-width:;">
+      <div class="foot-mask" ></div>
+      <div class="w-foot-content  pdTop-large pdBottom-large" data-id="533216" data-type="31">
+        <div class="li-div" data-comunique="db1766cc882f11b9fb367c998ebb5dd0">
+          <div class="w-text"  style="">
+            <div align="center">Copyright &copy; 2002-2021 某某五金制品有限公司 版权所有</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-service-fixed">
+    <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+      <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+  </div>
+</div>
+</div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<div class="ad_boxfixed clearfix">
+  <div class="ad_tel clearfix">
+    <div class="ad_tel_icon"><i class="icon_adTel"></i></div>
+    <div class="ad_tel_text">
+      <div class="ad_tel_txt">购买咨询电话</div>
+      <div class="ad_tel_num">400-123-4567</div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="../../skin/js/jquery.global.js" ></script> 
+<script type="text/javascript" src="../../skin/js/jquery.form.js" ></script> 
+<script type="text/javascript" src="../../skin/js/lightbox.min.js" ></script> 
+<script type="text/javascript" src="../../skin/js/jquery.custom.js" ></script>
+</body>
+</html>

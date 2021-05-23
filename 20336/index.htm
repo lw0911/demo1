@@ -1,0 +1,1103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset=utf-8"utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-touch-fullscreen">
+<meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport" />
+<title>响应式五金制品附件工具类织梦模板</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="skin/css/font-awesome.css" >
+<link rel="stylesheet" href="skin/css/global.css" >
+<link rel="stylesheet" href="skin/css/widget.css" >
+<link rel="stylesheet" href="skin/css/variouscomponents.css" >
+<link rel="stylesheet" href="skin/css/images.css" >
+<link rel="stylesheet" href="skin/css/theme.css" >
+<link rel="stylesheet" href="skin/css/color_0.css" >
+<script src="skin/js/jquery-1.11.3.min.js" ></script>
+<!--[if !IE]><!-->
+<script src="skin/js/base.js" ></script>
+<!--<![endif]-->
+<!--[if gte IE 9]>
+<script src="skin/js/base.js" ></script>
+<![endif]-->
+<!--[if lt IE 9]>
+      <link rel="stylesheet" href="skin/css/font-awesome-ie7.min.css" >
+      <script src="skin/js/selectivizr.js" ></script>
+      <script src="skin/js/html5shiv.min.js" ></script>
+      <script src="skin/js/respond.min.js" ></script>
+      <script src="skin/js/modernizr.min.js" ></script>
+    <![endif]-->
+<link href="skin/css/lightbox.min.css"  rel="stylesheet">
+<script src="skin/js/jquery.superslide.js" ></script>
+<script src="skin/js/common.js" ></script>
+<script src="skin/js/theme.js" ></script>
+<!-- feib -->
+<script type="text/javascript" src="skin/js/layer.js" ></script>
+<script type="text/javascript" src="skin/js/language.js" ></script>
+<script type="text/javascript" src="skin/js/ajax-url.js" ></script>
+<!-- plugins -->
+<script type="text/javascript" src="skin/js/jquery.formsvalidation.js" ></script>
+<script type="text/javascript" src="skin/js/jquery.nodecommon.js" ></script>
+<script type="text/javascript" src="skin/js/extend.js" ></script>
+<link rel="stylesheet" href="skin/css/animate.min.css" >
+<script src="skin/js/animate.min.js" ></script>
+<script type="text/javascript" src="skin/js/components.js" ></script>
+<script type="text/javascript" src="skin/js/jquery.menu_style.js" ></script>
+<script type="text/javascript" src="skin/js/jquery.init.js" ></script>
+<script type="text/javascript">
+$(function(){
+    dataAnimate();
+    (function($,lanno){
+        if(lanno === "" || lanno === "default"){
+            return '';
+        }
+        $(".w-languege").each(function(){
+            $(this).find("a").each(function(){
+                if($(this).data("lanno") === lanno){
+                    $(this).addClass("cur");
+                }else{
+                    if($(this).hasClass("cur")){
+                        $(this).removeClass("cur");
+                    }
+                }
+            });
+        });
+    })(jQuery,"cn");
+});
+</script>
+</head>
+<body>
+<div class="body">
+<div class="w-container w-header w-header-common">
+  <div class="row clearfix">
+    <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
+    <div class="nav_right_mask"></div>
+    <div class="row_top">
+      <div class="row_top_in clearfix">
+        <div class="column column6">
+          <div class="col-logo">
+            <div class="w-logo">
+              <h1 style="display:none;"><a href="index.htm" tppabs=""></a></h1>
+              <a  href="index.htm" tppabs=""  class="w-logo-img"> <img src="skin/images/logo.png" /> </a> </div>
+          </div>
+        </div>
+        <div class="column column6 clearfix">
+          <div class="topLogBox topLogBoxPc">
+            <div class="topLogBox-in">
+              <div class="lscPc clearfix"> </div>
+              <div class="searchPc clearfix"> </div>
+              <div class="clearfix"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menuPc">
+      <div class="menuPc_in">
+        <div class="w-nav g-active-add">
+          <div class="w-nav-in">
+            <ul class="nav_inner clearfix" id="g-web-ul-menu" style="display:none;">
+              <li  class='active' ><a href="index.htm" tppabs="">网站首页</a><i class="nav_simpline_cur"></i></li>
+              <li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="a/guanyu/index.htm" >关于我们<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="a/chanpin/index.htm" >产品中心<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                    <li><a href="a/chanpin/cp1/index.htm" >产品一类</a></li>
+                    
+                    <li><a href="a/chanpin/cp2/index.htm" >产品二类</a></li>
+                    
+                    <li><a href="a/chanpin/cp3/index.htm" >产品三类</a></li>
+                    
+                    <li><a href="a/chanpin/cp4/index.htm" >产品四类</a></li>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="a/xinwen/index.htm" >新闻中心<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                    <li><a href="a/xinwen/gsxw/index.htm" >公司新闻</a></li>
+                    
+                    <li><a href="a/xinwen/hydt/index.htm" >行业动态</a></li>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="a/anli/index.htm" >案例展示<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="a/zaixianliuyan/index.htm" >在线留言<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li><li class=''>
+                <div class="li-parent-div li-parentOne-div"><a href="a/lianxi/index.htm" >联系我们<i class="fa fa-plus"></i></a></div>
+                <i class="nav_simpline_cur"></i>
+                <div class="submenu">
+                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                  <ul>
+                    
+                  </ul>
+                </div>
+              </li>
+              <div class="nav_moveBox"></div>
+            </ul>
+          </div>
+        </div>
+        <script type="text/javascript">
+    (function($){
+        if($(".g-active-add").length > 0){
+            var joinMenu = ["48374"];
+            for(var i in joinMenu){
+                $(".g-active-add li").each(function(key){
+                    if($(this).data("menuid") == joinMenu[i]){
+                        $(this).addClass("active");
+                    }
+                });
+            }
+        }
+    })(jQuery);
+</script> 
+      </div>
+    </div>
+    <div class="col-right clearfix">
+      <div class="w-nav g-active-add">
+        <div class="w-nav-in">
+          <ul class="nav_inner clearfix">
+            <li  class='active' ><a href="index.htm" tppabs="">网站首页</a><i class="nav_simpline_cur"></i></li>
+            <li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="a/guanyu/index.htm" >关于我们
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="a/chanpin/index.htm" >产品中心
+                <i class="fa fa-plus"></i></a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                  <li><a href="a/chanpin/cp1/index.htm" >产品一类</a></li>
+                  
+                  <li><a href="a/chanpin/cp2/index.htm" >产品二类</a></li>
+                  
+                  <li><a href="a/chanpin/cp3/index.htm" >产品三类</a></li>
+                  
+                  <li><a href="a/chanpin/cp4/index.htm" >产品四类</a></li>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="a/xinwen/index.htm" >新闻中心
+                <i class="fa fa-plus"></i></a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                  <li><a href="a/xinwen/gsxw/index.htm" >公司新闻</a></li>
+                  
+                  <li><a href="a/xinwen/hydt/index.htm" >行业动态</a></li>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="a/anli/index.htm" >案例展示
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="a/zaixianliuyan/index.htm" >在线留言
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li><li class=''>
+              <div class="li-parent-div li-parentOne-div"><a href="a/lianxi/index.htm" >联系我们
+                </a></div>
+              <i class="nav_simpline_cur"></i>
+              <div class="submenu">
+                <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                <ul>
+                  
+                </ul>
+              </div>
+            </li>
+            <div class="nav_moveBox"></div>
+          </ul>
+        </div>
+      </div>
+      <script type="text/javascript">
+    (function($){
+        if($(".g-active-add").length > 0){
+            var joinMenu = ["48374"];
+            for(var i in joinMenu){
+                $(".g-active-add li").each(function(key){
+                    if($(this).data("menuid") == joinMenu[i]){
+                        $(this).addClass("active");
+                    }
+                });
+            }
+        }
+    })(jQuery);
+</script>
+      <div class="topLogBox topLogBoxTel">
+        <div class="topLogBox-in"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="w-container bannerBox">
+  <div class="banner"> <img src="skin/images/banner.jpg" /> <a href="javascript:void(0);"><span id="d2c5f05ad21428d9077a845148e6198b" style="display:none;">none</span></a> </div>
+</section>
+
+<div class="w-container w-main">
+  <div class="w-section"  id="533138">
+    <div class="row" >
+      <div class="row-mask" ></div>
+      <div class="wrap-content-in  " data-id="533138" data-type="31">
+        <div class="li-div" data-comunique="091d234f623ddf5ac7080fe417480c32">
+          <div class="w-space space-b noChoose"  style="height:50px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div col-li-div" data-id="533140" data-type="1">
+          <div class="col-table">
+            <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="533138" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td class="td-w" width="55.00000000000001%"><div class="div-padding">
+                      <div class="li-div" data-comunique="b59f0da16e20b77f2568e14fc9e617d9">
+                        <div class="not-animated w-title w-title32 lineborder" data-animate="fadeInUp" style="">
+                          <div class="w-title-in">
+                            <div class="title-h-in"> <div class="tith border_colortop_main"> <span data-type="subtitle">Product</span>
+                                <h2 style="" data-type="title">产品中心</h2>
+                              </div> </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></td>
+                  <td class="td-w" width="45.032451258296454%"><div class="div-padding">
+                      <div class="li-div" data-comunique="f85a6f0f4cb6a6f36ca4be88c20ed50d">
+                        <div class="w-space space-b noChoose"  style="height:40px;">
+                          <div class="stretch-b"></div>
+                        </div>
+                      </div>
+                    </div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="78cafe3649b8a4514f0d60378807fda6">
+          <div class="w-space space-b noChoose"  style="height:35px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="dd1f184c8dbbccaa78db7b1175931c21">
+          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+            <style type="text/css">
+							.classification_prd .cf_prd_l:hover{opacity:0.9; *filter:alpha(opacity=90); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=90);}
+							.classification_prd img{ max-width:100%;}
+							.classification_prd a{ display:block;}
+                            .classification_prd .item .txt{ position:absolute; left:0; top:0; bottom:0; right:0; color:#fff; font-size:18px;}
+							.classification_prd .item .txt .txt_mask{position:absolute; left:0; top:0; bottom:0; right:0; background:#000;opacity:0.69; *filter:alpha(opacity=69); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=69);}
+							.classification_prd .item:hover .txt_mask{ display:none;}
+							.classification_prd .item .txt .txt_in{ display:table; position:relative; z-index:1; height:100%; width:100%; text-align:center;}
+							.classification_prd .item .txt .txt_inner{ display:table-cell; vertical-align:middle; *padding-top:150px;}
+							@media (max-width:960px){
+								.classification_prd .cf_prd_l{ display:none;}
+								.classification_prd .cf_prd_r{ float:none !important; width:100% !important;}
+								.classification_prd .item .txt{ font-size:14px !important;}
+							}
+							@media (max-width:560px){
+								.classification_prd .item .txt{ font-size:70% !important;}
+							}
+</style>
+            <div class="classification_prd clearfix">
+              <div class="cf_prd_l" style="float:left; width:25.95%;"><a href="a/chanpin/index.htm" ><img src="skin/images/more.jpg"  style="max-width:100%;"/></a></div>
+              <div class="cf_prd_r clearfix" style="float:left; width:74.05%; *width:73.95%;"> 
+                <div class="item" style="float:left; width:16.66%; position:relative;"><a href="a/chanpin/cp1/index.htm" >
+                  <div class="img"><img src="uploads/180926/1-1P926120026449.jpg"  style="max-width:100%;"/></div>
+                  <div class="txt">
+                    <div class="txt_mask"></div>
+                    <div class="txt_in">
+                      <div class="txt_inner">产品一类+</div>
+                    </div>
+                  </div>
+                  </a></div>
+                
+                <div class="item" style="float:left; width:16.66%; position:relative;"><a href="a/chanpin/cp2/index.htm" >
+                  <div class="img"><img src="uploads/180926/1-1P92612004QZ.jpg"  style="max-width:100%;"/></div>
+                  <div class="txt">
+                    <div class="txt_mask"></div>
+                    <div class="txt_in">
+                      <div class="txt_inner">产品二类+</div>
+                    </div>
+                  </div>
+                  </a></div>
+                
+                <div class="item" style="float:left; width:16.66%; position:relative;"><a href="a/chanpin/cp3/index.htm" >
+                  <div class="img"><img src="uploads/180926/1-1P926120102262.jpg"  style="max-width:100%;"/></div>
+                  <div class="txt">
+                    <div class="txt_mask"></div>
+                    <div class="txt_in">
+                      <div class="txt_inner">产品三类+</div>
+                    </div>
+                  </div>
+                  </a></div>
+                
+                <div class="item" style="float:left; width:16.66%; position:relative;"><a href="a/chanpin/cp4/index.htm" >
+                  <div class="img"><img src="uploads/180926/1-1P926120116424.jpg"  style="max-width:100%;"/></div>
+                  <div class="txt">
+                    <div class="txt_mask"></div>
+                    <div class="txt_in">
+                      <div class="txt_inner">产品四类+</div>
+                    </div>
+                  </div>
+                  </a></div>
+                 </div>
+            </div> </div>
+        </div>
+        <div class="li-div" data-comunique="4aaa716d76a775a4e1330b6a36bd58cb">
+          <div class="w-space space-b noChoose"  style="height:59px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section pdTop-default pdBottom-default" style="background:#dcdbd9;" id="533146">
+    <div class="row" style="max-width:;">
+      <div class="row-mask" ></div>
+      <div class="wrap-content-in  pdTop-default pdBottom-default" data-id="533146" data-type="31">
+        <div class="li-div" data-comunique="533eeaf7b99b7d5fc312ce63d1d0a6dc">
+          <div class="w-space space-b noChoose"  style="height:60px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div col-li-div" data-id="533148" data-type="1">
+          <div class="col-table">
+            <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="533146" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td class="td-w" width="50%"><div class="div-padding">
+                      <div class="li-div" data-comunique="8e39b128d8d14aa7e1da35a4e9c691bd">
+                        <div class="not-animated w-title w-title32 lineborder" data-animate="fadeInUp" style="">
+                          <div class="w-title-in">
+                            <div class="title-h-in">
+                              <div class="tith border_colortop_main"> <span style=""  data-type="subtitle">Product</span>
+                                <h2 style="" data-type="title">产品中心</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></td>
+                  <td class="td-w" width="50%"><div class="div-padding">
+                      <div class="li-div" data-comunique="6ffa9de3c5d2c511ae031fde05340a7a">
+                        <div class="w-space space-b noChoose"  style="height:40px;">
+                          <div class="stretch-b"></div>
+                        </div>
+                      </div>
+                    </div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="c29f971d10ba54c5b864d0f10d88253c">
+          <div class="w-space space-b noChoose"  style="height:37px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div"  data-comunique="079716de46658f0bf2ea98f7031ec940" id="gallery_079716de46658f0bf2ea98f7031ec940">
+          <div class="not-animated w-multi-imgs" data-animate="fadeInUp" style="">
+            <div class="multi-imgs">
+              <ul>
+                <li style="width:25.00%;" data-ih="290" data-iw="290">
+                  <div class="gallery-img imgFloatFull textFade imgScaleSmall imgTextF">
+                    <div class="gallery-mar" style="margin:2px;"> <a class="fancybox-thumbs" href="javascript:if(confirm('a/chanpin/cp2/60.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ����ļ���  \n\n����Ҫ�ӷ�����������?'))window.location='a/chanpin/cp2/60.html'" >
+                      <div class="gallery-border" style="padding:0px;border-width:0px;">
+                        <div class="gallery-aspectRatio" style="padding: 0px 0px 100%;">
+                          <div class="gallery-img-in img"> <img src="uploads/180807/1-1PZG4441bL.jpg" > </div>
+                        </div>
+                      </div>
+                      <div class="caption gallery-caption">
+                        <div class="captionbg gallery-captionbg"></div>
+                      </div>
+                      </a> </div>
+                  </div>
+                </li>
+<li style="width:25.00%;" data-ih="290" data-iw="290">
+                  <div class="gallery-img imgFloatFull textFade imgScaleSmall imgTextF">
+                    <div class="gallery-mar" style="margin:2px;"> <a class="fancybox-thumbs" href="javascript:if(confirm('a/chanpin/cp2/59.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ����ļ���  \n\n����Ҫ�ӷ�����������?'))window.location='a/chanpin/cp2/59.html'" >
+                      <div class="gallery-border" style="padding:0px;border-width:0px;">
+                        <div class="gallery-aspectRatio" style="padding: 0px 0px 100%;">
+                          <div class="gallery-img-in img"> <img src="uploads/180807/1-1PZG44344243.jpg" > </div>
+                        </div>
+                      </div>
+                      <div class="caption gallery-caption">
+                        <div class="captionbg gallery-captionbg"></div>
+                      </div>
+                      </a> </div>
+                  </div>
+                </li>
+<li style="width:25.00%;" data-ih="290" data-iw="290">
+                  <div class="gallery-img imgFloatFull textFade imgScaleSmall imgTextF">
+                    <div class="gallery-mar" style="margin:2px;"> <a class="fancybox-thumbs" href="javascript:if(confirm('a/chanpin/cp1/16.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ����ļ���  \n\n����Ҫ�ӷ�����������?'))window.location='a/chanpin/cp1/16.html'" >
+                      <div class="gallery-border" style="padding:0px;border-width:0px;">
+                        <div class="gallery-aspectRatio" style="padding: 0px 0px 100%;">
+                          <div class="gallery-img-in img"> <img src="uploads/180807/1-1PPG55910P0.jpg" > </div>
+                        </div>
+                      </div>
+                      <div class="caption gallery-caption">
+                        <div class="captionbg gallery-captionbg"></div>
+                      </div>
+                      </a> </div>
+                  </div>
+                </li>
+<li style="width:25.00%;" data-ih="290" data-iw="290">
+                  <div class="gallery-img imgFloatFull textFade imgScaleSmall imgTextF">
+                    <div class="gallery-mar" style="margin:2px;"> <a class="fancybox-thumbs" href="javascript:if(confirm('a/chanpin/cp1/8.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ����ļ���  \n\n����Ҫ�ӷ�����������?'))window.location='a/chanpin/cp1/8.html'" >
+                      <div class="gallery-border" style="padding:0px;border-width:0px;">
+                        <div class="gallery-aspectRatio" style="padding: 0px 0px 100%;">
+                          <div class="gallery-img-in img"> <img src="uploads/180807/1-1PPG60040J4.jpg" > </div>
+                        </div>
+                      </div>
+                      <div class="caption gallery-caption">
+                        <div class="captionbg gallery-captionbg"></div>
+                      </div>
+                      </a> </div>
+                  </div>
+                </li>
+<li style="width:25.00%;" data-ih="290" data-iw="290">
+                  <div class="gallery-img imgFloatFull textFade imgScaleSmall imgTextF">
+                    <div class="gallery-mar" style="margin:2px;"> <a class="fancybox-thumbs" href="javascript:if(confirm('a/chanpin/cp1/7.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ����ļ���  \n\n����Ҫ�ӷ�����������?'))window.location='a/chanpin/cp1/7.html'" >
+                      <div class="gallery-border" style="padding:0px;border-width:0px;">
+                        <div class="gallery-aspectRatio" style="padding: 0px 0px 100%;">
+                          <div class="gallery-img-in img"> <img src="uploads/180807/1-1PPG60009641.jpg" > </div>
+                        </div>
+                      </div>
+                      <div class="caption gallery-caption">
+                        <div class="captionbg gallery-captionbg"></div>
+                      </div>
+                      </a> </div>
+                  </div>
+                </li>
+<li style="width:25.00%;" data-ih="290" data-iw="290">
+                  <div class="gallery-img imgFloatFull textFade imgScaleSmall imgTextF">
+                    <div class="gallery-mar" style="margin:2px;"> <a class="fancybox-thumbs" href="javascript:if(confirm('a/chanpin/cp1/5.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ����ļ���  \n\n����Ҫ�ӷ�����������?'))window.location='a/chanpin/cp1/5.html'" >
+                      <div class="gallery-border" style="padding:0px;border-width:0px;">
+                        <div class="gallery-aspectRatio" style="padding: 0px 0px 100%;">
+                          <div class="gallery-img-in img"> <img src="uploads/180807/1-1PPG55SM43.jpg" > </div>
+                        </div>
+                      </div>
+                      <div class="caption gallery-caption">
+                        <div class="captionbg gallery-captionbg"></div>
+                      </div>
+                      </a> </div>
+                  </div>
+                </li>
+<li style="width:25.00%;" data-ih="290" data-iw="290">
+                  <div class="gallery-img imgFloatFull textFade imgScaleSmall imgTextF">
+                    <div class="gallery-mar" style="margin:2px;"> <a class="fancybox-thumbs" href="javascript:if(confirm('a/chanpin/cp1/4.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ����ļ���  \n\n����Ҫ�ӷ�����������?'))window.location='a/chanpin/cp1/4.html'" >
+                      <div class="gallery-border" style="padding:0px;border-width:0px;">
+                        <div class="gallery-aspectRatio" style="padding: 0px 0px 100%;">
+                          <div class="gallery-img-in img"> <img src="uploads/180807/1-1PPG55P2P1.jpg" > </div>
+                        </div>
+                      </div>
+                      <div class="caption gallery-caption">
+                        <div class="captionbg gallery-captionbg"></div>
+                      </div>
+                      </a> </div>
+                  </div>
+                </li>
+<li style="width:25.00%;" data-ih="290" data-iw="290">
+                  <div class="gallery-img imgFloatFull textFade imgScaleSmall imgTextF">
+                    <div class="gallery-mar" style="margin:2px;"> <a class="fancybox-thumbs" href="javascript:if(confirm('a/chanpin/cp1/3.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ����ļ���  \n\n����Ҫ�ӷ�����������?'))window.location='a/chanpin/cp1/3.html'" >
+                      <div class="gallery-border" style="padding:0px;border-width:0px;">
+                        <div class="gallery-aspectRatio" style="padding: 0px 0px 100%;">
+                          <div class="gallery-img-in img"> <img src="uploads/180807/1-1PPG55I0c9.jpg" > </div>
+                        </div>
+                      </div>
+                      <div class="caption gallery-caption">
+                        <div class="captionbg gallery-captionbg"></div>
+                      </div>
+                      </a> </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+    $(function () {
+        setImgWidth($("#gallery_079716de46658f0bf2ea98f7031ec940"), "1", "4", "0", "2", $("#gallery_079716de46658f0bf2ea98f7031ec940").find(".multi-imgs>ul>li").width(), $("#gallery_079716de46658f0bf2ea98f7031ec940").find(".multi-imgs>ul>li").height());
+        $("#gallery_079716de46658f0bf2ea98f7031ec940").listRow({
+            row:4,
+            rowList: ".multi-imgs ul>li",
+            rowFind: ".gallery-caption"
+        });
+    });
+</script>
+        <div class="li-div" data-comunique="5ae5c5b073d6759a02b8dd5e41429f45">
+          <div class="w-space space-b noChoose"  style="height:56px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section pdTop-default pdBottom-default" style="background:url(/skin/images/about.jpg) no-repeat center;color:#ffffff;" id="533154">
+    <div class="row" style="max-width:;">
+      <div class="row-mask" ></div>
+      <div class="wrap-content-in  pdTop-default pdBottom-default" data-id="533154" data-type="31">
+        <div class="li-div" data-comunique="9d9e077ce17be0afac7f67279fcf6a38">
+          <div class="w-space space-b noChoose"  style="height:60px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div col-li-div" data-id="533156" data-type="1">
+          <div class="col-table">
+            <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="533154" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td class="td-w" width="57.389380530973455%"><div class="div-padding">
+                      <div class="li-div" data-comunique="588dcc77ad072e22a2909d2bcb4fafc6">
+                        <div class="not-animated w-text" data-animate="fadeInUp" style="">
+                          <style type="text/css">
+.color_white{color:#fff !important;}
+</style>
+                          <div class="w-title w-title41 border_colorright_main">
+                            <h2 class="color_white">关于我们</h2>
+                            <span class="color_vice_light color_white">About</span></div> </div>
+                      </div>
+                    </div></td>
+                  <td class="td-w" width="42.57521907840155%"><div class="div-padding">
+                      <div class="li-div" data-comunique="49b374fd3e4f6174d59bf2a42eea2d73">
+                        <div class="w-space space-b noChoose"  style="height:40px;">
+                          <div class="stretch-b"></div>
+                        </div>
+                      </div>
+                    </div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="6102180081816b09334f7a7b9b9d37fd">
+          <div class="w-space space-b noChoose"  style="height:67px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="496374542c536b22f7bb5190b7e4b247">
+          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+            <div style="line-height:2;"> 萌芽时期 在公司出现以前，个人独资企业是最典型的企业形式；与独资企业并存的是各种合伙组织，当时的合伙组织中最典型的就是家族经营团体。 在公司产生以前，合伙组织都没有取得法人的地位，但是却有其他的一些法人团体出现。这种情况最早可以追溯至古罗马时期。在古罗马，国家、地方自治团体、寺院等宗教团体、养老院等公益慈善团体都取得了法人的地位。到了中世纪，有一些贸易团体取得了法人的资格，尤其是其中从事海外贸易的组织。在中世纪英国，这样的组织享有相对合伙更大的独立性。 无限公司 最早产生的公司是无限公司。但是，无限公司与合伙没有本质上的区别，只是取得了法人地位的合伙组织而已。 有关无限公司的第一个立法是1673年法国路易十四的《商事条例》，在当时被称为普通公司。在1807年的《法国商法典》中又...</div>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="ff73e79cf7c1ef3539434812bedf4769">
+          <div class="w-space space-b noChoose"  style="height:145px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section pdTop-default pdBottom-default"  id="533162">
+    <div class="row" style="max-width:;">
+      <div class="row-mask" ></div>
+      <div class="wrap-content-in  pdTop-default pdBottom-default" data-id="533162" data-type="31">
+        <div class="li-div" data-comunique="03aeef6ea79f86ac3bc270bcdf106110">
+          <div class="w-space space-b noChoose"  style="height:50px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div col-li-div" data-id="533164" data-type="1">
+          <div class="col-table">
+            <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="533162" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td class="td-w" width="58.53982300884956%"><div class="div-padding">
+                      <div class="li-div" data-comunique="053791f32a59c8e293c5846124b4f0d8">
+                        <div class="not-animated w-title w-title32 lineborder" data-animate="fadeInUp" style="">
+                          <div class="w-title-in">
+                            <div class="title-h-in"> <div class="tith border_colortop_main"> <span style=""  data-type="subtitle">Advantage</span>
+                                <h2 style="" data-type="title">公司优势</h2>
+                              </div> </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></td>
+                  <td class="td-w" width="41.46165155731471%"><div class="div-padding">
+                      <div class="li-div" data-comunique="316a194bbcad009bfc9bcb96f96c9847">
+                        <div class="w-space space-b noChoose"  style="height:40px;">
+                          <div class="stretch-b"></div>
+                        </div>
+                      </div>
+                    </div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="274407300023ebd06a92d02231219299">
+          <div class="w-space space-b noChoose"  style="height:34px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="dcad9be2320f7dc6754c069fa496479b">
+          <div class="not-animated w-text" data-animate="fadeInUp" style="">
+            <style type="text/css">
+							@media (max-width:768px){
+								.addvantage .ad_text .num{ font-size:40px !important;}
+								.addvantage .ad_text .txt{ margin-left:3em !important;}
+								.addvantage .ad_text .txt h3{ font-size:18px !important;}
+								.addvantage .ad_text .txt .sum{ line-height:1.5 !important; font-size:90% !important;}
+							}
+							@media (max-width:520px){
+							    .addvantage .ad_text .num{ font-size:250% !important;}
+								.addvantage .ad_text .txt h3{ font-size:115% !important;}
+								.addvantage .item >div{ display:block !important; width:100% !important;}
+								.addvantage .item .item_l{ padding:1.5em 0 !important;}
+							}
+</style>
+            <div class="addvantage"> <div class="item clearfix" style="background:#EAEAEA; display:table; width:100%;">
+                <div class="item_l" style="display:table-cell; width:50%; vertical-align:middle; *float:left; *width:49.99%;*padding-top:43px;">
+                  <div class="ad_text clearfix">
+                    <div class="num" style="float:left; width:1.2em; text-align:center; line-height:1.2; font-size:72px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#292929; opacity:0.34; *filter:alpha(opacity=34); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=34);">1</div>
+                    <div class="txt" style=" margin-left:95px; color:292929;padding-right:10%;">
+                      <h3 style=" margin:0; line-height:1.7; font-size:24px; font-weight:bold; ">质量保证</h3>
+                      <div class="sum" style="line-height:2;">10余年专业制品深加工，公差/品质有保证,10余年专业生产各类工业型材等，保证您的品质。</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item_r imgScaleBig" style="display:table-cell; width:50%; vertical-align:middle; *float:left; *width:49.99%;overflow:hidden;"><img src="uploads/180926/1-1P926120QIc.jpg"  style="max-width:100%;"/></div>
+              </div> 
+              
+              
+              <div class="item item_even clearfix" style="background:#B3B3B3; display:table; width:100%;">
+                <div class="item_l" style="display:table-cell; width:50%; vertical-align:middle; *float:left; *width:49.99%;*padding-top:43px;">
+                  <div class="ad_text clearfix">
+                    <div class="num" style="float:left; width:1.2em; text-align:center; line-height:1.2; font-size:72px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#292929; opacity:0.34; *filter:alpha(opacity=34); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=34);">2</div>
+                    <div class="txt" style=" margin-left:95px; color:292929;padding-right:10%;">
+                      <h3 style=" margin:0; line-height:1.7; font-size:24px; font-weight:bold; ">专业团队</h3>
+                      <div class="sum" style="line-height:2;">专业技术团队，为您提供量身定制服务可根据客户提供的图纸和样板设计和制造生产出符合要求的产品产品。</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item_r imgScaleBig" style="display:table-cell; width:50%; vertical-align:middle; *float:left; *width:49.99%;overflow:hidden;"><img src="uploads/180926/1-1P926120P14c.jpg"  style="max-width:100%;"/></div>
+              </div> 
+              <div class="item clearfix" style="background:#EAEAEA; display:table; width:100%;">
+                <div class="item_l" style="display:table-cell; width:50%; vertical-align:middle; *float:left; *width:49.99%; *padding-top:43px;">
+                  <div class="ad_text clearfix">
+                    <div class="num" style="float:left; width:1.2em; text-align:center; line-height:1.2; font-size:72px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#292929; opacity:0.34; *filter:alpha(opacity=34); filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=34);">3</div>
+                    <div class="txt" style=" margin-left:95px; color:292929;padding-right:10%;">
+                      <h3 style=" margin:0; line-height:1.7; font-size:24px; font-weight:bold; ">轻松供货</h3>
+                      <div class="sum" style="line-height:2;">十多条精密挤压生产线,轻松实现大批量供货，多台专业数控设备，为您提供高精密产品。</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item_r imgScaleBig" style="display:table-cell; width:50%; vertical-align:middle; *float:left; *width:49.99%;overflow:hidden;"><img src="uploads/180926/1-1P926120T4434.jpg"  style="max-width:100%;"/></div>
+              </div> </div>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="bfe146bc79eecbaa4fd82e942925a242">
+          <div class="w-space space-b noChoose"  style="height:116px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section pdTop-default pdBottom-default" style="background:#dcdbd9;" id="533170">
+    <div class="row" style="max-width:;">
+      <div class="row-mask" ></div>
+      <div class="wrap-content-in  pdTop-default pdBottom-default" data-id="533170" data-type="31">
+        <div class="li-div" data-comunique="ef8592fd6b449c6e630b47bcf7025168">
+          <div class="w-space space-b noChoose"  style="height:60px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div col-li-div" data-id="533172" data-type="1">
+          <div class="col-table">
+            <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="533170" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td class="td-w" width="58.008849557522126%"><div class="div-padding">
+                      <div class="li-div" data-comunique="1714e8719a28ea3c90d3516935dc8cfa">
+                        <div class="not-animated w-title w-title32 lineborder" data-animate="fadeInUp" style="">
+                          <div class="w-title-in">
+                            <div class="title-h-in">
+                              <div class="tith border_colortop_main"> <span style=""  data-type="subtitle">News</span>
+                                <h2 style="" data-type="title">新闻中心</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></td>
+                  <td class="td-w" width="41.99262500864215%"><div class="div-padding">
+                      <div class="li-div" data-comunique="85410f2f2d9b932219c61c2e19022a1a">
+                        <div class="w-space space-b noChoose"  style="height:40px;">
+                          <div class="stretch-b"></div>
+                        </div>
+                      </div>
+                    </div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="450bc701d55fbadcb4c45e322fc9542a">
+          <div class="w-space space-b noChoose"  style="height:40px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+        <div class="li-div col-li-div" data-id="533176" data-type="1">
+          <div class="col-table">
+            <table class="div-table div-table-first" width="100%" cellspacing="0" data-pid="533170" cellpadding="0" border="0">
+              <tbody>
+                <tr> <td class="td-w" width="49.336283185840706%"><div class="div-padding">
+                      <div class="li-div" data-comunique="e79da57dce2016d7c750c809d3aa7a10">
+                        <div class="not-animated w-simImg" data-animate="fadeInUp" style="cursor:pointer;padding-bottom:10px;">
+                          <div class="image-w"> <a href="javascript:if(confirm('a/xinwen/hydt/58.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ����ļ���  \n\n����Ҫ�ӷ�����������?'))window.location='a/xinwen/hydt/58.html'"  >
+                            <div class="img" > <img src="uploads/allimg/180918/1-1P91Q14039429.png"  width="503"/> </div>
+                            <div class="caption w-img-caption">
+                              <div class="captionbg"></div>
+                            </div>
+                            </a> </div>
+                        </div>
+                      </div>
+                      <div class="li-div" data-comunique="1d3821627631d730c29bd18c12e3accf">
+                        <div class="not-animated w-text" data-animate="fadeInUp" style="">
+                          <p><a href="javascript:if(confirm('a/xinwen/hydt/58.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ����ļ���  \n\n����Ҫ�ӷ�����������?'))window.location='a/xinwen/hydt/58.html'" ><span style="font-size: 1.1em;">注册域名需要考虑的四个基本问题</span></a><br/>
+                            2018.09.18<br/>
+                            域名，通俗点说就是网站的名字，就相当于人的名字一样。对于一个网站，人们首先接触的是其域名，域名是否设置得当，直接影响着用户对网站的印象，...</p>
+                        </div>
+                      </div>
+                      <div class="li-div" data-comunique="49ff2e03b9ecf3849bcedefaceb05b49">
+                        <div class="not-animated w-button" data-animate="fadeInUp" style="padding-top:10px;">
+                          <div class="btn-default-b btn-default-w btn-large-w g-click-to-link" id="button-49ff2e03b9ecf3849bcedefaceb05b49" data-link="/article-48376-63373.html"> <span class="btn-inner" style="font-size:1.3em;">MORE</span> </div>
+                          <a style="display:none;" href="javascript:if(confirm('a/xinwen/hydt/58.html  \n\n���ļ�δ�� Teleport Ultra ���أ���Ϊ ���������� - �޷��ҵ����ļ���  \n\n����Ҫ�ӷ�����������?'))window.location='a/xinwen/hydt/58.html'" ><span id="tag-a-49ff2e03b9ecf3849bcedefaceb05b49" ></span></a> </div>
+                      </div>
+                      <script type="text/javascript">
+    $(function () {
+        $("#button-49ff2e03b9ecf3849bcedefaceb05b49").click(function () {
+            var link = $(this).data("link");
+            if (link === "") {
+                return '';
+            }
+            $("#tag-a-49ff2e03b9ecf3849bcedefaceb05b49").click();
+        });
+    });
+</script></div></td>
+
+                  <td class="td-w" width="4.424778761061947%"><div class="div-padding">
+                      <div class="li-div" data-comunique="9a2f716c75632fe85454230c8610bd94">
+                        <div class="w-space space-b noChoose"  style="height:40px;">
+                          <div class="stretch-b"></div>
+                        </div>
+                      </div>
+                    </div></td>
+                  <td class="td-w" width="46.10619469026548%"><div class="div-padding">
+                      <div class="li-div" data-comunique="2fa6813c583b364e89fc06a8bd259001" id="article-2fa6813c583b364e89fc06a8bd259001" onselectstart="return false" style=" -moz-user-select: none;">
+                        <div class="not-animated w-adNews w-adNews9" data-animate="fadeInUp" style="">
+                          <div class="w-adNews-in clearfix">
+                            <ul>
+                              <li>
+                                <div class="news-item">
+                                  <div class="date bg_main">
+                                    <div class="date-day">18</div>
+                                    <div class="date-yearMonth">2018-09</div>
+                                  </div>
+                                  <div class="news-com">
+                                    <div class="news-h"><a href="a/xinwen/hydt/47.html"  class="news-kind" title="行业动态">【行业动态】</a><a href="a/xinwen/hydt/index.htm"  title="建立网站要怎样选择主机呢" >建立网站要怎样选择主机呢</a></div>
+                                    <div class="news-sum">个人站长在建设网站的时候，要选择什么样的主机才可以满足需要呢？想要选择好一款主机，...</div>
+                                  </div>
+                                </div>
+                              </li>
+<li>
+                                <div class="news-item">
+                                  <div class="date bg_main">
+                                    <div class="date-day">18</div>
+                                    <div class="date-yearMonth">2018-09</div>
+                                  </div>
+                                  <div class="news-com">
+                                    <div class="news-h"><a href="a/xinwen/gsxw/40.html"  class="news-kind" title="公司新闻">【公司新闻】</a><a href="a/xinwen/gsxw/index.htm"  title="网站建设SEO优化的4个关键点" >网站建设SEO优化的4个关键点</a></div>
+                                    <div class="news-sum">今年闰七月，将有两个阴历七月七日，中国传统的情人节七夕将额外地多出了一次。但记者昨...</div>
+                                  </div>
+                                </div>
+                              </li>
+<li>
+                                <div class="news-item">
+                                  <div class="date bg_main">
+                                    <div class="date-day">18</div>
+                                    <div class="date-yearMonth">2018-09</div>
+                                  </div>
+                                  <div class="news-com">
+                                    <div class="news-h"><a href="a/xinwen/gsxw/39.html"  class="news-kind" title="公司新闻">【公司新闻】</a><a href="a/xinwen/gsxw/index.htm"  title="网站建设SEO之内容优化" >网站建设SEO之内容优化</a></div>
+                                    <div class="news-sum">网站建设绝不只是建设那么简单，更重要的是长期的优化和发展。网站SEO优化包括很多部分，...</div>
+                                  </div>
+                                </div>
+                              </li>
+<li>
+                                <div class="news-item">
+                                  <div class="date bg_main">
+                                    <div class="date-day">18</div>
+                                    <div class="date-yearMonth">2018-09</div>
+                                  </div>
+                                  <div class="news-com">
+                                    <div class="news-h"><a href="a/xinwen/gsxw/38.html"  class="news-kind" title="公司新闻">【公司新闻】</a><a href="a/xinwen/gsxw/index.htm"  title="看看SEO高手是怎样策划网站的" >看看SEO高手是怎样策划网站的</a></div>
+                                    <div class="news-sum">对网站进行SEO优化的初期，对网站建设进行策划是很有必要的。如果网站建设没有做好策划，...</div>
+                                  </div>
+                                </div>
+                              </li>
+
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <script type="text/javascript">
+    $(function () {
+        var article_li = $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews3").find(".w-adNews-imgs>ul>li");
+        var article_prev = $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews3").find(".w-adNews-imgs>.adNews3prev");
+        var article_next = $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews3").find(".w-adNews-imgs>.adNews3next");
+        var article_image = $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews3").find(".w-adNews-imgs>ul");
+
+        if (article_li.length > 0 && article_prev.length > 0 && article_next.length > 0) {
+            article_prev.click(function () {
+                if (article_image.find("li:visible").prev("li").length > 0) {
+                    article_image.find("li:visible").hide(0, function () {
+                        $(this).prev("li").show(0, function () {
+                        });
+                    })
+                }
+            });
+            article_next.click(function () {
+                if (article_image.find("li:visible").next("li").length > 0) {
+                    article_image.find("li:visible").hide(0, function () {
+                        $(this).next("li").show(0, function () {
+                        });
+                    })
+                }
+            });
+        }
+
+            $("#article-2fa6813c583b364e89fc06a8bd259001 .news-h>.news-kind").remove();
+
+        if ($(".w-adNews7").length > 0) {
+            $(".w-adNews7").each(function () {
+                var adimgw = $(this).find(".adNewsR").width();
+                var adimgh = $(this).find(".adNewsL").outerHeight(true);
+                var txtH = $(this).find('.adNewsR .news-com:first').outerHeight(true) + 20;
+                adimgh -= txtH;
+                $(this).find(".w-news-img .aspectRatio").css("padding-bottom", (adimgh * 1.0 / adimgw) * 100 + "%");
+            });
+        }
+
+        if ($("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews11").length > 0) {
+            $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews11").listRow({
+                row:3,
+                rowList: ".w-adNews-in ul>li",
+                rowFind: ".news-sum"
+            });
+        }
+
+        if ($("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews12").length > 0) {
+            var html2fa6813c583b364e89fc06a8bd259001 = $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews15").find('.w-adNews-in').html();
+            var slideX2fa6813c583b364e89fc06a8bd259001 = function () {
+                $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews12").slideNew({
+                    mainCell: ".w-adNews-in ul",
+                    autoPage: false,
+                    effect: "topMarquee",
+                    interTime: 50,
+                    delayTime: 0,
+                    autoPlay: true,
+                    scroll: 1,
+                    vis: 4
+                });
+            };
+            slideX2fa6813c583b364e89fc06a8bd259001();
+            $(window).resize(function () {
+                $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews12").find('.w-adNews-in').html(html2fa6813c583b364e89fc06a8bd259001);
+                slideX2fa6813c583b364e89fc06a8bd259001();
+            });
+        }
+
+        if ($("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews13").length > 0) {
+            var html2fa6813c583b364e89fc06a8bd259001 = $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews15").find('.w-adNews-in').html();
+            var slideX2fa6813c583b364e89fc06a8bd259001 = function () {
+                $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews13").slideNew({
+                    mainCell: ".w-adNews-in ul",
+                    autoPage: false,
+                    effect: "topLoop",
+                    interTime: 3000,
+                    delayTime: 500,
+                    autoPlay: true,
+                    scroll: 1,
+                    vis: 1
+                });
+            };
+            slideX2fa6813c583b364e89fc06a8bd259001();
+            $(window).resize(function () {
+                $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews13").find('.w-adNews-in').html(html2fa6813c583b364e89fc06a8bd259001);
+                slideX2fa6813c583b364e89fc06a8bd259001();
+            });
+        }
+
+        if ($("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews14").length > 0) {
+            var html2fa6813c583b364e89fc06a8bd259001 = $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews15").find('.w-adNews-in').html();
+            var slideX2fa6813c583b364e89fc06a8bd259001 = function () {
+                $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews14").slideNew({
+                    mainCell: ".w-adNews-in ul",
+                    autoPage: false,
+                    effect: "topLoop",
+                    interTime: 3000,
+                    delayTime: 500,
+                    autoPlay: true,
+                    scroll: 1,
+                    vis: 4
+                });
+            };
+            slideX2fa6813c583b364e89fc06a8bd259001();
+            $(window).resize(function () {
+                $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews14").find('.w-adNews-in').html(html2fa6813c583b364e89fc06a8bd259001);
+                slideX2fa6813c583b364e89fc06a8bd259001();
+            });
+        }
+
+        if ($("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews15").length > 0) {
+            var obj = $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews15").find('.w-adNews-in');
+            var html2fa6813c583b364e89fc06a8bd259001 = obj.html();
+            var slideX2fa6813c583b364e89fc06a8bd259001 = function () {
+                $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews15").slideNew({
+                    mainCell: ".w-adNews-in ul",
+                    autoPage: false,
+                    effect: "fold",
+                    interTime: 5000,
+                    delayTime: 500,
+                    autoPlay: true,
+                    scroll: 1,
+                    vis: 1
+                });
+            };
+            slideX2fa6813c583b364e89fc06a8bd259001();
+            $(window).resize(function () {
+                $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews15").find('.w-adNews-in').html(html2fa6813c583b364e89fc06a8bd259001);
+                slideX2fa6813c583b364e89fc06a8bd259001();
+                $("#article-2fa6813c583b364e89fc06a8bd259001>.w-adNews15").find('.w-adNews-in').find("img").each(function () {
+                    $.AutoImageSize($(this));
+                });
+            });
+        }
+    });
+</script></div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="li-div" data-comunique="538b1c9ec44aa4573127d6f1d77e44ad">
+          <div class="w-space space-b noChoose"  style="height:90px;">
+            <div class="stretch-b"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <script type="text/javascript">$(function(){$(".div-table-first").find(".div-table-first").each(function(){$(this).removeClass("div-table-first")});});</script> 
+</div>
+<div class="w-container w-footer">
+  <div class="w-footer-section pdTop-default pdBottom-default" >
+    <div class="w-footer-in" style="max-width:;">
+      <div class="foot-mask" ></div>
+      <div class="w-foot-content  pdTop-large pdBottom-large" data-id="533216" data-type="31">
+        <div class="li-div" data-comunique="db1766cc882f11b9fb367c998ebb5dd0">
+          <div class="w-text"  style="">
+            <div align="center">Copyright &copy; 2002-2021 某某五金制品有限公司 版权所有</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-service-fixed">
+    <div class="service-item bg_s_default color_s_default aHoverbg_deepen aHovercolor_deepen service-item-top"> <i class="fa fa-caret-up"></i>
+      <div class="top" onclick="$('body,html').animate({scrollTop: 0}, 'normal');">TOP</div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.w-service-fixed .service-item-top').show();
+                } else {
+                    $('.w-service-fixed .service-item-top').hide();
+                }
+            });
+        });
+    </script> 
+  </div>
+</div>
+</div>
+<div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+<div class="ad_boxfixed clearfix">
+  <div class="ad_tel clearfix">
+    <div class="ad_tel_icon"><i class="icon_adTel"></i></div>
+    <div class="ad_tel_text">
+      <div class="ad_tel_txt">购买咨询电话</div>
+      <div class="ad_tel_num">400-123-4567</div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="skin/js/jquery.global.js" ></script> 
+<script type="text/javascript" src="skin/js/jquery.form.js" ></script> 
+<script type="text/javascript" src="skin/js/lightbox.min.js" ></script> 
+<script type="text/javascript" src="skin/js/jquery.custom.js" ></script>
+</body>
+<script src="xxx"  type="text/javascript"></script> 
+</html>
