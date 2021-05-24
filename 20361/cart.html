@@ -1,0 +1,523 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<!--====== Required meta tags ======-->
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<!--====== Title ======-->
+	<title>Shoing Cart </title>
+	<!--====== Favicon Icon ======-->
+	<link rel="shortcut icon" href="assets/img/favicon.ico" type="img/png" />
+	<!--====== Animate Css ======-->
+	<link rel="stylesheet" href="static/css/animate.min.css">
+	<!--====== Bootstrap css ======-->
+	<link rel="stylesheet" href="static/css/bootstrap.min.css" />
+	<!--====== Fontawesome css ======-->
+	<link rel="stylesheet" href="static/css/font-awesome.min.css" />
+	<!--====== Magnific Popup css ======-->
+	<link rel="stylesheet" href="static/css/magnific-popup.css" />
+	<!--====== Slick  css ======-->
+	<link rel="stylesheet" href="static/css/slick.css" />
+	<!--====== Nice Select ======-->
+	<link rel="stylesheet" href="static/css/jquery-nice-select.min.css" />
+	<!--====== Style css ======-->
+	<link rel="stylesheet" href="static/css/style.css" />
+</head>
+
+<body>
+	<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<!--====== Header part start ======-->
+	<header class="sticky-header">
+		<div class="container-fluid">
+			<div class="d-flex align-items-center justify-content-between">
+				<div class="site-logo">
+					<a href="index.html"><img src="static/picture/logo.png" alt="Genial"></a>
+				</div>
+				<div class="header-right">
+					<div class="search-area">
+						<a href="javascript:void(0)" class="search-btn"><i class="fas fa-search"></i></a>
+						<div class="search-form">
+							<a href="#" class="search-close"><i class="fal fa-times"></i></a>
+							<form action="#">
+								<input type="search" placeholder="Type here to search">
+							</form>
+							<div class="search-overly"></div>
+						</div>
+					</div>
+					<div class="shoping-cart">
+						<a href="cart.html" class="shoping-cart-btn">
+							<i class="fas fa-shopping-cart"></i>
+							<span class="count">2</span>
+						</a>
+					</div>
+					<div class="offcanvas-panel">
+						<a href="javascript:void(0)" class="panel-btn">
+							<span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</span>
+						</a>
+						<div class="panel-overly"></div>
+						<div class="offcanvas-items">
+							<!-- Navbar Toggler -->
+							<a href="javascript:void(0)" class="panel-close">
+								Back <i class="fa fa-angle-right" aria-hidden="true"></i>
+							</a>
+
+							<ul class="offcanvas-menu">
+								<li>
+									<a href="index.html">Home</a>
+									<ul class="submenu">
+										<li><a href="index-1.html">Home One</a></li>
+										<li><a href="index-2.html">Home Two</a></li>
+										<li><a href="index-3.html">Home Three</a></li>
+										<li><a href="index-4.html">Home Four</a></li>
+									</ul>
+								</li>
+								<li><a href="blog-details.html">Blog Single</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="photo-stories.html">Photo Stories</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="404.html">404</a></li>
+								<li>
+									<a href="shop.html">Shop</a>
+									<ul class="submenu">
+										<li><a href="shop.html">Shop</a></li>
+										<li><a href="product-details.html">Shop Details -A</a></li>
+										<li><a href="product-details-2.html">Shop Details -B</a></li>
+										<li><a href="cart.html">Cart</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="myaccount.html">My account</a></li>
+									</ul>
+								</li>
+							</ul>
+
+							<div class="social-icons">
+								<ul>
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--====== Header part end ======-->
+
+    <!--====== Shop Wrapper Start ======-->
+    <section class="shopping-cart-page section-gap-80-120">
+        <div class="container-fluid">
+            <div class="row cart-row-padding">
+                <div class="col-xl-8">
+                    <div class="cart-table-wrap">
+                        <table class="cart-table">
+                            <thead>
+                                <tr>
+                                    <th class="remove"></th>
+                                    <th class="product">Product</th>
+                                    <th class="price">Price</th>
+                                    <th class="quantity">Quantity</th>
+                                    <th class="total">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="remove">
+                                        <a href="#">
+                                            <i class="far fa-times"></i>
+                                        </a>
+                                    </td>
+                                    <td class="product">
+                                        <div class="product-info">
+                                            <a href="product-details.html">
+                                                <img src="static/picture/01.jpg" alt="cart">
+                                            </a>
+                                            <a href="product-details.html" class="title">Lather Bag</a>
+                                        </div>
+                                    </td>
+                                    <td class="price">$199</td>
+                                    <td class="quantity">
+                                        <div class="quantity-box">
+                                            <input type="number" value="2" class="quantity">
+                                            <span class="quantity-plus quantityUP">
+                                                <i class="fas fa-angle-up"></i>
+                                            </span>
+                                            <span class="quantity-minus quantityDown">
+                                                <i class="fas fa-angle-down"></i>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td class="total">$398</td>
+                                </tr>
+                                <tr>
+                                    <td class="remove">
+                                        <a href="#">
+                                            <i class="far fa-times"></i>
+                                        </a>
+                                    </td>
+                                    <td class="product">
+                                        <div class="product-info">
+                                            <a href="product-details.html">
+                                                <img src="static/picture/02.jpg" alt="cart">
+                                            </a>
+                                            <a href="product-details.html" class="title">Lather Bag</a>
+                                        </div>
+                                    </td>
+                                    <td class="price">$199</td>
+                                    <td class="quantity">
+                                        <div class="quantity-box">
+                                            <input type="number" value="2" class="quantity">
+                                            <span class="quantity-plus quantityUP">
+                                                <i class="fas fa-angle-up"></i>
+                                            </span>
+                                            <span class="quantity-minus quantityDown">
+                                                <i class="fas fa-angle-down"></i>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td class="total">$398</td>
+                                </tr>
+                                <tr>
+                                    <td class="remove">
+                                        <a href="#">
+                                            <i class="far fa-times"></i>
+                                        </a>
+                                    </td>
+                                    <td class="product">
+                                        <div class="product-info">
+                                            <a href="product-details.html">
+                                                <img src="static/picture/03.jpg" alt="cart">
+                                            </a>
+                                            <a href="product-details.html" class="title">Cap</a>
+                                        </div>
+                                    </td>
+                                    <td class="price">$199</td>
+                                    <td class="quantity">
+                                        <div class="quantity-box">
+                                            <input type="number" value="2" class="quantity">
+                                            <span class="quantity-plus quantityUP">
+                                                <i class="fas fa-angle-up"></i>
+                                            </span>
+                                            <span class="quantity-minus quantityDown">
+                                                <i class="fas fa-angle-down"></i>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td class="total">$398</td>
+                                </tr>
+                                <tr>
+                                    <td class="remove">
+                                        <a href="#">
+                                            <i class="far fa-times"></i>
+                                        </a>
+                                    </td>
+                                    <td class="product">
+                                        <div class="product-info">
+                                            <a href="product-details.html">
+                                                <img src="static/picture/01.jpg" alt="cart">
+                                            </a>
+                                            <a href="product-details.html" class="title">Lather Bag</a>
+                                        </div>
+                                    </td>
+                                    <td class="price">$199</td>
+                                    <td class="quantity">
+                                        <div class="quantity-box">
+                                            <input type="number" value="2" class="quantity">
+                                            <span class="quantity-plus quantityUP">
+                                                <i class="fas fa-angle-up"></i>
+                                            </span>
+                                            <span class="quantity-minus quantityDown">
+                                                <i class="fas fa-angle-down"></i>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td class="total">$398</td>
+                                </tr>
+                                <tr>
+                                    <td class="remove">
+                                        <a href="#">
+                                            <i class="far fa-times"></i>
+                                        </a>
+                                    </td>
+                                    <td class="product">
+                                        <div class="product-info">
+                                            <a href="product-details.html">
+                                                <img src="static/picture/02.jpg" alt="cart">
+                                            </a>
+                                            <a href="product-details.html" class="title">Lather Bag</a>
+                                        </div>
+                                    </td>
+                                    <td class="price">$199</td>
+                                    <td class="quantity">
+                                        <div class="quantity-box">
+                                            <input type="number" value="2" class="quantity">
+                                            <span class="quantity-plus quantityUP">
+                                                <i class="fas fa-angle-up"></i>
+                                            </span>
+                                            <span class="quantity-minus quantityDown">
+                                                <i class="fas fa-angle-down"></i>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <td class="total">$398</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cart-action-btn">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <div class="cart-coupon">
+                                    <input type="text" name="cart-coupon" placeholder="Coupon code">
+                                    <button type="submit" class="cart-btn">Apply coupon</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="text-sm-right">
+                                    <button type="submit" class="cart-btn">Update cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="row">
+                        <div class="col-xl-12 col-md-6">
+                            <div class="cart-shipping">
+                                <h6 class="shipping-title">Calculate Shipping</h6>
+                                <div class="shipping">
+                                    <div class="shipping-select">
+                                        <label for="country">Country</label>
+                                        <select id="country">
+                                            <option>Bangladesh</option>
+                                            <option>Albania</option>
+                                            <option>Åland Islands</option>
+                                            <option>Afghanistan</option>
+                                            <option>Belgium</option>
+                                        </select>
+                                    </div>
+                                    <div class="shipping-select">
+                                        <label for="state">State</label>
+                                        <select id="state">
+                                            <option>Bangladesh</option>
+                                            <option>Albania</option>
+                                            <option>Åland Islands</option>
+                                            <option>Afghanistan</option>
+                                            <option>Belgium</option>
+                                        </select>
+                                    </div>
+                                    <div class="shipping-input">
+                                        <label for="post-code">Post Code</label>
+                                        <input type="text" id="post-code" placeholder="1000">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-md-6">
+                            <div class="cart-total">
+                                <h6 class="cart-total-title">Cart Totals</h6>
+                                <div class="cart-total-table">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th>Subtotal</th>
+                                                <td>$398</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Shipping</th>
+                                                <td>$12 Shipping</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Total</th>
+                                                <td>$410</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <a href="#" class="cart-btn">Proceed To Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== Shop Wrapper End ======-->
+
+    <!--====== Instagram Area Start ======-->
+    <section class="instagram-section border-top">
+        <div class="container-fluid p-0">
+            <h5 class="instagram-title">
+                Follow Us <span class="instagram-icon"><i class="fab fa-instagram"></i></span> Instagram
+            </h5>
+            <div class="instagram-images">
+                <div class="image">
+                    <img src="static/picture/01.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/02.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/03.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/04.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/05.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/06.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/07.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/01.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/02.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/03.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/04.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/05.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/06.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="image">
+                    <img src="static/picture/07.jpg" alt="Instagram-image">
+                    <a class="instagram-link" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== Instagram Area End ======-->
+
+    <!--====== Footer Area Start ======-->
+    <footer>
+        <div class="footer-widgets-area">
+            <div class="container container-1360">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget address-widget">
+                            <h4 class="widget-title">Our Address</h4>
+                            <p>Sydney, Australia Sheen Darus Salam. <br> 112/B, Road 8A, Dhanmondi.</p>
+                            <p>+880-036987458765521 <br> example@yourmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="widget nav-widget">
+                            <h4 class="widget-title">Quick Links</h4>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Stories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="widget nav-widget">
+                            <h4 class="widget-title">Categories</h4>
+                            <ul>
+                                <li><a href="#">Lifestyle</a></li>
+                                <li><a href="#">Travel</a></li>
+                                <li><a href="#">Food & Drinks</a></li>
+                                <li><a href="#">Inspiration</a></li>
+                                <li><a href="#">Decoration</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 ml-auto">
+                        <div class="widget newsletter-widget">
+                            <h4 class="widget-title">Our Monthly Newsletter </h4>
+                            <p>
+                                Sign Up TO Get Updates On Articles, Interviews And Events.
+                            </p>
+                            <form action="#">
+                                <input type="email" placeholder="your email">
+                                <button type="submit">Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright-area">
+            <div class="container container-1360">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-12">
+                        <div class="social-links">
+                            <ul>
+                                <li class="title">Follow Me</li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Linkedin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="copyright-text text-lg-right">
+                            <p>Copyright &copy; 2021.Company name All rights reserved <a href="http://www.aizhanzhe.com/template.html" target="_blank">懒之才</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--====== Footer Area End ======-->
+
+	<!--====== jquery js ======-->
+	<script src="static/js/modernizr-3.6.0.min.js"></script>
+	<script src="static/js/jquery-1.12.4.min.js"></script>
+	<!--====== Bootstrap js ======-->
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/popper.min.js"></script>
+	<!--====== Slick js ======-->
+	<script src="static/js/slick.min.js"></script>
+	<!--====== Images Loaded ======-->
+	<script src="static/js/imagesloaded.pkgd.min.js"></script>
+	<!--====== Isotope js ======-->
+	<script src="static/js/isotope.pkgd.min.js"></script>
+	<!--====== Magnific Popup js ======-->
+	<script src="static/js/jquery.magnific-popup.min.js"></script>
+	<!--====== Nice Select js ======-->
+	<script src="static/js/jquery.nice-select.min.js"></script>
+	<!--====== Main js ======-->
+	<script src="static/js/main.js"></script>
+</body>
+
+</html>
