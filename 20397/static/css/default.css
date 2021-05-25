@@ -1,0 +1,86 @@
+﻿.bg-primary,
+.btn-primary,
+.btn-outline-primary:hover, 
+.btn-outline-primary:focus, 
+.btn-outline-primary:active, 
+.btn-outline-primary.active, 
+.btn-outline-primary.focus, 
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.badge-primary,
+.custom-control-input:checked ~ .custom-control-label:before,
+.social-icon li a:hover,
+.back-to-top:hover,
+#topnav .navbar-toggle.open span:hover,
+.service-wrapper:hover .icon,
+.watch-video a .play-icon-circle {
+    background-color: #009e7f !important;
+}
+
+.text-primary,
+.btn-outline-primary,
+.badge-outline-primary,
+.alert-outline-primary,
+.faq-content .card a.faq[data-toggle=collapse],
+.faq-content .card a.faq[data-toggle=collapse]:before,
+#topnav .navigation-menu > li:hover > a, 
+#topnav .navigation-menu > li:active > a,
+#topnav .navigation-menu > li > a:hover,
+#topnav .navigation-menu > li > a:active,
+#topnav.scroll .navigation-menu > li:hover > a,
+ #topnav.scroll .navigation-menu > li.active > a,
+#topnav .navigation-menu > li:hover > a,
+#topnav .navigation-menu > li.active > a,
+#topnav .navigation-menu > li a:hover,
+#topnav .navigation-menu > li.has-submenu.open > a,
+#topnav .has-submenu.active a,
+.blog-post .content .title:hover,
+#success_page h3 {
+    color: #009e7f !important;
+}
+
+.btn-primary,
+.btn-outline-primary,
+.btn-outline-primary:hover, 
+.btn-outline-primary:focus, 
+.btn-outline-primary:active, 
+.btn-outline-primary.active, 
+.btn-outline-primary.focus, 
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.alert-primary,
+.alert-outline-primary,
+.custom-control-input:checked ~ .custom-control-label:before,
+.custom-control-input:focus ~ .custom-control-label::before,
+.form-control:focus,
+.social-icon li a:hover {
+    border-color: #009e7f !important;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.btn-primary.focus {
+    background-color: #03846a !important;
+    border-color: #03846a !important;
+}
+a.text-primary:hover, 
+a.text-primary:focus {
+    color: #03846a !important;
+}
+
+.alert-primary {
+    background-color: rgba(109, 199, 122, 0.65);
+}
+
+.social-icon li a:hover .fea-social {
+    fill: #03846a;
+}
+
+.play-icon i {
+    -webkit-text-stroke: 2px #6dc77a;
+}
+
+.play-icon i:hover {
+    -webkit-text-stroke: 2px #6dc77a;
+    -webkit-text-fill-color: #6dc77a;
+}
