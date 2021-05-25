@@ -1,0 +1,179 @@
+.about-area{
+  
+    position: relative;
+    .about-caption2{
+        h3{
+            font-size: 50px;
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 48px;
+            line-height: 1.5;
+            text-transform: capitalize;
+            @media #{$lg}{
+                font-size: 47px;
+            }
+            @media #{$md}{
+                font-size: 30px;
+            }
+            @media #{$sm}{
+                font-size: 30px;
+            }
+            @media #{$xs}{
+                font-size: 25px;
+            }
+        }
+        .send-cv{
+            display: flex;
+            justify-content: space-between;
+            a{
+                color: $theme-color;
+                font-size: 18px;
+                font-weight: 300;
+                margin-bottom: 10px;
+                display: inline-block;
+                position: relative;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    background: $theme-color;
+                    width: 144px;
+                    height: 1px;
+                    left: 0;
+                    bottom: -9px;
+                }
+            }
+        }
+    }
+    .about-caption{
+        h3{
+            font-size: 18px;
+            color: #fff;
+            font-weight: 400;
+            margin-bottom: 35px;
+            line-height: 1.5;
+            @media #{$xs}{
+                font-size: 18px;
+                line-height: 1.6;
+            }
+        }
+        .pera1{
+            margin-bottom: 25px;
+            color: #d3d3d4;
+            position: relative;
+            span{
+                display: block;
+                text-transform: uppercase;
+            }
+            &::before {
+                position: absolute;
+                content: "";
+                width: 60px;
+                height: 1px;
+                background: #d3d3d4;
+                top: 12px;
+                left: 147px;
+            }
+        }
+        .experience{
+            display: flex;
+            align-items: end;
+
+            .year{
+                span{
+                    font-family:$font_1;
+                    font-weight: 700;
+                     font-size: 90px;
+                     color: #fff;
+                     line-height: 1;
+                }
+            }
+            .year-details{
+                p{
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    color: #fff;
+                    padding-left: 30px;
+                    font-family:$font_1;
+                    br{
+                        @media #{$xs}{
+                            display: none;
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+
+    }
+    // Shape
+    .about-shape,.about-shape2{
+        position: absolute;
+        right: 93px;
+        bottom: 30px;
+        @media #{$laptop}{
+            display: none !important;
+        }
+    }
+    // About page
+    .about2-caption{
+        h5{
+            font-weight: 400;
+            font-size: 25px;
+            color: #fff;
+        }
+        p{
+            color: #d3d3d4;
+            font-weight: 3000;
+            font-size: 16px;
+        }
+    }
+    .about2-img{
+        img{
+            width: 100%;
+        }
+    }
+}
+.about2{
+    background: #0e0e0e;
+}
+.about1{
+   background: #121212;
+}
+.about-me{
+    .about-me-img{
+        img{
+            width: 100%;
+        }
+    }
+    .about-me-caption{
+        h2 {
+            font-size: 48px;
+            display: block;
+            color: $heading-color;
+            font-weight: 600;
+            margin-bottom: 40px;
+            @media #{$lg}{
+                font-size: 41px;
+            }
+            @media #{$md}{
+                font-size: 35px;
+            }
+            @media #{$sm}{
+                font-size: 31px;
+            }
+            @media #{$xs}{
+                font-size: 24px;
+                line-height: 1.6;
+            }
+        }
+        p{
+
+        }
+        h5{
+            padding-left: 25px;
+            border-left: 2px solid #ff5f13;
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.brand-area{
+    background: #0e0e0e;
+    position: relative;
+    .single-brand{
+        border: 1px solid #2e2e2e;
+        padding: 50px 0 50px;
+        img{
+            margin-bottom: 30px;
+        }
+        p{
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 18px;
+            margin: 0;
+        }
+    }
+    .brand-shape{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}

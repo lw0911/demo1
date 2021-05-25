@@ -1,0 +1,89 @@
+.gallery-area{
+    .gallery-box{
+
+        .single-gallery{
+            overflow: hidden;
+            z-index: 0;
+            position: relative;
+            &::before{
+                position: absolute;
+                width: 100%;
+                height: 50%;
+                bottom: 0;
+                content: "";
+                @extend %fradient_gallery;
+            }
+            &::after{
+                content: "";
+                background: rgba(240, 78, 60,.9);
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                z-index: 1;
+                visibility: hidden;
+                opacity: 0;
+               @include transition(.4s);
+            }
+
+            .gallery-img{
+                height:685px;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .cap-icon{
+                position: absolute;
+                top: 50px;
+                left: -20px;
+                z-index: 2;
+                opacity: 0;
+                visibility: hidden;
+                @include transition(.4s);
+                a{
+                    font-size: 30px;
+                    color: #fff;
+                }
+            }
+            .g-caption{
+               position: absolute;
+               z-index: 5;
+               left: 40px;
+               transform:translateY(0%);
+               -webkit-transform:translateY(0%);
+               -moz-transform:translateY(0%);
+               -ms-transform:translateY(0%);
+               -o-transform:translateY(0%);
+               @include transition(.4s);
+               opacity: 0;
+               visibility: hidden;
+               & h4{
+                color: #fff;
+                margin-bottom: 20px;
+               }
+               & p{
+                color: #fff;
+                margin-bottom: 30px;
+               }
+            }
+        }
+    }
+}
+
+// Hover Effect
+.gallery-box:hover .single-gallery::after{
+    visibility: visible;
+    opacity: 1;
+}
+.gallery-box:hover .single-gallery .g-caption{
+    transform: translateY(-102%);
+   opacity: 1;
+   visibility: visible;
+}
+.gallery-box:hover .single-gallery .cap-icon{
+    top: 50px;
+    left: 42px;
+    transition-duration: .5s;
+    opacity: 1;
+    visibility: visible;
+}

@@ -1,0 +1,62 @@
+.home-blog-area{
+    background: #0e0e0e;
+    .single-team{
+        .team-img {
+            overflow: hidden;
+            margin-bottom: 19px;
+            img {
+                width: 100%;
+                transform: scale(1);
+                transition: all 0.6s ease-out 0s;
+            }
+        }
+        .team-caption {
+            h3 {
+                padding-right: 48px;
+                margin-bottom: 17px;
+                font-size: 26px;
+                @media #{$lg}{
+                    padding-right: 0px;
+                }
+                @media #{$md}{
+                    padding-right: 0px;
+                    
+                }
+                @media #{$sm}{
+                    padding-right: 0px;
+                    font-size: 20px;
+                }
+                @media #{$xs}{
+                    padding-right: 0px;
+                    font-size: 20px;
+                }
+
+                a{
+                    color: #fff;
+                    font-weight: 500;
+                }
+            }
+            p{
+                color:#d3d3d4;
+                font-weight: 300;
+                padding-right: 50px;
+                @media #{$lg}{
+                    padding-right: 0px;
+                }
+                @media #{$sm}{
+                    padding-right: 0px;
+                }
+                @media #{$xs}{
+                    padding-right: 0px;
+                }
+            }
+
+        }
+
+        // Hover
+       &:hover .team-img img {
+            transform: scale(1.1);
+        }
+    }
+    
+}
