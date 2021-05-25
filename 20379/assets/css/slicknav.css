@@ -1,0 +1,284 @@
+
+.slicknav_menu {
+    display: none;
+}
+
+.slicknav_menu > a {
+    display: inline-block;
+}
+
+@media screen and (max-width: 992px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .mainmenu {
+        display: none;
+    }
+    .mainmenu-area {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .toggle {
+        display: inline-block !important;
+    }
+}
+
+.slicknav_menu {
+    background-color: #ffffff;
+    z-index: 99999;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slicknav_menu .slicknav_icon {
+    display: inline-block;
+    height: 26px;
+    width: 35px;
+    position: relative;
+}
+
+.slicknav_menu .slicknav_icon .slicknav_icon-bar {
+    width: 100%;
+    height: 2px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block;
+    background-color: #7e8085;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+.slicknav_menu .slicknav_icon .slicknav_icon-bar:nth-child(2) {
+    top: calc(50% - 1px);
+}
+
+.slicknav_menu .slicknav_icon .slicknav_icon-bar:nth-child(3) {
+    top: calc(100% - 2px);
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon .slicknav_icon-bar {
+    top: calc(50% - 1px);
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon .slicknav_icon-bar:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon .slicknav_icon-bar:nth-child(2) {
+    opacity: 0
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon .slicknav_icon-bar:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.slicknav_menu .slicknav_nav {
+    margin: 10px 0 0 0;
+    padding: 0px;
+    width: 100%;
+    list-style: none;
+    border-radius: 2px;
+    max-height: 80vh;
+    overflow: auto;
+    padding-bottom: 30px;
+}
+
+.slicknav_menu .slicknav_nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.slicknav_menu .slicknav_nav ul ul {
+    padding-left: 16px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.slicknav_menu .slicknav_nav ul.nav > li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.slicknav_menu .slicknav_nav ul.nav li {
+    padding: 16px 30px;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.slicknav_menu .slicknav_nav ul.nav li li {
+    padding: 0 0 8px 8px;
+}
+
+.slicknav_menu .slicknav_nav ul.nav li li:first-child {
+    padding-top: 8px;
+}
+
+.slicknav_menu .slicknav_nav ul.nav li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.slicknav_menu .slicknav_nav ul li a {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.slicknav_menu .slicknav_nav li.slicknav_open > a,
+.slicknav_menu .slicknav_nav li.slicknav_open > a a,
+.slicknav_menu .slicknav_nav li:focus > a,
+.slicknav_menu .slicknav_nav li:hover > a,
+.slicknav_menu .slicknav_nav li:focus > a a,
+.slicknav_menu .slicknav_nav li:hover > a a,
+.slicknav_menu .slicknav_nav ul li a:focus {
+    background: none;
+}
+
+.slicknav_menu .slicknav_nav ul li > a {
+    display: block;
+}
+
+.slicknav_menu .slicknav_nav ul li > a .slicknav_arrow {
+    width: 14px;
+    height: 14px;
+    line-height: 10px;
+    text-align: center;
+    float: right;
+    transition: 0.3s;
+    margin-top: 7px;
+}
+
+.slicknav_menu .slicknav_nav ul li.slicknav_open > a .slicknav_arrow {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+
+/*=== Custom Menu ===*/
+
+.toggle{
+    display: none;
+}
+
+
+
+.toggle{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: -8px;
+}
+.toggle span{
+    position: absolute;
+    width: 34px;
+    height: 4px;
+    background-color: #C82C29;
+    display: block;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    border-radius: 2px;
+    transition: .5s;
+    transition-delay: .3s;
+}
+.toggle span:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #C82C29;
+    display: block;
+    top: -10px;
+    left: 0;
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    border-radius: 2px;
+    transition-property: top, -webkit-transform;
+    transition-property: top, transform;
+    transition-property: top, transform, -webkit-transform;
+    transition-delay: .5s, 0s;
+    transition-duration: .5s, .5s;
+}
+.toggle span:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #C82C29;
+    display: block;
+    top: 10px;
+    left: 0;
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    border-radius: 2px;
+    transition-property: top, -webkit-transform;
+    transition-property: top, transform;
+    transition-property: top, transform, -webkit-transform;
+    transition-delay: .5s, 0s;
+    transition-duration: .5s, .5s;
+}
+.toggle.active span:before{
+    top: 0;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    transition-delay: 0s, .5s;
+}
+.toggle.active span:after{
+    top: 0;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    transition-delay: 0s, .5s;
+}
+.toggle.active span{
+    background-color: transparent;
+    box-shadow: 0 2px 2px rgba(0,0,0,0);
+}
+
+
+.t-right {
+    text-align: right;
+}
+.slicknav_menu .slicknav_nav ul li a {
+    padding: 10px 20px;
+    color: #576477;
+    transition: .3s;
+}
+.slicknav_menu .slicknav_nav ul li a:hover {
+    color: #C82C29;
+}
+.slicknav_menu .slicknav_nav a.slicknav_item.slicknav_row > a {
+    padding: 0;
+}
+.slicknav_menu .slicknav_nav ul li:hover a.slicknav_item.slicknav_row a {
+    color: #C82C29;
+}
+.slicknav_menu li {
+    border-bottom: 2px solid #f1f1f1;
+    display: block;
+}
+.slicknav_menu li:last-child {
+    border-bottom: none;
+}
+.slicknav_menu li ul {
+    border-right: 0;
+    border-left: 2px solid #f1f1f1;
+    padding-left: 0 !important;
+    margin: 10px 0 10px 20px !important;
+}
+.slicknav_menu li ul li {
+    border-bottom: none;
+}
+.slicknav_menu .slicknav_nav ul li ul li a {
+    padding: 6px 20px;
+}

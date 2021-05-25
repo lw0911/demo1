@@ -1,0 +1,253 @@
+/**
+=============================================================
+[Main Stylesheet]
+
+Template:     Wonderland
+Version:      1.0
+Created:      26.04.2019
+Primary use:  Wonderland - Kid Multipurpose Template
+
+@Author: kode4everyone
+
+* This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+====================[Table of contents]======================
+
+* 1.0 - Font Color
+* 2.0 - Background Color
+* 3.0 - Border Color
+* 4.0 - Transaction Effect
+* 5.0 - Transform & Rotate Effect
+* 6.0 - Transform Effect
+* 7.0 - Rotation Effect in Positive
+* 8.0 - Rotation Effect in Negative
+* 9.0 - Single Border Color Wrap CSS
+* 10.0 - Content Selection
+
+[Color codes]
+
+Background Color, Text Color, Border Color:	#1b8bf9 (Lime)
+
+=============================================================
+**/
+
+/*
+	============================================================
+		Font Color
+	============================================================
+*/
+.theme_color,
+.keo_social_link li a,
+.keo_breadcrumb>ul>li>a,
+.keo_breadcrumb>ul>li:before,
+.keo_filter_button>li>a.current,
+.keo_filter_button>li:hover>a,
+.keo_pagination ul li a.active,
+.keo_pagination ul li a:hover,
+.keo_blog_tags>ul>li>a:hover,
+.categories_list li:hover a,
+.keo_sub_lang>li,
+.keo_choose_accordian .card-header>h5:hover,
+.keo_choose_accordian .card-header>h5:hover span,
+.keo_post_text>p:hover
+{
+	color:#3f51b5;	
+}
+/*
+	============================================================
+		Background Color
+	============================================================
+*/
+.theme_bg,
+.keo_nav ul ul>li:hover>a,
+.keo_social_link li a:hover,
+.keo_aside_tags ul li a:hover,
+.keo_chkbox input:checked ~ .checkmark,
+.hidden-bar .gt_side_social_icons ul li:hover a,
+.keo_sub_lang>li:hover
+{
+	background-color:#3f51b5;	
+}
+.overlay_dark::before
+{
+	background-color: rgba(63,81,181,0.9);
+}
+.keo_video{
+	background-color: rgba(63,81,181,0.95);
+	box-shadow: 0px 0px 0px 10px rgba(63,81,181,0.3);
+}
+.dl-menuwrapper button:after{
+	box-shadow: 0 10px 0 #3f51b5, 0 20px 0 #3f51b5;
+	background-color: #3f51b5;
+}
+.dl-menuwrapper button.dl-active:after{
+	box-shadow: 0 10px 0 #3f51b5, 0 20px 0 #3f51b5;
+	background-color: #3f51b5;
+}
+/*
+	  ============================================================
+		   Border Color
+	  ============================================================
+*/
+.keo_social_link li a,
+.keo_chkbox input:checked ~ .checkmark,
+.hidden-bar .gt_side_social_icons ul li:hover a
+{
+	border-color:#3f51b5;	
+}
+/*
+	  ============================================================
+		   Theme Color 2 (Green)
+	  ============================================================
+*/
+.theme_color_green,
+.keo_404_wrap>a:hover,
+.keo_class_grid_des>h4>a:hover
+{
+	color: #4caf50;
+}
+.theme_bg_green,
+.keo_class2_bg .keo_child_class_slider .slick-dots li.slick-active button,
+.keo_photo_gallery_slider .slick-dots li.slick-active button,
+.keo_enroll_step_btn>a.ghost_btn:hover{
+	background-color: #4caf50;
+}
+.theme_border_green,
+.keo_404_wrap>a,
+.keo_blog_single_des>blockquote,
+.newsletter_des>form>button,
+.keo_enroll_step_btn>a.ghost_btn:hover
+{
+	border-color: #4caf50;
+}
+/*
+	  ============================================================
+		   Transaction Effect
+	  ============================================================
+*/
+.time,
+.keo_nav ul li a,
+.keo_social_link li a,
+.event_register,
+.keo_enroll_step_btn>a,
+.keo_filter_button>li>a,
+.keo_pagination ul li a,
+.categories_list li a,
+.keo_aside_tags ul li a,
+.keo_price_plan>a,
+.keo_choose_accordian .card-header>h5,
+.keo_child_class_des>h4>a,
+.keo_index2_call>a,
+.banner_des>a,
+.keo_post_text>p
+{
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;	
+}
+.time2,
+.keo_teacher_wrap>figure:before,
+.keo_child_class>figure>img,
+.keo_sub_lang>li,
+.keo_why_wonderland .icon,
+.keo_photo_wrap:before,
+.keo_photo_wrap>a:before{
+	transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+.time3,
+.keo_enroll_step .icon,
+.keo_what_new_wrap>figure>img,
+.keo_post_fig>figure>img,
+.keo_class_grid>figure>img,
+.keo_core_services .icon,
+.keo_other_service .icon{
+	transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -webkit-transition: all 0.8s ease 0s;
+}
+/*
+	  ============================================================
+		   Transform & Rotate Effect
+	  ============================================================
+*/
+.keo_child_class:hover >figure>img,
+.keo_what_new_wrap:hover figure>img,
+.keo_post_fig:hover figure>img,
+.keo_class_grid:hover>figure>img
+{
+	transform:scale(1.3) rotateZ(-6deg);
+	-moz-transform:scale(1.3) rotateZ(-6deg);
+	-webkit-transform:scale(1.3) rotateZ(-6deg);	
+}
+
+/*
+	  ============================================================
+		   Transform Effect
+	  ============================================================
+*/
+.keo_teacher_wrap:hover figure:before,
+.keo_photo_wrap>a:hover:before
+{
+	transform:scale(1);
+	-moz-transform:scale(1);
+	-webkit-transform:scale(1);	
+}
+
+/*
+	  ============================================================
+		   Rotation Effect in Positive
+	  ============================================================
+*/
+
+{
+	transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+}
+	
+	/*
+	  ============================================================
+		   Rotation Effect in Negative
+	  ============================================================
+*/
+
+{
+	transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+}
+
+/*
+	  ============================================================
+		  Single Border Color Wrap CSS
+	  ============================================================
+*/
+
+{
+	border-bottom:10px solid #1b8bf9;	
+}
+
+
+/*
+	  ============================================================
+		  Content Selection
+	  ============================================================
+*/
+::selection {
+    background: #4a3efd;
+    color:#ffffff;
+}
+::-webkit-selection {
+    background: #4a3efd;
+    color: #ffffff;
+}
+::-moz-selection {
+    background: #4a3efd;
+    color: #ffffff;
+}

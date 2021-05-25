@@ -1,0 +1,505 @@
+
+/****************************************
+*****************************************
+CORE STYLES
+*****************************************
+****************************************/
+
+/*=== NAVIGATION ======================*/
+.navigation, 
+.navigation *{
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+.navigation{
+	width: 100%;
+	height: 70px;
+	display: table;
+	position: relative;
+	font-family: inherit;
+	background-color: #fff;
+}
+.navigation-portrait{
+	height: 48px;
+}
+
+/* Fixed navigation */
+.navigation-fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+/* Hidden navigation */
+.navigation-hidden{
+	width: 0 !important;
+	height: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/*=== RIGHT ALIGMENT FOR ELEMENTS =======*/
+.align-to-right{
+	float: right;
+}
+
+/*=== NAVIGATION HEADER =================*/
+.nav-header{
+	float: left;
+}
+
+/* Header in hidden navigation */
+.navigation-hidden .nav-header{
+	display: none;
+}
+
+/*=== BRAND TEXT ========================*/
+.nav-brand{  
+	line-height: 70px;
+	padding: 0 15px;
+	color: #70798b;
+	font-size: 24px;
+	text-decoration: none !important;
+}
+.nav-brand:hover,
+.nav-brand:focus{
+	color: #70798b;
+}
+.navigation-portrait .nav-brand{
+	font-size: 18px;
+	line-height: 48px;
+}
+
+/*=== IMAGE LOGO ========================*/
+.nav-logo > img{
+	height: 48px;
+	margin: 11px auto;
+	padding: 0 15px;
+	float: left;
+}
+.nav-logo:focus > img{
+	outline: initial;
+}
+.navigation-portrait .nav-logo > img{
+	height: 36px;
+	margin: 6px auto 6px 15px;
+	padding: 0;
+}
+
+/*=== TOGGLE BUTTON =====================*/
+.nav-toggle{
+	width: 30px;
+	height: 30px;
+	padding: 6px 2px 0;
+	position: absolute;
+	top: 50%;
+	margin-top: -14px;
+	right: 15px;
+	display: none;
+	cursor: pointer;
+}
+.nav-toggle:before{
+	content: "";
+	position: absolute;
+	width: 24px;
+	height: 2px;
+	background-color: #70798b;
+	border-radius: 10px;
+	box-shadow: 0 0.50em 0 0 #70798b, 0 1em 0 0 #70798b;
+}
+.navigation-portrait .nav-toggle{
+	display: block;
+}
+
+/*=== NAVIGATION MENUS WRAPPER ===========*/
+/*=== (OFFCANVAS PANEL ON MOBILE) ========*/
+.navigation-portrait .nav-menus-wrapper{
+	width: 320px;
+	height: 100%;
+	top: 0;
+	left: -400px;
+	position: fixed;
+	background-color: #fff;
+	z-index: 20000;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	transition-duration: .8s;
+	transition-timing-function: ease;
+}
+
+/* Offcanvas on right side */
+.navigation-portrait .nav-menus-wrapper.nav-menus-wrapper-right{
+	left: auto;
+	right: -400px;
+}
+
+/* Offcanvas open */
+.nav-menus-wrapper.nav-menus-wrapper-open{
+	left: 0;
+}
+.nav-menus-wrapper.nav-menus-wrapper-right.nav-menus-wrapper-open{
+	right: 0;
+}
+
+/* Close button for Offcanvas */
+.nav-menus-wrapper-close-button{
+	width: 30px;
+	height: 40px;
+	margin: 10px 7px;
+	display: none;
+	float: right;
+	color: #70798b;
+	font-size: 26px;
+	cursor: pointer;
+}
+.navigation-portrait .nav-menus-wrapper-close-button{
+	display: block;
+}
+
+/*=== MENUS (FIRST LEVEL) ===============*/
+.nav-menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+.navigation-portrait .nav-menu{
+	width: 100%;
+}
+
+/* Centered menu */
+.navigation-landscape .nav-menu.nav-menu-centered{
+	float: none;
+	text-align: center;
+}
+
+/* Menu itens */
+.nav-menu > li{
+	display: inline-block;
+	float: left;
+	text-align: left;
+}
+.navigation-portrait .nav-menu > li{
+	width: 100%;
+	position: relative;
+	border-top: solid 1px #f0f0f0;
+}
+.navigation-portrait .nav-menu > li:last-child{
+	border-bottom: solid 1px #f0f0f0;
+}
+.nav-menu + .nav-menu > li:first-child{
+	border-top: none;
+}
+
+/* Menu items in centered menus */
+.navigation-landscape .nav-menu.nav-menu-centered > li{
+	float: none;
+}
+
+/* Menu links */
+.nav-menu > li > a{
+	height: 70px;
+	padding: 26px 15px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 14px;
+	color: #70798b;
+	transition: color .3s, background .3s;
+}
+.navigation-portrait .nav-menu > li > a{
+	height: auto;
+}
+.nav-menu > li:hover > a,
+.nav-menu > .active > a,
+.nav-menu > .focus > a{
+	color: #A0D468;
+}
+.navigation-portrait .nav-menu > li > a{
+	width: 100%;
+	padding: 12px 15px 12px 26px;
+}
+
+/* Menu item with icons and text */
+.nav-menu > li > a > i,
+.nav-menu > li > a > [class*="ion-"]{
+	width: 18px;
+	height: 16px;
+	line-height: 16px;
+	-ms-transform: scale(1.4);
+	transform: scale(1.4);
+}
+.nav-menu > li > a > [class*="ion-"]{
+	width: 16px;
+	display: inline-block;
+	transform: scale(1.8);
+}
+
+/* Menu item with social icons */
+.navigation-portrait .nav-menu.nav-menu-social{
+	width: 100%;
+	text-align: center;
+}
+.nav-menu.nav-menu-social > li{
+	text-align: center;
+	float: none;
+	border: none !important;
+}
+.navigation-portrait .nav-menu.nav-menu-social > li{
+	width: auto;
+}
+.nav-menu.nav-menu-social > li > a > [class*="ion-"]{
+	font-size: 12px;
+}
+.nav-menu.nav-menu-social > li > a > .fa{
+	font-size: 14px;
+}
+.navigation-portrait .nav-menu.nav-menu-social > li > a {
+	padding: 15px;
+}
+
+/*=== SUBMENU INDICATORS ================*/
+.submenu-indicator{
+	margin-left: 6px;
+	margin-top: 6px;
+	float: right;
+	transition: all .3s;
+}
+.navigation-portrait .submenu-indicator{
+	width: 54px;
+	height: 44px;
+	margin-top: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	z-index: 20000;
+}
+
+/* Chevron icon */
+.submenu-indicator-chevron{
+	height: 6px;
+	width: 6px;
+	display: block;
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	border-color: transparent #70798b #70798b transparent;
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	transition: border .3s;
+}
+.navigation-portrait .submenu-indicator-chevron{
+	position: absolute;
+	top: 18px;
+	left: 24px;
+}
+
+.nav-menu > li:hover > a .submenu-indicator-chevron,
+.nav-menu > .active > a .submenu-indicator-chevron,
+.nav-menu > .focus > a .submenu-indicator-chevron{
+	border-color: transparent #A0D468 #A0D468 transparent;
+}
+
+/* Indicator to up */
+.navigation-portrait .submenu-indicator.submenu-indicator-up{
+	-ms-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+
+/*=== OVERLAY PANEL =====================*/
+.nav-overlay-panel{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: none;
+	z-index: 19999;
+}
+
+/* Prevent scrolling on body */
+.no-scroll{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/****************************************
+*****************************************
+ADITIONAL STYLES
+Check the features below and delete the
+styles that you are not using
+*****************************************
+****************************************/
+
+/*=== SEARCH PANEL ====================*/
+.nav-search{
+	height: 70px;
+	float: right;
+	z-index: 19998;
+}
+.navigation-portrait .nav-search{
+	height: 48px;
+	padding: 0 10px;
+	margin-right: 52px;
+}
+
+/* Search in hidden navigation */
+.navigation-hidden .nav-search{
+	display: none;
+}
+
+/* Search button */
+.nav-search-button{
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #fbfcfd;
+}
+
+/* Search icon */ 
+.nav-search-icon{
+	width: 14px;
+    height: 14px;
+	margin: 2px 8px 8px 4px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    color: #70798b;
+    text-align: left;
+    text-indent: -9999px;
+	border: 2px solid;
+	border-radius: 50%;
+	-webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+	transition: color .3s;
+}
+.nav-search-icon:after, 
+.nav-search-icon:before {
+    content: '';
+    pointer-events: none;
+}
+.nav-search-icon:before {
+    width: 2px;
+    height: 11px;
+    top: 11px;
+	position: absolute;
+    left: 50%;
+	border-radius: 0 0 1px 1px;
+	box-shadow: inset 0 0 0 32px;
+	transform: translateX(-50%);
+}
+.nav-search-button:hover .nav-search-icon{
+	color: #A0D468;
+}
+.navigation-portrait .nav-search-button{
+	width: 50px;
+	height: 48px;
+	line-height: 46px;
+	font-size: 22px;
+}
+
+/* Form */
+.nav-search > form{
+	width: 100%;
+	height: 100%;
+	padding: 0 auto;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+	z-index: 99;
+}
+.nav-search-inner{
+	width: 70%;
+	height: 70px;
+	margin: auto;
+	display: table;
+}
+.navigation-portrait .nav-search-inner{
+	height: 48px;
+}
+
+.nav-search-inner input[type=text],
+.nav-search-inner input[type=search]{
+	height: 70px;
+	width: 100%;
+	margin: 0;
+	padding: 0 12px;
+	font-size: 26px;
+	text-align: center;
+	color: #70798b;
+	outline: none;
+	line-height: 70px;
+	border: none;
+	background-color: transparent;
+	transition: all .3s;
+}
+.navigation-portrait .nav-search-inner input[type=text],
+.navigation-portrait .nav-search-inner input[type=search]{
+	height: 48px;
+	font-size: 18px;
+	line-height: 48px;
+}
+
+/* Close button for search form */
+.nav-search-close-button{
+	width: 28px;
+	height: 28px;
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	line-height: normal;
+	color: #70798b;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+.navigation-portrait .nav-search-close-button{
+	top: 10px;
+	right: 14px;
+}
+
+/*=== NAVIGATION BUTTON ================*/
+.nav-button{
+	margin: 18px 15px 0;
+	padding: 8px 14px;
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+	background-color: #A0D468;
+	transition: opacity .3s;
+}
+.nav-button:hover,
+.nav-button:focus{
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.85;
+}
+.navigation-portrait .nav-button{
+	width: calc(100% - 52px);
+	margin: 17px 26px;
+}
+
+/*=== NAVIGATION TEXT ==================*/
+.nav-text{
+	margin: 25px 15px;
+	display: inline-block;
+	color: #70798b;
+	font-size: 14px;
+}
+.navigation-portrait .nav-text{
+	width: calc(100% - 52px);
+	margin: 12px 26px 0;
+}
+.navigation-portrait .nav-text + ul{
+	margin-top: 15px;
+}
+

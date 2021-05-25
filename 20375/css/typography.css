@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+@font-face {
+  font-family: RifficFree;
+  src: url(../fonts/RifficFree-Bold.ttf);
+}
+/*
+    font-family: 'Lato', sans-serif;
+    font-family: RifficFree;
+*/
+
+html, body {
+    height: 100%;
+    outline: none; 
+}
+body {
+    background: #fff;
+    font-size: 14px;
+    color: #757575;
+    font-family: 'Lato', sans-serif;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: RifficFree;
+    color: #212121;
+    font-weight: 800;
+    line-height: 1.4;
+}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+    color: #212121;
+    font-family: RifficFree;
+}
+div{
+    outline: none;
+}
+p a {
+    color: #212121;
+}
+p a:hover {
+    text-decoration: underline;
+    outline: none;
+}
+p{
+    letter-spacing: normal;
+    margin: 0 0 20px;
+    line-height: 26px;
+    color: #8e8e98;
+}
+a {
+    color: #292f35;
+    outline: none !important;
+}
+a:hover, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    outline: none;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+iframe {
+    border: 0;
+    width: 100%;
+}
+button {
+    background: none;
+}
+blockquote {
+    padding: 0;
+    border: 0;
+}
+label {
+    display: block;
+    font-weight: 400;
+    margin: 0;
+}
+textarea {
+    border-radius: 0;
+    resize: none;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], input, .form-control {
+    width: 100%;
+    border-radius: 5px;
+    background: none;
+    padding: 0 20px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    box-shadow: none;
+    text-transform: capitalize;
+}
+::-webkit-input-placeholder {color: #bdbdbd; opacity: 1;}
+:-moz-placeholder { color: #bdbdbd; opacity: 1; }
+::-moz-placeholder { color: #bdbdbd; opacity: 1; }
+:-ms-input-placeholder {color: #bdbdbd; opacity: 1;}
+
+.white_ph::-webkit-input-placeholder {color: #ffffff; opacity: 1;}
+.white_ph:-moz-placeholder { color: #ffffff; opacity: 1; }
+.white_ph::-moz-placeholder { color: #ffffff; opacity: 1; }
+.white_ph:-ms-input-placeholder {color: #ffffff; opacity: 1;}

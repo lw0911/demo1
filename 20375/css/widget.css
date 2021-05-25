@@ -1,0 +1,522 @@
+/**
+=============================================================
+[Main Stylesheet]
+
+Template:     Wonderland
+Version:      1.0
+Created:      26.04.2019
+Primary use:  Wonderland - Kid Multipurpose Template
+
+@Author: kode4everyone
+
+* This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+====================[Table of contents]======================
+
+* 1.0 - Footer css start
+* 2.0 - Copyright css start
+* 3.0 - Aside Heading css start
+* 4.0 - Aside outer wrap css start
+* 5.0 - Aside Search css start
+* 6.0 - Aside Category css start
+* 7.0 - Aside Tags css start
+* 8.0 - Aside Recent Post css start
+* 9.0 - Aside Event Organizer css start
+* 10.0 - Aside Filters wrap css start
+* 11.0 - Newsletter css start
+* 12.0 - Have a Question css start
+
+[Color codes]
+
+Background:	#ffffff (White)
+Content:	#757575 (Light Gray)
+Header h1:	#212121 (Grey Black)
+Header h2:	#212121 (Black)
+Footer:		#3f51b5 (Blue)
+
+a (standard):	#212121 (Black)
+a (visited):	#212121 (Black)
+a (active):	#212121 (Black)
+
+[Typography]
+  
+Body copy:		14px/ 'Lato', sans-serif;
+Headers:		'RifficFree', sans-serif;
+Input, textarea:	'Lato', sans-serif;
+
+=============================================================
+**/
+
+/*
+  ==============================================================
+    Footer css start
+  ==============================================================
+*/
+.keo_footer_bg{
+	position: relative;
+	padding: 96px 0px 60px;
+	background-image: url('../extra-images/banner-02.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.keo_footer_bg:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.9);
+}
+.keo_foo_widget{
+	margin-bottom: 40px;
+}
+.widget_hdg{
+	font-size: 24px;
+    color: #ffffff;
+    padding-bottom: 25px;
+    margin-bottom: 32px;
+}
+.widget_hdg:before{
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 30px;
+	height: 3px;
+	background-color: #ffffff;
+}
+/*Col 1*/
+.keo_foo_about{
+
+}
+.keo_foo_about>p{
+	
+}
+.keo_foo_about>img{
+	margin-top: 10px;
+}
+/*Col 2*/
+ul.keo_post_list{
+	list-style: none;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+ul.keo_post_list>li{
+	margin-bottom: 20px;
+}
+ul.keo_post_list>li:last-child{
+	margin-bottom: 0px;
+}
+.keo_post_fig{
+
+}
+.keo_post_fig>figure{
+	border-radius: 5px;
+	overflow: hidden;
+	width: 100px;
+}
+.keo_post_fig>figure>img{
+
+}
+.keo_post_text{
+	padding-left: 115px;
+	padding-top: 5px;
+}
+.keo_post_text>p{
+	margin: 0px 0px 8px;
+	line-height: 22px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.keo_post_text>span{
+	color: #ffffff;
+}
+/*Col 3*/
+.keo_foo_feature>p{
+	margin-bottom: 25px;
+}
+.keo_foo_feature>ul{
+	list-style: none;
+	margin-bottom: 40px;
+}
+.keo_foo_feature>ul>li{
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.keo_foo_feature>ul>li:last-child{
+	margin-bottom: 0px;
+}
+.keo_foo_feature>ul>li>i{
+	margin-right: 10px;
+	vertical-align: middle;
+}
+/*
+  ==============================================================
+    Copyright css start
+  ==============================================================
+*/
+.keo_copyright_bg{
+	padding: 40px 0px 35px;
+}
+.keo_social_link{
+	list-style: none;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+.keo_social_link li a{
+	color: #ffffff;
+	margin-left: 6px;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #ffffff;
+	border-radius: 100%;
+}
+.keo_social_link li a:hover{
+	color: #ffffff;
+}
+/*
+  ==============================================================
+    Aside Heading css start
+  ==============================================================
+*/
+.keo_aside_hdg{
+	font-size: 18px;
+	min-height: 50px;
+	padding: 0px 20px;
+	border-radius: 5px;
+}
+/*
+  ==============================================================
+    Aside outer wrap css start
+  ==============================================================
+*/
+.keo_aside_outer{
+	padding-left: 20px;
+}
+.keo_aside_pdg{
+	padding: 10px 15px 0px;
+}
+.keo_aside_outer_right{
+	padding-right: 20px;
+}
+/*
+  ==============================================================
+    Aside Search css start
+  ==============================================================
+*/
+.keo_aside_search form {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.keo_aside_search form input[type="text"] {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    height: 44px;
+    padding: 5px 50px 8px 15px;
+    outline: none;
+}
+.keo_aside_search form button {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #ffffff;
+    border: 0px;
+    cursor: pointer;
+}
+.keo_payment_plan>h6{
+	font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+/*Hover*/
+.keo_aside_search form input[type="text"]:focus+button, 
+.keo_aside_search form button:hover {
+    background-color: #343434;
+}
+/*
+  ==============================================================
+    Aside Category css start
+  ==============================================================
+*/
+.categories_list{
+	margin: 0px 0px;
+}
+.categories_list li{
+	list-style: none;
+	margin-bottom: 18px;
+}
+.categories_list li:last-child{
+	margin-bottom:0px;
+}
+.categories_list li a{
+	display: block;
+	color: #757575;
+}
+.categories_list li a span{
+	display: inline-block;
+	margin-left: 15px;
+	color: #bdbdbd;
+}
+.categories_list li:hover a{
+	padding: 0px 5px;
+}
+/*
+  ==============================================================
+    Aside Tags css start
+  ==============================================================
+*/
+.keo_aside_tags{
+
+}
+.keo_aside_tags ul{
+	list-style: none;
+	margin-bottom: 0px;
+}
+.keo_aside_tags ul li{
+
+}
+.keo_aside_tags ul li a{
+	display: inline-block;
+	border-radius: 5px;
+	padding: 5px 18px;
+	margin-bottom: 8px;
+	background-color: #f3f3f3;
+	color: #757575;
+}
+.keo_aside_tags ul li a:hover{
+	color: #ffffff;
+}
+/*
+  ==============================================================
+    Aside Recent Post css start
+  ==============================================================
+*/
+.keo_aside_recent_post .keo_aside_pdg{
+	padding: 10px 15px 0px;
+}
+.keo_aside_recent_post .keo_post_text{
+	padding-top: 0px;
+}
+.keo_aside_recent_post .keo_post_text>a{
+	font-weight: bold;
+}
+.keo_aside_recent_post .keo_post_text>i{
+	font-size: 12px;
+}
+/*
+  ==============================================================
+    Aside Event Organizer css start
+  ==============================================================
+*/
+.keo_event_aside{
+
+}
+.keo_event_aside{
+	list-style: none;
+}
+.keo_event_aside>li{
+	margin-bottom: 15px;
+}
+.keo_event_aside>li:last-child{
+	margin-bottom: 0px;
+}
+.keo_event_aside>li .hdg{
+	color: #212121;
+	font-weight: bold;
+	width: 72px;
+	vertical-align: top;
+}
+.keo_event_aside>li .desc{
+	width: calc(100% - 76px);
+	padding-left: 10px;
+	margin-bottom: 0px;
+	word-break: break-all;
+}
+/*
+  ==============================================================
+    Aside Filters wrap css start
+  ==============================================================
+*/
+.keo_filter_aside_hdg{
+	font-size: 18px;
+	min-height: 50px;
+	padding: 0px 20px;
+	border-radius: 5px 5px 0px 0px;	
+}
+.aside_sub_hdg{
+	background-color: #c5cae9;
+	min-height: 40px;
+	padding: 0px 25px;
+	color: #212121;
+}
+/*Checkbox Style*/
+.keo_class_filter_wrap{
+	background-color: #f9f9f9;
+	border-radius: 0px 0px 5px 5px;
+}
+.aside_filter_list>ul{
+	list-style: none;
+	padding: 0px 25px;
+}
+.aside_filter_list>ul>li{
+	padding: 20px 0px 0px;
+}
+/* Customize the label (the keo_chkbox) */
+.keo_chkbox {
+	display: block;
+	position: relative;
+	padding-left: 28px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.keo_chkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #bdbdbd;
+    border-radius: 2px;
+    bottom: 0px;
+	margin: auto;
+}
+
+/* On mouse-over, add a grey background color */
+.keo_chkbox:hover input ~ .checkmark {
+	background-color: #eee;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+.keo_chkbox input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+.keo_chkbox .checkmark:after {
+  	left: 5px;
+    top: 1px;
+    width: 4px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*
+  ==============================================================
+    Newsletter css start
+  ==============================================================
+*/
+.keo_newsletter_wrap{
+	border-radius: 14px;
+	padding: 35px 25px;
+}
+.newsletter_hdg{
+	margin-bottom: 15px;
+}
+.newsletter_des{
+
+}
+.newsletter_des>img{
+	margin-bottom: 15px;
+}
+.newsletter_des>p{
+	color: #c5cae9;
+}
+.newsletter_des>form{
+
+}
+.newsletter_des>form>input[type="text"]{
+	min-height: 50px;
+	border-radius: 4px;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+}
+.newsletter_des>form>button{
+	width: 100%;
+	min-height: 46px;
+	line-height: 46px;
+	border: 2px solid;
+	color: #ffffff;
+	border: 2px solid;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.newsletter_des>form>button:hover{
+	 background-color: transparent;
+}
+.newsletter_des>i{
+
+}
+/*
+  ==============================================================
+    Have a Question css start
+  ==============================================================
+*/
+.keo_question_wrap{
+	background-color: #e7886d;
+	border-radius: 14px;
+	padding: 35px 25px;
+}
+.question_hdg{
+	margin-bottom: 15px;
+}
+.question_des>img{
+	margin-bottom: 15px;
+}
+.question_des>form{
+
+}
+.question_des>form>input[type="text"]{
+	min-height: 50px;
+	border-radius: 4px;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+}
+.question_des>form>button{
+	width: 100%;
+	min-height: 46px;
+	line-height: 46px;
+	border: 2px solid;
+	color: #ffffff;
+	border: 2px solid;
+	border-radius: 4px;
+	cursor: pointer;
+	border: 2px solid #ffffff;
+}
+.question_des>form>button:hover{
+	 background-color: #ffffff;
+	 color: #212121;
+}

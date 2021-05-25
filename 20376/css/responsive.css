@@ -1,0 +1,3108 @@
+/************************************************
+[Responsive Stylesheet]
+
+Project Name    : StartUp
+Team & Company  : Fairdeal Lab
+Desgined By     : Faridul Haq
+Developed By    : AB Belal
+Date            : 19th April 2017 
+*************************************************/
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*================================================================
+                        start Home page style
+    ==================================================================*/
+    /*-----header section-----*/
+    .startUp_menu .menuzord {
+        padding: 0;
+    }
+    .startUp_menu .menuzord-menu>li>a,
+    .sticked .startUp_menu .menuzord-menu>li>a {
+        padding: 30px 18px;
+    }
+    .sticked .startUp_menu .menuzord-brand {
+        margin: 28px 30px 0 0;
+    }
+    /*------about section--------*/
+    .about_section .single_box {
+        padding: 0 10px;
+    }
+    /*-----service section------*/
+    .single_service a.read_more i {
+        left: 65%;
+        top: 5px;
+    }
+    .single_service a.read_more:hover i {
+        left: 67%;
+    }
+    /*================================================================
+                        end Home page style
+    ==================================================================*/
+    /*================================================================
+                        start service page style
+    ==================================================================*/
+    .demolink_section .alignment_row h3 {
+        width: 50%;
+    }
+    /*---------service page version-2---------*/
+    .all_service_section_v2 .single_service {
+        width: 30.169%;
+        padding: 30px 20px;
+    }
+    .all_service_section_v2 .single_service i:not(.fa) {
+        font-size: 80px;
+    }
+    .service_msg_section input[type="text"],
+    .service_msg_section input[type="email"] {
+        width: 47.5%;
+    }
+    /*---------service page version-3---------*/
+    .all_service_section_v3 .single_service {
+        padding: 0;
+        width: 33.33333%;
+    }
+    .all_service_section_v3 .service_content {
+        padding: 40px 30px;
+    }
+    .c2action_section h3 {
+        width: 80%;
+    }
+    /*-----------service page version-4------------*/
+    .all_service_section_v4 .single_service {
+        padding: 30px 20px;
+        width: 21.869%;
+        height: 240px;
+    }
+    /*================================================================
+                        end service page style
+    ==================================================================*/
+    /*================================================================
+                        Start home page version-2 style
+    ==================================================================*/
+    .hero_area_v2 .hero_content_v2 {
+        padding: 67px 38px;
+    }
+    .stats_section .section_title h3 {
+        width: 50%;
+    }
+    .stats_section .single_state_wrapper .stats {
+        width: 44.3%;
+    }
+    /*-------version-3----------*/
+    .hero_area_v3 .iPhone img {
+        margin-top: 50px;
+    }
+    .alignment_middleLeft li {
+        width: 47%;
+    }
+    .hero_area_v3 .alignment_middleLeft li a img {
+        width: 100%;
+    }
+    /*================================================================
+                        end home page version-2 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-4 style
+    ==================================================================*/
+    .access_link {
+        margin-top: 6px;
+    }
+    .catagory_section .catagory_wrapper {
+        padding: 0;
+    }
+    .courseTab_section .tabNav {
+        width: 72%;
+    }
+    .footer_widget_v3 .footer_menu li {
+        margin-left: 13px;
+    }
+    /*================================================================
+                        End Home page version-4 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-5 style
+    ==================================================================*/
+    .contact_section .contact_form input {
+        width: 48.3%;
+    }
+    /*================================================================
+                        End Home page version-5 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-6 style
+    ==================================================================*/
+    .drone_service_section .single_service {
+        padding: 40px 30px;
+    }
+    /*================================================================
+                        End Home page version-6 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-7 style
+    ==================================================================*/
+    .service_section_v7 .single_service {
+        padding-right: 20px;
+    }
+    .experience_section .title {
+        width: 70%;
+    }
+    .experience_section .tab-pane .tab_text {
+        padding: 0 25px;
+    }
+    .work_section .work_wrapper .single_work {
+        margin-left: 230px;
+        width: 30.33%;
+    }
+    .work_section .work_wrapper .single_work:nth-child(2) {
+        margin-top: 28px;
+    }
+    /*================================================================
+                        End Home page version-7 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-8 style
+    ==================================================================*/
+    .case_study_wrapper_8 .owl-dots {
+        margin-top: 30px;
+    }
+    /*================================================================
+                        End Home page version-8 style
+    ==================================================================*/
+    /*================================================================
+                        start portfolio_2 page style
+    ==================================================================*/
+    .portfolio_v2 .work_wrapper .single_work {
+        margin-left: 30px;
+        width: 46.23%;
+    }
+    .portfolio_v2 .work_wrapper .single_work:nth-child(2) {
+        margin-top: 0px;
+    }
+    /*================================================================
+                        End portfolio_3 page style
+    ==================================================================*/
+    /*================================================================
+                        start portfolio_3 page style
+    ==================================================================*/
+    .portfolio_v3 .work_wrapper {
+        margin-left: 0px;
+    }
+    .portfolio_v3 .work_wrapper .single_work {
+        margin-bottom: 94px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .portfolio_v3 .work_wrapper .single_work h4 a {
+        width: 40%;
+    }
+    /*================================================================
+                        End portfolio_2 page style
+    ==================================================================*/
+    /*================================================================
+                        Start about page style
+    ==================================================================*/
+    .about_block1_section h3 {
+        width: 85%;
+    }
+    .about_block2_section .single_block {
+        width: 40.6%;
+    }
+    /*================================================================
+                        End about page style
+    ==================================================================*/
+    /*================================================================
+                        Start feature page style
+    ==================================================================*/
+    .banner_content p.color_dd {
+        margin: 0 auto;
+        width: 45%;
+    }
+    .feature_tab_menu li {
+        width: 24.5%;
+    }
+    .feature_content_wrapper.twoCol {
+        margin-left: -120px;
+    }
+    .twoCol .single_feature_content {
+        margin-left: 120px;
+        width: 38.6%;
+    }
+    .threeCol .single_feature_content {
+        width: 30.2%;
+    }
+    /*================================================================
+                        End feature page style
+    ==================================================================*/
+    /*================================================================
+                        start client page-1 style
+    ==================================================================*/
+    .client_page_v1 ul li {
+        width: 17.4%;
+    }
+    .client_page_v2 ul li {
+        width: 30.7%;
+    }
+    /*================================================================
+                        End client page-1 style
+    ==================================================================*/
+    /*================================================================
+                        start contact page-1 style
+    ==================================================================*/
+    .contactPage_section form .name,
+    .contactPage_section form .email {
+        width: 47.9%;
+    }
+    .contactPage2_section form .name,
+    .contactPage2_section form .email {
+        width: 47.2%;
+    }
+    /*------contact page-3-------*/
+    .contactPage3_section ul li a .office_name {
+        padding: 17px 22px;
+    }
+    .contactPage3_section .tab-pane .office_name ul>li:first-child {
+        width: 56%;
+    }
+    .contactPage3_section .tab-pane .map_area {
+        margin-left: 40px;
+    }
+    /*================================================================
+                        End contact page-1 style
+    ==================================================================*/
+}
+
+
+/*only for 0-991px device*/
+
+@media (max-width: 991px) {
+    /*-----responsive menu------- */
+    .nav-toggle::before {
+        background-color: #fff;
+        box-shadow: 0 0.5em 0 0 #fff, 0 1em 0 0 #fff;
+    }
+    .header_v7 .nav-toggle::before,
+    .header_v4 .nav-toggle::before,
+    .header_v5 .nav-toggle::before {
+        background-color: #222;
+        box-shadow: 0 0.5em 0 0 #222, 0 1em 0 0 #222;
+    }
+    #header {
+        padding: 10px 0;
+    }
+    .header_v4.service .startUp_menu li>a:hover,
+    .header_v4.service .startUp_menu li.active>a {
+        border-bottom: none;
+    }
+    .header_v4.service .startUp_menu .nav-menu>li>a {
+        padding: 12px 15px 12px 26px;
+    }
+}
+
+
+/*---end 0-991px media query---*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*================================================================
+                        start Home page style
+    ==================================================================*/
+    /*------slider section----------*/
+    .Modern-Slider .item h3 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .Modern-Slider .NextArrow {
+        right: 30px;
+    }
+    .Modern-Slider .PrevArrow {
+        left: 30px;
+    }
+    /*----customar brand section----*/
+    .customer_brand_section .brand_txt {
+        font-size: 25px;
+    }
+    /*-----about section------*/
+    .about_section .single_box {
+        width: 60%;
+        margin: 0 auto 50px;
+    }
+    /*------testimonial section------*/
+    .testimonial_section .single_testimonial>p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    /*------service section--------*/
+    .project_collups_wrapper {
+        display: none;
+    }
+    .single_service {
+        margin: 0 auto 75px;
+        width: 55%;
+    }
+    .single_service a.read_more i {
+        left: 62%;
+        top: 5px;
+    }
+    .single_service a.read_more:hover i {
+        left: 63%;
+    }
+    /*------case study section--------*/
+    .case_study_content {
+        position: relative;
+        z-index: 1;
+    }
+    .case_study_img {
+        right: 15px;
+        top: 10px;
+        width: 47%;
+        z-index: 0;
+    }
+    /*--social icon section-----*/
+    .social_icon_section .icon_wrapper a {
+        padding: 10px 50px;
+    }
+    /*================================================================
+                        end Home page style
+    ==================================================================*/
+    /*================================================================
+                        start service page style
+    ==================================================================*/
+    .service_page_banner .banner_content h2 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .all_service_section .single_service {
+        width: 100%;
+    }
+    .all_service_section .single_service i:not(.fa) {
+        font-size: 50px;
+        margin-top: 0;
+    }
+    .demolink_section .alignment_row h3 {
+        width: 60%;
+        font-size: 27px;
+        line-height: 37px;
+    }
+    .demo_link {
+        padding: 15px 32px;
+        width: 200px;
+    }
+    /*---------service page version-2---------*/
+    .all_service_section_v2 .single_service {
+        width: 45.969%;
+        padding: 45px 25px;
+    }
+    .all_service_section_v2 .single_service i:not(.fa) {
+        font-size: 80px;
+    }
+    .service_msg_section input[type="text"],
+    .service_msg_section input[type="email"] {
+        width: 47.9%;
+        font-size: 16px;
+    }
+    .service_msg_section textarea {
+        font-size: 16px;
+    }
+    /*---------service page version-3---------*/
+    .all_service_section_v3 .single_service {
+        padding: 0;
+        width: 33.333333333%;
+    }
+    .all_service_section_v3 .service_content {
+        padding: 40px 30px;
+    }
+    .c2action_section h3 {
+        width: 80%;
+        font-size: 29px;
+        line-height: 40px;
+        margin: 0 auto 35px;
+    }
+    /*-----------service page version-4-------------*/
+    .service_details_section {
+        overflow: hidden;
+    }
+    .service_details_wrapper {
+        flex-flow: row wrap;
+    }
+    .service_details_section .sigle_block {
+        height: 165px;
+        width: 162px;
+    }
+    .service_details_wrapper>a {
+        margin-right: 30px;
+    }
+    /*================================================================
+                        end service page style
+    ==================================================================*/
+    /*================================================================
+                        start home page version-2 style
+    ==================================================================*/
+    .about_section_v2 .single_block {
+        float: left;
+        margin-left: 60px;
+        width: 45.8%;
+    }
+    .about_section_v2 .single_block:first-child {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .about_section_v2 img.img {
+        margin: 0 auto;
+    }
+    .stats_section .section_title h3 {
+        width: 70%;
+    }
+    .testimonial_section_v3 .single_testimonial img {
+        height: 138px;
+        width: 175px;
+    }
+    .testimonial_section_v3 .single_testimonial {
+        margin-bottom: 50px;
+    }
+    .client_section .client_title.color_16 {
+        text-align: center;
+    }
+    .footer_widget_v2 .social_icon a {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    .footer_widget_v2 .contact li {
+        margin: 0 20px;
+    }
+    /*-------version-3----------*/
+    .hero_area_v3 .alignment_middleLeft h1 {
+        font-size: 46px;
+        line-height: 55px;
+        margin: 40px 0 15px;
+    }
+    .hero_area_v3 .iPhone img {
+        margin-top: 40px;
+    }
+    .alignment_middleLeft li {
+        width: 47%;
+    }
+    .hero_area_v3 .alignment_middleLeft li a img {
+        width: 100%;
+    }
+    /*================================================================
+                        end home page version-2 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-4 style
+    ==================================================================*/
+    #category_fixed.sticked {
+        padding: 25px 0;
+    }
+    .course_fact_section {
+        padding: 90px 0 50px;
+    }
+    .access_link {
+        margin-top: 6px;
+    }
+    .topCourse_section {
+        margin-top: 117px;
+    }
+    .catagory_section {
+        padding: 25px 0;
+    }
+    .catagory_section .catagory_wrapper {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .catagory_section .catagory_wrapper li {
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    .course_fact_section .single_course_fact {
+        margin-bottom: 40px;
+    }
+    .catagory_section .catagory_wrapper {
+        padding: 0;
+    }
+    .courseTab_section .tabNav {
+        width: 100%;
+    }
+    .footer_widget_v3 .footer_menu li {
+        margin-left: 13px;
+    }
+    /*================================================================
+                        End Home page version-4 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-5 style
+    ==================================================================*/
+    .car_feature_section {
+        background-size: cover;
+        background-position: center center;
+    }
+    .single_service.diesel_repair.text-center {
+        margin-top: 0px;
+    }
+    .testimonial_wrapper_v5.text-center {
+        padding: 50px 50px;
+    }
+    .widget_menu.text-center a {
+        margin: 0 15px;
+    }
+    /*================================================================
+                        End Home page version-5 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-6 style
+    ==================================================================*/
+    .drone_service_section {
+        padding: 90px 0;
+    }
+    .drone_service_section .single_service {
+        padding: 40px 30px;
+        width: 100%;
+    }
+    .drone_video_section .video_content {
+        align-items: center;
+    }
+    .newsletter_section .newsletter_content {
+        align-items: center;
+    }
+    .newsletter_section .newsletter_content h3 {
+        text-align: center;
+    }
+    .cmn_z {
+        margin-bottom: 270px;
+    }
+    /*================================================================
+                        End Home page version-6 style
+    ==================================================================*/
+    /*================================================================
+                        start Home page version-7 style
+    ==================================================================*/
+    header.header_v7 {
+        position: relative;
+        z-index: 9899;
+        padding: 15px 0;
+    }
+    .hero_area_v7 .banner_content {
+        margin-top: -140px;
+    }
+    .service_section_v7 .service_wrapper {
+        padding: 30px;
+        margin-bottom: 100px;
+        margin-top: -167px;
+    }
+    .service_section_v7 .single_service {
+        padding-right: 20px;
+        width: 100%;
+    }
+    .experience_section .title {
+        width: 80%;
+    }
+    .experience_section .tab-pane .tab_text {
+        padding: 0 25px;
+    }
+    .client_section h3.title {
+        width: 100%;
+    }
+    .work_section {
+        padding: 85px 0 0;
+    }
+    .work_section .work_wrapper {
+        margin-left: -150px;
+    }
+    .work_section .work_wrapper .single_work {
+        margin-left: 150px;
+        width: 32.73%;
+    }
+    /*================================================================
+                        End Home page version-7 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-8 style
+    ==================================================================*/
+    .banner_content_v8 .title h1 {
+        font-size: 130px;
+        line-height: 85px;
+    }
+    .banner_content_v8 .title h1 span {
+        font-size: 75px;
+    }
+    .about_section_v8 {
+        padding: 80px 0;
+    }
+    .about_section_v8 .about_title h3 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .about_section_v8 .about_title h3::before {
+        height: 200px;
+        width: 200px;
+    }
+    .case_study_section_v8 {
+        padding: 70px 0 70px;
+    }
+    .case_study_wrapper_8 .owl-dots {
+        margin-top: 30px;
+        text-align: center;
+    }
+    /*================================================================
+                        End Home page version-8 style
+    ==================================================================*/
+    /*================================================================
+                        start portfolio_2 page style
+    ==================================================================*/
+    .portfolio_v2 .work_wrapper {
+        margin-left: -30px;
+    }
+    .portfolio_v2 .work_wrapper .single_work {
+        margin-left: 30px;
+        width: 45.93%;
+    }
+    .portfolio_v2 .work_wrapper .single_work:nth-child(2) {
+        margin-top: 0px;
+    }
+    .portfolio_v2 .work_wrapper .single_work h4 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    /*================================================================
+                        End portfolio_2 page style
+    ==================================================================*/
+    /*================================================================
+                        Start portfolio_3 page style
+    ==================================================================*/
+    .portfolio_v3 .work_wrapper {
+        margin-left: 0px;
+    }
+    .portfolio_v3 .work_wrapper .single_work {
+        margin-bottom: 70px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .portfolio_v3 .work_wrapper .single_work h4 a {
+        width: 51%;
+    }
+    /*================================================================
+                        End portfolio_3 page style
+    ==================================================================*/
+    /*================================================================
+                        Start about page style
+    ==================================================================*/
+    .about_block1_section .block_wrapper {
+        display: block;
+        margin-left: 0;
+    }
+    .about_block1_section h3 {
+        width: 55%;
+    }
+    .about_block1_section .single_block {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .about_block1_section .single_block:last-child {
+        margin-bottom: 0px;
+    }
+    .about_block2_section .block_wrapper {
+        margin-left: 0px;
+    }
+    .about_block2_section .single_block {
+        margin-left: 0;
+        width: 100%;
+    }
+    /*================================================================
+                        End about page style
+    ==================================================================*/
+    /*================================================================
+                        Start feature page style
+    ==================================================================*/
+    .banner_content p.color_dd {
+        width: 60%;
+    }
+    .feature_tab_menu li {
+        width: 24.5%;
+    }
+    .feature_tab_menu li a i {
+        height: 100px;
+        padding: 18px;
+        width: 100px;
+    }
+    .feature_tab_content {
+        padding: 60px 0 35px;
+    }
+    .feature_tab_menu li a h5 {
+        line-height: 22px;
+    }
+    .feature_tab_menu li.active a::before {
+        bottom: -56px;
+    }
+    .feature_content_wrapper.twoCol {
+        margin-left: -30px;
+    }
+    .twoCol .single_feature_content {
+        margin-left: 30px;
+        width: 46%;
+    }
+    .threeCol .single_feature_content {
+        width: 29.3%;
+    }
+    .feature_tab_menu li a.telephone i {
+        padding: 16px 13px 27px 3px;
+    }
+    /*================================================================
+                        End feature page style
+    ==================================================================*/
+    /*================================================================
+                        start client page-1 style
+    ==================================================================*/
+    .client_page_v1 ul li {
+        width: 29.9%;
+    }
+    .clientTestimonial_section .testimonial_content {
+        margin: 0 auto;
+        width: 100%;
+    }
+    /*================================================================
+                        End client page-1 style
+    ==================================================================*/
+    /*================================================================
+                        start contact page-1 style
+    ==================================================================*/
+    .contactPage_section form .name,
+    .contactPage_section form .email {
+        width: 48.2%;
+    }
+    .contactPage2_section {
+        padding: 80px 0 73px;
+    }
+    .office_info2_wrapper {
+        margin-top: 60px;
+    }
+    .contactPage2_section .office_info2_wrapper address {
+        margin-bottom: 0;
+    }
+    .contactPage2_section .office_info2_wrapper>p {
+        padding: 14px 0 15px;
+    }
+    .contactPage2_section .office_info2_wrapper address p {
+        line-height: 28px;
+    }
+    /*------contact page-3-------*/
+    .contactPage3_section ul li a .office_name {
+        padding: 17px 22px;
+    }
+    .office_info3_wrapper .nav_tabs a img {
+        height: 94px;
+    }
+    .contactPage3_section .tab-pane .office_name ul {
+        display: block;
+    }
+    .contactPage3_section .tab-pane .office_name ul>li:first-child {
+        width: 100%;
+    }
+    .contactPage3_section .tab-pane .map_area {
+        margin-left: 40px;
+    }
+    /*================================================================
+                        End contact page-1 style
+    ==================================================================*/
+}
+
+
+/*---end 768-991px media query----*/
+
+@media (min-width: 480px) and (max-width: 767px) {
+    /*================================================================
+                        start Home page style
+    ==================================================================*/
+    .container {
+        width: 460px;
+    }
+    .header_v5 .container,
+    .header_v6 .container {
+        width: 100%;
+    }
+    /*------slider section----------*/
+    .slider_content {
+        width: 100%;
+    }
+    .Modern-Slider .item h3 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .Modern-Slider .item h5 {
+        line-height: 26px;
+    }
+    .Modern-Slider .NextArrow {
+        right: 30px;
+    }
+    .Modern-Slider .PrevArrow {
+        left: 30px;
+    }
+    .Modern-Slider .item .img-fill {
+        height: 500px;
+    }
+    .hero_area_v2,
+    .hero_area_v2 .alignment_middleLeft {
+        height: 500px;
+    }
+    .hero_area_v4 .banner_content {
+        height: 100%;
+        padding: 130px 0;
+    }
+    /*----customar brand section----*/
+    .customer_brand_section .brand_txt {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    /*-----about section------*/
+    .about_section .single_box {
+        width: 100%;
+        margin: 0 auto 50px;
+    }
+    .about_section .section_title {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+    /*------testimonial section------*/
+    .testimonial_section .single_testimonial>p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    /*------service section--------*/
+    .project_collups_wrapper {
+        display: none;
+    }
+    .single_service {
+        margin: 0 auto 75px;
+        width: 100%;
+    }
+    .single_service a.read_more i {
+        left: 61%;
+        top: 6px;
+    }
+    .single_service a.read_more:hover i {
+        left: 61.6%;
+    }
+    .see_all_service a.view_project {
+        margin-left: 25px;
+        padding: 11px 24px;
+    }
+    /*------case study section--------*/
+    .case_study_content {
+        position: relative;
+        z-index: 1;
+    }
+    .case_study_content h3 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .case_study_img {
+        opacity: 0.2;
+        right: 0;
+        top: -260px;
+        width: 55%;
+        z-index: 0;
+    }
+    /*--social icon section-----*/
+    .social_icon_section .icon_wrapper a {
+        font-size: 28px;
+        padding: 10px 28px;
+    }
+    /*-----footer widget-----*/
+    .single_widget {
+        float: left;
+        margin-bottom: 40px;
+        padding-right: 40px;
+        width: 50%;
+    }
+    /*================================================================
+                        end Home page style
+    ==================================================================*/
+    /*================================================================
+                        start service page style
+    ==================================================================*/
+    .service_page_banner .banner_content h2 {
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .all_service_section .single_service {
+        width: 100%;
+        margin-bottom: 42px !important;
+    }
+    .all_service_section .service_content>p {
+        padding: 10px 0 13px;
+    }
+    .all_service_section .single_service i:not(.fa) {
+        font-size: 50px;
+        margin-top: 0;
+    }
+    .support_wrapper {
+        margin: 0 auto;
+        width: 75%;
+    }
+    .demolink_section .alignment_row {
+        align-items: center;
+        display: block;
+        flex-flow: inherit;
+        justify-content: inherit;
+    }
+    .demolink_section .alignment_row h3 {
+        font-size: 27px;
+        line-height: 37px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .demolink_section .demo_link {
+        padding: 15px 32px;
+        display: inline-block;
+        transform: translateX(50%);
+    }
+    /*----------service page version-2 style----------*/
+    .all_service_section_v2 .single_service {
+        margin-left: 15px;
+        padding: 45px 25px;
+        width: 100%;
+    }
+    .all_service_section_v2 .single_service i {
+        /*font-size: 80px;*/
+    }
+    .service_msg_section input[type="text"],
+    .service_msg_section input[type="email"] {
+        width: 100%;
+        font-size: 16px;
+    }
+    .service_msg_section textarea {
+        font-size: 16px;
+    }
+    /*---------service page version-3 style---------*/
+    .all_service_section_v3 .single_service {
+        padding: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    .all_service_section_v3 .service_content {
+        padding: 40px 30px;
+    }
+    .service_image img.img {
+        width: 100%;
+    }
+    .all_service_section_v3 .service_content>p {
+        padding: 10px 0 0;
+    }
+    .c2action_section h3 {
+        width: 100%;
+        font-size: 29px;
+        line-height: 40px;
+        margin: 0 auto 35px;
+    }
+    .c2action_section .demo_link {
+        padding: 15px 32px;
+    }
+    /*-----------service page version-4-------------*/
+    .service_details_section .container {
+        padding: 60px 0;
+    }
+    .service_details_section {
+        overflow: hidden;
+    }
+    .service_details_wrapper {
+        display: block;
+        flex-flow: row wrap;
+        margin-left: -30px;
+    }
+    .service_details_section .sigle_block {
+        height: 165px;
+        width: 100%;
+    }
+    .service_details_wrapper>a {
+        float: left;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        margin-right: 0;
+        width: 43.7%;
+    }
+    .service_details_section h3.service_title {
+        font-size: 27px;
+        line-height: 35px;
+        padding-bottom: 50px;
+    }
+    /*================================================================
+                        end service page style
+    ==================================================================*/
+    /*================================================================
+                        start service details page style
+    ==================================================================*/
+    .with_breadcrumb .banner_content h2 {
+        text-align: left;
+    }
+    .content_block h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .content_block4 .content_wrapper h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .content_block4 .content_wrapper h6 {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .faq_section h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .single_question h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    /*================================================================
+                        end service details page style
+    ==================================================================*/
+    /*================================================================
+                        start home page version-2 style
+    ==================================================================*/
+    .hero_area_v2 .hero_content_v2 {
+        padding: 45px 35px;
+    }
+    .hero_area_v2 .hero_content_v2 h1 {
+        font-size: 47px;
+        line-height: 58px;
+        text-align: center;
+    }
+    .hero_content_v2 p.color_white {
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+    }
+    .about_section_v2 .single_block {
+        float: left;
+        margin-left: 36px;
+        width: 45.8%;
+    }
+    .about_section_v2 .section_title h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    .about_section_v2 .single_block:first-child {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .about_section_v2 img.img {
+        margin: 0 auto;
+    }
+    .stats_section .section_title h3 {
+        font-size: 30px;
+        width: 100%;
+        line-height: 34px;
+    }
+    .stats_section .single_state_wrapper .stats {
+        margin: 0 auto 30px;
+        float: none;
+        text-align: center;
+        width: 64.6%;
+    }
+    .single_state_wrapper .stats h4 {
+        font-size: 20px;
+        line-height: 25px;
+        padding-bottom: 4px;
+    }
+    .cta_section .content_wrapper {
+        display: block;
+        text-align: center;
+    }
+    .cta_section .content_wrapper .cta_content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .testimonial_section_v3 .single_testimonial img {
+        height: 138px;
+        width: 175px;
+    }
+    .testimonial_section_v3 .single_testimonial {
+        margin-bottom: 50px;
+    }
+    .client_section .client_title.color_16 {
+        text-align: center;
+    }
+    .footer_widget_v2 .social_icon a {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    .footer_widget_v2 .contact li {
+        margin: 0 20px;
+    }
+    .single_widget {
+        float: none;
+        margin-bottom: 10px;
+        padding-right: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .footer_menu li {
+        margin: 0 40px 0 0;
+    }
+    .footer_menu {
+        padding-left: 23px;
+    }
+    /*--------------version-3----------------*/
+    .hero_area_v3 {
+        height: inherit;
+    }
+    .hero_area_v3 .alignment_middleLeft {
+        height: inherit!important;
+    }
+    .hero_area_v2 .alignment_middleLeft .logo {
+        margin: 0 auto;
+    }
+    .hero_area_v3 .iPhone img {
+        margin: 50px auto 30px;
+        width: 70%;
+    }
+    .hero_area_v3 .alignment_middleLeft h1 {
+        font-size: 34px;
+        line-height: 45px;
+        margin: 30px 0 13px;
+    }
+    .hero_area_v3 .iPhone img {
+        margin-top: 40px;
+    }
+    .alignment_middleLeft>p {
+        font-size: 17px;
+    }
+    .alignment_middleLeft li {
+        width: 47%;
+    }
+    .alignment_middleLeft ul {
+        padding-bottom: 80px;
+        padding-top: 30px;
+    }
+    .hero_area_v3 .alignment_middleLeft li a img {
+        width: 100%;
+    }
+    /*================================================================
+                        end home page version-2 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-4 style
+    ==================================================================*/
+    .access_link {
+        margin-top: 6px;
+    }
+    .hero_area_v4 .banner_content h1 {
+        font-size: 46px;
+        line-height: 55px;
+    }
+    .hero_area_v4 .banner_content.text-center a {
+        padding: 13px 30px;
+    }
+    .catagory_section {
+        padding: 25px 0;
+        position: relative;
+    }
+    #category_fixed.sticked {
+        padding: 25px 0;
+    }
+    .topCourse_section {
+        margin-top: 0px;
+    }
+    .catagory_section .catagory_wrapper {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+    .catagory_section .catagory_wrapper li {
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    .catagory_section .catagory_wrapper {
+        padding: 0;
+    }
+    .courseTab_section .tabNav {
+        width: 100%;
+        padding: 0 0;
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    }
+    .courseTab_section .tabNav li {
+        margin: 0;
+    }
+    .courseTab_section .tabNav li a {
+        font-size: 17px;
+        line-height: 30px;
+        padding: 20px 10px;
+    }
+    .course_fact_section .single_course_fact {
+        margin-bottom: 30px;
+    }
+    .course_fact_section {
+        padding: 60px 0 40px;
+    }
+    .footer_widget_v3 .footer_menu li {
+        margin-left: 6px;
+        margin-right: 12px;
+    }
+    .footer_menu {
+        padding-left: 0;
+        text-align: center;
+    }
+    /*================================================================
+                        End Home page version-4 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-5 style
+    ==================================================================*/
+    .header_top {
+        padding: 6px 0;
+    }
+    .header_top .block1,
+    .header_top .block2 {
+        float: none!important;
+        text-align: center;
+    }
+    .header_top .block2 a {
+        display: none;
+        position: absolute;
+    }
+    .header_top ul li {
+        height: auto;
+        line-height: 26px;
+        margin-right: 0px;
+    }
+    .hero_area_v5 .content h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .hero_area_v5 .content {
+        height: 420px;
+    }
+    .car_feature_section {
+        background-position: center center;
+        background-size: cover;
+        padding: 60px 0;
+    }
+    .car_feature_section h3.fw_300 {
+        font-size: 29px;
+        line-height: 38px;
+    }
+    .car_feature_section ul li {
+        line-height: 29px;
+        font-size: 15px;
+    }
+    .car_servicing_section {
+        padding: 60px 0;
+    }
+    .single_service.diesel_repair.text-center {
+        margin-top: 0px;
+    }
+    .car_servicing_section .section_hedding h3 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .product_buy_section {
+        background: none;
+        padding: 60px 0;
+    }
+    .product_buy_section h3.fw_300 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .product_buy_section p.fw_300 {
+        font-size: 20px;
+        padding: 20px 0 40px;
+    }
+    .video_section {
+        height: 450px;
+        padding: 60px 0 70px;
+    }
+    .testimonial_wrapper_v5.text-center {
+        padding: 30px 20px;
+    }
+    .contact_section.pt_90 {
+        padding: 60px 0;
+    }
+    .contact_section .contact_form input {
+        float: none;
+        width: 100%;
+    }
+    .widget_menu.text-center a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+    .social_link.text-center,
+    .widget_menu.text-center {
+        padding-bottom: 20px;
+    }
+    .contact_section .contact_title h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .contact_section .contact_title p.fw_300 {
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    /*================================================================
+                        End Home page version-5 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-6 style
+    ==================================================================*/
+    .hero_area_v6 .drone_content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .hero_area_v6 .drone_content h5 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .drone_service_section {
+        padding: 70px 0;
+    }
+    .drone_service_section h3.color_white {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .drone_service_wrapper {
+        margin-top: 70px;
+    }
+    .drone_service_section p.brand_txt {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .drone_service_section .single_service {
+        padding: 40px 30px;
+        width: 100%;
+    }
+    .drone_feature_section .feature_content h3,
+    .newsletter_section .newsletter_content h3,
+    .drone_video_section .video_content h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .drone_video_section .video_content h3 {
+        text-align: center;
+    }
+    .drone_video_section .video_content {
+        align-items: center;
+    }
+    .newsletter_section .newsletter_content {
+        align-items: center;
+    }
+    .newsletter_section .newsletter_content h3 {
+        text-align: center;
+    }
+    .cmn_z {
+        margin-bottom: 270px;
+    }
+    /*================================================================
+                        End Home page version-6 style
+    ==================================================================*/
+    /*================================================================
+                        start Home page version-7 style
+    ==================================================================*/
+    header.header_v7 {
+        position: relative;
+        z-index: 9899;
+        padding: 15px 0;
+    }
+    .hero_area_v7 .banner_content {
+        margin-top: -120px;
+    }
+    .hero_area_v7 .banner_content h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .hero_area_v7 .banner_content a {
+        padding: 11px 27px;
+    }
+    .service_section_v7 .service_wrapper {
+        padding: 50px;
+        margin-bottom: 100px;
+        margin-top: -183px;
+    }
+    .service_section_v7 .single_service {
+        padding-right: 20px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .service_section_v7 .single_service h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .experience_section .title {
+        width: 100%;
+    }
+    .experience_section .title h3,
+    .work_section .title h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .experience_section .title p {
+        padding-bottom: 50px;
+    }
+    .experience_section .tab-pane .tab_text {
+        padding: 0;
+        width: 100%;
+        margin: 30px 0;
+    }
+    .experience_section .tab_area ul.nav li {
+        height: 50px;
+        line-height: 27px;
+    }
+    .client_section {
+        padding: 70px 0;
+    }
+    .client_section h3.title {
+        font-size: 24px;
+        line-height: 36px;
+        margin: 0 auto 50px;
+        width: 100%;
+    }
+    .client_section ul.clients {
+        flex-flow: row wrap;
+    }
+    .client_section .clients>li {
+        margin-bottom: 18px;
+    }
+    .client_section .clients img {
+        width: 75%;
+    }
+    .work_section {
+        padding: 60px 0 10px;
+    }
+    .work_section .title {
+        display: block;
+    }
+    .work_section .work_wrapper {
+        margin-left: 0px;
+    }
+    .work_section .work_wrapper .single_work {
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .work_section .single_work h4 {
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .work_section .work_wrapper .divider {
+        margin: 12px 0 18px;
+        width: 100px;
+    }
+    .cta_v7_section {
+        padding: 60px 0;
+    }
+    .cta_v7_section h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .cta_v7_section .hire {
+        margin-top: 20px;
+    }
+    .footer_v7 .main_ul {
+        display: block;
+        text-align: center;
+    }
+    .main_ul li ul {
+        margin-bottom: 10px;
+    }
+    /*================================================================
+                        End Home page version-7 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-8 style
+    ==================================================================*/
+    .hero_area_v8 .banner_content_v8 {
+        display: block;
+        height: auto;
+    }
+    .banner_content_v8 .title {
+        margin: 50px 0;
+    }
+    .banner_content_v8 .title h1 {
+        font-size: 70px;
+        line-height: 47px;
+    }
+    .banner_content_v8 .title h1 span {
+        font-size: 40px;
+    }
+    .banner_content_v8 .title h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .about_section_v8 {
+        padding: 80px 0;
+    }
+    .about_section_v8 .about_title {
+        height: auto;
+        margin-bottom: 60px;
+    }
+    .about_section_v8 .about_title h3 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .about_section_v8 .about_title h3::before {
+        display: none;
+    }
+    .about_section_v8 .navigation {
+        position: relative;
+        margin-top: 30px;
+    }
+    .about_section_v8 .navigation ul li:first-child a {
+        padding-left: 0;
+    }
+    .about_section_v8 .about_content h4 {
+        font-size: 24px;
+        line-height: 23px;
+        padding-bottom: 12px;
+    }
+    .case_study_section_v8 h3.mb_90 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .case_study_section_v8 {
+        padding: 50px 0;
+    }
+    .case_study_wrapper_8 .left_content {
+        margin-bottom: 50px;
+    }
+    .case_study_wrapper_8 .owl-dots {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .footer_v8 {
+        padding-bottom: 80px;
+    }
+    .footer_v8 .footer_content h3 {
+        color: #044aea;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    /*================================================================
+                        End Home page version-8 style
+    ==================================================================*/
+    /*================================================================
+                        start portfolio_2 page style
+    ==================================================================*/
+    .portfolio_v2 .video_area {
+        margin-bottom: 60px;
+    }
+    .video_overtlay a i.fa-play {
+        padding: 17px 16px 16px 21px;
+    }
+    .portfolio_v2 .work_wrapper {
+        margin-left: 0px;
+    }
+    .portfolio_v2 .work_wrapper .single_work {
+        margin-left: 0;
+        width: 100%;
+        float: none;
+    }
+    .portfolio_v2 .work_wrapper .single_work:nth-child(2) {
+        margin-top: 0px;
+    }
+    .portfolio_v2 .work_wrapper .single_work h4 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    /*================================================================
+                        End portfolio_2 page style
+    ==================================================================*/
+    /*================================================================
+                        Start portfolio_3 page style
+    ==================================================================*/
+    .portfolio_v3 .work_wrapper {
+        margin-left: 0px;
+    }
+    .portfolio_v3 .work_wrapper .single_work {
+        margin-bottom: 60px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .portfolio_v3 .work_wrapper .single_work h4 a {
+        width: 85%;
+    }
+    /*================================================================
+                        End portfolio_3 page style
+    ==================================================================*/
+    /*================================================================
+                        Start about page style
+    ==================================================================*/
+    .about_block1_section,
+    .about_block2_section {
+        padding: 60px 0;
+    }
+    .about_block1_section .block_wrapper {
+        display: block;
+        margin-left: 0;
+    }
+    .about_block1_section h3,
+    .about_block2_section h3 {
+        width: 100%;
+    }
+    .about_block1_section .single_block {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .about_block1_section .single_block:last-child {
+        margin-bottom: 0px;
+    }
+    .about_block2_section .block_wrapper {
+        margin-left: 0px;
+    }
+    .about_block2_section .single_block {
+        margin-left: 0;
+        width: 100%;
+    }
+    .client_section_v2 .client_logo_wrapper li {
+        margin-bottom: 10px;
+        width: 50%;
+    }
+    /*------about page-2---------*/
+    .capability_section {
+        padding: 30px 0;
+    }
+    .capability_section h2.text-center {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    /*================================================================
+                        End about page style
+    ==================================================================*/
+    /*================================================================
+                        Start feature page style
+    ==================================================================*/
+    .banner_content p.color_dd {
+        width: 100%;
+    }
+    .feature_tab_menu li {
+        padding: 0 10px;
+        width: 24.2%;
+    }
+    .feature_tab_menu li a i {
+        font-size: 35px;
+        height: 80px;
+        padding: 15px;
+        width: 80px;
+    }
+    .feature_tab_content {
+        padding: 60px 0 35px;
+    }
+    .feature_tab_menu li a h5 {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .feature_tab_menu li.active a::before {
+        bottom: -56px;
+    }
+    .feature_content_wrapper .single_feature_content h4 {
+        padding-bottom: 10px;
+    }
+    .feature_content_wrapper.twoCol {
+        margin-left: 0px;
+    }
+    .twoCol .single_feature_content {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .feature_content_wrapper.threeCol {
+        margin-left: 0px;
+    }
+    .threeCol .single_feature_content {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .feature_tab_menu li a.telephone i {
+        padding: 16px 13px 27px 3px;
+    }
+    /*================================================================
+                        End feature page style
+    ==================================================================*/
+    /*================================================================
+                        start client page-1 style
+    ==================================================================*/
+    .client_page_v1 ul li {
+        width: 44.5%;
+    }
+    .clientTestimonial_section .testimonial_content {
+        width: 100%;
+    }
+    /*================================================================
+                        End client page-1 style
+    ==================================================================*/
+    /*================================================================
+                        start contact page-1 style
+    ==================================================================*/
+    .contactPage_section {
+        padding: 57px 0 70px;
+    }
+    .contactPage_section h3.color_16 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+    .contactPage_section .sub_title {
+        padding-bottom: 50px;
+    }
+    .contactPage_section form .name,
+    .contactPage_section form .email {
+        width: 100%;
+        float: none;
+    }
+    .office_info_section .info_wrapper {
+        align-items: center;
+        display: block;
+        justify-content: center;
+        padding: 62px 0 12px;
+        text-align: center;
+    }
+    .office_info_section .single_info {
+        margin-bottom: 50px;
+    }
+    .office_info_section .single_info address {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0;
+        padding-top: 10px;
+    }
+    .office_info_section .single_info h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    /*----------contact page-2---------*/
+    .contactPage2_section {
+        padding: 80px 0 73px;
+    }
+    .contact2_breadcrumb .banner_content h2 {
+        text-align: left;
+    }
+    .office_info2_wrapper {
+        margin-top: 60px;
+    }
+    .contactPage2_section .office_info2_wrapper address {
+        margin-bottom: 0;
+    }
+    .contactPage2_section .office_info2_wrapper>p {
+        padding: 14px 0 15px;
+    }
+    .contactPage2_section .office_info2_wrapper address p {
+        line-height: 28px;
+    }
+    /*----cta section------*/
+    .contactCTA_section .cta_content {
+        padding: 60px 0 70px;
+    }
+    .contactCTA_section .cta_content h3 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    .contactCTA_section .cta_content p.text-center {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    /*------contact page-3-------*/
+    .contactPage3_section {
+        padding: 60px 0;
+    }
+    .office_info3_wrapper>ul {
+        flex-wrap: wrap;
+    }
+    .office_info3_wrapper>ul.nav_tabs>li {
+        margin: 0 2px 4px!important;
+        width: 49%;
+    }
+    .contactPage3_section ul li a .office_name {
+        padding: 17px 22px;
+    }
+    .office_info3_wrapper .nav_tabs a img {
+        height: 94px;
+    }
+    .contactPage3_section .tab-pane .office_name ul {
+        display: block;
+        padding-top: 20px;
+    }
+    .contactPage3_section .tab-pane .flex_content {
+        display: block;
+        padding-top: 30px;
+    }
+    .contactPage3_section .tab-pane .office_name ul>li:first-child {
+        width: 100%;
+    }
+    .contactPage3_section .tab-pane .map_area {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    /*================================================================
+                        End contact page-1 style
+    ==================================================================*/
+}
+
+
+/*---end 480-767px media query----*/
+
+@media (min-width: 300px) and (max-width: 479px) {
+    /*================================================================
+                        start Home page style
+    ==================================================================*/
+    /*------slider section----------*/
+    .slider_content {
+        width: 100%;
+    }
+    .Modern-Slider .item h3 {
+        font-size: 27px;
+        line-height: 33px;
+    }
+    .Modern-Slider .item h5 {
+        line-height: 23px;
+        font-size: 17px;
+    }
+    .Modern-Slider .slider_button a {
+        font-size: 13px;
+        height: 50px;
+    }
+    .Modern-Slider .slider_button a.blue_btn {
+        padding: 6px 16px;
+    }
+    .Modern-Slider .item .img-fill {
+        height: 400px;
+    }
+    .hero_area_v2,
+    .hero_area_v2 .alignment_middleLeft {
+        height: 500px;
+    }
+    .hero_area_v4 .banner_content {
+        height: 100%;
+        padding: 130px 0;
+    }
+    /*----customar brand section----*/
+    .customer_brand_section .brand_txt {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    /*-----about section------*/
+    .about_section .single_box {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto 50px;
+    }
+    .about_section .section_title {
+        font-size: 26px;
+        line-height: 32px;
+        padding-bottom: 15px;
+    }
+    .about_section a i.fa-angle-right {
+        top: 5px;
+    }
+    /*------testimonial section------*/
+    .testimonial_section .single_testimonial>p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    /*------service section--------*/
+    .project_collups_wrapper {
+        display: none;
+    }
+    .single_service {
+        margin: 0 auto 75px;
+        width: 100%;
+    }
+    .single_service i.service_icon {
+        font-size: 40px;
+        height: 130px;
+        padding: 36px;
+        width: 130px;
+    }
+    .single_service i.service_icon::after {
+        height: 130px;
+        width: 130px;
+    }
+    .single_service p {
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 8px;
+    }
+    .single_service a.read_more i {
+        right: -44px;
+        top: 6px;
+    }
+    .single_service a.read_more:hover i {
+        right: -48px;
+    }
+    .read_more {
+        display: inline-block;
+    }
+    .single_service a.read_more:hover i {
+        left: 61.6%;
+    }
+    .see_all_service a.view_project {
+        margin-left: 0px;
+        padding: 11px 24px;
+    }
+    .see_all_service.text-center>li {
+        display: block;
+        margin-bottom: 20px;
+    }
+    /*------case study section--------*/
+    .case_study_content {
+        position: relative;
+        z-index: 1;
+    }
+    .case_study_content h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .case_study_img {
+        opacity: 0.4;
+        right: 0;
+        top: -260px;
+        width: 55%;
+        z-index: 0;
+    }
+    /*--social icon section-----*/
+    .social_icon_section .icon_wrapper a {
+        font-size: 23px;
+        padding: 10px 15px;
+    }
+    /*-----footer widget-----*/
+    .single_widget {
+        margin-bottom: 40px;
+    }
+    .scroll_top {
+        height: 40px;
+        width: 40px;
+    }
+    .scroll_top i {
+        line-height: 39px;
+    }
+    /*================================================================
+                        End Home page style
+    ==================================================================*/
+    /*================================================================
+                        start service page style
+    ==================================================================*/
+    .service_page_banner .banner_content h2 {
+        font-size: 25px;
+        line-height: 27px;
+        text-align: center;
+    }
+    .all_service_section .service_content h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .all_service_section .single_service {
+        width: 100%;
+        margin-bottom: 42px !important;
+    }
+    .all_service_section .service_content>p {
+        padding: 10px 0 13px;
+    }
+    .all_service_section .single_service i:not(.fa) {
+        font-size: 40px;
+        margin-top: 0;
+    }
+    .demolink_section .alignment_row {
+        align-items: center;
+        display: block;
+        flex-flow: inherit;
+        justify-content: inherit;
+    }
+    .demolink_section .alignment_row h3 {
+        font-size: 21px;
+        line-height: 28px;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .demolink_section .demo_link {
+        padding: 15px 32px;
+        display: inline-block;
+        transform: translateX(16%);
+    }
+    /*----------service page version-2 style----------*/
+    .all_service_section_v2 .single_service {
+        margin-left: 0px;
+        padding: 45px 25px;
+        width: 100%;
+    }
+    .all_service_section_v2 .service_wrapper {
+        margin-left: 0;
+    }
+    .service_msg_section input[type="text"],
+    .service_msg_section input[type="email"] {
+        width: 100%;
+        font-size: 16px;
+    }
+    .service_msg_section textarea {
+        font-size: 16px;
+    }
+    /*--------testionial section---------*/
+    .testimonial_section_v2 .carousel_title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .testimonial_section_v2 i.fa-quote-left {
+        font-size: 27px;
+    }
+    .testimonial_section_v2 .single_carousel p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .service_msg_section h3.title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    /*---------service page version-3 style---------*/
+    .all_service_section_v3 .single_service {
+        padding: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    .all_service_section_v3 .service_content {
+        padding: 40px 30px;
+    }
+    .service_page_banner .banner_content span {
+        font-size: 12px;
+    }
+    .service_image img.img {
+        width: 100%;
+    }
+    .all_service_section_v3 .service_content>p {
+        padding: 10px 0 0;
+    }
+    .c2action_section h3 {
+        font-size: 22px;
+        line-height: 32px;
+        margin: 0 auto 26px;
+        width: 100%;
+    }
+    .c2action_section .demo_link {
+        padding: 12px 27px;
+        width: 186px;
+    }
+    /*-----------service page version-4-------------*/
+    .service_details_section .container {
+        padding: 60px 0;
+    }
+    .service_details_section {
+        overflow: hidden;
+    }
+    .service_details_wrapper {
+        display: block;
+        flex-flow: inherit;
+        margin-left: 0;
+        padding: 0 15px;
+    }
+    .service_details_section .sigle_block {
+        height: 165px;
+        width: 100%;
+    }
+    .service_details_wrapper>a {
+        display: block;
+        float: none;
+        margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .service_details_section h3.service_title {
+        font-size: 27px;
+        line-height: 35px;
+        padding-bottom: 50px;
+    }
+    /*================================================================
+                        end service page style
+    ==================================================================*/
+    /*================================================================
+                        start service details page style
+    ==================================================================*/
+    .with_breadcrumb .banner_content h2 {
+        text-align: left;
+    }
+    .breadcrumb_area .breadcrumb {
+        padding: 8px 5px;
+    }
+    .content_block h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .content_block4 .content_wrapper {
+        padding: 25px;
+    }
+    .content_block4 .content_wrapper h3,
+    .faq_section h3 {
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .content_block4 .content_wrapper h6 {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .single_question h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    /*================================================================
+                        end service details page style
+    ==================================================================*/
+    /*================================================================
+                        start home page version-2 style
+    ==================================================================*/
+    .hero_area_v2 .hero_content_v2 {
+        padding: 45px 35px;
+    }
+    .hero_area_v2 .hero_content_v2 h1 {
+        font-size: 38px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .hero_content_v2 p.color_white {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        width: 100%;
+    }
+    .about_section_v2 .single_block {
+        float: left;
+        margin-left: 36px;
+        width: 100%;
+        margin: 27px 0 0 0;
+    }
+    .about_section_v2 .single_block:last-child {
+        margin-bottom: 30px;
+    }
+    .about_section_v2 .section_title h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .about_section_v2 .section_title p {
+        padding-bottom: 30px
+    }
+    .about_section_v2 .single_block:first-child {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .about_section_v2 img.img {
+        margin: 0 auto;
+    }
+    .stats_section {
+        background: #f8f8f8 none repeat scroll 0 0;
+        padding: 50px 0;
+    }
+    .stats_section .section_title h3 {
+        font-size: 25px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .stats_section .single_state_wrapper .stats {
+        float: none;
+        margin: 0 auto 30px;
+        text-align: left;
+        width: 70%;
+        text-align: center;
+    }
+    .single_state_wrapper {
+        padding-bottom: 20px;
+    }
+    .stats_section .single_state_wrapper .stats:nth-child(2n) {
+        margin: 0 auto 30px;
+    }
+    .single_state_wrapper .stats h4 {
+        font-size: 20px;
+        line-height: 25px;
+        padding-bottom: 4px;
+    }
+    .cta_section {
+        background: #2574f3 none repeat scroll 0 0;
+        padding: 40px 0 50px;
+    }
+    .cta_content h3.color_white {
+        font-size: 30px;
+    }
+    .cta_section .content_wrapper {
+        display: block;
+        text-align: center;
+    }
+    .cta_section .content_wrapper .cta_content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cta_section .get_start {
+        font-size: 15px;
+        height: 43px;
+        padding: 11px 29px;
+    }
+    .testimonial_section_v3 .single_testimonial img {
+        height: 85px;
+        width: 85px;
+    }
+    .testimonial_text span {
+        font-size: 16px;
+    }
+    .testimonial_section_v3 .single_testimonial {
+        margin-bottom: 50px;
+    }
+    .testimonial_section_v3 .testimonial_text p {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-bottom: 7px;
+        padding-top: 15px;
+    }
+    .testimonial_section_v3 {
+        padding-bottom: 10px;
+    }
+    .testimonial_section_v3 .testimonial_text {
+        padding-left: 23px;
+    }
+    .testimonial_section_v3 .testimonial_text a {
+        font-size: 15px;
+        text-decoration: underline;
+    }
+    .client_section .client_wrapper .owl-item img {
+        margin: 0 auto;
+        width: 40%;
+    }
+    .client_section .client_title.color_16 {
+        text-align: center;
+        padding-bottom: 45px;
+    }
+    .footer_widget_v2 .social_icon a {
+        font-size: 20px;
+        margin: 0 6px;
+    }
+    .footer_widget_v2 .contact li {
+        margin: 0 20px;
+    }
+    .single_widget {
+        text-align: center;
+        float: none;
+        margin-bottom: 10px;
+        padding-right: 0;
+        width: 100%;
+    }
+    .footer_menu li {
+        margin: 0 14px 0 0;
+    }
+    .footer_menu {
+        padding-left: 23px;
+    }
+    /*--------------version-3----------------*/
+    .hero_area_v3 {
+        height: inherit;
+    }
+    .hero_area_v3 .alignment_middleLeft {
+        height: inherit!important;
+        padding-top: 30px;
+    }
+    .hero_area_v2 .alignment_middleLeft .logo {
+        margin: 0 auto;
+    }
+    .hero_area_v3 .iPhone img {
+        margin: 50px auto 30px;
+        width: 70%;
+    }
+    .hero_area_v3 .alignment_middleLeft h1 {
+        font-size: 28px;
+        line-height: 35px;
+        margin: 30px 0 13px;
+    }
+    .hero_area_v3 .iPhone img {
+        margin-top: 40px;
+    }
+    .alignment_middleLeft>p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .alignment_middleLeft li {
+        width: 46%;
+    }
+    .alignment_middleLeft ul {
+        padding-bottom: 80px;
+        padding-top: 30px;
+    }
+    .hero_area_v3 .alignment_middleLeft li a img {
+        width: 100%;
+    }
+    /*================================================================
+                        end home page version-2 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-4 style
+    ==================================================================*/
+    .access_link {
+        margin-top: 6px;
+    }
+    .hero_area_v4 .banner_content h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .hero_area_v4 .banner_content.text-center a {
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+    .catagory_section {
+        position: relative;
+    }
+    .topCourse_section {
+        margin-top: 0;
+    }
+    .catagory_section {
+        padding: 25px 0;
+    }
+    .catagory_section .catagory_wrapper {
+        flex-flow: row wrap;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .catagory_section .catagory_wrapper li {
+        margin-right: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .diffrent_section .section_title {
+        font-size: 29px;
+    }
+    .diffrent_section .online_training h6 {
+        padding-top: 20px;
+    }
+    .topCourse_section .section_title h3 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .courseTab_section .tabNav {
+        width: 100%;
+        text-align: center;
+        padding: 0 0;
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    }
+    .courseTab_section .tabNav li {
+        margin: 0;
+    }
+    .courseTab_section .tabNav li a {
+        font-size: 17px;
+        line-height: 30px;
+        padding: 20px 10px;
+    }
+    .course_fact_section .single_course_fact {
+        margin-bottom: 30px;
+    }
+    .course_fact_section {
+        padding: 60px 0 50px;
+    }
+    .footer_widget_v3 .footer_menu li {
+        margin-left: 6px;
+        margin-right: 12px;
+    }
+    .footer_menu {
+        padding-left: 0;
+        text-align: center;
+    }
+    /*================================================================
+                        End Home page version-4 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-5 style
+    ==================================================================*/
+    .header_top {
+        padding: 6px 0;
+    }
+    .header_top .block1,
+    .header_top .block2 {
+        float: none!important;
+        text-align: center;
+    }
+    .header_top .block2 a {
+        display: none;
+        position: absolute;
+    }
+    .header_top ul li {
+        height: auto;
+        line-height: 26px;
+        margin-right: 0px;
+    }
+    .hero_area_v5 .content h2 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .hero_area_v5 .content {
+        height: 350px;
+    }
+    .hero_area_v5 .content li a.fw_500 {
+        padding: 11px 26px;
+        font-size: 15px;
+    }
+    .hero_area_v5 .content li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .car_feature_section {
+        background-position: center center;
+        background-size: cover;
+        padding: 60px 0;
+    }
+    .car_feature_section h3.fw_300 {
+        font-size: 29px;
+        line-height: 38px;
+    }
+    .car_feature_section ul li {
+        line-height: 29px;
+        font-size: 15px;
+    }
+    .car_servicing_section {
+        padding: 60px 0;
+    }
+    .single_service.diesel_repair.text-center {
+        margin-top: 0px;
+    }
+    .car_servicing_section .section_hedding h3 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .product_buy_section {
+        background: none;
+        padding: 60px 0;
+    }
+    .product_buy_section h3.fw_300 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .product_buy_section p.fw_300 {
+        font-size: 20px;
+        padding: 20px 0 40px;
+    }
+    .product_buy_section .buy_product {
+        font-size: 14px;
+        padding: 9px 32px;
+    }
+    .video_section h3 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    .video_section {
+        height: 450px;
+        padding: 60px 0 70px;
+    }
+    .testimonial_wrapper_v5.text-center {
+        padding: 30px 20px;
+    }
+    .testimonial_wrapper_v5 .testmonial_txt {
+        font-size: 15px;
+    }
+    .contact_section.pt_90 {
+        padding: 60px 0;
+    }
+    .contact_section .contact_form input {
+        float: none;
+        width: 100%;
+    }
+    .widget_menu.text-center a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+    .social_link.text-center,
+    .widget_menu.text-center {
+        padding-bottom: 20px;
+    }
+    .contact_section .contact_title h3 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .contact_section .contact_title p.fw_300 {
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .contact_section .contact_address li {
+        line-height: 22px;
+        margin-bottom: 11px;
+        font-size: 14px;
+    }
+    #google_map {
+        height: 320px;
+    }
+    /*================================================================
+                        End Home page version-5 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-6 style
+    ==================================================================*/
+    .hero_area_v6 .drone_content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .hero_area_v6 .drone_content h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .drone_service_section {
+        padding: 70px 0;
+    }
+    .drone_service_wrapper {
+        margin-top: 70px;
+    }
+    .drone_service_section p.brand_txt {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .drone_service_section .single_service {
+        padding: 40px 30px;
+        width: 100%;
+    }
+    .drone_service_section h3.color_white,
+    .drone_feature_section .feature_content h3,
+    .newsletter_section .newsletter_content h3,
+    .drone_video_section .video_content h3 {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .drone_video_section .video_content h3 {
+        text-align: center;
+    }
+    .drone_video_section .video_content {
+        align-items: center;
+    }
+    .newsletter_section .newsletter_content {
+        align-items: center;
+    }
+    .newsletter_section .newsletter_content h3 {
+        text-align: center;
+    }
+    .newsletter_section .newsletter_content a {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+    /*================================================================
+                        End Home page version-6 style
+    ==================================================================*/
+    /*================================================================
+                        start Home page version-7 style
+    ==================================================================*/
+    header.header_v7 {
+        position: relative;
+        z-index: 9899;
+        padding: 15px 0;
+    }
+    .hero_area_v7 .banner_content {
+        margin-top: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .hero_area_v7 .banner_content h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .hero_area_v7 .banner_content a {
+        padding: 6px 17px;
+    }
+    .service_section_v7 .service_wrapper {
+        padding: 30px;
+        margin-bottom: 60px;
+        margin-top: 0px;
+    }
+    .service_section_v7 .single_service {
+        padding-right: 0px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .service_section_v7 .single_service h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .service_section_v7 .single_service .divider {
+        margin: 17px 0 19px;
+    }
+    .experience_section .title {
+        width: 100%;
+    }
+    .experience_section .title h3,
+    .work_section .title h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .experience_section .tab_area ul li a {
+        font-size: 15px;
+    }
+    .experience_section .title p {
+        padding-bottom: 50px;
+    }
+    .experience_section .tab-pane .tab_text {
+        padding: 0;
+        width: 100%;
+        margin: 30px 0;
+    }
+    .experience_section .tab_area ul.nav li {
+        height: 40px;
+        line-height: 18px;
+    }
+    .experience_section .tab_area .tab-content {
+        padding-top: 25px;
+    }
+    .client_section {
+        padding: 0px 0 30px 0;
+    }
+    .client_section h3.title {
+        font-size: 24px;
+        line-height: 36px;
+        margin: 0 auto 50px;
+        width: 100%;
+    }
+    .client_section ul.clients {
+        flex-flow: row wrap;
+    }
+    .client_section .clients>li {
+        margin-bottom: 18px;
+    }
+    .client_section .clients img {
+        width: 75%;
+    }
+    .client_section_v7 {
+        padding: 40px 0;
+    }
+    .client_section_v7 h3.title {
+        font-size: 26px;
+        line-height: 40px;
+        margin: 0 auto 70px;
+        width: 100%;
+    }
+    .client_section_v7 ul.clients {
+        flex-flow: row wrap;
+    }
+    .client_section_v7 .clients img {
+        width: 70%;
+    }
+    .client_section_v7 .clients>li {
+        margin-bottom: 13px;
+    }
+    .work_section {
+        padding: 60px 0;
+    }
+    .work_section .title {
+        display: block;
+    }
+    .work_section .work_wrapper {
+        margin-left: 0px;
+    }
+    .work_section .work_wrapper .single_work {
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .work_section .single_work h4 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .work_section .work_wrapper .divider {
+        margin: 12px 0 18px;
+        width: 100px;
+    }
+    .work_section .work_wrapper .work_img {
+        padding-bottom: 15px;
+    }
+    .cta_v7_section {
+        padding: 60px 0;
+    }
+    .cta_v7_section h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .cta_v7_section .hire {
+        margin-top: 20px;
+    }
+    .footer_v7 .main_ul {
+        display: block;
+        text-align: center;
+    }
+    .main_ul li ul {
+        margin-bottom: 10px;
+    }
+    .footer_v7 .main_ul .mail li {
+        margin-right: 0;
+    }
+    /*================================================================
+                        End Home page version-7 style
+    ==================================================================*/
+    /*================================================================
+                        Start Home page version-8 style
+    ==================================================================*/
+    .hero_area_v8 .banner_content_v8 {
+        display: block;
+        height: auto;
+    }
+    .banner_content_v8 .title {
+        margin: 50px 0;
+    }
+    .banner_content_v8 .title h1 {
+        font-size: 70px;
+        line-height: 47px;
+    }
+    .banner_content_v8 .title h1 span {
+        font-size: 40px;
+    }
+    .banner_content_v8 .title h2 {
+        font-size: 26px;
+        padding-bottom: 30px;
+    }
+    .about_section_v8 .navigation ul li a,
+    .banner_content_v8 .navigation ul li a {
+        padding: 0 15px;
+    }
+    .about_section_v8 {
+        padding: 60px 0;
+    }
+    .about_section_v8 .about_title {
+        height: auto;
+        margin-bottom: 60px;
+    }
+    .about_section_v8 .about_title h3 {
+        font-size: 24px;
+        line-height: 37px;
+    }
+    .about_section_v8 .about_title h3::before {
+        display: none;
+    }
+    .about_section_v8 .navigation {
+        position: relative;
+        margin-top: 30px;
+    }
+    .about_section_v8 .navigation ul li:first-child a {
+        padding-left: 0;
+    }
+    .about_section_v8 .about_content h4 {
+        font-size: 24px;
+        line-height: 23px;
+        padding-bottom: 12px;
+    }
+    .case_study_section_v8 h3.mb_90 {
+        font-size: 26px;
+        margin-bottom: 35px;
+        line-height: 34px;
+    }
+    .case_study_section_v8 {
+        padding: 50px 0;
+    }
+    .case_study_wrapper_8 .left_content {
+        margin-bottom: 50px;
+    }
+    .case_study_wrapper_8 .owl-dots {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .case_study_section_v8 .left_content .ul_list {
+        flex-flow: row wrap;
+    }
+    .footer_v8 {
+        padding-bottom: 80px;
+    }
+    .footer_v8 .footer_content h3 {
+        color: #044aea;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .footer_v8 .footer_content p {
+        font-size: 18px;
+        padding: 22px 0 30px;
+    }
+    /*================================================================
+                        End Home page version-8 style
+    ==================================================================*/
+    /*================================================================
+                        start portfolio_2 page style
+    ==================================================================*/
+    .portfolio_v2 .video_area {
+        margin-bottom: 60px;
+    }
+    .video_overtlay a i.fa-play {
+        height: 45px;
+        padding: 12px 16px 16px;
+        width: 45px;
+    }
+    .portfolio_v2 .work_wrapper {
+        margin-left: 0px;
+    }
+    .portfolio_v2 .work_wrapper .single_work {
+        margin-left: 0;
+        width: 100%;
+        float: none;
+    }
+    .portfolio_v2 .work_wrapper .single_work:nth-child(2) {
+        margin-top: 0px;
+    }
+    .portfolio_v2 .work_wrapper .single_work h4 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    /*================================================================
+                        End portfolio_2 page style
+    ==================================================================*/
+    /*================================================================
+                        Start portfolio_3 page style
+    ==================================================================*/
+    .portfolio_v3 .work_wrapper {
+        margin-left: 0px;
+    }
+    .portfolio_v3 .work_wrapper .single_work {
+        margin-bottom: 40px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .portfolio_v3 .work_wrapper .single_work h4 a {
+        width: 100%;
+    }
+    /*================================================================
+                        End portfolio_3 page style
+    ==================================================================*/
+    /*================================================================
+                        Start about page style
+    ==================================================================*/
+    .about_block1_section,
+    .about_block2_section {
+        padding: 60px 0;
+    }
+    .about_block1_section .block_wrapper {
+        display: block;
+        margin-left: 0;
+    }
+    .about_block1_section h3,
+    .about_block2_section h3 {
+        width: 100%;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .about_block1_section .single_block {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .about_block1_section .single_block:last-child {
+        margin-bottom: 0px;
+    }
+    .about_block2_section .block_wrapper {
+        margin-left: 0px;
+    }
+    .about_block2_section .block_wrapper .single_block h4 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    .about_block2_section .single_block {
+        margin-left: 0;
+        width: 100%;
+    }
+    .client_section_v2 .client_logo_wrapper li {
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .client_section_v2 {
+        padding: 50px 0;
+    }
+    /*------about page-2---------*/
+    .capability_section {
+        padding: 30px 0;
+    }
+    .capability_section h2.text-center {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    /*================================================================
+                        End about page style
+    ==================================================================*/
+    /*================================================================
+                        Start feature page style
+    ==================================================================*/
+    .banner_content p.color_dd {
+        width: 100%;
+    }
+    .feature_tab_menu {
+        padding: 50px 0 22px;
+    }
+    .feature_tab_menu li {
+        margin-bottom: 20px;
+        padding: 0 10px;
+        width: 41.2%;
+    }
+    .feature_tab_menu li a i {
+        font-size: 28px;
+        height: 70px;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        width: 70px;
+    }
+    .feature_tab_menu li a.telephone i {
+        padding: 14px 11px 20px 3px;
+    }
+    .feature_tab_menu li.active a::before {
+        display: none;
+    }
+    .feature_tab_content {
+        padding: 40px 0 15px;
+    }
+    .feature_tab_menu li a h5 {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .feature_tab_menu li.active a::before {
+        bottom: -56px;
+    }
+    .feature_content_wrapper .single_feature_content h4 {
+        padding-bottom: 6px;
+        font-size: 20px;
+    }
+    .feature_content_wrapper .single_feature_content p {
+        font-size: 14px;
+    }
+    .feature_content_wrapper.twoCol {
+        margin-left: 0px;
+    }
+    .twoCol .single_feature_content {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .feature_content_wrapper.threeCol {
+        margin-left: 0px;
+    }
+    .threeCol .single_feature_content {
+        width: 100%;
+        margin-left: 0px;
+    }
+    /*================================================================
+                        End feature page style
+    ==================================================================*/
+    /*================================================================
+                        start client page-1 style
+    ==================================================================*/
+    .client_page_v1 ul {
+        margin-left: 0;
+    }
+    .client_page_v1 ul li {
+        width: 100%;
+        margin-left: 0
+    }
+    .clientTestimonial_section .testimonial_content {
+        width: 100%;
+    }
+    .clientPcontact {
+        padding: 47px 0 27px;
+    }
+    /*================================================================
+                        End client page-1 style
+    ==================================================================*/
+    /*================================================================
+                        start contact page-1 style
+    ==================================================================*/
+    .contactPage_section {
+        padding: 57px 0 70px;
+    }
+    .contactPage_section h3.color_16 {
+        font-size: 31px;
+        line-height: 35px;
+        margin-bottom: 14px;
+    }
+    .contactPage_section .sub_title {
+        padding-bottom: 50px;
+    }
+    .contactPage_section form .name,
+    .contactPage_section form .email {
+        width: 100%;
+        float: none;
+    }
+    .office_info_section .info_wrapper {
+        align-items: center;
+        display: block;
+        justify-content: center;
+        padding: 62px 0 12px;
+        text-align: center;
+    }
+    .office_info_section .single_info {
+        margin-bottom: 50px;
+    }
+    .office_info_section .single_info address {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0;
+        padding-top: 10px;
+    }
+    .office_info_section .single_info h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .contactPage2_section {
+        padding: 80px 0 73px;
+    }
+    /*----------contact page-2-------*/
+    .contact2_breadcrumb .banner_content h2 {
+        text-align: left;
+    }
+    .office_info2_wrapper {
+        margin-top: 60px;
+    }
+    .contactPage2_section .office_info2_wrapper address {
+        margin-bottom: 0;
+    }
+    .contactPage2_section .office_info2_wrapper h4 {
+        line-height: 32px;
+    }
+    .contactPage2_section .office_info2_wrapper>p {
+        padding: 14px 0 15px;
+    }
+    .contactPage2_section .office_info2_wrapper address p {
+        line-height: 28px;
+    }
+    /*-------cta section----------*/
+    .contactCTA_section .cta_content {
+        padding: 60px 0 70px;
+    }
+    .contactCTA_section .cta_content h3 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    .contactCTA_section .cta_content p.text-center {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    /*------contact page-3-------*/
+    .contactPage3_section {
+        padding: 60px 0;
+    }
+    .office_info3_wrapper>ul {
+        flex-wrap: wrap;
+    }
+    .contactPage3_section ul li a .office_name {
+        padding: 27px;
+    }
+    .office_info3_wrapper .nav_tabs li {
+        height: 119px;
+        margin: 0 auto !important;
+        width: 280px;
+    }
+    .office_info3_wrapper .nav_tabs a img {
+        width: 100%;
+        height: 100%;
+    }
+    .contactPage3_section .tab-pane .office_name ul {
+        display: block;
+        padding-top: 20px;
+    }
+    .contactPage3_section .tab-pane .flex_content {
+        display: block;
+        padding-top: 30px;
+    }
+    .contactPage3_section .tab-pane .office_name ul>li:first-child {
+        width: 100%;
+    }
+    .contactPage3_section .tab-pane .map_area {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    /*================================================================
+                        End contact page-1 style
+    ==================================================================*/
+}
+
+
+/*---end 300-489 media query----*/

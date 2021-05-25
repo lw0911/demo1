@@ -1,0 +1,2770 @@
+/**
+=============================================================
+[Main Stylesheet]
+
+Template:     Wonderland
+Version:      1.0
+Created:      04.05.2019
+Primary use:  Wonderland - Kid Multipurpose Template
+
+@Author: kode4everyone
+
+* This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+====================[Table of contents]======================
+
+* 1.0 - Import css start
+* 2.0 - Top Bar css start
+* 3.0 - Navigation css start
+* 4.0 - DL Menu css start
+* 5.0 - Logo css start
+* 6.0 - Navigation Ui css start
+* 7.0 - Search Bar css start
+* 8.0 - Navigation Style 01 css start
+* 9.0 - Slider css start
+* 10.0 - Best Pre School css start
+* 11.0 - Heading Style css start
+* 12.0 - Class For Child css start
+* 13.0 - Choose Wrap css start
+* 14.0 - Price Plan css start
+* 15.0 - Enroll Step by Step css start
+* 16.0 - Wonderland Table css start
+* 17.0 - Teacher css start
+* 18.0 - What's New css start
+* 19.0 - Sub Banner css start
+* 20.0 - Breadcrumb css start
+* 21.0 - About Choose Wrap css start
+* 22.0 - Event css start
+* 23.0 - Core Services css start
+* 24.0 - Facts and Figure css start
+* 25.0 - Other Services css start
+* 26.0 - Teacher Grid css start
+* 27.0 - Teacher Detail css start
+* 28.0 - Teacher Detail My Skills css start
+* 29.0 - Call to Action css start
+* 30.0 - Price Enroll css start
+* 31.0 - Gallery css start
+* 32.0 - Pagination Start
+* 33.0 - Contact Us Info Start
+* 34.0 - Get in Touch Start
+* 35.0 - Map Wrap Style
+* 36.0 - Comming Soon Wrap Style
+* 37.0 - 404 Page css start
+* 38.0 - Blog Single css start
+* 39.0 - Blog Next and Previous css start
+* 40.0 - Blog Sub css start
+* 41.0 - Author Comment css start
+* 42.0 - User Comment css start
+* 43.0 - Blog Listing css start
+* 44.0 - Event Single Start
+* 45.0 - Event Form Start
+* 46.0 - Class Grid Start
+* 47.0 - UI Element Start
+* 48.0 - Class List View Start
+* 49.0 - Class Single css start
+* 50.0 - Navigation Style 02 css start
+* 51.0 - Why Wonderland css start
+* 52.0 - Index 02 Call to Action css start
+* 53.0 - Class Style 02 css start
+* 54.0 - Teacher Index 02 css start
+* 55.0 - Facts Index 02 css start
+* 56.0 - Testimonial css start
+* 57.0 - Index 02 Event css start
+* 58.0 - Photo Gallery css start
+* 59.0 - Side Menu css start
+
+[Color codes]
+
+Background:	#ffffff (White)
+Content:	#757575 (Light Gray)
+Header h1:	#212121 (Grey Black)
+Header h2:	#212121 (Black)
+Footer:		#3f51b5 (Blue)
+
+a (standard):	#212121 (Black)
+a (visited):	#212121 (Black)
+a (active):	#212121 (Black)
+
+[Typography]
+  
+Body copy:		14px/ 'Lato', sans-serif;
+Headers:		'RifficFree', sans-serif;
+Input, textarea:	'Lato', sans-serif;
+
+=============================================================
+**/
+
+/*
+	==============================================================
+		Import css start
+	==============================================================
+*/
+@import url("bootstrap.min.css");
+@import url("component.css");
+@import url("fontawesome.css");
+@import url("widget.css");
+@import url("typography.css");
+@import url("global.css");
+@import url("magnific-popup.css");
+@import url("slick.css");
+@import url("icomoon.css");
+@import url("themify-icons.css");
+/*
+	==============================================================
+		Top Bar css start
+	==============================================================
+*/
+.keo_top_bar{
+	background-color: #303f9f;
+	padding: 12px 0px;
+}
+.keo_top_ui{
+
+}
+.keo_top_ui>ul{
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.keo_top_ui>ul>li{
+	color: #c5cae9;
+	margin-left: 35px;
+	display: inline-block;
+}
+.keo_top_ui>ul>li:first-child{
+	margin-left: 0px;
+}
+.keo_login_lement{
+
+}
+.keo_login_lement>ul{
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.keo_login_lement>ul>li{
+	color: #c5cae9;
+	margin-left: 35px;
+	display: inline-block;
+	position: relative;
+}
+.keo_login_lement>ul>li:first-child{
+	margin-left: 0px;
+}
+.keo_login_lement>ul>li.language{
+	cursor: pointer;
+}
+.keo_sub_lang{
+	position: absolute;
+	top: 33px;
+	left: 0px;
+	width: 150px;
+	list-style: none;
+	margin: 0px;
+	padding-left: 0px;
+	display: none;
+	z-index: 2;
+	background-color: #ffffff;
+}
+.keo_sub_lang>li{
+	padding: 6px 12px;
+}
+.keo_sub_lang>li:hover{
+	color: #ffffff;
+}
+.keo_login_lement>ul>li.language i{
+	font-size: 10px;
+	margin-left: 6px;
+}
+.keo_top_ui>ul>li:first-child{
+	margin-left: 0px;
+}
+.keo_login_lement>ul>li>a{
+	color: #ffffff;
+}
+/*
+	==============================================================
+		Navigation css start
+	==============================================================
+*/
+.keo_nav{
+
+}
+.keo_nav>ul{
+	list-style: none;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+.keo_nav>ul>li{
+	position: relative;
+	display: inline-block;
+	margin-left: 30px;
+	color: #ffffff;
+}
+.keo_nav>ul>li:first-child{
+	margin-left: 0px;
+}
+.keo_nav>ul>li.humbuger_icon{
+	cursor: pointer;
+	font-size: 16px;
+}
+.keo_nav>ul>li>a{
+	display: block;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 30px 0px;
+}
+.keo_nav>ul>li>a>i{
+	font-size: 10px;
+    position: relative;
+    top: 0px;
+    margin-left: 8px;
+}
+/*2nd*/
+.keo_nav ul ul{
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	position: absolute;
+	z-index: 2;
+	width: 250px;
+	top: 110%;
+	left: 0px;
+	background-color: #fff;
+	box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.15);
+	opacity: 0;
+	visibility: hidden;
+}
+.keo_nav ul ul li{
+	width: 100%;
+	position: relative;
+}
+.keo_nav ul ul li a{
+	padding: 15px 15px;
+    display: block;
+    font-weight: bold;
+}
+.keo_nav ul ul li a>i{
+	font-size: 10px;
+	margin-top: 6px;
+}
+.keo_nav ul>li:hover>ul{
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+}
+.keo_nav ul ul>li:hover>a{
+	color: #fff;
+}
+/*3rd*/
+.keo_nav ul ul ul{
+	left: 110%;
+	top: 0px;
+}
+.keo_nav ul ul>li:hover>ul{
+	left: 100%;
+	top: 0px;
+}
+/*
+	==============================================================
+		DL Menu css start
+	==============================================================
+*/
+.dl-menuwrapper {
+	display: none;
+	z-index: 1000;
+	width: auto;
+	max-width: initial;
+}
+.dl-menuwrapper li>a:after, .dl-menuwrapper li.dl-back:after {
+	color: #ffffff;
+}
+.dl-menuwrapper ul {
+	background-color: #333;
+}
+.dl-menuwrapper button:hover,
+.dl-menuwrapper button.dl-active{
+	background-color: #ffffff;
+}
+#dl-menu>ul {
+	width: 300px;
+	max-width: 300px;
+	right: 0px;
+}
+.dl-menuwrapper button{
+	background-color: #ffffff;
+}
+.dl-menuwrapper button.dl-active:after{
+	background-color: #ffffff;
+	box-shadow: 0 10px 0 #ffffff, 0 20px 0 #ffffff;
+}
+.dl-menuwrapper li a{
+	text-transform: capitalize;
+}
+/*
+	==============================================================
+		Logo css start
+	==============================================================
+*/
+.keo_logo{
+	padding-top: 22px;
+}
+.keo_logo>a{
+	display: inline-block;
+}
+/*
+	==============================================================
+		Navigation Ui css start
+	==============================================================
+*/
+.keo_nav_ui{
+
+}
+.keo_nav_ui>ul{
+	list-style: none;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+.keo_nav_ui>ul>li{
+	position: relative;
+	display: inline-block;
+	padding-left: 30px;
+	color: #ffffff;
+}
+.keo_nav_ui>ul>li:first-child{
+	padding-left: 0px;
+}
+.keo_nav_ui>ul>li.search{
+	cursor: pointer;
+	padding: 34px 0px 0px;
+}
+.keo_nav_ui>ul>li.search i{
+	font-size: 22px;
+}
+.keo_nav_ui>ul>li.cart{
+	margin-left: 30px;
+}
+.keo_nav_ui>ul>li.cart:before{
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 8px;
+	bottom: 0px;
+	background-color: #c5cae9;
+	width: 1px;
+	height: 20px;
+	margin: auto;
+}
+.keo_nav_ui>ul>li.cart img{
+	width: 30px;
+}
+.keo_nav_ui>ul>li.cart .cart_des{
+	padding-left: 35px;
+}
+.keo_nav_ui>ul>li.cart .cart_des .item{
+	font-size: 10px;
+	color: #c5cae9;
+	line-height: normal;
+}
+.keo_nav_ui>ul>li.cart .cart_des .price{
+	color: #ffffff;
+	line-height: normal;
+}
+/*
+	==============================================================
+		Search Bar css start
+	==============================================================
+*/
+.search-wrapper-area {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.85);
+	z-index: 9999;
+	transform: scale(0);
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+}
+.search-wrapper-area.search_open {
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+}
+.search-area {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	width: 500px;
+	margin: -50px auto auto;
+}
+.search-area input[type="text"] {
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #ffffff;
+	background-color: transparent;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: #ffffff;
+	padding: 8px 50px 8px 10px;
+}
+.search-area input[type="submit"], .search-area button {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: transparent;
+	border: 0px;
+	color: #ffffff;
+	line-height: 60px;
+	font-size: 20px;
+	width: auto;
+	cursor: pointer;
+}
+.keo_search_remove_btn {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	color: #ffffff;
+	font-size: 25px;
+	cursor: pointer;
+	z-index: 1;
+}
+/*
+	==============================================================
+		Navigation Style 01 css start
+	==============================================================
+*/
+.keo_nav1_style .keo_nav{
+	width: 40%;
+}
+.keo_nav1_style .keo_logo{
+	width: 20%;
+}
+.keo_nav1_style .keo_nav_ui{
+	width: 40%;
+}
+/*
+	==============================================================
+		Slider css start
+	==============================================================
+*/
+.keo_banner{
+	background-image: url('../extra-images/banner-01.jpg');
+	padding: 155px 0px 160px;
+}
+.keo_banner:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.60);
+}
+.banner_des{
+	position: relative;
+}
+.banner_des>p{
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+.banner_des>h3{
+	font-size: 60px;
+	font-weight: bold;
+	margin-bottom: 35px;
+	color: #ffffff;
+}
+.banner_des>a{
+	display: inline-block;
+	color: #ffffff;
+	border-radius: 4px;
+	min-width: 170px;
+	min-height: 46px;
+	line-height: 46px;
+	background-color: #4caf50;
+	border: 2px solid #4caf50;
+}
+.banner_des>a:hover{
+	background-color: transparent;
+}
+/*
+	==============================================================
+		Best Pre School css start
+	==============================================================
+*/
+.keo_best_pre_sch{
+	padding: 99px 0px 100px;
+}
+.keo_pre_sch_des{
+
+}
+.keo_pre_sch_des>img{
+	margin-bottom: 35px;
+}
+.keo_pre_sch_des>i{
+	font-size: 18px;
+	margin-bottom: 28px;
+}
+.keo_pre_sch_des>p{
+
+}
+.keo_pre_sch_img{
+
+}
+.keo_pre_sch_img>img{
+	border-radius: 10px;
+}
+/*
+	==============================================================
+		Heading Style css start
+	==============================================================
+*/
+.keo_hdg_01{
+	margin-bottom: 40px;
+	margin-top: -7px;
+}
+.keo_hdg_01>h4{
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+.keo_hdg_01>h3{
+	font-size: 36px;
+}
+.keo_hdg_01>img{
+	display: inline-block;
+}
+.keo_hdg_01 .keo_des{
+	font-size: 18px;
+}
+/*
+	==============================================================
+		Class For Child css start
+	==============================================================
+*/
+.keo_class_child_bg{
+	padding: 100px 0px 98px;
+	background-image: url('../extra-images/child-class-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.keo_child_class{
+	border-radius: 12px;
+	overflow: hidden;
+}
+.keo_child_class>figure{
+	overflow: hidden;
+}
+.keo_child_class>figure>img{
+	width: 100%;
+}
+.keo_child_class_des{
+	background-color: #ffffff;
+	padding: 28px 30px 28px;
+}
+.keo_child_class_des>h4{
+	font-size: 24px;
+	margin-bottom: 18px;
+}
+.keo_child_class_des>h4>a{
+
+}
+.keo_child_class_des>ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.keo_child_class_des>ul>li{
+	margin-bottom: 8px;
+	font-size: 18px;
+}
+.keo_child_class_des>ul>li:last-child{
+	margin-bottom: 0px;
+}
+.keo_child_class_des>ul>li>span{
+	color: #212121;
+}
+/*Slick*/
+.keo_child_class_slider .slick-list{
+	margin-bottom: 30px;
+}
+.keo_child_class_slider .slick-list .keo_child_class {
+    margin-right: 25px;
+}
+.keo_child_class_slider .slick-dots{
+	text-align: center;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	margin-top: -12px;
+}
+.keo_child_class_slider .slick-dots li{
+	display: inline-block;
+}
+.keo_child_class_slider .slick-dots li button{
+	width: 5px;
+	height: 5px;
+	border-radius: 50px;
+	display: inline-block;
+	background-color: #ffffff;
+	margin-right: 5px;
+	border: 0px;
+	cursor: pointer;
+	font-size: 0px;
+	outline: none;
+	padding: 0px;
+}
+.keo_child_class_slider .slick-dots li.slick-active button{
+	width: 30px;
+}
+/*
+	==============================================================
+		Choose Wrap css start
+	==============================================================
+*/
+.keo_choose_bg{
+	padding: 100px 0px 0px;
+}
+.keo_choose_accordian{
+
+}
+.keo_choose_accordian .card{
+	border: 0px;
+    margin-bottom: 0px;
+}
+.keo_choose_accordian .card-header{
+	background-color: transparent;
+    border: 0px;
+    padding: 0px;
+}
+.keo_choose_accordian .card-header>h5{
+	font-size: 18px;
+    line-height: normal;
+    padding: 15px 20px 15px 20px;
+    border-bottom: 1px solid #eaeaea;
+    cursor: pointer;
+    position: relative;
+}
+.keo_choose_accordian .card-header>h5>span{
+	position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 10px;
+    color: #212121;
+    bottom: 0;
+    margin: auto;
+    height: 16px;
+    font-size: 14px;
+}
+.keo_choose_accordian .card-body{
+	line-height: 28px;
+	padding: 13px 20px 15px 20px;
+	border-top: transparent;
+	border-bottom: 1px solid #eaeaea;
+}
+.keo_choose_accordian .card .card-body{
+	border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+/*Choose Image Wrap*/
+.keo_choose_img{
+
+}
+.keo_choose_img>img{
+	border-radius: 12px;
+}
+.keo_video{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	cursor: pointer;
+}
+.keo_video>img{
+
+}
+/*
+	==============================================================
+		Price Plan css start
+	==============================================================
+*/
+.keo_price_plan_bg{
+	padding: 100px 0px 72px;
+}
+.keo_price_color2{
+	background-color: #f26d21;
+}
+.keo_price_color3{
+	background-color: #b2c627;
+}
+.keo_price_plan{
+	padding: 44px 40px 50px;
+	border-radius: 12px;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.keo_price_hdg{
+	margin-bottom: 36px
+}
+.keo_price_hdg>h4{
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+.keo_price_hdg>p{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 12px;
+}
+.keo_price_hdg>img{
+
+}
+.keo_price_plan>ul{
+	list-style: none;
+	margin-bottom: 40px;
+}
+.keo_price_plan>ul>li{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.keo_price_plan>ul>li:last-child{
+	margin-bottom: 0px;
+}
+.keo_price_plan>ul>li>i{
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.keo_price_plan>a{
+	min-width: 150px;
+	min-height: 46px;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	line-height: 46px;
+	border-radius: 4px;
+	display: inline-block;
+}
+.keo_price_plan>a:hover{
+	background-color: #ffffff;
+	color: #212121;
+}
+.keo_price_detail{
+	position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 173px;
+    height: 173px;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,0.15);
+    padding-top: 68px;
+    padding-right: 20px;
+}
+.keo_price_detail>h3{
+	font-size: 48px;
+	color: #ffffff;
+	line-height: normal;
+	margin-bottom: 0px;
+}
+.keo_having_problem{
+
+}
+.keo_having_problem>p{
+	line-height: 26px;
+}
+.keo_having_problem>p>a{
+
+}
+/*
+	==============================================================
+		Enroll Step by Step css start
+	==============================================================
+*/
+.keo_enroll_step_bg{
+	padding: 100px 0px;
+	background-image: url('../extra-images/enroll-step-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.keo_enroll_step_bg:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+}
+.keo_enroll_step{
+	margin-bottom: 40px;
+}
+.keo_enroll_step .icon{
+	width: 170px;
+	height: 170px;
+	border-radius: 100%;
+	margin: auto auto 20px;
+	font-size: 70px;
+}
+.enroll_icon1_bg{
+	background-color: #f6d190;
+}
+.enroll_icon2_bg{
+	background-color: #ee977e;
+}
+.enroll_icon3_bg{
+	background-color: #92dfc0;
+}
+.keo_enroll_step>h4{
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.keo_enroll_step>p{
+
+}
+.keo_enroll_step_btn{
+
+}
+.keo_enroll_step_btn>a{
+	display: inline-block;
+	min-width: 170px;
+	min-height: 46px;
+	color: #ffffff;
+	border-radius: 4px;
+	background-color: #4caf50;
+	border: 2px solid #4caf50;
+	line-height: 46px;
+}
+.keo_enroll_step_btn>a:hover{
+	background-color: transparent;
+	color: #4caf50;
+}
+.keo_enroll_step_btn>a.ghost_btn{
+	min-height: 46px;
+	line-height: 46px;
+	border: 2px solid #ffffff;
+	background-color: transparent;
+}
+.keo_enroll_step_btn>a.ghost_btn:hover{
+	color: #ffffff;
+}
+/*Hover*/
+.keo_enroll_step:hover .icon{
+	border-radius: 4px;
+}
+/*
+	==============================================================
+		Wonderland Table css start
+	==============================================================
+*/
+.keo_time_table_bg{
+	padding: 100px 0px;
+}
+.table_colo1{
+	background-color: #f3c62c;
+}
+.table_colo2{
+	background-color: #f26d21;
+}
+.table_colo3{
+	background-color: #12cd9a;
+}
+.table_colo4{
+	background-color: #18bfd3;
+}
+.table_colo5{
+	background-color: #925fde;
+}
+.table_colo6{
+	background-color: #4caf50;
+}
+.keo_time_table{
+	
+}
+.keo_time_table>ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 16.66%;
+}
+.keo_table_hdg{
+	font-size: 16px;
+	background-color: #f3f3f3;
+	padding: 18px 0px;
+}
+.keo_table_des{
+	border: 2px solid #ffffff;
+	padding: 6px 6px;
+	min-height: 194px;
+}
+.keo_table_des>h5{
+	font-size: 18px;
+}
+.keo_table_des>p{
+	margin-bottom: 8px;
+	line-height: normal;
+}
+.keo_table_des>h4{
+	font-size: 24px;
+}
+.keo_table_des .teacher{
+	font-size: 10px;
+	line-height: normal;
+}
+.keo_table_des .name{
+	font-size: 16px;
+	line-height: normal;
+}
+/*
+	==============================================================
+		Teacher css start
+	==============================================================
+*/
+.keo_teacher_bg{
+	padding: 0px 0px 98px;
+}
+.keo_teacher_wrap{
+
+}
+.keo_teacher_wrap>figure{
+	border-radius: 100%;
+	position: relative;
+	overflow: hidden;
+	width: 248px;
+	height: 248px;
+	margin: auto auto 20px;
+}
+.keo_teacher_wrap>figure:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 100%;
+	background-color: rgba(0,0,0,0.65);
+	transform:scale(0);
+	-moz-transform:scale(0);
+	-webkit-transform:scale(0);
+	border-radius: 100%;	
+}
+.keo_teacher_wrap>figure>img{
+	display: inline-block;
+}
+.keo_teacher_des{
+
+}
+.keo_teacher_des>h4{
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.keo_teacher_des>p{
+
+}
+/*Slick*/
+.keo_teacher_slider .slick-list{
+	margin-bottom: 10px;
+}
+.keo_teacher_slider .slick-list .keo_teacher_wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.keo_teacher_slider .slick-dots{
+	text-align: center;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	margin-top: -12px;
+}
+.keo_teacher_slider .slick-dots li{
+	display: inline-block;
+}
+.keo_teacher_slider .slick-dots li button{
+	width: 5px;
+	height: 5px;
+	border-radius: 50px;
+	display: inline-block;
+	background-color: #bdbdbd;
+	margin-right: 5px;
+	border: 0px;
+	cursor: pointer;
+	font-size: 0px;
+	outline: none;
+	padding: 0px;
+}
+.keo_teacher_slider .slick-dots li.slick-active button{
+	width: 30px;
+	background-color: #4caf50;
+}
+/*
+	==============================================================
+		What's New css start
+	==============================================================
+*/
+.keo_what_new_bg{
+	padding: 100px 0px;
+	background-color: #f3f3f3;
+}
+.keo_what_new_wrap{
+	margin-bottom: 50px;
+}
+.keo_what_new_wrap>figure{
+	border-radius: 15px;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+.keo_what_new_wrap>figure>img{
+
+}
+.keo_what_new_desc{
+
+}
+.keo_what_new_desc>h4{
+	font-size: 24px;
+	margin-bottom: 18px;
+}
+.keo_what_new_desc>h4>a{
+
+}
+.keo_what_new_desc>p{
+	margin-bottom: 26px;
+}
+.what_new_meta{
+	border-top: 1px solid #bdbdbd;
+}
+.what_new_meta .date{
+	width: 50px;
+	font-size: 18px;
+	height: 50px;
+	line-height: 20px;
+}
+.what_new_meta .date>span{
+	font-size: 12px;
+}
+.what_new_meta>ul{
+	list-style: none;
+	margin: 0px;
+	padding-left: 20px;
+	width: calc(100% - 50px);
+	display: inline-block;
+}
+.what_new_meta>ul>li{
+	color: #757575;
+	display: inline-block;
+	padding: 14px 20px 14px 0px;
+}
+/*
+	==============================================================
+		Sub Banner css start
+	==============================================================
+*/
+.keo_sub_banner{
+	background-image: url('../extra-images/sub_banner_01.jpg');
+	padding: 170px 0px;
+}
+.keo_sub_banner:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.50);
+}
+.keo_sub_banner_des{
+
+}
+.keo_sub_banner_des>h3{
+	font-size: 48px;
+	margin-bottom: 0px;
+}
+/*
+	==============================================================
+		Breadcrumb css start
+	==============================================================
+*/
+.keo_breadcrumb_bg{
+	background-color: #c5cae9;
+	padding: 13px 0px;
+}
+.keo_breadcrumb{
+
+}
+.keo_breadcrumb>ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.keo_breadcrumb>ul>li{
+	display: inline-block;
+	font-size: 12px;
+	position: relative;
+	padding: 0px 5px;
+}
+.keo_breadcrumb>ul>li:before{
+	content: "/";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 1px;
+	height: 100%;
+}
+.keo_breadcrumb>ul>li:last-child:before{
+	display: none;
+}
+.keo_breadcrumb>ul>li>a{
+
+}
+.keo_breadcrumb>ul>li>span{
+	color: #212121;
+}
+/*
+	==============================================================
+		About Choose Wrap css start
+	==============================================================
+*/
+.keo_about_choose_bg{
+	padding: 100px 0px;
+	background-image: url('../extra-images/about_choose_bg.jpg');
+}
+.keo_about_choose_wrap{
+
+}
+.keo_about_choose_wrap>i{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.keo_about_choose_wrap>ul{
+	list-style: none;
+    padding: 0px;
+    margin: 10px 0px 0px;
+    float: left;
+    width: 100%;
+}
+.keo_about_choose_wrap>ul>li{
+	width: 33%;
+	display: inline-block;
+}
+.keo_about_choose_wrap>ul>li>h4{
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+.keo_about_choose_wrap>ul>li>p{
+	font-size: 12px;
+}
+/*
+	==============================================================
+		Event css start
+	==============================================================
+*/
+.keo_event_bg{
+	padding: 100px 0px 60px;
+}
+.keo_event_img{
+
+}
+.keo_event_img>img{
+	border-radius: 12px;
+	overflow: hidden;
+	width: 100%;
+}
+.keo_event_img .keo_date{
+	border-radius: 100%;
+	width: 70px;
+	height: 70px;
+	font-size: 24px;
+	background-color: #4caf50;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	line-height: normal;
+	left: -15px;
+}
+.keo_event_img .keo_date>span{
+	font-size: 14px;
+}
+.keo_event_des{
+	padding-top: 10px;
+}
+.keo_event_des .location{
+	margin-bottom: 15px;
+}
+.keo_event_des .location>span{
+	font-size: 16px;
+	vertical-align: middle;
+}
+.keo_event_des .location .keo_loc_text{
+	color: #212121;
+	font-size: 12px;
+	line-height: normal;
+	margin: 0px;
+}
+.keo_event_des .location>.keo_loc_text>span{
+	color: #757575;
+}
+.keo_event_des>h4{
+	margin-bottom: 13px;
+}
+.keo_event_des>h4>a{
+
+}
+.keo_event_meta{
+	border-top: 1px solid #bdbdbd;
+	list-style: none;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 16px;
+	width: 70%;
+}
+.keo_event_meta>li{
+	color: #212121;
+	display: inline-block;
+	margin-right: 15px;
+}
+.keo_event_meta>li:last-child{
+	margin-right: 0px;
+}
+.keo_event_meta>li>span{
+
+}
+.keo_event_register{
+
+}
+.keo_event_register>p{
+	width: 70%;
+	margin-bottom: 16px;
+}
+.event_register{
+	min-width: 170px;
+	min-height: 46px;
+	line-height: 46px;
+	background-color: #4caf50;
+	border-radius: 5px;
+	border: 2px solid #4caf50;
+	margin-top: 30px;
+}
+.event_register:hover{
+	color: #4caf50;
+	background-color: #ffffff;
+}
+/*
+	==============================================================
+		Core Services css start
+	==============================================================
+*/
+.keo_services_bg{
+	padding: 100px 0px 60px;
+}
+.services_bg{
+	background-color: #f691a7;
+}
+.keo_core_services{
+	margin-bottom: 20px;
+}
+.keo_core_services .icon{
+	width: 130px;
+	height: 130px;
+	border-radius: 100%;
+	color: #ffffff;
+	margin: auto auto 25px;
+	font-size: 55px;
+}
+.keo_core_services .icon i{
+
+}
+.keo_core_services>h4{
+	font-size: 18px;
+}
+.keo_core_services>p{
+
+}
+/*Hover Css*/
+.keo_core_services:hover .icon{
+	border-radius: 4px;
+}
+/*
+	==============================================================
+		Facts and Figure css start
+	==============================================================
+*/
+.keo_facts_bg{
+	padding: 100px 0px 68px;
+	background-image: url('../extra-images/facts_figure_bg_01.jpg');
+}
+.keo_facts_bg:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.70);
+}
+.keo_fact_wrap{
+	margin-bottom: 30px;
+}
+.keo_fact_wrap>h3{
+	font-size: 60px;
+}
+.keo_fact_wrap>h4{
+	font-size: 24px;
+	margin-bottom: 0px;
+}
+/*
+	==============================================================
+		Other Services css start
+	==============================================================
+*/
+.keo_other_serv_bg{
+	padding: 100px 0px 70px;
+}
+.keo_other_service{
+	margin-bottom: 30px;
+}
+.keo_other_service_color{
+	background-color: #4cc1af;
+}
+.keo_other_service_color2{
+	background-color: #b2c627;
+}
+.keo_other_service .icon{
+	width: 170px;
+	height: 170px;
+	font-size: 70px;
+	border-radius: 12px;
+}
+.keo_other_ser_des{
+	width: auto;
+	padding-left: 20px;
+	min-height: 170px;
+}
+.keo_other_ser_des>h4{
+	font-size: 18px;
+}
+.keo_other_ser_des>h4>a{
+
+}
+.keo_other_ser_des>p{
+
+}
+/*Hover*/
+.keo_other_service:hover .icon{
+	border-radius: 100%;
+}
+/*
+	==============================================================
+		Teacher Grid css start
+	==============================================================
+*/
+.keo_teacher_grid_bg{
+	padding: 100px 0px 70px;
+}
+/*
+	==============================================================
+		Teacher Detail css start
+	==============================================================
+*/
+.keo_teacher_detail_img{
+
+}
+.keo_teacher_detail_img>img{
+	border-radius: 12px;
+}
+.keo_teacher_detail{
+
+}
+.keo_teacher_detail>h4{
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+.keo_teacher_detail>i{
+	font-size: 18px;
+}
+.keo_teacher_detail>ul{
+	border-top: 1px solid #bdbdbd;
+	list-style: none;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+.keo_teacher_detail>ul>li{
+	font-size: 18px;
+	padding: 11px 22px;
+}
+.keo_teacher_detail>ul>li:nth-child(odd){
+	background-color: #f3f3f3;
+}
+.keo_teacher_detail>ul>li .hdg{
+	color: #212121;
+	width: 30%;
+	display: inline-block;
+}
+.keo_teacher_detail>ul>li .value{
+	width: 69%;
+	display: inline-block;
+}
+/*
+	==============================================================
+		Teacher Detail My Skills css start
+	==============================================================
+*/
+.keo_detail_skill_bg{
+	padding: 100px 0px 68px;
+	background-image: url('../extra-images/my_skill_01.jpg');	
+}
+.keo_my_skill{
+
+}
+.keo_my_skill .keo_skill_bar{
+	width: 170px;
+	height: 170px;
+	margin: auto auto 20px;
+}
+.keo_my_skill>h4{
+	font-size: 24px;
+}
+/*
+	==============================================================
+		Call to Action css start
+	==============================================================
+*/
+.keo_call_action_bg{
+	padding: 70px 0px 70px;
+	background-image: url('../extra-images/having_problem_01.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.keo_call_action_bg:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(61,11,22,0.70);
+}
+.keo_call_to_action{
+
+}
+.keo_call_to_action>h4{
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.keo_call_to_action>a{
+	min-width: 170px;
+	min-height: 46px;
+	line-height: 46px;
+	border-radius: 5px;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	display: inline-block;
+}
+.keo_call_to_action>a:hover{
+	background-color: #4caf50;
+	border-color: #4caf50;
+}
+/*
+	==============================================================
+		Price Enroll css start
+	==============================================================
+*/
+.keo_price_enroll_bg{
+	padding: 100px 0px;
+}
+/*
+	==============================================================
+		Gallery css start
+	==============================================================
+*/
+.keo_gallery_bg{
+	padding: 100px 0px;
+}
+.keo_filter_button{
+	margin-bottom: 50px;
+}
+.keo_filter_button>li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.keo_filter_button>li:last-child{
+	margin-right: 0px;
+}
+.keo_filter_button>li>a{
+	color: #bdbdbd;
+	border-radius: 4px;
+	padding: 9px 26px;
+	font-size: 18px;
+	background-color: #f3f3f3;
+	font-family: RifficFree;
+}
+.keo_filter_button>li>a.current,
+.keo_filter_button>li:hover>a{
+	
+}
+/*Gallery Detail*/
+.keo_gallery_wrap{
+	margin-bottom: 30px;
+}
+.keo_gallery_wrap>img{
+
+}
+/*
+	==============================================================
+		Pagination Start
+	==============================================================
+*/
+.keo_pagination{
+
+}
+.keo_pagination ul{
+	list-style: none;
+}
+.keo_pagination ul li{
+	display:inline-block;
+	margin-right: 8px;
+}
+.keo_pagination ul li:last-child{
+	margin-right: 0px;
+}
+.keo_pagination ul li a{
+	display: block;
+	height:40px;
+	width:40px;
+	text-align:center;
+	line-height:40px;
+	border-radius:100%;
+	color:#212121;
+	background-color: #f3f3f3;
+	font-family: RifficFree;
+	font-size: 18px;
+	border-radius: 4px;
+}
+.keo_pagination ul li:first-child a,
+.keo_pagination ul li:last-child a{
+	color: #bdbdbd;
+	background-color: transparent;
+}
+.keo_pagination ul li a.active,
+.keo_pagination ul li a:hover{
+	
+}
+/*
+	==============================================================
+		Contact Us Info Start
+	==============================================================
+*/
+.keo_contact_info_bg{
+	padding: 100px 0px 70px;
+}
+.keo_contact_info_bg1{
+	background-color: #92dfc0;
+	color: #3aa077;
+}
+.keo_contact_info_bg2{
+	background-color: #ee977e;
+	color: #c14825;
+}
+.keo_contact_info_bg3{
+	background-color: #f6d190;
+	color: #b17e25;
+}
+.keo_contact_info{
+	border-radius: 12px;
+	padding: 0px 30px;
+	min-height: 168px;
+	margin-bottom: 30px;
+}
+.keo_contact_info .icon{
+	font-size: 70px;
+    width: 70px;
+}
+.keo_contact_info_des{
+	padding-left: 20px;
+}
+.keo_contact_info_des>h4{
+	font-size: 24px;
+	color: inherit;
+}
+.keo_contact_info_des>p{
+	font-size: 18px;
+	color: inherit;
+	margin-bottom: 0px;
+}
+/*
+	==============================================================
+		Get in Touch Start
+	==============================================================
+*/
+.keo_get_touch_bg{
+	padding-bottom: 100px;
+}
+.keo_touch_wrap{
+
+}
+.keo_touch_wrap>input[type="text"]{
+	height: 50px;
+	border: 2px solid #bdbdbd;
+	background-color: #f9f9f9;
+	border-radius: 4px;
+	line-height: 50px;
+}
+.keo_touch_wrap>textarea{
+	border: 2px solid #bdbdbd;
+	background-color: #f9f9f9;
+	height: 250px;
+	border-radius: 4px;
+	line-height: 50px;
+}
+.keo_touch_wrap>button{
+	min-width: 170px;
+	min-height: 46px;
+	line-height: 46px;
+	border-radius: 5px;
+	border: 2px solid #4caf50;
+	color: #ffffff;
+	display: inline-block;
+	background-color: #4caf50;
+	cursor: pointer;
+}
+.keo_touch_wrap>button:hover{
+	background-color: transparent;
+	color: #4caf50;
+}
+/*
+	==============================================================
+		Map Wrap Style
+	==============================================================
+*/
+.map-canvas {
+    height: 700px;
+    width: 100%;
+}
+/*
+	==============================================================
+		Comming Soon Wrap Style
+	==============================================================
+*/
+.keo_coming_border{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.keo_coming_soon_bg{
+	background-image: url(../extra-images/coming_soon_01.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 170px 0px;
+	background-repeat: no-repeat;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+.keo_coming_soon_bg:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.70);
+}
+.keo_coming_soon_des .keo_hdg_01>h4{
+	font-size: 48px;
+}
+.keo_coming_soon_des ul.countdown {
+	float: left;
+	width: 100%;
+	margin: 0px 0px 20px;
+	list-style: none;
+	padding-left: 0px;
+}
+.keo_coming_soon_des ul.countdown li {
+	position: relative;
+	width: 170px;
+	height: 170px;
+	border-radius: 100%;
+	margin-right: 25px;
+	margin-bottom: 30px;
+}
+.keo_coming_soon_des ul.countdown li:first-child{
+	margin-left: 0px;
+}
+.keo_coming_soon_des ul.countdown li > h3 {
+	font-size: 72px;
+	line-height: 100%;
+	color: inherit;
+	margin-bottom: 0px;
+}
+.keo_coming_soon_des ul.countdown li p {
+	font-size: 18px;
+	color: inherit;
+	margin-bottom: 0px;
+}
+.keo_coming_soon_des{
+
+}
+.keo_coming_soon_des>p{
+
+}
+.keo_coming_soon_des>h4{
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+/*
+	==============================================================
+		404 Page css start
+	==============================================================
+*/
+.keo_404_bg{
+	padding: 120px 0px 125px;
+}
+.keo_404_wrap{
+
+}
+.keo_404_wrap>h2{
+	font-size: 150px;
+	line-height: 130px;
+	margin-bottom: 40px;
+}
+.left_4{
+	color: #f26d21;
+}
+.right_4{
+	color: #b2c627;
+}
+.keo_404_wrap>img{
+	margin-bottom: 40px;
+}
+.keo_404_wrap>h4{
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 35px;
+}
+.keo_404_wrap>p{
+	margin-bottom: 30px;
+}
+.keo_404_wrap>a{
+	display: inline-block;
+	width: 170px;
+	min-height: 46px;
+	line-height: 46px;
+	border-radius: 4px;
+	border: 2px solid;
+}
+.keo_404_wrap>a:hover{
+	background-color: transparent;;
+}
+/*
+	==============================================================
+		Blog Single css start
+	==============================================================
+*/
+.keo_blog_single_bg{
+	padding: 95px 0px 100px;
+}
+.keo_blog_single_des{
+
+}
+.keo_blog_single_des>figure{
+	border-radius: 15px;
+	overflow: hidden;
+}
+.keo_blog_single_des>figure>img{
+
+}
+.keo_blog_single_des>p{
+
+}
+.keo_blog_single_des>blockquote{
+	padding: 10px 70px;
+	border-left: 2px solid;
+	margin: 20px 0px 40px;
+}
+.keo_blog_single_des>blockquote>i{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.keo_blog_single_des>blockquote>span{
+	color: #212121;
+	font-size: 18px;
+}
+.keo_blog_tags{
+	margin-bottom: 30px;
+}
+.keo_blog_tags>h6{
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 10px;
+}
+.keo_blog_tags>ul{
+	list-style: none;
+	padding-left: 0px;
+	display: inline-block;
+	margin-bottom: 0px;
+}
+.keo_blog_tags>ul>li{
+	display: block;
+}
+.keo_blog_tags>ul>li>a{
+	color: #757575;
+}
+.keo_blog_social{
+	margin-bottom: 30px;
+	border-bottom: 1px solid #bdbdbd;
+}
+.keo_blog_social>ul{
+	list-style: none;
+	padding-left: 0px;
+	border-radius: 4px;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+.keo_blog_social>ul>li{
+	width: 25%;
+	display: inline-block;
+	height: 60px;
+}
+.keo_blog_social>ul>li>a{
+	
+}
+.facebook_bg{
+	background-color: #3a5196;
+}
+.twitter_bg{
+	background-color: #00a7ea;
+}
+.pinterest_bg{
+	background-color: #d50000;
+}
+.mail_bg{
+	background-color: #bdbdbd;
+}
+/*
+	==============================================================
+		Blog Next and Previous css start
+	==============================================================
+*/
+.keo_nex_prev_post{
+
+}
+.keo_nex_prev_post>span{
+	margin-bottom: 8px;
+}
+.keo_nex_prev_post>a{
+	font-size: 16px;
+	font-weight: 600;
+}
+/*
+	==============================================================
+		Blog Sub css start
+	==============================================================
+*/
+.blog_sm_hdg{
+	font-size: 24px;
+}
+.blog_sm_hdg_border{
+	border-bottom: 1px solid #bdbdbd;
+}
+/*
+	  ============================================================
+		Author Comment css start
+	  ============================================================
+*/
+.keo_author_blog {
+	float: left;
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #bdbdbd;
+	padding-bottom: 20px;
+}
+.keo_author_blog figure {
+	width: 100px;
+	float: left;
+	position: relative;
+	border-radius: 100%;
+}
+.keo_author_blog figure img {
+	width: 100%;
+	height: auto;
+	border-radius: 100%;
+}
+.keo_author_des {
+	float: none;
+	width: auto;
+	padding: 0px 0px 0px 130px;
+}
+.keo_author_des h5 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.keo_author_des h5>a {
+	
+}
+.keo_author_date {
+	position: relative;
+	margin: 0px 0px 10px;
+}
+.keo_author_date span {
+	display: inline-block;
+	color: #bdbdbd;
+}
+/*
+	  ============================================================
+		User Comment css start
+	  ============================================================
+*/
+.keo_comment_list_wrap ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+}
+.keo_comment_list_wrap ul li {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-bottom: 40px;
+}
+.keo_comment_list_wrap>ul>li:first-child {
+	padding-top: 0px;
+}
+.keo_comment_list_wrap>ul>li:last-child{
+	margin-bottom: 0px;
+}
+.keo_comment_list_wrap>ul>li:last-child .keo_comment_des{
+	border-bottom: 0px;
+}
+.keo_comment_wrap {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.keo_comment_wrap figure {
+	width: 70px;
+	position: relative;
+	border-radius: 100%;
+}
+.keo_comment_wrap figure img {
+	width: 100%;
+	height: auto;
+	border-radius: 100%;
+}
+.keo_comment_des {
+	width: calc(100% - 110px);
+    padding: 0px 0px 35px 0px;
+    border-bottom: 1px solid #eaeaea;
+    margin-left: 40px;
+}
+.keo_comment_des h5 {
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+.keo_comment_des h5>a {
+	font-family: 'Lato', sans-serif;
+}
+.keo_comment_des>a {
+	color: #bdbdbd;
+}
+.keo_comment_date {
+	position: relative;
+	margin: 0px 0px 10px;
+}
+.keo_comment_date span {
+	margin-left: 5px;
+	display: inline-block;
+	color: #bdbdbd;
+}
+.keo_comment_date span:first-of-type {
+	margin-left: 0px;
+}
+.keo_comment_des>p{
+	margin-bottom: 25px;
+}
+/*Second Ul*/
+.keo_comment_list_wrap>ul>li>ul {
+	padding-left: 100px;
+	margin: 0px;
+	margin-top: 40px;
+}
+.keo_comment_list_wrap>ul>li>ul>li>ul {
+	padding-left: 100px;
+	margin-bottom: 0px;
+	margin-top: 40px;
+}
+.keo_comment_list_wrap>ul>li>ul .keo_comment_wrap {
+	border: 0px;
+}
+.keo_comment_list_wrap ul ul li .keo_comment_wrap {
+	padding: 0px 0px 0px;
+}
+.keo_comment_list_wrap ul ul li:last-child {
+	margin-bottom: 0px;
+}
+/*
+	==============================================================
+		Blog Listing css start
+	==============================================================
+*/
+.keo_blog_listing_bg{
+	padding: 95px 0px 100px;
+}
+/*
+	==============================================================
+		Event Single Start
+	==============================================================
+*/
+.keo_event_single_bg{
+	padding: 100px 0px;
+}
+.keo_event_single_img{
+
+}
+.keo_event_single_img>img{
+	border-radius: 12px;
+}
+/*Event Meta*/
+.keo_event_single_meta{
+	border-bottom: 1px solid #bdbdbd;
+	list-style: none;
+	padding-left: 0px;
+}
+.keo_event_single_meta>li{
+	color: #212121;
+	display: inline-block;
+	margin-right: 15px;
+}
+.keo_event_single_meta>li .event_location>p{
+	color: #212121;
+	line-height: normal;
+	margin: 0px;
+}
+.keo_event_single_meta>li:last-child{
+	margin-right: 0px;
+}
+.keo_event_single_meta>li>span{
+
+}
+/*Event Des*/
+.keo_event_des{
+
+}
+.keo_event_des>h3{
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+/*
+	==============================================================
+		Event Form Start
+	==============================================================
+*/
+.keo_touch_wrap .lbl{
+	color: #212121;
+	margin-bottom: 8px;
+}
+.search_for_event>button{
+	min-width: 100%;
+	min-height: 45px;
+	line-height: 45px;
+	border-radius: 5px;
+	border: 2px solid #4caf50;
+	color: #ffffff;
+	display: inline-block;
+	background-color: #4caf50;
+	cursor: pointer;
+	margin-top: 27px;
+}
+.search_for_event>button:hover{
+	background-color: transparent;
+	color: #4caf50;
+}
+/*
+	==============================================================
+		Class Grid Start
+	==============================================================
+*/
+.keo_class_grid{
+	border-radius: 12px;
+	overflow: hidden;
+}
+.keo_class_grid>figure{
+
+}
+.keo_class_grid>figure>img{
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.keo_class_grid_des{
+	padding: 28px 30px 30px;
+}
+.keo_class_grid_des>h4{
+	font-size: 24px;
+	margin-bottom: 18px;
+}
+.keo_class_grid_des>h4>a{
+
+}
+.keo_class_grid_des>ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.keo_class_grid_des>ul>li{
+	margin-bottom: 8px;
+	font-size: 16px;
+	color: #c5cae9;
+}
+.keo_class_grid_des>ul>li:last-child{
+	margin-bottom: 0px;
+}
+.keo_class_grid_des>ul>li>span{
+	
+}
+.keo_class_date{
+	border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    position: absolute;
+    top: -34px;
+    line-height: normal;
+    right: 25px;
+    font-family: RifficFree;
+}
+.keo_class_grid_bg{
+	background-color: #3d97fc;
+}
+.keo_class_grid_color ul li{
+	color: #ffffff;
+}
+/*
+	==============================================================
+		UI Element Start
+	==============================================================
+*/
+.keo_result_found{
+
+}
+.keo_result_found>h4{
+	font-size: 18px;
+	margin-bottom: 0px;
+	color: #bdbdbd;
+	margin-top: 10px;
+}
+.keo_sort{
+
+}
+.keo_sort>h4{
+	font-size: 18px;
+	margin-bottom: 0px;
+	color: #bdbdbd;
+	margin-right: 10px;
+}
+.keo_sort .dropdown{
+	font-size: 18px;
+	background-color: #f3f3f3;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 6px 20px;
+}
+.keo_sort .dropdown i{
+	font-size: 14px;
+	color: #bdbdbd;
+	margin-left: 15px;
+}
+.keo_view_option{
+
+}
+.keo_view_option>h4{
+	font-size: 18px;
+	margin-bottom: 0px;
+	color: #bdbdbd;
+	margin-right: 10px;
+}
+.keo_view_option .keo_pagination{
+
+}
+.keo_view_option .view_option{
+	padding-left: 25px;
+	margin-bottom: 0px;
+}
+.keo_view_option .view_option:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 1px;
+	height: 20px;
+	background-color: #bdbdbd;
+}
+.keo_view_option .view_option li{
+	width: 40px;
+	height: 40px;
+	background-color: #f3f3f3;
+	border-radius: 4px;
+	line-height: 40px;
+	font-size: 16px;
+	margin-right: 8px;
+}
+.keo_view_option .view_option li:last-child{
+	margin-right: 0px;
+}
+.keo_view_option .view_option li a{
+
+}
+/*
+	==============================================================
+		Class List View Start
+	==============================================================
+*/
+.keo_class_list{
+	border-radius: 12px;
+    overflow: hidden;
+}
+.keo_class_list figure img{
+	height: 100%;
+}
+.keo_class_list_des{
+	padding: 25px 30px 25px;
+}
+.keo_class_list_des>h4{
+	font-size: 24px;
+	margin-bottom: 18px;
+}
+.keo_class_list_des>h4>a{
+
+}
+.keo_class_list_des>p{
+	margin-bottom: 15px;
+}
+.keo_class_list_des>ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.keo_class_list_des>ul>li{
+	margin-bottom: 8px;
+	font-size: 18px;
+	color: #c5cae9;
+}
+.keo_class_list_des>ul>li:last-child{
+	margin-bottom: 0px;
+}
+.keo_class_list_des>ul>li>span{
+	
+}
+.keo_class_date_list{
+    font-size: 24px;
+    position: absolute;
+    top: 24px;
+    line-height: normal;
+    right: 30px;
+    font-family: RifficFree;
+}
+/*
+	==============================================================
+		Class Single css start
+	==============================================================
+*/
+.keo_container{
+	max-width: 775px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.keo_class_single_bg{
+	padding: 95px 0px 100px;
+}
+.keo_single_pdg{
+	padding: 10px 20px 0px;
+}
+.keo_class_single_des{
+
+}
+.keo_class_single_des>p{
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 300;
+}
+.keo_class_single_hdg{
+	font-size: 18px;
+	min-height: 60px;
+	padding: 0px 20px;
+	border-radius: 5px;
+	background-color: #f3f3f3;
+}
+/*Slick Slider*/
+.keo_class_single_slider{
+	margin-bottom: 40px;
+}
+.keo_class_single_img{
+	border-radius: 15px;
+	overflow: hidden;
+	margin-right: 30px;
+}
+/*
+	==============================================================
+		Navigation Style 02 css start
+	==============================================================
+*/
+.keo_nav2_style{
+
+}
+.keo_nav2_style .keo_logo{
+	width: 20%;
+}
+.keo_nav2_style .keo_nav{
+	width: 60%;
+}
+.keo_nav2_style .keo_nav ul ul li{
+	text-align: left;
+}
+.keo_nav2_style .keo_nav_ui{
+	width: 20%;
+}
+/*
+	==============================================================
+		Why Wonderland css start
+	==============================================================
+*/
+.keo_why_wonderland_bg{
+	padding: 99px 0px 63px;
+}
+.keo_why_wonderland{
+	margin-bottom: 30px;
+}
+.keo_why_wonderland .icon{
+	font-size: 80px;
+	z-index: 2;
+}
+.keo_why_wonderland .icon:before{
+	content: "";
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    bottom: 0px;
+    right: -60px;
+    margin: auto;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    z-index: -1;
+}
+.keo_why_wonderland>h4{
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+.keo_why_wonderland>p{
+
+}
+/*Color Variation*/
+.keo_why_wonderland.why_wonderland_bg1 >h4{
+	color: #6fab93;
+}
+.keo_why_wonderland.why_wonderland_bg1 .icon:before{
+	background-color: #6fab93;
+}
+.keo_why_wonderland.why_wonderland_bg2 >h4{
+	color: #f6d190;
+}
+.keo_why_wonderland.why_wonderland_bg2 .icon:before{
+	background-color: #f6d190;
+}
+.keo_why_wonderland.why_wonderland_bg3 >h4{
+	color: #e7886d;
+}
+.keo_why_wonderland.why_wonderland_bg3 .icon:before{
+	background-color: #e7886d;
+}
+.keo_why_wonderland.why_wonderland_bg4 >h4{
+	color: #c8f3ff;
+}
+.keo_why_wonderland.why_wonderland_bg4 .icon:before{
+	background-color: #c8f3ff;
+}
+.keo_why_wonderland.why_wonderland_bg5 >h4{
+	color: #925fde;
+}
+.keo_why_wonderland.why_wonderland_bg5 .icon:before{
+	background-color: #925fde;
+}
+.keo_why_wonderland.why_wonderland_bg6 >h4{
+	color: #f26d21;
+}
+.keo_why_wonderland.why_wonderland_bg6 .icon:before{
+	background-color: #f26d21;
+}
+/*
+	==============================================================
+		Index 02 Call to Action css start
+	==============================================================
+*/
+.keo_index2_call_bg{
+	padding: 70px 0px;
+}
+.keo_index2_call{
+
+}
+.keo_index2_call>p{
+	font-size: 36px;
+	font-weight: 300;
+}
+.keo_index2_call>span{
+	font-size: 18px;
+	font-weight: 300;
+}
+.keo_index2_call>a{
+	display: inline-block;
+	min-width: 200px;
+	min-height: 56px;
+	line-height: 56px;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 4px;
+	margin-top: 6px;
+}
+.keo_index2_call>a:hover{
+	background-color: #ffffff;
+	color: #212121;
+}
+/*
+	==============================================================
+		Class Style 02 css start
+	==============================================================
+*/
+.keo_class2_bg{
+	background-image: url('../extra-images/class_index2_bg.jpg');
+	padding: 99px 0px 98px;
+}
+/*Slick*/
+.keo_class2_bg .keo_child_class_slider .slick-dots li button{
+	width: 5px;
+	height: 5px;
+	border-radius: 50px;
+	display: inline-block;
+	background-color: #bdbdbd;
+	margin-right: 5px;
+	border: 0px;
+	cursor: pointer;
+	font-size: 0px;
+	outline: none;
+	padding: 0px;
+}
+.keo_class2_bg .keo_child_class_slider .slick-dots li.slick-active button{
+	width: 30px;
+}
+/*
+	==============================================================
+		Teacher Index 02 css start
+	==============================================================
+*/
+.keo_index2_teacher_bg{
+	padding: 99px 0px 98px;
+}
+/*
+	==============================================================
+		Facts Index 02 css start
+	==============================================================
+*/
+.keo_index2_facts_bg{
+	background-image: url('../extra-images/facts_style02_bg.jpg');
+	padding: 70px 0px 44px;
+}
+/*
+	==============================================================
+		Testimonial css start
+	==============================================================
+*/
+.keo_testimonial_slider{
+	margin-top: -7px;
+}
+.keo_testimonial_bg{
+	background-image: url('../extra-images/testimonial_bg.jpg');
+	padding: 100px 0px 97px;
+}
+.keo_testimonial_wrap{
+	padding: 0px 160px;
+}
+.keo_testimonial_wrap>p{
+	font-weight: 300;
+	line-height: 48px;
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+.keo_testimonial_wrap>img{
+
+}
+.keo_testimonial_wrap>h4{
+	font-size: 24px;
+}
+.keo_testimonial_wrap>span{
+
+}
+/*
+	==============================================================
+		Index 02 Event css start
+	==============================================================
+*/
+.keo_event2_bg{
+	padding: 98px 0px 60px;
+}
+.keo_index2_event{
+	width: 100%;
+}
+/*
+	==============================================================
+		Photo Gallery css start
+	==============================================================
+*/
+.keo_photo_bg{
+	background-color: #181818;
+	padding: 100px 0px 98px;
+}
+.keo_photo_wrap{
+	border-radius: 15px;
+	overflow: hidden;
+}
+.keo_photo_wrap>img{
+	border-radius: 14px;
+}
+.keo_photo_wrap>a{
+	position: relative;
+	display: block;
+}
+.keo_photo_wrap>a>img{
+	width: 100%;
+}
+.keo_photo_wrap>a:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: rgba(24,24,24,0.75);
+	transform:scale(0);
+	-moz-transform:scale(0);
+	-webkit-transform:scale(0);	
+}
+/*Slick*/
+.keo_photo_gallery_slider .slick-list{
+	margin-bottom: 30px;
+}
+.keo_photo_gallery_slider .slick-list .keo_photo_wrap {
+    margin-right: 25px;
+}
+.keo_photo_gallery_slider .slick-dots{
+	text-align: center;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	margin-top: -12px;
+}
+.keo_photo_gallery_slider .slick-dots li{
+	display: inline-block;
+}
+.keo_photo_gallery_slider .slick-dots li button{
+	width: 5px;
+	height: 5px;
+	border-radius: 50px;
+	display: inline-block;
+	background-color: #ffffff;
+	margin-right: 5px;
+	border: 0px;
+	cursor: pointer;
+	font-size: 0px;
+	outline: none;
+	padding: 0px;
+}
+.keo_photo_gallery_slider .slick-dots li.slick-active button{
+	width: 30px;
+}
+/*
+	==============================================================
+		Side Menu css start
+	==============================================================
+*/
+.hidden-bar {
+	position: fixed;
+	top: 0px;
+	left: -350px;
+	width: 300px;
+	height: 100%;
+	background: #3b3b3c;
+	z-index: 9999;
+	transition: all 700ms ease;
+	-webkit-transition: all 700ms ease;
+	-ms-transition: all 700ms ease;
+	-o-transition: all 700ms ease;
+	-moz-transition: all 700ms ease;
+}
+.theme-brown .hidden-bar {
+	background: #a8724e;
+}
+.theme-green .hidden-bar {
+	background: #73a702;
+}
+.hidden-bar .mCSB_inside > .mCSB_container {
+	margin-right: 0px;
+}
+.hidden-bar.right-align.visible-sidebar {
+	left: 0px;
+}
+.hidden-bar .hidden-bar-closer {
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	background: none;
+	color: #fff;
+	border-radius: 0;
+	text-align: center;
+	line-height: 24px;
+	border: 1px solid #ffffff;
+	transition: all 300ms ease;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	z-index: 999999;
+	cursor: pointer;
+}
+.hidden-bar .hidden-bar-closer:hover {
+	background: #fff;
+}
+.hidden-bar .hidden-bar-closer:hover .btn {
+	color: #333333;
+}
+.hidden-bar .hidden-bar-closer .btn {
+	position: relative;
+	top: -1px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-size: 10px;
+	padding: 0px;
+	color: #fff;
+}
+.hidden-bar .gt_side_social_icons {
+	text-align: center;
+	margin: 50px 0px 130px;
+}
+.hidden-bar .gt_side_social_icons ul {
+	font-size: 0;
+	margin-left: -5px;
+	margin-right: -5px;
+	padding-left: 0px;
+	list-style: none;
+	margin-bottom: 0px;
+}
+.hidden-bar .gt_side_social_icons ul li {
+	display: inline-block;
+	padding: 0 5px;
+}
+.hidden-bar .gt_side_social_icons ul li a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 100%;
+	transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+.theme-brown .hidden-bar .gt_side_social_icons ul li a {
+	color: #a8724e;
+}
+.theme-green .hidden-bar .gt_side_social_icons ul li a {
+	color: #73a702;
+}
+.hidden-bar .gt_side_social_icons ul li a:hover {
+	color: #fff;
+}
+.hidden-bar-wrapper {
+	height: 100%;
+}
+.hidden-bar .logo {
+	padding: 80px 0 60px;
+}
+.theme-brown .hidden-bar .logo {
+	background: #a8724e;
+}
+.theme-green .hidden-bar .logo {
+	background: #73a702;
+}
+.hidden-bar .logo img {
+	display: inline-block;
+	max-width: 100%;
+}
+.hidden-bar .side-menu {
+	background-color: transparent;
+	padding: 0;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.hidden-bar .side-menu .navigation,
+.hidden-bar .side-menu .navigation ul{
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.hidden-bar .side-menu ul li ul a {
+	background: transparent;
+	text-transform: uppercase;
+}
+.hidden-bar .side-menu ul li ul li ul li a {
+	background: transparent;
+	text-transform: capitalize;
+}
+.hidden-bar .side-menu a.current {
+	color: #fff;
+}
+.hidden-bar .side-menu li.current > a {
+	color: #fff;
+}
+.hidden-bar .side-menu ul li a {
+	color: #ffffff;
+	display: block;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-bottom: 1px solid #4a4a4e;
+	padding: 16px 15px 16px 20px;
+	position: relative;
+	transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+.hidden-bar .side-menu ul li a:hover {
+	background: transparent;
+	color: #fff;
+}
+.hidden-bar .side-menu ul li a .btn.expander {
+	background: none;
+	color: #ffffff;
+	border: 1px solid rgba(255,255,255,0.80);
+	padding: 3px 7px;
+	font-size: 14px;
+	border-radius: 0px;
+	position: absolute;
+	top: 11px;
+	right: 20px;
+	outline: none;
+}
