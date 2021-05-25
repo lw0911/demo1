@@ -1,0 +1,1620 @@
+/*
+Author       : themes_master
+Template Name: Lalvai - Landing Page HTML Template
+Version      : 1.0
+*/
+/*=============================================================
+    CSS INDEX
+    =============================
+	01. GENERAL STYLE (body, link color, section-title, preloader btn, overlay, section-padding etc)
+	02. START BOOTSTRAP NAVIGATION OVERRIDES
+	03. START HOME DESIGN
+	04. START ABOUT DESIGN
+	05. START FEATURE DESIGN
+	06. START PORTFOLIOS DESIGN
+	07. START TESTIMOIALS DESIGN
+	08. START VIDEO DESIGN
+	09. START TEAM DESIGN
+	10. START PRICING DESIGN
+	11. START FEATURES DESIGN
+	12. START BLOG DESIGN
+	13. START CONTACT DESIGN
+	14. START FOOTER DESIGN
+  =============================================================*/
+/*
+* ----------------------------------------------------------------------------------------
+* 01.GENERAL STYLE
+* ----------------------------------------------------------------------------------------
+*/
+body {
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+background:#fff;
+background:url(../img/body-bg.png) no-repeat scroll 0 0;
+color:#666;
+line-height: 25px;
+overflow-x: hidden;
+}
+html,
+body { height: 100% }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: 'Poppins', sans-serif;
+  letter-spacing: 0px;
+  margin: 0px; 
+  color: #252d35;
+  font-weight: 400;
+}
+a {
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+transition: all 0.2s ease 0s;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+p {
+margin: 0;
+padding: 0;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+/*START PRELOADER DESIGN*/
+.preloader {
+	background: #fff;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;	
+}
+.spinner {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -25px 0 0 -25px;
+	font-size: 10px;
+	text-indent: -12345px;
+	z-index: 10000;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #35ac39;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+.no-padding { padding: 0 }
+/*END PRELOADER DESIGN*/
+/*START SECTION TITLE DESIGN*/
+.section-padding {padding: 80px 0;}
+.section-title{margin-bottom:60px;}
+.section-title h1 {
+	font-size: 46px;
+	font-weight: 500;
+	line-height: 55px;
+	margin-top: 0;
+	position: relative;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+@media only screen and (max-width:480px) { 
+.section-title  h1  {
+font-size:24px;
+line-height: 32px;
+font-weight: 700;
+}
+}
+h1.section-title-white{color:#fff;}
+h4.section-title-white{color:#fff;}
+.section-title p {
+	padding: 0 10px;
+	width: 80%;
+	margin: auto;
+	letter-spacing: 1px;
+}
+p.section-title-white{color:#fff;}
+@media only screen and (max-width:768px) { 
+.section-title  p{
+padding: 0 10px;
+width: 90%;
+margin: auto;	
+}
+}
+/*END SECTION TITLE DESIGN*/
+/*START SCROLL TO TOP*/
+.topcontrol {
+background: #35ac39 none repeat scroll 0 0;
+border-radius:3px;
+bottom: 5px;
+box-shadow:0 0 10px rgba(0, 0, 0, 0.08);
+color: #fff;
+cursor: pointer;
+font-size: 16px;
+height:45px;
+line-height:45px;
+opacity: 1;
+position: fixed;
+right: 5px;
+text-align: center;
+transition: all 0.2s ease 0s;
+width:45px;
+}
+.topcontrol:hover {
+    background: #ff3366;
+    color: #fff;
+}
+/*END SCROLL TO TOP*/
+/*
+* ----------------------------------------------------------------------------------------
+* 01.END GENERAL STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 02.START BOOTSTRAP NAVIGATION OVERRIDES
+* ----------------------------------------------------------------------------------------
+*/
+.navbar {padding: 25px 0;}
+.bg-faded {
+background-color: transparent;
+transition: all 0.3s ease 0s;
+}
+@media only screen and (max-width:768px) { 
+.bg-faded {background:#fff;}
+}
+.navbar-brand img {
+  width: 150px;
+}
+.logo-hidden{
+ display:none;
+width: 150px;	
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	padding: 0 14px;
+	text-transform: capitalize;
+}
+@media only screen and (max-width:768px) { 
+.navbar-light .navbar-nav .nav-link {color: #252d35;}
+}
+@media only screen and (max-width:480px) { 
+.navbar-light .navbar-nav .nav-link {padding: 8px 0px;}
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #35ac39 !important;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .open > .nav-link {
+  color: #35ac39  !important;
+}
+.navbar-light .navbar-toggler {
+  border-color: #fff;
+  border-radius: 0px;
+}
+.navbar-light .navbar-toggler {
+  float: right;
+  margin: 14px;
+  cursor: pointer;
+    background-color: #35ac39;
+  border-color: #35ac39;
+  border-radius: 0;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox=\'0 0 32 32\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgba(0, 0, 0, 0.5)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 8h24M4 16h24M4 24h24\'/%3E%3C/svg%3E");
+}
+.navbar-light .navbar-toggler i {
+  color: #111!important;
+}
+.site-navigation {
+    border-radius: 0px;
+}
+@media only screen and (max-width:480px) { 
+.collapse.show {
+  display: block;
+  padding: 0!important;
+}
+}
+.navbar-fixed {
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+	padding:10px 0;
+    top: 0;
+    -webkit-animation: fadeInDown 800ms;
+    animation: fadeInDown 800ms;
+    -webkit-backface-visibility: hidden;
+    border-radius: 0px;
+    background:#fff;
+	 box-shadow:0 10px 40px rgba(0, 0, 0, 0.05);
+}
+.navbar-fixed .navbar-brand img {
+  display:none;
+}
+.navbar-fixed .logo-hidden{
+display:block!important;
+margin-left:-15px;	
+}
+@media only screen and (max-width:768px) { 
+.navbar-fixed {background:#fff;}
+.navbar-fixed.navbar-light .navbar-nav .nav-link{color:#111;}
+}
+.navbar-fixed.navbar-light .navbar-nav .nav-link{color:#111;}
+
+@media only screen and (max-width:768px) { 
+.navbar-fixed.navbar-light .navbar-nav .nav-link{color:#111;}
+}
+
+/* Sub Menu */
+.sub-menu {
+	background: #fff none repeat scroll 0 0;
+	box-shadow: 0 0px 7px rgba(0,0,0,0.05);
+	border: 1px solid rgba(0,0,0,0.04);
+	opacity: 0;
+	padding: 12px 11px;
+	position: absolute;
+	text-align: left;
+	top: 120px;
+	visibility: hidden;
+	width: 200px;
+	z-index: -999;
+	transition: .5s;
+}
+.nav-link:hover .sub-menu {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+  z-index: 999;
+}
+.sub-menu li{}
+.sub-menu li a {
+  display: block;
+  line-height: 32px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.sub-menu li a:hover {
+  padding-left: 18px;
+}
+/*
+* ----------------------------------------------------------------------------------------
+* 02.END BOOTSTRAP NAVIGATION OVERRIDES
+* ----------------------------------------------------------------------------------------
+*/
+/*
+* ----------------------------------------------------------------------------------------
+* 03.START HOME DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.home_bg {
+    height: 750px;
+    position: relative;
+}
+.home_bg:before {
+    background: rgba(0,0,0,0.5);
+    content: "";
+    height: 100%;
+	opacity:0.9;
+    filter: alpha(opacity=80);
+    position: absolute;
+    width: 100%;
+}
+@media only screen and (max-width:768px) { 
+.home_bg {height: 1150px;}
+}
+.hero-text {padding-top: 250px;}
+@media only screen and (max-width:480px) { 
+.hero-text  {padding-top:170px;}
+}
+.hero-text h2 {
+	color: #fff;
+	font-size: 47px;
+	letter-spacing: 0;
+	margin-bottom: 20px;
+	line-height: 60px;
+	font-weight: 600;
+}
+@media only screen and (max-width:480px) { 
+.hero-text h2 {font-size: 30px;line-height:40px;}
+}
+.hero-text p {
+	color: #fff;
+	margin-top: 10px;
+	margin: 10px auto 30px;
+	padding-right: 40px;
+}
+@media only screen and (max-width:480px) { 
+.hero-text p {
+width: 90%;
+margin-left:0px;
+}
+}
+.get_btn {
+	background: #35ac39;
+	border: 1px solid #35ac39;
+	border-radius: 500px;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 10px 30px;
+	text-transform: capitalize;
+	transition: all 0.3s ease 0s;
+	font-family: 'Poppins', sans-serif;
+}
+@media only screen and (max-width:360px) { 
+.get_btn {padding: 10px 40px;}
+}
+.get_btn:hover, .get_btn:focus{
+background:#fff;
+color:#333;
+border: 1px solid #fff;
+}
+.register {
+	background: #fff;
+	box-shadow: 0 1px 200px rgba(0, 0, 0, 0.1);
+	margin-top: 200px;
+	overflow: hidden;
+	padding: 50px;
+	border-radius: 5px;
+}
+@media only screen and (max-width:768px) { 
+.register{margin-top:60px; }
+}
+.login_register_title {
+	margin-bottom: 25px;
+	margin-top: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 20px;
+}
+.register input {
+	height: 52px;
+	box-shadow: none;
+	border: 1px solid #fff;
+	background: #f5f8fa;
+}
+.register input:focus{
+box-shadow: none;
+border: 1px solid #35ac39;
+}
+.register select{
+	height: 52px !important;
+	box-shadow: none;
+	border: 1px solid #fff;
+	background: #f5f8fa;	
+}
+.register select option{
+padding:10px 0;
+}
+.btn-register-bg {
+	background: #35ac39;
+	border: 2px solid #35ac39;
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	overflow: hidden;
+	padding: 15px 30px;
+	text-transform: capitalize;
+	transition: all 0.3s ease 0s;
+	/* font-weight: 600; */
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	width: 100%;
+	cursor: pointer;
+	letter-spacing: 0.5px;
+}
+@media only screen and (max-width:360px) { 
+.btn-register-bg {padding: 10px 40px;}
+}
+.btn-register-bg:hover, .btn-register-bg:focus{
+background:#35ac39;
+color:#fff;
+border: 2px solid #35ac39;
+}
+/*START OTHER HOME PAGE CSS*/
+.home_parallax {
+    height: 750px;
+    position: relative;
+}
+@media only screen and (max-width:768px) { 
+.home_parallax {height:850px;}
+}
+.home_parallax:before {
+    background: rgba(0,0,0,0.5);
+    content: "";
+    height: 100%;
+	opacity:0.9;
+    filter: alpha(opacity=80);
+    position: absolute;
+    width: 100%;
+}
+.parallax-hero-text{padding-top:250px;}
+.parallax-hero-text h2 {
+	color: #fff;
+	font-size: 56px;
+	letter-spacing: 0;
+	margin-bottom: 20px;
+	line-height: 65px;
+	font-weight: 600;
+}
+@media only screen and (max-width:480px) { 
+.parallax-hero-text h2 {font-size: 40px;line-height:50px;}
+}
+@media only screen and (max-width:375px) { 
+.parallax-hero-text h2 {font-size: 30px;line-height:40px;}
+}
+.parallax-hero-text p {
+	color: #fff;
+	margin-bottom: 30px;
+	word-spacing: 1px;
+	letter-spacing: 0.5px;
+}
+
+.home_bg_video{
+	    height: 750px;
+    position: relative;
+}
+@media only screen and (max-width:768px) { 
+.home_bg_video {height: 1150px;}
+}
+.home_bg_video:before {
+    background: rgba(0,0,0,0.5);
+    content: "";
+    height: 100%;
+	opacity:0.9;
+    filter: alpha(opacity=80);
+    position: absolute;
+    width: 100%;
+}
+.youtube-video {
+	background: #fff;
+	box-shadow: 0 1px 200px rgba(0, 0, 0, 0.1);
+	margin-top: 200px;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 5px;
+}
+@media only screen and (max-width:768px) { 
+.youtube-video{margin-top:60px; }
+}
+.youtube-video iframe {
+	width: 100%;
+	height: 300px;
+	margin-bottom: -8px;
+}
+.get_btn_two {
+	background: #35ac39;
+	border: 1px solid #35ac39;
+	border-radius: 500px;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 10px 30px;
+	text-transform: capitalize;
+	transition: all 0.3s ease 0s;
+	font-family: 'Poppins', sans-serif;
+}
+@media only screen and (max-width:360px) { 
+.get_btn_two {padding: 10px 40px;}
+}
+.get_btn_two:hover, .get_btn_two:focus{
+background:#35ac39;
+color:#fff;
+border: 1px solid #35ac39;
+}
+/*END OTHER HOME PAGE CSS*/
+/*
+* ----------------------------------------------------------------------------------------
+* 03.END HOME DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+.single_logo a img {
+	width: 150px;
+	opacity: 0.6;
+	transition: 0.2s;
+}
+.single_logo a img:hover{opacity: 1;}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 04.START ABOUT DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.process-content{
+background:#f5f8fa;	
+padding-bottom:50px;
+}
+.single-process{
+background:#fff;
+padding: 60px;
+margin-bottom:30px;
+border-radius:3px;
+position:relative;
+z-index:2;
+transition: all 0.3s ease 0s;
+}
+@media only screen and (max-width:768px) { 
+.single-process{padding: 30px;}
+}
+@media only screen and (max-width:480px) { 
+.single-process{padding:40px;}
+}
+.single-process:hover{
+box-shadow:0px 60px 60px rgba(0,0,0,0.1);
+z-index:100;
+transform: translate(0, -10px);
+}
+.single-process-bg{background:#35ac39;}
+.single-process span {
+	display: inline-block;
+	font-size:60px;
+	margin-bottom: 25px;
+	text-align: center;
+	color:#35ac39;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.single-process h4 {
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+.single-process p{}
+.single-process-bg span{color:#fff;}
+.single-process-bg h4{color:#fff;}
+.single-process-bg p{color:#fff;}
+/*
+* ----------------------------------------------------------------------------------------
+* 04.END ABOUT DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+/*
+* ----------------------------------------------------------------------------------------
+* 05.START FEATURES DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.single_feature{}
+.single_feature h2 {
+	font-weight: 500;
+	font-size: 50px;
+	margin-bottom: 30px;
+	line-height: 60px;
+}
+@media only screen and (max-width:480px) { 
+.single_feature h2 {font-size: 40px;line-height: 50px;}
+}
+.single_feature ul{list-style:none;margin-bottom: 30px;}
+.single_feature ul li{line-height:30px;}
+.single_feature ul li span{
+margin-right:10px;
+color:#35ac39;
+}
+.single_feature a{
+	background: #35ac39;
+	border: 2px solid #35ac39;
+	border-radius: 500px;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	overflow: hidden;
+	padding: 10px 30px;
+	text-transform: capitalize;
+	transition: all 0.3s ease 0s;
+}
+@media only screen and (max-width:360px) { 
+.single_feature {padding: 10px 40px;}
+}
+.single_feature a:hover, .single_feature a:focus{
+background:#35ac39;
+color:#fff;
+border: 2px solid #35ac39;
+}
+/*
+* ----------------------------------------------------------------------------------------
+* 05.END FEATURES DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 06.START PORTFOLIOS DESIGN CSS
+* ----------------------------------------------------------------------------------------
+*/
+.single_portfolio{
+text-align:center;
+background: #fff;
+overflow: hidden;
+margin:0px 15px;;
+}
+.port-title {
+	font-weight: 500;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.port-title a {
+	color: #333;
+	font-family: 'Poppins', sans-serif;
+}
+.port-title a:hover {color: #35ac39;}
+.port-info{
+margin-bottom:15px;
+color:#35ac39;
+}
+.box{
+    overflow: hidden;
+    position: relative;
+	height:300px;
+}
+.box:before{
+    content: '';
+    background:#35ac39;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    transition: all 0.3s ease 0.1s;
+}
+.box:hover:before{
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    top: 15px;
+    opacity: 0.6;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease 0s;
+}
+.box:hover img{ transform: scale(1.5); }
+.box .box-content{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transform:translateX(-50%) translateY(-50%) scale(1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    transition:all 0.3s ease 0.5s;
+}
+.box .content{
+    opacity: 0;
+    transform:translateX(-50%) translateY(-50%);
+    position: absolute;
+    left:50%;
+    top:50%;
+    z-index: 2;
+    transition:all 0.3s ease 0s;
+}
+.box:hover .content{ opacity: 1; }
+.box .work_icon{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.box .work_icon li{
+    margin:0 4px;
+    opacity: 0;
+    display: inline-block;
+    transform: translateY(-200px);
+    transition: all 0.8s ease 0s;
+}
+.box .work_icon li:nth-child(2){ transition-delay: 0.1s; }
+.box:hover .work_icon li{
+    opacity: 1;
+    transform: translateY(0);
+}
+.box .work_icon li a{
+    color: #fff;
+    background-color: #35ac39;
+    font-size: 18px;
+    line-height: 43px;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #35ac39;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+.box .work_icon li a:hover{
+    color: #fff;
+	border: 2px solid #ff3366;
+    background-color: #ff3366;
+}
+@keyframes bounce-left{
+    25%,50%,75%,100%{ transform:translateX(0); }
+    40%{ transform:translateX(30px); }
+    70%{ transform:translateX(15px); }
+    90%{ transform:translateX(5px); }
+}
+@media only screen and (max-width:990px){
+    .box{ margin-bottom: 30px; }
+}
+@media only screen and (max-width:479px){
+    .box .title{ font-size: 18px; }
+}
+/*
+* ----------------------------------------------------------------------------------------
+* 06.END PORTFOLIOS DESIGN CSS
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 07.START TESTIMOIALS DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.testimonial-area {
+    position: relative;
+}
+.testimonial-area:before {
+    background: rgba(0,0,0,0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.testimonial{
+    margin: 20px 0;
+}
+.testimonial .testimonial-content{
+    width: 20%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-right: 5%;
+}
+.testimonial .pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 8px solid rgba(255,255,255,0.15);
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	margin: 10px 0 0 0;
+}
+.testimonial .post{
+    font-size: 13px;
+    color: #fff;
+}
+.testimonial .description{
+    display: inline-block;
+    width: 75%;
+    padding: 30px 20px;
+    border: 1px solid rgba(255,255,255,0.15);
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "";
+    border: 10px solid transparent;
+    border-right: 10px solid rgba(255,255,255,0.15);
+    position: absolute;
+    top: 20px;
+    left: -21px;
+}
+.owl-theme .owl-controls .owl-page.active span{
+    background: #fff;
+    border: 1px solid #fff;
+}
+.owl-theme .owl-controls .owl-page span{
+    border: 1px solid #fff;
+    background: transparent;
+    opacity: 1;
+}
+@media only screen and (max-width: 767px){
+    .testimonial .testimonial-content{
+        float: none;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .testimonial .description{
+        width: 100%;
+    }
+    .testimonial .description:before{
+        border: 10px solid transparent;
+        border-bottom: 10px solid rgba(255,255,255,0.15);
+        position: absolute;
+        top: -20px;
+        left: 47.5%;
+    }
+}
+.owl-theme .owl-controls {
+    margin-top: 50px;
+    text-align: center;
+}
+.owl-theme .owl-controls .owl-page { display: inline-block }
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div { cursor: pointer }
+.owl-theme .owl-controls .owl-page span {
+background: #35ac39 !important;
+border:1px solid #35ac39;
+border-radius: 20px;
+display: block;
+height: 12px;
+margin: 5px 7px;
+width: 12px;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+background: #35ac39 !important;
+border:1px solid #35ac39;
+}
+.owl-theme .owl-controls {
+  display: none !important;
+  margin-top: 60px;
+  text-align: center;
+}
+.owl-buttons{display:none;}
+/*
+* ----------------------------------------------------------------------------------------
+* 07.END TESTIMOIALS DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+ * ----------------------------------------------------------------------------------------
+ * 08.START VIDEO DESIGN
+ * ----------------------------------------------------------------------------------------
+*/
+.single_how_we_work {
+	padding-right: 60px;
+	margin-top: 60px;
+}
+@media only screen and (max-width:768px) { 
+.single_how_we_work{margin-bottom: 60px;}
+}
+.single_how_we_work h2 {
+	font-weight: 500;
+	margin-bottom: 20px;
+	font-size: 50px;
+	line-height: 60px;
+}
+@media only screen and (max-width:480px) { 
+.single_how_we_work h2 {font-size: 40px;line-height: 50px;}
+}
+.single_how_we_work p{margin-bottom:30px;}
+
+.single_how_we_work a{}
+.single_how_we_work a {
+	background: #35ac39;
+	border: 2px solid #35ac39;
+	border-radius: 500px;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	overflow: hidden;
+	padding: 10px 30px;
+	text-transform: capitalize;
+	transition: all 0.3s ease 0s;
+}
+@media only screen and (max-width:360px) { 
+.single_how_we_work {padding: 10px 40px;}
+}
+.single_how_we_work a:hover, .single_how_we_work a:focus{
+background:#35ac39;
+color:#fff;
+border: 2px solid #35ac39;
+}
+.how_we_work_video{}
+.how_we_work_video img{position: relative;}
+.mfp-iframe-holder .mfp-content {
+  line-height: 0;
+  margin-top: 55px;
+  max-width: 900px;
+  width: 100%;
+}
+.our_video a {
+	background: #35ac39;
+	border: 10px solid rgba(255,255,255,0.85);
+	border-radius: 100px;
+	color: #fff;
+	position: absolute;
+	left: -10px;
+	display: block;
+	font-size: 24px;
+	height: 100px;
+	line-height:85px;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100px;
+	top: 30%;
+	transition:0.3s;
+}
+@media only screen and (max-width:480px) { 
+.our_video a {left: 30px;}
+}
+.our_video a:hover{
+	background: #35ac39;
+	color:#fff;
+}
+/*
+ * ----------------------------------------------------------------------------------------
+ * 08.END VIDEO DESIGN
+ * ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 09.START TEAM DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.our_team{
+padding-bottom:50px;
+padding-top:0px;
+}
+.our-team{
+margin-bottom: 30px;
+overflow: hidden;
+position: relative;
+background: rgba(0,0,0,0.5);
+transition: all 0.3s ease 0s;
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-in-out 0s;
+	
+}
+.our-team:hover img{
+    opacity: 0.3;
+}
+.our-team .team-content{
+    color: #333;
+    opacity: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    transform: translate(-10px, 0px);
+    transition: all 0.3s ease 0s;
+}
+.our-team:hover .team-content{
+    opacity: 1;
+    transform: translate(20px, 0px);
+    transition-delay: 0.2s;
+}
+.our-team .title{
+color: #fff;
+display: block;
+font-size:18px;
+font-weight:700;
+margin: 0 0 7px;
+text-transform: uppercase;
+}
+.our-team .post{
+display: block;
+font-weight: 400;
+color: #fff;
+}
+.our-team .social{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 35px;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    bottom: 35px;
+    transition: all 0.3s ease 0s;
+}
+.our-team:hover .social{
+    opacity: 1;
+}
+.our-team .social li{
+    display: block;
+}
+.our-team .social li a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #35ac39;
+    font-size: 17px;
+    color: #fff;
+    opacity: 0.9;
+    position: relative;
+    transform: translate(-35px, 35px);
+    transition: all 0.3s ease-in-out 0s
+}
+.our-team:hover .social li:nth-child(1) a{
+    transition-delay: 0.3s;
+}
+.our-team:hover .social li:nth-child(2) a{
+    transition-delay: 0.2s
+}
+.our-team:hover .social li:nth-child(3) a{
+    transition-delay: 0.1s;
+}
+.our-team:hover .social li:nth-child(4) a{
+    transition-delay: 0s;
+}
+.our-team:hover .social li a{
+    transform: translate(0, 0)
+}
+.our-team .social li a:hover{
+    width: 40px;
+    background: #35ac39;
+    transition-delay: 0s;
+}
+.our-team .icon{
+background: #35ac39 none repeat scroll 0 0;
+bottom: 0;
+color: #fff;
+height: 35px;
+left: 0;
+line-height: 35px;
+position: absolute;
+text-align: center;
+width: 35px;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+/*
+* ----------------------------------------------------------------------------------------
+* 09.END TEAM DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 10.START PRICING DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.pricing-content{}
+.single-pricing{
+background:#fff;
+padding:40px 20px;
+border-radius:5px;
+position:relative;
+z-index:2;
+border:1px solid #eee;
+transition:0.3s;
+}
+@media only screen and (max-width:480px) { 
+.single-pricing {margin-bottom:30px;}
+}
+.single-pricing:hover{
+box-shadow:0px 60px 60px rgba(0,0,0,0.1);
+z-index:100;
+transform: translate(0, -10px);
+}
+.price-head h2 {
+	font-weight: 600;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+	font-size: 26px;
+}
+.price-head span {
+	display: inline-block;
+	background: #35ac39;
+	width: 6px;
+	height: 6px;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+.price {
+	font-weight: 500;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+.single-pricing{}
+.single-pricing h5 {
+	font-size: 14px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+.single-pricing ul{
+list-style: none;
+margin-bottom: 20px;
+margin-top: 30px;
+}
+
+.single-pricing ul li{line-height: 35px;}
+.single-pricing a {
+background: #35ac39;
+border: 2px solid #35ac39;
+border-radius: 5000px;
+color: #fff;
+display: inline-block;
+font-size: 16px;
+overflow: hidden;
+padding:10px 45px;
+text-transform: capitalize;
+transition: all 0.3s ease 0s;
+}
+.single-pricing a:hover, .single-pricing a:focus{
+background:#35ac39;
+color:#fff;
+border: 2px solid #35ac39;
+}
+.price_wht_btn{
+background: #fff!important;
+color:#333!important;	
+}
+.single-pricing-white{background: #35ac39;}
+.single-pricing-white ul li{color:#fff;}
+.single-pricing-white h2{color:#fff;}
+.single-pricing-white h1{color:#fff;}
+.single-pricing-white h5{color:#fff;}
+/*
+* ----------------------------------------------------------------------------------------
+* 10.END PRICING DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+/*
+* ----------------------------------------------------------------------------------------
+* 11.START FEATURES DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.our_feature{
+padding-top: 80px;
+padding-bottom: 20px;
+}
+.single_feature {
+    margin-bottom:30px;
+}
+.feature_icon{
+border: 1px solid #eee;
+border-radius: 500px;
+display: inline-block;
+float: left;
+height: 110px;
+margin-bottom: 30px;
+margin-right: 18px;
+position: relative;
+width: 110px;
+}
+.single_feature i {
+background: #35ac39 none repeat scroll 0 0;
+border: 1px dashed #e8e8e9;
+border-radius: 500px;
+color: #fff;
+font-size: 30px;
+height: 80px;
+left: 50%;
+line-height: 80px;
+text-align:center;
+margin: auto;
+position: absolute;
+top: 50%;
+transform: translate(-50%, -50%);
+width: 80px;
+transition: all 0.2s ease 0s;
+}
+.single_feature:hover i {
+background: #35ac39 none repeat scroll 0 0;	
+border: 1px dashed #35ac39;
+}
+.single_feature h4 {
+font-size:20px;
+font-weight: 700;
+margin-bottom: 15px;
+overflow: hidden;
+padding-top: 15px;
+text-transform: capitalize;
+}
+.single_feature p {
+overflow: hidden;
+}
+/*
+* ----------------------------------------------------------------------------------------
+* 11.END FEATURES DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 12.START BLOG DESIGN CSS
+* ----------------------------------------------------------------------------------------
+*/
+.blog-content{background: #f5f8fa;}
+.single_blog{
+background:#fff;
+border-radius:5px;	
+}
+@media only screen and (max-width:480px) { 
+.single_blog {margin-bottom:30px;}
+}
+.single_blog img{position:relative;}
+.cat-list {
+	position: absolute;
+	margin-top: -50px;
+	left: 40px;
+	background: #35ac39;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+.cat-list span{}
+.single_blog_pd{padding:25px;}
+.blog-span {}
+.author-name {
+	margin-right: 14px;
+	border-right: 1px solid #ddd;
+	padding-right: 15px;
+}
+.author-name a{color:#35ac39;}
+.author-name i{margin-right:2px;}
+.cat-name{}
+.cat-name a{color:#35ac39;}
+.cat-name i{margin-right:2px;}
+.single_blog h2 > a {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: #333;
+	display: block;
+	line-height: 30px;
+}
+.single_blog h2 > a:hover{color:#35ac39;}
+.single_blog p{}
+.single_blog_rm {
+	color: #333;
+	font-weight: 500;
+	margin-top: 15px;
+	display: block;
+	text-transform: uppercase;
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+}
+.single_blog_rm:hover{color:#35ac39;}
+/*
+* ----------------------------------------------------------------------------------------
+* 12.END BLOG DESIGN CSS
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 13.START CONTACT DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.contact_us {
+    position: relative;
+}
+.contact_us:before {
+    background: rgba(0,0,0,0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.contact {
+	padding: 60px;
+	border: 5px solid #35ac39;
+	border-radius: 5px;
+	background: #fff;
+}
+.contact input {
+background:none repeat scroll 0 0;
+border: 1px solid #eee;
+border-radius: 30px;
+box-shadow: none;
+color: #333;
+font-size: 16px;
+font-weight: 400;
+height: 50px;
+padding: 10px 10px 10px 30px;
+width: 100%;
+}
+.contact textarea {
+background:none repeat scroll 0 0;
+border: 1px solid #eee;
+border-radius: 30px;
+box-shadow: none;
+color: #333;
+padding: 10px;
+width: 100%;
+font-size:16px;
+padding-left: 30px;
+font-weight: 400;
+}
+.contact input:focus {
+border: 1px solid #35ac39 ;
+    box-shadow: none;
+    outline: 0 none;
+}
+.contact textarea:focus {
+border: 1px solid #35ac39 ;
+    box-shadow: none;
+    outline: 0 none;
+}
+.btn-contact-bg {
+	background: #35ac39 none repeat scroll 0 0;
+	border-radius: 30px;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	outline: medium none;
+	padding: 15px 27px;
+	text-transform: capitalize;
+	transition: all 0.2s ease 0s;
+	cursor: pointer;
+}
+.btn-contact-bg:hover,
+.btn-contact-bg:focus {
+    background: #35ac39;
+    color: #fff;
+}
+/*
+* ----------------------------------------------------------------------------------------
+* 13.END CONTACT DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 14.START FOOTER DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.footer {
+	background: #fff;
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+/*END FOOTER SOCIAL DESIGN*/
+.single_footer{}
+@media only screen and (max-width:768px) { 
+.single_footer{margin-bottom:30px;}
+}
+.single_footer h4 {
+	color: #333;
+	margin-top: 0;
+	margin-bottom: 25px;
+	font-weight: 600;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+.single_footer h4::after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 40px;
+	background: #35ac39;
+	margin-top: 20px;
+}
+.single_footer p{color:#666;}
+.single_footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.single_footer ul li{}
+.single_footer ul li a {
+	color: #666;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	line-height: 36px;
+	font-size: 15px;
+	text-transform: capitalize;
+}
+.single_footer ul li a:hover { color: #35ac39; }
+
+.single_footer_address{}
+.single_footer_address ul{}
+.single_footer_address ul li{color:#fff;}
+.single_footer_address ul li span {
+	font-weight: 400;
+	color: #fff;
+	line-height: 28px;
+}
+.contact_social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.single_footer_address p {
+	margin-bottom: 10px;
+}
+
+/*START NEWSLETTER CSS*/
+.subscribe {
+	display: block;
+	position: relative;
+	margin-top: 15px;
+	width: 100%;
+}
+.subscribe__input {
+background-color: #fff;
+border: 1px solid #eee;
+border-radius: 5px;
+color: #333;
+display: block;
+font-size: 15px;
+font-weight: 500;
+height: 60px;
+letter-spacing: 0.4px;
+margin: 0;
+padding: 0 150px 0 20px;
+text-align: center;
+text-transform: capitalize;
+width: 100%;
+}
+@media only screen and (max-width:768px) { 
+.subscribe__input{padding: 0 50px 0 20px;}
+}
+
+.subscribe__btn {
+background-color: transparent;
+border-radius: 0 25px 25px 0;
+color: #35ac39;
+cursor: pointer;
+display: block;
+font-size: 20px;
+height: 60px;
+position: absolute;
+right: 0;
+top: 0;
+width: 60px;
+}
+.subscribe__btn i{transition: all 0.3s ease 0s;}
+@media only screen and (max-width:768px) { 
+.subscribe__btn{right:0px;}
+}
+
+.subscribe__btn:hover i{
+	color:#35ac39;
+}
+button {
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+/*END NEWSLETTER CSS*/
+
+/*START SOCIAL PROFILE CSS*/
+.social_profile {margin-top:40px;}
+.social_profile ul{
+list-style: outside none none;
+margin: 0;
+padding: 0;
+}
+.social_profile ul li{float:left;}
+.social_profile ul li a {
+	text-align: center;
+	border: 0px;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+	margin: 0px 5px;
+	font-size: 16px;
+	color: #333;
+	border-radius: 30px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	border: 1px solid #eee;
+}
+@media only screen and (max-width:768px) { 
+.social_profile ul li a{margin-right:10px;margin-bottom:10px;}
+}
+@media only screen and (max-width:480px) { 
+.social_profile ul li a{
+	width:40px;
+	height:40px;
+	line-height:40px;
+}
+}
+.social_profile ul li a:hover{
+background:#35ac39;
+border: 1px solid #35ac39;
+color:#fff;
+border:0px;
+}
+/*END SOCIAL PROFILE CSS*/
+.copyright {
+	margin-top: 70px;
+	padding-top: 40px;
+	color:#333;
+	font-size: 15px;
+	border-top: 1px solid #eee;
+	text-align: center;
+}
+.copyright a {
+	color: #333;
+	transition: all 0.2s ease 0s;
+	font-weight: 500;
+}
+.copyright a:hover{color:#35ac39;}
+/*
+* ----------------------------------------------------------------------------------------
+* 14.END FOOTER DESIGN
+* ----------------------------------------------------------------------------------------
+*/
