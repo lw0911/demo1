@@ -1,0 +1,24 @@
+/*=========================
+	All css
+==========================*/
+@import url("../plugins/bootstrap/css/bootstrap.min.css");
+@import url("../plugins/fontawesome/css/font-awesome.min.css");
+@import url("../plugins/line-awesome/css/line-awesome.min.css");
+@import url("../plugins/themify/themify-icons.css");
+@import url("../plugins/flaticon/flaticon.css");
+@import url("../plugins/owl-carousel/owl.carousel.css");
+@import url("../plugins/bootstrap-select/bootstrap-select.min.css");
+@import url("../plugins/animate/animate.css");
+@import url("../plugins/scroll/scrollbar.css");
+@import url("../plugins/lightgallery/css/lightgallery.min.css");
+
+/*=========================
+	All css
+==========================*/
+@import url("https://fonts.googleapis.com/css?family=Abhaya+Libre:400,500,600,700,800|Great+Vibes|Merriweather:300,400,700,900");
+
+/* 
+font-family: 'Abhaya Libre', sans-serif;
+font-family: 'Merriweather', sans-serif;
+font-family: 'Great Vibes', sans-serif;
+*/
