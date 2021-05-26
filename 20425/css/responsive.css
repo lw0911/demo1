@@ -1,0 +1,276 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {
+
+	.box-header-wrap .navbar-default {
+		margin: 0;
+	}
+	.box-header-wrap .navbar-default .navbar-nav>li>a {
+		padding: 50px 12px;
+	}
+	.how-works-area .right img {
+		margin-top: 40px;
+	}
+	.features-area .single .icon-holder i::after {
+		right: -35px;
+		width: 20px;
+	}
+	.features-area .single::after {
+		right: -35px;
+	}
+	.features-area .right .single::after, .features-area .right .single .icon-holder i::after {
+		left: -35px;
+	}
+	.people .single .skew-shape:before {
+		border-left: 470px solid #eeeeee;
+	}
+	.packages .single:before, .team-members .single .img-holder:before {
+		border-left: 295px solid #4776e6;
+	}
+	.packages .single:after, .team-members .single .img-holder:after {
+		border-top: 510px solid #4776e6;
+	}
+	.team-members .single .img-holder:after {
+		border-top: 350px solid #4776e6 !important;
+	}
+	.our-team-area .single .socials li i {
+		font-size: 18px;
+		padding: 10px;
+	}
+	.subscribe-area .email {
+		min-width: 250px;
+	}
+	.subscribe-area button {
+		padding: 0 15px;
+	}
+	.short-text {
+		margin-bottom: 50px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.box-header-wrap .navbar-header {
+		float: none !important;
+		width: 100%;
+	}
+	.box-header-wrap .navbar-brand {
+		padding: 30px 0 0;
+		float: none;
+		height: auto;
+		margin: 0 auto;
+		display: block;
+	}
+	.navbar-brand>img {
+		display: block;
+		margin: 0 auto;
+	}
+	.box-header-wrap .navbar-default .navbar-collapse{
+		float: none !important;
+		text-align: center;
+	}
+	.box-header-wrap .navbar-default .navbar-nav, .box-header-wrap .navbar-default .navbar-nav li{
+		float: none;
+		text-align: center;
+		display: inline-block;
+	}
+	.box-header-wrap .navbar-default {
+		margin: 0;
+	}
+	.banner-image img {
+		margin-top: 60px;
+	}
+	.how-works-area .right img {
+		margin-top: 70px;
+	}
+	.features-area .single {
+		min-height: 245px;
+	}
+	.features-area .single h3 {
+		font-size: 18px;
+	}
+	.features-area .single p {
+		line-height: 25px;
+	}
+	.features-area .single .icon-holder i {
+		font-size: 40px;
+		padding-right: 15px;
+	}
+	.features-area .right .single .icon-holder i {
+		padding: 25px 0 0 15px;
+	}
+	.features-area .right .single::after, .features-area .right .single .icon-holder i::after {
+		left: -8px;
+	}
+	.features-area .single .icon-holder i::after {
+		right: -8px;
+		width: 13px;
+	}
+	.features-area .right .single .icon-holder i::after {
+		right: -35px;
+		width: 13px;
+	}
+	.features-area .single::after {
+		right: -8px;
+	}
+	.feature-img img {
+		margin: 60px auto 0;
+	}
+	.people .single .skew-shape:before {
+		border-left: 360px solid #eeeeee;
+	}
+	.people .owl-item:nth-child(even) .single .skew-shape:before {
+		border-right: 350px solid #eeeeee;
+	}
+	.overlay-video-area .overlay, .get-app-area .overlay {
+		padding: 100px 0;
+	}
+	.packages .single:before, .team-members .single .img-holder:before {
+		border-left: 220px solid #4776e6;
+	}
+	.team-members .single .img-holder:after {
+		border-top: 260px solid #4776e6 !important;
+	}
+	.our-team-area .single .socials li i {
+		font-size: 14px;
+		padding: 10px 6px;
+	}
+	.packages .single:after, .team-members .single .img-holder:after {
+		border-top: 484px solid #4776e6;
+	}
+	.packages .single .name {
+		padding: 10px 0;
+		font-size: 20px;
+		width: 140px;
+	}
+	.download-from-store a img {
+		width: 200px;
+	}
+	.subscribe-area div {
+		float: none !important;
+		text-align: center;
+		display: inline-block;
+	}
+	.subscribe-area h4 {
+		margin-bottom: 20px;
+		font-size: 30px;
+	}
+	.contact-form .name {
+		margin-right: 2.6%;
+	}
+	.short-text {
+		margin-bottom: 50px;
+	}
+	.short-text .socials li a i {
+		font-size: 12px;
+	}
+	
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 510px) {
+
+	.box-header-wrap .navbar-brand {
+		padding: 30px 0 30px;
+	}
+	.navbar-default .navbar-toggle {
+		margin-top: 45px;
+	}
+	.box-header-wrap .navbar-default .navbar-nav, .box-header-wrap .navbar-default .navbar-nav li {
+		width: 100%;
+	}
+	.box-header-wrap .navbar-default .collapse.in .navbar-nav>li {
+		display: block;
+		text-align: left;
+	}
+	.box-header-wrap .navbar-default .collapse.in .navbar-nav>li>a {
+		padding: 5px;
+	}
+	.banner-image img {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.features-area .single {
+		text-align: center;
+		min-height: 200px;
+		padding-bottom: 0;
+	}
+	.features-area .single:after, .features-area .single .icon-holder i::after {
+		content: unset;
+	}
+	.features-area .single .icon-holder i, .features-area .right .single .icon-holder i{
+		padding: 0 0 20px;
+	}
+	.feature-img img {
+		margin: 60px auto;
+	}
+	.screenshots.owl-carousel .owl-item img {
+		max-width: 250px;
+		margin: 0 auto;
+	}
+	.people .single {
+		margin: 0 15px;
+	}
+	.people .single .texts {
+		width: auto;
+		margin-right: 15px;
+	}
+	.people .single .skew-shape:before {
+		border-left: 320px solid #eeeeee;
+	}
+	.people .owl-item:nth-child(even) .single .skew-shape:before {
+		border-right: 340px solid #eeeeee;
+	}
+	.team-members .single, .packages .single {
+		margin-bottom: 70px;
+	}
+	.packages .single:before, .team-members .single .img-holder:before {
+		border-left: 320px solid #4776e6;
+	}
+	.team-members .single .img-holder:after {
+		border-top: 380px solid #4776e6 !important;
+	}
+	.download-from-store {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.subscribe-area {
+		padding: 30px 0;
+	}
+	.subscribe-area h4 {
+		font-size: 16px;
+	}
+	.subscribe-area h4 i {
+		font-size: 20px;
+		padding-right: 6px;
+	}
+	.subscribe-area .email {
+		min-width: 200px;
+	}
+	.contact-form {
+		margin: 0 15px;
+	}
+	.contact-info{
+		text-align: center;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+  
+}

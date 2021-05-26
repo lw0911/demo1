@@ -1,0 +1,183 @@
+a:hover,a:focus,a:active,
+.btn,
+.btn:hover,.btn:focus,.btn:active,
+.btn.btn-default:hover,
+.btn.btn-default:focus,
+.btn.btn-info-major,
+.bgcolor-major .btn:not(.btn-link),
+.preloader .p-loading:after,
+.preloader .progressFull:after,
+.main-nav>ul>li.active>a,
+.main-nav>ul>li:hover>a,
+.main-nav>ul>li:focus>a,
+#header.sticky-header .main-nav>ul>li.active>a,
+#header.sticky-header .main-nav>ul>li:hover>a,
+#header.sticky-header .main-nav>ul>li:focus>a,
+.dropdown-items>li.active>a,
+.dropdown-items>li:hover>a,
+.mobile-nav ul li.has-child.children-open>a:after,
+.mobile-nav ul>li .mobile-nav-toggler .close,
+.mobile-nav .dropdown-items .current>a,
+.accordion .panel-heading a:before,
+.accordion .panel-heading a[aria-expanded="true"],
+.nav-tabs-v2.nav-tabs>li.active>a,
+.nav-tabs-v2.nav-tabs>li.active>a:hover,
+.nav-tabs-v2.nav-tabs>li.active>a:focus,
+.content-holder .tweet-icon,
+.content-holder .tweet-icon i.fa,
+.content-holder .icon,
+.content-holder .icon i.fa,
+.most-popular article .title:hover,
+.mobile-nav ul>li a:hover,
+.mobile-nav ul>li a:focus,
+.mobile-nav ul>li a:active,
+.mobile-nav  ul>li.active>a,
+.mobile-nav  ul>li.children-open>a,
+.simple-slider .btn,
+.features-item-v2:hover .icon,
+.tabbed-about-us-v2.tabbed-about-us .work-progress .circle>span,
+.counter-v2:hover .icon,
+.demo-video-play-icon i.fa,
+.pricing-table-v2 .price-heading .icon i,
+.pricing-table-v2 .price-heading .price-group>span,
+.pricing-table-v2 .price-footer .btn,
+.single-post-v2 .tag,
+.single-post-v2 .title a:hover,
+.single-post-v2 .img-wrapper .btn:hover,
+.single-post-v2 .img-wrapper .btn:focus,
+.blog-view-all .btn,
+.post-info-v2 blockquote:before,
+.featured-posts-slider .info .tag,
+.featured-posts-slider .info .title a:hover,
+.featured-posts-slider .info .title a:focus,
+.features-item-v2 .icon,
+.features-item:hover .features-icon,
+.features-item:hover .features-info .title,
+.features-item:hover .features-info p,
+.tabbed-about-us .tabs-nav li:hover *,
+.tabbed-about-us .tabs-nav li.active *,
+.item-filter>li:hover,
+.item-filter>li.active,
+.portfolio-items .item .caption .tag,
+.counter:hover *,
+.testimonial-slider-v2 .flex-direction-nav>li>a:hover:before,
+.team-slider-v2 .team ul.team-social>li>a:hover,
+.contact-details ul.info .icon,
+.categories-v2>li a:hover,
+.single-post-v2 .article-info ul li a:hover,
+.post-info-v2 .article-info ul>li a:hover,
+#team-slider .item .title,
+.our-team .owl-prev,
+.our-team .owl-next,
+#client-slider-thumb .slides>li.flex-active-slide .title,
+.flex-direction-nav a:before,
+.flex-direction-nav a.flex-next:before,
+.single-post .title:hover,
+.btn.load-more,
+.newsletter .btn.btn-primary,
+.price-heading,
+.price-footer .btn,
+.featured-price .price-footer .btn:hover,
+.featured-price .price-footer .btn:focus,
+.featured-price .btn,
+.error-wrap .team-social li>a:hover i,
+.error-wrap footer a,
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover,
+.input-field:focus + .input-field,
+.related-post .owl-nav>div,
+.comment-reply,
+.contact-details ul.info .icon,
+footer a{
+  color: #AA00FF;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-info:hover,
+.btn.btn-info:focus,
+.btn.btn-border:hover,
+.btn.btn-border:focus,
+.bgcolor-major,
+.btn.btn-primary,
+.featured-price,
+.item-filter.item-filter-v2>li:hover:before,
+.item-filter.item-filter-v2>li.active:before,
+.partners-slider .owl-controls .owl-nav>div,
+.team-slider-v2 .owl-controls .owl-nav>div:hover,
+.contact-details,
+.team-social li>a:hover,
+.featured-posts-slider .customnav>span:hover,
+ul.author-social li a:hover,
+ul.author-social li a:focus,
+ul.author-social li a:active,
+.viewbox .panel,
+.error-page,
+.pace .pace-progress{
+  background-color: #AA00FF;
+}
+
+.main-nav>ul>li.active>a:before,
+.main-nav>ul>li:hover>a:before,
+.main-nav>ul>li:focus>a:before,
+.btn-primary.disabled.focus,
+.btn-primary.disabled:hover,
+#header.static-header,
+#header.sticky-header .main-nav ul>li>a:hover:before,
+#header.sticky-header .main-nav ul>li.active>a:before,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.most-popular article .tag,
+.social-feedback .icon,
+.owl-dot span,
+.tabbed-about-us .tabs-nav li:after,
+.single-post .tag,
+ul.pagination>li.active>a,
+.input:after,
+.post-caption .post-tag,
+.team-slider-thumb .thumb:after,
+.footer-logo{
+  background: #AA00FF;
+}
+
+.btn.btn-info-major,
+.btn.btn-info:hover,
+.btn.btn-info:focus,
+.owl-dot span,
+.features-item:hover .features-icon,
+.features-item:hover .features-info .title,
+.features-item:hover .features-info p,
+.btn.btn-info-major,
+.btn.btn-border,
+.featured-posts-slider .customnav>span:hover,
+.team-slider-v2 .owl-dot span{
+  border-color: #AA00FF;
+}
+
+.pace .pace-activity{
+  border-top-color: #AA00FF;
+  border-left-color: #AA00FF;
+}
+
+.pricing-table-v2:hover .price-heading .icon i,
+.pricing-table-v2.featured-price .price-heading .icon i{
+  -webkit-box-shadow: 0 0  0 15px rgba(83, 109, 254, .15);
+  box-shadow: 0 0  0 15px rgba(83, 109, 254, .15);
+}
+
+.major-color{
+  color: #AA00FF !important;
+}
+
+blockquote {
+  border-left-color: #AA00FF;
+}
+::selection{
+  background: rgba(83,109,254,.8);
+}
+::-moz-selection{
+  background: rgba(83,109,254,.8);
+}
+.page-title:before {
+  background: rgba(83,109,254,.9);
+}
