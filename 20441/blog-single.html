@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<!-- favicon -->
+		<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+		<!-- animate scss -->
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<!-- bootstarp css -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- icofont -->
+		<link rel="stylesheet" href="assets/css/icofont.min.css">
+		<link rel="stylesheet" href="assets/css/all.min.css">
+		<!-- lightcase css -->
+		<link rel="stylesheet" href="assets/css/lightcase.css">
+		<!-- swiper css -->
+		<link rel="stylesheet" href="assets/css/swiper.min.css">
+		<!-- style scss -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+		<title>FoodBuzz - Blog Single Page</title>
+	</head>
+
+	<body>
+        <!-- preloader start here -->
+        <div class="preloader">
+            <div class="preloader-inner">
+                <div class="preloader-icon">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- preloader ending here -->
+        
+        <!-- search area -->
+        <div class="search-area">
+            <div class="search-input">
+                <div class="search-close">
+                    <span></span>
+                    <span></span>
+                </div>
+                <form>
+                    <input type="text" name="text" placeholder="*Search Here.......">
+                    <button class="search-btn"><span class="serch-icon"><i class="icofont-search-2"></i></span></button>
+                </form>
+            </div>
+        </div>
+        <!-- search area -->
+
+       <!-- Mobile Menu Start Here -->
+		<div class="mobile-menu">
+			<nav class="mobile-header">
+				<div class="header-logo">
+					<a href="index.html"><img src="assets/images/logo/01.png" alt="logo"></a>
+				</div>
+				<div class="header-bar">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+			<nav class="mobile-menu">
+				<div class="mobile-menu-area">
+					<div class="mobile-menu-area-inner">
+						<ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="coming-soon.html">Coming Soon</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Food Menu</a>
+                                <ul>
+                                    <li><a href="menu-card.html">Menu Card</a></li>
+                                    <li><a href="menu-card-2.html">Menu Card 2</a></li>
+                                    <li><a href="menu-card-3.html">Menu Card 3</a></li>
+                                </ul>
+                            </li>   
+                            <li><a href="reserv.html">Reservation</a></li>
+                            <li class="active"><a href="#">Blog</a>
+                                <ul>
+                                    <li><a href="blog.html">Blog Style 1</a></li>
+                                    <li><a href="blog-2.html">Blog Style 2</a></li>
+                                    <li class="active"><a href="blog-single.html">Blog Single</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Shop</a>
+                                <ul>
+                                    <li><a href="shop-page.html">Shop Page</a></li>
+                                    <li><a href="shop-single.html">Shop Single</a></li>
+                                    <li><a href="cart-page.html">Cart Page</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                        </ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- Mobile Menu Ending Here -->
+
+
+		<!-- desktop menu start here -->
+		<header class="header-section">
+			<div class="header-area">
+                <div class="header-bottom">
+                    <div class="container">
+                        <div class="primary-menu">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/images/logo/01.png" alt="logo"></a>
+                            </div>
+                            <div class="main-area">
+                                <div class="main-menu">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="#">Pages</a>
+                                            <ul>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                                                <li><a href="404.html">404</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Food Menu</a>
+                                            <ul>
+                                                <li><a href="menu-card.html">Menu Card</a></li>
+                                                <li><a href="menu-card-2.html">Menu Card 2</a></li>
+                                                <li><a href="menu-card-3.html">Menu Card 3</a></li>
+                                            </ul>
+                                        </li>   
+                                        <li><a href="reserv.html">Reservation</a></li>
+                                        <li class="active"><a href="#">Blog</a>
+                                            <ul>
+                                                <li><a href="blog.html">Blog Style 1</a></li>
+                                                <li><a href="blog-2.html">Blog Style 2</a></li>
+                                                <li class="active"><a href="blog-single.html">Blog Single</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Shop</a>
+                                            <ul>
+                                                <li><a href="shop-page.html">Shop Page</a></li>
+                                                <li><a href="shop-single.html">Shop Single</a></li>
+                                                <li><a href="cart-page.html">Cart Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact-us.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cart-search">
+                                    <ul>
+                                        <li class="search"><i class="icofont-search-2"></i></li>
+                                        <li class="cart-area">
+                                            <div class="cart-icon">
+                                                <i class="icofont-cart-alt"></i>
+                                            </div>
+                                            <div class="count-item">04</div>
+                                            <div class="cart-content">
+                                                <div class="cart-title">
+                                                    <div class="add-item">4 Items Added</div>
+                                                    <div class="list-close"><a href="#">Close</a></div>
+                                                </div>
+                                                <div class="cart-scr scrollbar">
+                                                    <div class="cart-con-item">
+                                                        <div class="cart-item">
+                                                            <div class="cart-inner">
+                                                                <div class="cart-top">
+                                                                    <div class="thumb">
+                                                                        <a href="#"><img src="assets/images/product/01.jpg" alt=""></a>
+                                                                    </div>
+                                                                    <div class="content">
+                                                                        <a href="#">Split Remedy Split End Shampoo</a>
+                                                                    </div>
+                                                                    <div class="remove-btn">
+                                                                        <a href="#"><i class="icofont-close"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cart-bottom">
+                                                                    <div class="sing-price">Tk. 140</div>
+                                                                    <div class="cart-plus-minus"><div class="dec qtybutton">-</div>
+                                                                        <div class="dec qtybutton">-</div>
+                                                                        <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                        <div class="inc qtybutton">+</div>
+                                                                    <div class="inc qtybutton">+</div></div>
+                                                                    <div class="total-price">Tk. 280.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cart-item">
+                                                            <div class="cart-inner">
+                                                                <div class="cart-top">
+                                                                    <div class="thumb">
+                                                                        <a href="#"><img src="assets/images/product/02.jpg" alt=""></a>
+                                                                    </div>
+                                                                    <div class="content">
+                                                                        <a href="#">Split Remedy Split End Shampoo</a>
+                                                                    </div>
+                                                                    <div class="remove-btn">
+                                                                        <a href="#"><i class="icofont-close"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cart-bottom">
+                                                                    <div class="sing-price">Tk. 140</div>
+                                                                    <div class="cart-plus-minus"><div class="dec qtybutton">-</div>
+                                                                        <div class="dec qtybutton">-</div>
+                                                                        <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                        <div class="inc qtybutton">+</div>
+                                                                    <div class="inc qtybutton">+</div></div>
+                                                                    <div class="total-price">Tk. 280.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cart-item">
+                                                            <div class="cart-inner">
+                                                                <div class="cart-top">
+                                                                    <div class="thumb">
+                                                                        <a href="#"><img src="assets/images/product/03.jpg" alt=""></a>
+                                                                    </div>
+                                                                    <div class="content">
+                                                                        <a href="#">Split Remedy Split End Shampoo</a>
+                                                                    </div>
+                                                                    <div class="remove-btn">
+                                                                        <a href="#"><i class="icofont-close"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cart-bottom">
+                                                                    <div class="sing-price">Tk. 140</div>
+                                                                    <div class="cart-plus-minus"><div class="dec qtybutton">-</div>
+                                                                        <div class="dec qtybutton">-</div>
+                                                                        <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                        <div class="inc qtybutton">+</div>
+                                                                    <div class="inc qtybutton">+</div></div>
+                                                                    <div class="total-price">Tk. 280.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cart-item">
+                                                            <div class="cart-inner">
+                                                                <div class="cart-top">
+                                                                    <div class="thumb">
+                                                                        <a href="#"><img src="assets/images/product/04.jpg" alt=""></a>
+                                                                    </div>
+                                                                    <div class="content">
+                                                                        <a href="#">Split Remedy Split End Shampoo</a>
+                                                                    </div>
+                                                                    <div class="remove-btn">
+                                                                        <a href="#"><i class="icofont-close"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cart-bottom">
+                                                                    <div class="sing-price">Tk. 140</div>
+                                                                    <div class="cart-plus-minus"><div class="dec qtybutton">-</div>
+                                                                        <div class="dec qtybutton">-</div>
+                                                                        <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                        <div class="inc qtybutton">+</div>
+                                                                    <div class="inc qtybutton">+</div></div>
+                                                                    <div class="total-price">Tk. 280.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-scr-bottom">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="title">Subtotal</div>
+                                                            <div class="price">Tk. 1045.00</div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="title">Shipping</div>
+                                                            <div class="price">Tk. 40.00</div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="title">Cart Total</div>
+                                                            <div class="price">Tk. 1085.00</div>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="food-btn"><span>Place Order</span></a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</header>
+		<!-- desktop menu ending here -->
+        
+        <!-- Page Header Section Start Here -->
+        <section class="page-header style-2">
+            <div class="container">
+                <div class="page-title text-center">
+                    <h3>Business Rouncil Them good Could...</h3>
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li>Blog single</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Page Header Section Ending Here -->
+       
+
+        <!-- Blog Page Section Start Here -->
+        <div class="blog-section blog-page blog-single padding-tb">
+            <div class="container">
+                <div class="section-wrapper">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-12">
+                            <article>
+                                <div class="post-item">
+                                    <div class="post-inner">
+                                        <div class="post-thumb">
+                                            <img src="assets/images/blog/page/01.jpg" alt="blog">
+                                        </div>
+                                        <div class="post-content">
+                                            <h4>Remo Support Center What Forng Semicon...</h4>
+                                            <div class="meta-post">
+                                                <ul>
+                                                    <li>
+                                                        <i class="icofont-calendar"></i>
+                                                        <a href="#" class="date">27 December 2019 </a>
+                                                    </li>
+                                                    <li>
+                                                        <i class="icofont-ui-user"></i>
+                                                        <a href="#" class="admin">Rajib Raj</a>
+                                                    </li>
+                                                    <li>
+                                                        <i class="icofont-speech-comments"></i>
+                                                        <a href="#" class="comment">24 Comments</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <p>A wonderful serenity has taken possssion of my entire souing like these sweet mornng spring whch enjoy with my whole heart I am alone, and feel the charm of existenceths spot whch was create For the bliss of souls like mineing am so happy my dear frend so absoribed in the exquste sens of mere</p>
+
+                                            <p>A wonderful serenity has taken posseson of my entire soung like these sweet mornngs spring whch enjoy with my whole heart I am alone and feel the charm of exstenceths spot whch was created For the blis of souls like mineing am so happy my dear frend so absoribed in the exquste sense of mere tranquil existence, that neglect my talentsr I should bye ncapable of drawng and single stroke at the A wonderful serenty has taken possesson of my entre souing like these sweet mornins sprng which present moment; and yet If feel that I never was a greater artst</p>
+                                            
+                                            <blockquote>
+                                                <p>Steal into The ner Sanc Hrow Myself Down Amon The Hal Gras Buzz Lttle World Amon The Stak And Grow Fama With Counnsec And Fesi Steal into The nner Sanc Hrow Myse Down Amon The Hall Gras Biss The Almightys Creative design Among The Staks </p>
+                                                <cite><a href="#">...Melissa Hunter</a></cite>
+                                            </blockquote>
+                                            
+                                            <p>A wonderful serenity has taken posseson of my entire soung like these sweet mornngs spring whch enjoy with my whole heart I am alone and feel the charm of exstenceths spot whch was created For the blis of souls like mineing am so happy my dear frend so absoribed in the exquste sense of mere tranquil existence, that neglect my talentsr I should bye ncapable of drawng and single stroke at the A wonderful serenty has taken possesson of my entre souing like these sweet mornins sprng which present moment; and yet If feel that I never was a greater artst</p>
+
+                                            <img src="assets/images/blog/page/02.jpg" alt="blog-single">
+
+                                            <p>A wonderful serenity has taken posseson of my entire soung like these sweet mornngs spring whch enjoy with my whole heart I am alone and feel the charm of exstenceths spot whch was created For the blis of souls like mineing am so happy my dear frend so absoribed in the exquste sense of mere tranquil existence, that neglect my talentsr I should bye ncapable of drawng and single stroke at the A wonderful serenty has taken possesson of my entre souing like these sweet mornins sprng which present moment; and yet If feel that I never was a greater artst</p>
+
+                                            <div class="video-thumb">
+                                                <img src="assets/images/blog/page/03.jpg" alt="video">
+                                                <a href="https://www.youtube.com/embed/7aSIHK_xaHM" data-rel="lightcase" class="video-icon"><i class="icofont-youtube-play"></i></a>
+                                            </div>
+
+                                            <p>A wonderful serenity has taken posseson of my entire soung like these sweet mornngs spring whch enjoy with my whole heart I am alone and feel the charm of exstenceths spot whch was created For the blis of souls like mineing am so happy my dear frend so absoribed in the exquste sense of mere tranquil existence, that neglect my talentsr I should bye ncapable of drawng and single stroke at the A wonderful serenty has taken possesson of my entre souing like these sweet mornins sprng which</p>
+
+                                            <p>A wonderful serenity has taken possssion of my entire souing like these sweet mornng spring whch enjoy with my whole heart I am alone, and feel the charm of existenceths spot whch was create For the bliss of souls like mineing am so happy my dear frend so absoribed in the exquste sens of mere present moment; and yet If feel that I never was a greater artst</p>
+                                            
+                                            <div class="tags-section">
+                                                <ul class="tags">
+                                                    <li><a href="#">Agency</a></li>
+                                                    <li><a href="#">Business</a></li>
+                                                    <li><a href="#">Personal</a></li>
+                                                </ul>
+                                                <div class="scocial-media">
+                                                    <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                                                    <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                                                    <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+                                                    <a href="#" class="vimeo"><i class="icofont-vimeo"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="navigations-part">
+                                    <div class="left">
+                                        <a href="#" class="prev"><i class="icofont-double-left"></i>Previous Article</a>
+                                        <a href="#" class="title">Evisculate Parallel Processes via Technica Sound Models Authoritative</a>
+                                    </div>
+                                    <div class="right">
+                                        <a href="#" class="prev">Next Article<i class="icofont-double-right"></i></a>
+                                        <a href="#" class="title">Qvisculate Parallel Processes via Technica Sound Models Authoritative</a>
+                                    </div>
+                                </div>
+
+                                <div class="authors">
+                                    <div class="author-thumb">
+                                        <a href="#"><img src="assets/images/chef/author/01.png" alt="author"></a>
+                                    </div>
+                                    <div class="author-content">
+                                        <h6>LabArtisan</h6>
+                                        <p>Data release Friday large ponted to better than expcted pickup in the euroz yieldsrose tolate Thursd and the euro edged up slghtly toY after the Grman recent political uncertainty in Germany has so far</p>
+                                        <div class="scocial-media">
+                                            <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                                            <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                                            <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+                                            <a href="#" class="vimeo"><i class="icofont-vimeo"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="comments" class="comments">
+                                    <h4 class="title-border">02 Comment</h4>
+                                    <ul class="comment-list">
+                                        <li class="comment" id="li-comment-1">
+                                            <div class="com-thumb">
+                                                <img alt="" src="assets/images/chef/author/01.jpg" srcset="assets/images/chef/author/01.jpg" class="avatar avatar-90 photo" height="90" width="90">          
+                                            </div>
+                                            <div class="com-content">
+                                                <div class="com-title">
+                                                    <div class="com-title-meta">
+                                                        <h6><a href="http://Sk" rel="external nofollow" class="url">Linsa Faith</a></h6>
+                                                        <span> October 5, 2018 at 12:41 pm </span>
+                                                    </div>
+                                                    <span class="reply">
+                                                        <a rel="nofollow" class="comment-reply-link" href="#" aria-label="Reply to Masum"><i class="icofont-reply-all"></i>Reply</a>        
+                                                    </span>
+                                                </div>
+                                                <p>The inner sanctuary, I throw myself down among the tall grass bye the trckli stream and, as I lie close to the earth</p>
+                                                <div class="reply-btn"></div>
+                                            </div>
+                                            <ul class="comment-list">
+                                                <li class="comment" id="li-comment-2">
+                                                    <div class="com-thumb">
+                                                        <img alt="" src="assets/images/chef/author/02.jpg" srcset="assets/images/chef/author/02.jpg" class="avatar avatar-90 photo" height="90" width="90">
+                                                    </div>
+                                                    <div class="com-content">
+                                                        <div class="com-title">
+                                                            <div class="com-title-meta">
+                                                                <h6><a href="http://Sk" rel="external nofollow" class="url">James Jusse</a></h6>
+                                                                <span> October 5, 2018 at 12:41 pm </span>
+                                                            </div>
+                                                            <span class="reply">
+                                                                <a rel="nofollow" class="comment-reply-link" href="#" aria-label="Reply to Masum"><i class="icofont-reply-all"></i>Reply</a>                        
+                                                            </span>
+                                                        </div>
+                                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings spring which I enjoy with my whole heart</p>
+                                                        <div class="reply-btn"></div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div id="respond" class="comment-respond">
+                                    <h4 class="title-border">Leave a Comment</h4>
+                                    <div class="add-comment">
+                                        <form action="#" method="post" id="commentform" class="comment-form">
+                                            <input name="name" type="text" value="" placeholder="Name">
+                                            <input name="email" type="text" value="" placeholder="Email">
+                                            <input name="url" type="text" value="" placeholder="Subject">
+                                            <textarea id="comment-reply" name="comment" rows="5" placeholder="Type Here Your Comment"></textarea>
+                                            <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+                                            <button type="submit" class="food-btn"><span>send comment</span></button>
+                                        </form>
+                                    </div>			
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 col-md-7 col-12">
+                            <aside>
+                                <div class="widget widget-search">
+                                    <div class="search-wrapper">
+                                        <input type="text" name="s" placeholder="Your Search...">
+                                        <button type="submit"><i class="icofont-search-2"></i></button>
+                                    </div>
+                                </div>
+
+                                <div class="widget widget-category">
+                                    <div class="widget-header">
+                                        <h5>Post Categorys</h5>
+                                    </div>
+                                    <ul class="widget-wrapper">
+                                        <li>
+                                            <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>Themeforest</span><span>06</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>Photodune</span><span>11</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>Codecanyon</span><span>07</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>GRaphicdriver</span><span>09</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>Wordpress</span><span>50</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>Joomla</span><span>20</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>3docean</span><span>93</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>Themeforest</span><span>27</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+            
+                                <div class="widget widget-post">
+                                    <div class="widget-header">
+                                        <h5>Most Popular Post</h5>
+                                    </div>
+                                    <ul class="widget-wrapper">
+                                        <li class="d-flex flex-wrap justify-content-between">
+                                            <div class="post-thumb">
+                                                <a href="#"><img src="assets/images/blog/01.jpg" alt="product"></a>
+                                            </div>
+                                            <div class="post-content">
+                                                <h6><a href="#">Foulate Revunry And Mhare Fnger Tache Fanny</a></h6>
+                                                <p>04 February 2019</p>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex flex-wrap justify-content-between">
+                                            <div class="post-thumb">
+                                                <a href="#"><img src="assets/images/blog/02.jpg" alt="product"></a>
+                                            </div>
+                                            <div class="post-content">
+                                                <h6><a href="#">Foulate Revunry And Mhare Fnger Tache Fanny</a></h6>
+                                                <p>04 February 2019</p>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex flex-wrap justify-content-between">
+                                            <div class="post-thumb">
+                                                <a href="#"><img src="assets/images/blog/03.jpg" alt="product"></a>
+                                            </div>
+                                            <div class="post-content">
+                                                <h6><a href="#">Foulate Revunry And Mhare Fnger Tache Fanny</a></h6>
+                                                <p>04 February 2019</p>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex flex-wrap justify-content-between">
+                                            <div class="post-thumb">
+                                                <a href="#"><img src="assets/images/blog/04.jpg" alt="product"></a>
+                                            </div>
+                                            <div class="post-content">
+                                                <h6><a href="#">Foulate Revunry And Mhare Fnger Tache Fanny</a></h6>
+                                                <p>04 February 2019</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+            
+                                <div class="widget widget-archive">
+                                    <div class="widget-header">
+                                        <h5>FoodBuzz Archives</h5>
+                                    </div>
+                                    <ul class="widget-wrapper">
+                                        <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>January</span><span>2019</span></a> </li>
+                                        <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>February</span><span>2018</span></a></li>
+                                        <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>March</span><span>2017</span></a></li>
+                                        <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>April</span><span>2016</span></a></li>
+                                        <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>June</span><span>2015</span></a></li>
+                                        <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>July</span><span>2014</span></a></li>
+                                        <li><a href="#" class="d-flex flex-wrap justify-content-between"><span><i class="icofont-double-right"></i>August</span><span>2013</span></a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="widget widget-instagram">
+                                    <div class="widget-header">
+                                        <h5>FoodBuzz instagram</h5>
+                                    </div>
+                                    <ul class="widget-wrapper d-flex flex-wrap justify-content-center">
+                                        <li><a href="#"><img src="assets/images/blog/08.jpg" alt="product"></a></li>
+                                        <li><a href="#"><img src="assets/images/blog/02.jpg" alt="product"></a></li>
+                                        <li><a href="#"><img src="assets/images/blog/03.jpg" alt="product"></a></li>
+                                        <li><a href="#"><img src="assets/images/blog/04.jpg" alt="product"></a></li>
+                                        <li><a href="#"><img src="assets/images/blog/05.jpg" alt="product"></a></li>
+                                        <li><a href="#"><img src="assets/images/blog/06.jpg" alt="product"></a></li>
+                                        <li><a href="#"><img src="assets/images/blog/07.jpg" alt="product"></a></li>
+                                        <li><a href="#"><img src="assets/images/blog/08.jpg" alt="product"></a></li>
+                                        <li><a href="#"><img src="assets/images/blog/09.jpg" alt="product"></a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="widget widget-tags">
+                                    <div class="widget-header">
+                                        <h5>Popular Tags</h5>
+                                    </div>
+                                    <ul class="widget-wrapper">
+                                        <li><a href="#">envato</a></li>
+                                        <li><a href="#">themeforest</a></li>
+                                        <li><a href="#">codecanyon</a></li>
+                                        <li><a href="#">videohive</a></li>
+                                        <li><a href="#">audiojungle</a></li>
+                                        <li><a href="#">3docean</a></li>
+                                        <li><a href="#">envato</a></li>
+                                        <li><a href="#">themeforest</a></li>
+                                        <li><a href="#">codecanyon</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="widget widget-banner">
+                                    <div class="widget-header">
+                                        <h5>Add Banner Place</h5>
+                                    </div>
+                                    <ul class="widget-wrapper d-flex flex-wrap justify-content-center">
+                                        <li><a href="#"><img src="assets/images/blog/08.jpg" alt="product"></a></li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Page Section Ending Here -->
+
+        <!-- link area start -->
+        <div class="news_link">
+            <div class="container">
+                <div class="order-content">
+                    <div class="content-logo">
+                        <a href="#">
+                            <img src="assets/images/logo/02.png" alt="logo">
+                            <p>Good Food For Good Helts</p>
+                        </a>
+                    </div>
+                    <div class="content-link">
+                        <ul>
+                            <li>
+                                <h5>Work with best resturant theme</h5>
+                            </li>
+                            <li>
+                                <a href="#" class="food-btn style-2">
+                                    <span>Order Now</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- link area ends -->
+
+        <!-- footer area start -->
+        <footer class="padding-tb" style="background-image: url(assets/css/bg-image/footer-bg.jpg);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <div class="contant-info">
+                            <h5>Contact info</h5>
+                            <ul class="info">
+                                <li>
+                                    <i class="fas fa-home"></i>
+                                    <span>Suite 02 Level Tropical Center</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <span>+880 1234 567890, 025984712</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-globe-asia"></i>
+                                        <span>www.foodbuzz@gmail,com</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-headphones"></i>
+                                        <span>support@codexcoder.com</span>
+                                    </a>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <div class="opening-time">
+                            <h5>Opening Hours</h5>
+                            <ul>
+                                <li>
+                                    <p><i class="far fa-clock"></i>Saterday</p>
+                                    <span>06:00 am - 08:00 pm</span>
+                                </li>
+                                <li>
+                                    <p><i class="far fa-clock"></i>Sunday</p>
+                                    <span>09:00 am - 02:00 pm</span>
+                                </li>
+                                <li>
+                                    <p><i class="far fa-clock"></i>Monday</p>
+                                    <span>07:00 am - 09:00 pm</span>
+                                </li>
+                                <li>
+                                    <p><i class="far fa-clock"></i>Tuesday</p>
+                                    <span>02:00 am - 06:00 pm</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <div class="news_letter">
+                            <h5>Subscribe Newsletter</h5>
+                            <p>
+                                Sign Up For Our Latest News & Articles. 
+                                We Wont Give You Spam Mails.
+                            </p>
+                            <div class="contact-search">
+                                <form class="searchForm" method="get" action="0">              
+                                    <input class="searchTerm"  placeholder="Your Email" autocomplete="off">
+                                    <input type="submit" class="searchBtn" value="Subscribe!"/> 
+                                </form> 
+                            </div>
+                            <ul class="follow_us">
+                                <li>
+                                    <p>Follow Us : </p>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-wifi"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-globe"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-behance"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area ends -->
+
+        <!-- footer menu start -->
+        <div class="fotter-header">
+            <header>
+                <div class="footer-bg">
+                    <div class="container">
+                        <div class="header-item">
+                            <div class="header-logo">
+                                <p>Copyright &copy; 2020.Company name All rights reserved <a href="http://www.aizhanzhe.com/template.html" target="_blank">懒之才</a>.</p>
+                            </div>
+                            <div class="header-menu d-none d-lg-block">
+                                <nav class="primary-menu">
+                                    <div class="main-menu-area">
+                                        <ul class="main-menu">
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">Food Menu</a></li>
+                                            <li><a href="#">Pages</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Shop</a></li>
+                                            <li><a href="#">Elements</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- <div class="footer-bottom"></div> -->
+        </div>
+        <!-- footer menu ends -->
+
+        
+        <!-- scrollToTop start here -->
+		<a href="#" class="scrollToTop"><i class="icofont-swoosh-up"></i></a>
+		<!-- scrollToTop ending here -->
+
+
+		
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/fontawesome.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/isotope.pkgd.min.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/swiper.min.js"></script>
+		<script src="assets/js/progress.js"></script>
+		<script src="assets/js/lightcase.js"></script>
+		<script src="assets/js/jquery.countdown.min.js"></script>
+        <script src="assets/js/functions.js"></script>
+	</body>
+</html>

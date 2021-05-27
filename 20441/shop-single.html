@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<!-- favicon -->
+		<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+		<!-- animate scss -->
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<!-- bootstarp css -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- icofont -->
+		<link rel="stylesheet" href="assets/css/icofont.min.css">
+		<link rel="stylesheet" href="assets/css/all.min.css">
+		<!-- lightcase css -->
+		<link rel="stylesheet" href="assets/css/lightcase.css">
+		<!-- swiper css -->
+		<link rel="stylesheet" href="assets/css/swiper.min.css">
+		<!-- cusyom scss -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+		<title>FoodBuzz</title>
+	</head>
+
+	<body>
+        <!-- preloader start here -->
+        <div class="preloader">
+            <div class="preloader-inner">
+                <div class="preloader-icon">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- preloader ending here -->
+        
+        <!-- search area -->
+        <div class="search-area">
+            <div class="search-input">
+                <div class="search-close">
+                    <span></span>
+                    <span></span>
+                </div>
+                <form>
+                    <input type="text" name="text" placeholder="*Search Here.......">
+                    <button class="search-btn"><span class="serch-icon"><i class="icofont-search-2"></i></span></button>
+                </form>
+            </div>
+        </div>
+        <!-- search area -->
+
+       <!-- Mobile Menu Start Here -->
+		<div class="mobile-menu">
+			<nav class="mobile-header">
+				<div class="header-logo">
+					<a href="index.html"><img src="assets/images/logo/01.png" alt="logo"></a>
+				</div>
+				<div class="header-bar">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+			<nav class="mobile-menu">
+				<div class="mobile-menu-area">
+					<div class="mobile-menu-area-inner">
+						<ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="coming-soon.html">Coming Soon</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Food Menu</a>
+                                <ul>
+                                    <li><a href="menu-card.html">Menu Card</a></li>
+                                    <li><a href="menu-card-2.html">Menu Card 2</a></li>
+                                    <li><a href="menu-card-3.html">Menu Card 3</a></li>
+                                </ul>
+                            </li>   
+                            <li><a href="reserv.html">Reservation</a></li>
+                            <li><a href="#">Blog</a>
+                                <ul>
+                                    <li><a href="blog.html">Blog Style 1</a></li>
+                                    <li><a href="blog-2.html">Blog Style 2</a></li>
+                                    <li><a href="blog-single.html">Blog Single</a></li>
+                                </ul>
+                            </li>
+                            <li class="active"><a href="#">Shop</a>
+                                <ul>
+                                    <li><a href="shop-page.html">Shop Page</a></li>
+                                    <li class="active"><a href="shop-single.html">Shop Single</a></li>
+                                    <li><a href="cart-page.html">Cart Page</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                        </ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- Mobile Menu Ending Here -->
+
+
+		<!-- desktop menu start here -->
+		<header class="header-section">
+			<div class="header-area">
+                <div class="header-bottom">
+                    <div class="container">
+                        <div class="primary-menu">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/images/logo/01.png" alt="logo"></a>
+                            </div>
+                            <div class="main-area">
+                                <div class="main-menu">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="#">Pages</a>
+                                            <ul>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                                                <li><a href="404.html">404</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Food Menu</a>
+                                            <ul>
+                                                <li><a href="menu-card.html">Menu Card</a></li>
+                                                <li><a href="menu-card-2.html">Menu Card 2</a></li>
+                                                <li><a href="menu-card-3.html">Menu Card 3</a></li>
+                                            </ul>
+                                        </li>   
+                                        <li><a href="reserv.html">Reservation</a></li>
+                                        <li><a href="#">Blog</a>
+                                            <ul>
+                                                <li><a href="blog.html">Blog Style 1</a></li>
+                                                <li><a href="blog-2.html">Blog Style 2</a></li>
+                                                <li><a href="blog-single.html">Blog Single</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="active"><a href="#">Shop</a>
+                                            <ul>
+                                                <li><a href="shop-page.html">Shop Page</a></li>
+                                                <li class="active"><a href="shop-single.html">Shop Single</a></li>
+                                                <li><a href="cart-page.html">Cart Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact-us.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cart-search">
+                                    <ul>
+                                        <li class="search"><i class="icofont-search-2"></i></li>
+                                        <li class="cart-area">
+                                            <div class="cart-icon">
+                                                <i class="icofont-cart-alt"></i>
+                                            </div>
+                                            <div class="count-item">04</div>
+                                            <div class="cart-content">
+                                                <div class="cart-title">
+                                                    <div class="add-item">4 Items Added</div>
+                                                    <div class="list-close"><a href="#">Close</a></div>
+                                                </div>
+                                                <div class="cart-scr scrollbar">
+                                                    <div class="cart-con-item">
+                                                        <div class="cart-item">
+                                                            <div class="cart-inner">
+                                                                <div class="cart-top">
+                                                                    <div class="thumb">
+                                                                        <a href="#"><img src="assets/images/product/01.jpg" alt=""></a>
+                                                                    </div>
+                                                                    <div class="content">
+                                                                        <a href="#">Split Remedy Split End Shampoo</a>
+                                                                    </div>
+                                                                    <div class="remove-btn">
+                                                                        <a href="#"><i class="icofont-close"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cart-bottom">
+                                                                    <div class="sing-price">Tk. 140</div>
+                                                                    <div class="cart-plus-minus"><div class="dec qtybutton">-</div>
+                                                                        <div class="dec qtybutton">-</div>
+                                                                        <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                        <div class="inc qtybutton">+</div>
+                                                                    <div class="inc qtybutton">+</div></div>
+                                                                    <div class="total-price">Tk. 280.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cart-item">
+                                                            <div class="cart-inner">
+                                                                <div class="cart-top">
+                                                                    <div class="thumb">
+                                                                        <a href="#"><img src="assets/images/product/02.jpg" alt=""></a>
+                                                                    </div>
+                                                                    <div class="content">
+                                                                        <a href="#">Split Remedy Split End Shampoo</a>
+                                                                    </div>
+                                                                    <div class="remove-btn">
+                                                                        <a href="#"><i class="icofont-close"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cart-bottom">
+                                                                    <div class="sing-price">Tk. 140</div>
+                                                                    <div class="cart-plus-minus"><div class="dec qtybutton">-</div>
+                                                                        <div class="dec qtybutton">-</div>
+                                                                        <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                        <div class="inc qtybutton">+</div>
+                                                                    <div class="inc qtybutton">+</div></div>
+                                                                    <div class="total-price">Tk. 280.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cart-item">
+                                                            <div class="cart-inner">
+                                                                <div class="cart-top">
+                                                                    <div class="thumb">
+                                                                        <a href="#"><img src="assets/images/product/03.jpg" alt=""></a>
+                                                                    </div>
+                                                                    <div class="content">
+                                                                        <a href="#">Split Remedy Split End Shampoo</a>
+                                                                    </div>
+                                                                    <div class="remove-btn">
+                                                                        <a href="#"><i class="icofont-close"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cart-bottom">
+                                                                    <div class="sing-price">Tk. 140</div>
+                                                                    <div class="cart-plus-minus"><div class="dec qtybutton">-</div>
+                                                                        <div class="dec qtybutton">-</div>
+                                                                        <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                        <div class="inc qtybutton">+</div>
+                                                                    <div class="inc qtybutton">+</div></div>
+                                                                    <div class="total-price">Tk. 280.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cart-item">
+                                                            <div class="cart-inner">
+                                                                <div class="cart-top">
+                                                                    <div class="thumb">
+                                                                        <a href="#"><img src="assets/images/product/04.jpg" alt=""></a>
+                                                                    </div>
+                                                                    <div class="content">
+                                                                        <a href="#">Split Remedy Split End Shampoo</a>
+                                                                    </div>
+                                                                    <div class="remove-btn">
+                                                                        <a href="#"><i class="icofont-close"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cart-bottom">
+                                                                    <div class="sing-price">Tk. 140</div>
+                                                                    <div class="cart-plus-minus"><div class="dec qtybutton">-</div>
+                                                                        <div class="dec qtybutton">-</div>
+                                                                        <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                                                                        <div class="inc qtybutton">+</div>
+                                                                    <div class="inc qtybutton">+</div></div>
+                                                                    <div class="total-price">Tk. 280.00</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-scr-bottom">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="title">Subtotal</div>
+                                                            <div class="price">Tk. 1045.00</div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="title">Shipping</div>
+                                                            <div class="price">Tk. 40.00</div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="title">Cart Total</div>
+                                                            <div class="price">Tk. 1085.00</div>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="food-btn"><span>Place Order</span></a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</header>
+		<!-- desktop menu ending here -->
+        
+        <!-- Page Header Section Start Here -->
+        <section class="page-header style-2">
+            <div class="container">
+                <div class="page-title text-center">
+                    <h3>veggie tagliatelle bolognese</h3>
+                    <ul class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Shop Single</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Page Header Section Ending Here -->
+
+		<!-- Popular Home Chef Section Start Here -->
+		<div class="shop-page single padding-tb pb-0">
+            <div class="container">
+                <div class="section-wrapper">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8 col-12">
+                            <article>
+                                <div class="shop-single">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-6 col-12">
+                                            <div class="swiper-container gallery-top">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                                        <div class="shop-item">
+                                                            <div class="shop-thumb">
+                                                                <img src="assets/images/product/01.jpg" alt="shop-single">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="shop-item">
+                                                            <div class="shop-thumb">
+                                                                <img src="assets/images/product/02.jpg" alt="shop-single">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="shop-item">
+                                                            <div class="shop-thumb">
+                                                                <img src="assets/images/product/03.jpg" alt="shop-single">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="shop-item">
+                                                            <div class="shop-thumb">
+                                                                <img src="assets/images/product/04.jpg" alt="shop-single">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-container gallery-thumbs">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                                        <div class="shop-item">
+                                                            <div class="shop-thumb">
+                                                                <img src="assets/images/product/01.jpg" alt="shop-single">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="shop-item">
+                                                            <div class="shop-thumb">
+                                                                <img src="assets/images/product/02.jpg" alt="shop-single">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="shop-item">
+                                                            <div class="shop-thumb">
+                                                                <img src="assets/images/product/03.jpg" alt="shop-single">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="shop-item">
+                                                            <div class="shop-thumb">
+                                                                <img src="assets/images/product/04.jpg" alt="shop-single">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="shop-single-content">
+                                                <div class="title">
+                                                    <h5><a href="#">veggie tagliatelle bolognese</a></h5>
+                                                    <div class="p-food-group">
+                                                        <span>Type of food :</span>
+                                                        <a href="#">Beef Roast</a>
+                                                        <a href="#">Pizza</a>
+                                                        <a href="#">Stakes</a>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <span>(2 Customer Reviews)</span>
+                                                    </div>
+                                                </div>
+                                                <div class="desc">
+                                                    <p>I love cooks my friends and family Special expertse info Making Pitha local food and have passonate to produce promote organic food...</p>
+                                                    <ul>
+                                                        <li>20 MP front & 28 megapixel CMOS rear camera</li>
+                                                        <li>4.5 inch HD Touch Screen (1280 x 720)</li>
+                                                        <li>1.4 GHz Quad Core™ Processor</li>
+                                                        <li>Android 4.4 KitKat OS</li>
+                                                    </ul>
+                                                    <div class="quyality">
+                                                        <p><span>SKU</span> : FW511948218</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-xl-4 col-md-5 col-12">
+                            <aside>
+                                <div class="popular-chef-widget">
+                                    <div class="food-quyality">
+                                        <div class="section-header">
+                                            <p>Availability: <span>28 in Stock</span></p>
+                                        </div>
+                                        <div class="section-wrapper">
+                                            <h5>$35.00</h5>
+                                            <p>Quantity</p>
+                                            <label>
+                                                <input type="number" placeholder="2" >
+                                            </label>
+                                            <a href="#" class="food-btn style-2"><span>Add to Cart</span></a>
+                                            <ul>
+                                                <li><a href="#"><i class="icofont-heart-alt"></i>Wishlist</a></li>
+                                                <li><a href="#"><i class="icofont-drag2"></i>Compare</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Popular Home Chef Section Ending Here -->
+        
+        <!-- Review Section Start Here -->
+        <div class="review single padding-tb">
+            <div class="container">
+                <div class="section-wrapper">
+                    <div class="related">
+                        <ul class="tab-bar">
+                            <li class="tablinks" id="defaultOpen" onclick="openCity(event, 'one')">
+                                <span>Accessories</span>
+                            </li>
+                            <li class="tablinks" onclick="openCity(event, 'two')">
+                                <span>Description</span>
+                            </li>
+                            <li class="tablinks" onclick="openCity(event, 'three')">
+                                <span>Specification</span>
+                            </li>
+                            <li class="tablinks" onclick="openCity(event, 'four')">
+                                <span>Reviews</span>
+                            </li>
+                        </ul>
+                        <div id="one" class="tabcontent">
+                            <div class="products">
+                                <div class="section-wrapper">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-xl-3 col-md-6 col-12">
+                                            <div class="product-item">
+                                                <div class="product-thumb">
+                                                    <img src="assets/images/product/01.jpg" alt="food-product">
+                                                    <span class="price">$10</span>
+                                                </div>
+                                                <div class="product-content">
+                                                    <p>Mexican Food</p>
+                                                    <h6><a href="#">Cream Chicken Chiladas</a></h6>
+                                                    <div class="rating">
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-md-6 col-12">
+                                            <div class="product-item">
+                                                <div class="product-thumb">
+                                                    <img src="assets/images/product/02.jpg" alt="food-product">
+                                                    <span class="price">$20</span>
+                                                </div>
+                                                <div class="product-content">
+                                                    <p>Mexican Food</p>
+                                                    <h6><a href="#">Cream Chicken Chiladas</a></h6>
+                                                    <div class="rating">
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-md-6 col-12">
+                                            <div class="product-item">
+                                                <div class="product-thumb">
+                                                    <img src="assets/images/product/03.jpg" alt="food-product">
+                                                    <span class="price">$30</span>
+                                                </div>
+                                                <div class="product-content">
+                                                    <p>Mexican Food</p>
+                                                    <h6><a href="#">Cream Chicken Chiladas</a></h6>
+                                                    <div class="rating">
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-3 col-md-6 col-12">
+                                            <div class="p-food-item">
+                                                <div class="p-food-inner">
+                                                    <div class="food-quyality">
+                                                        <div class="section-header">
+                                                            <p>Availability: <span>28 in Stock</span></p>
+                                                        </div>
+                                                        <div class="section-wrapper">
+                                                            <h5>$60.00</h5>
+                                                            <p>For 3 item(s)</p>
+                                                            <a href="#" class="food-btn"><span>Back to Home</span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="two" class="tabcontent">
+                            <div class="Description">
+                                <h5>50 Foods That Are Super Healthy</h5>
+                                <p>Here we provide details of the top 15 foods considered to be the most healthy, according to surveys and sources across the United States and Western Europe. There are numerous diets that promote weight loss, sometimes in an unhealthy way. Fad crash dieting, for instance, is potentially dangerous. At the same time, in America, we eat an estimated 100 acres of pizza each day. Understanding which foods are healthful and trying to include them in our diet could benefit the nation.The most important thing to remember, is that a balanced diet is the true secret to healthful eating.</p>
+                                <h5>Belgian Cuisine</h5>
+                                <p>Here we provide details of the top 15 foods considered to be the most healthy, according to surveys and sources across the United States and Western Europe. There are numerous diets that promote weight loss, sometimes in an unhealthy way. Fad crash dieting, for instance, is potentially dangerous. At the same time, in America, we eat an estimated 100 acres of pizza each day. Understanding which foods are healthful and trying to include them in our diet could benefit the nation.The most important thing to remember, is that a balanced diet is the true secret to healthful eating.</p>
+                                <p>Here we provide details of the top 15 foods considered to be the most healthy, according to surveys and sources across the United States and Western Europe. There are numerous diets that promote weight loss, sometimes in an unhealthy way. Fad crash dieting, for instance, is potentially dangerous. At the same time, in America, we eat an estimated 100 acres of pizza each day. Understanding which foods are healthful and trying to include them in our diet could benefit the nation.The most important thing to remember, is that a balanced diet is the true secret to healthful eating.</p>
+                                <p>Here we provide details of the top 15 foods considered to be the most healthy, according to surveys and sources across the United States and Western Europe. There are numerous diets that promote weight loss, sometimes in an unhealthy way. Fad crash dieting, for instance, is potentially dangerous. At the same time, in America, we eat an estimated 100 acres of pizza each day. Understanding which foods are healthful and trying to include them in our diet could benefit the nation.The most important thing to remember, is that a balanced diet is the true secret to healthful eating.</p>
+                            </div>
+                        </div>
+
+                        <div id="three" class="tabcontent">
+                            <div class="spe-shop">
+                                <div class="tec-spe">
+                                    <ul>
+                                        <li>
+                                            <div class="left">Brand</div>
+                                            <div class="right">Apple</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Item Height</div>
+                                            <div class="right">18 Millimeters</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Item Width</div>
+                                            <div class="right">31.4 Centimeters</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Screen Size</div>
+                                            <div class="right">13 Inches</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Item Weight</div>
+                                            <div class="right">1.6 Kg</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Product Dimensions</div>
+                                            <div class="right">21.9 x 31.4 x 1.8 cm</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Item model number</div>
+                                            <div class="right">MF841HN/A</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Processor Brand</div>
+                                            <div class="right">Intel</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Processor Type</div>
+                                            <div class="right">Core i5</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Processor Speed</div>
+                                            <div class="right">2.9 GHz</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">RAM Size</div>
+                                            <div class="right">	8 GB</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Hard Drive Size</div>
+                                            <div class="right">512 GB</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Hard Disk Technology</div>
+                                            <div class="right">Solid State Drive</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Graphics Coprocessor</div>
+                                            <div class="right">Intel Integrated Graphics</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Graphics Card Description</div>
+                                            <div class="right">Integrated Graphics Card</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Hardware Platform</div>
+                                            <div class="right">Mac</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Operating System</div>
+                                            <div class="right">Mac OS</div>
+                                        </li>
+                                        <li>
+                                            <div class="left">Average Battery Life (in hours)</div>
+                                            <div class="right">9</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="four" class="tabcontent">
+                            <div class="section-wrapper">
+                                <div class="review">
+                                    <ul class="content">
+                                        <li>
+                                            <div class="post-thumb">
+                                                <img src="assets/images/clients/01.jpg" alt="shop">
+                                            </div>
+                                            <div class="post-content">
+                                                <div class="content-area">
+                                                    <div class="entry-meta">
+                                                        <div class="posted-on">
+                                                            <a href="#">Britney Doe</a>
+                                                            <p>Posted on December 25, 2017 at 6:57 am</p>
+                                                        </div>
+                                                        <div class="rating">
+                                                            <i class="icofont-star"></i>
+                                                            <i class="icofont-star"></i>
+                                                            <i class="icofont-star"></i>
+                                                            <i class="icofont-star"></i>
+                                                            <i class="icofont-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="entry-content">
+                                                        <p>Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="post-thumb">
+                                                <img src="assets/images/clients/03.jpg" alt="shop">
+                                            </div>
+                                            <div class="post-content">
+                                                <div class="entry-meta">
+                                                    <div class="posted-on">
+                                                        <a href="#">Jonathan Doe</a>
+                                                        <p>Posted on December 25, 2017 at 6:57 am</p>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="entry-content">
+                                                    <p>Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="post-thumb">
+                                                <img src="assets/images/clients/02.jpg" alt="shop">
+                                            </div>
+                                            <div class="post-content">
+                                                <div class="entry-meta">
+                                                    <div class="posted-on">
+                                                        <a href="#">Mack Zucky</a>
+                                                        <p>Posted on December 25, 2017 at 6:57 am</p>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="entry-content">
+                                                    <p>Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="post-thumb">
+                                                <img src="assets/images/clients/03.jpg" alt="shop">
+                                            </div>
+                                            <div class="post-content">
+                                                <div class="entry-meta">
+                                                    <div class="posted-on">
+                                                        <a href="#">Jordi Albae</a>
+                                                        <p>Posted on December 25, 2017 at 6:57 am</p>
+                                                    </div>
+                                                    <div class="rating">
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                        <i class="icofont-star"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="entry-content">
+                                                    <p>Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="client-review">
+                                        <div class="review-form">
+                                            <div class="review-title">
+                                                <h5>Add A Review</h5>
+                                            </div>
+                                            <form action="action" class="row">
+                                                <div class="col-md-4 col-12">
+                                                    <input type="text" name="name" placeholder="Full Name">
+                                                </div>
+                                                <div class="col-md-4 col-12">
+                                                    <input type="text" name="email" placeholder="Email Adress">
+                                                </div>
+                                                <div class="col-md-4 col-12">
+                                                    <div class="ratings">
+                                                        <span class="rating-title">Your Rating : </span>
+                                                        <div class="rating">
+                                                            <i class="icofont-star"></i>
+                                                            <i class="icofont-star"></i>
+                                                            <i class="icofont-star"></i>
+                                                            <i class="icofont-star"></i>
+                                                            <i class="icofont-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 col-12">
+                                                    <textarea rows="8" placeholder="Type Here Message"></textarea>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button type="submit" class="food-btn style-2"><span>Submit Review</span></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Review Section Ending Here -->
+
+
+        <!-- link area start -->
+        <div class="news_link">
+            <div class="container">
+                <div class="order-content">
+                    <div class="content-logo">
+                        <a href="#">
+                            <img src="assets/images/logo/02.png" alt="logo">
+                            <p>Good Food For Good Helts</p>
+                        </a>
+                    </div>
+                    <div class="content-link">
+                        <ul>
+                            <li>
+                                <h5>Work with best resturant theme</h5>
+                            </li>
+                            <li>
+                                <a href="#" class="food-btn style-2">
+                                    <span>Order Now</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- link area ends -->
+
+        <!-- footer area start -->
+        <footer class="padding-tb" style="background-image: url(assets/css/bg-image/footer-bg.jpg);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <div class="contant-info">
+                            <h5>Contact info</h5>
+                            <ul class="info">
+                                <li>
+                                    <i class="fas fa-home"></i>
+                                    <span>Suite 02 Level Tropical Center</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <span>+880 1234 567890, 025984712</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-globe-asia"></i>
+                                        <span>www.foodbuzz@gmail,com</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-headphones"></i>
+                                        <span>support@codexcoder.com</span>
+                                    </a>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <div class="opening-time">
+                            <h5>Opening Hours</h5>
+                            <ul>
+                                <li>
+                                    <p><i class="far fa-clock"></i>Saterday</p>
+                                    <span>06:00 am - 08:00 pm</span>
+                                </li>
+                                <li>
+                                    <p><i class="far fa-clock"></i>Sunday</p>
+                                    <span>09:00 am - 02:00 pm</span>
+                                </li>
+                                <li>
+                                    <p><i class="far fa-clock"></i>Monday</p>
+                                    <span>07:00 am - 09:00 pm</span>
+                                </li>
+                                <li>
+                                    <p><i class="far fa-clock"></i>Tuesday</p>
+                                    <span>02:00 am - 06:00 pm</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                        <div class="news_letter">
+                            <h5>Subscribe Newsletter</h5>
+                            <p>
+                                Sign Up For Our Latest News & Articles. 
+                                We Wont Give You Spam Mails.
+                            </p>
+                            <div class="contact-search">
+                                <form class="searchForm" method="get" action="0">              
+                                    <input class="searchTerm"  placeholder="Your Email" autocomplete="off">
+                                    <input type="submit" class="searchBtn" value="Subscribe!"/> 
+                                </form> 
+                            </div>
+                            <ul class="follow_us">
+                                <li>
+                                    <p>Follow Us : </p>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-wifi"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-globe"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-behance"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area ends -->
+
+        <!-- footer menu start -->
+        <div class="fotter-header">
+            <header>
+                <div class="footer-bg">
+                    <div class="container">
+                        <div class="header-item">
+                            <div class="header-logo">
+                                <p>Copyright &copy; 2020.Company name All rights reserved <a href="http://www.aizhanzhe.com/template.html" target="_blank">懒之才</a>.</p>
+                            </div>
+                            <div class="header-menu d-none d-lg-block">
+                                <nav class="primary-menu">
+                                    <div class="main-menu-area">
+                                        <ul class="main-menu">
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">Food Menu</a></li>
+                                            <li><a href="#">Pages</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Shop</a></li>
+                                            <li><a href="#">Elements</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- <div class="footer-bottom"></div> -->
+        </div>
+        <!-- footer menu ends -->
+
+        
+        <!-- scrollToTop start here -->
+		<a href="#" class="scrollToTop"><i class="icofont-swoosh-up"></i></a>
+		<!-- scrollToTop ending here -->
+
+
+		
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/fontawesome.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/isotope.pkgd.min.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/swiper.min.js"></script>
+		<script src="assets/js/progress.js"></script>
+		<script src="assets/js/tab.js"></script>
+		<script src="assets/js/lightcase.js"></script>
+		<script src="assets/js/jquery.countdown.min.js"></script>
+        <script src="assets/js/functions.js"></script>
+	</body>
+</html>
