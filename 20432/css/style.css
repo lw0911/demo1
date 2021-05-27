@@ -1,0 +1,866 @@
+*, html, body {
+    transition: all 1s ease;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.white-overlay {
+    background-color: rgba(255,255,255,0.65);
+    height: 100%;
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h2 span {
+    color: #2c73e8;
+}
+
+li {
+    list-style-type: none;
+}
+
+button, a {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+/* navbar */
+
+header#home {
+    height: 90vh;
+}
+
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+} 
+
+.navbar ul.navbar-nav li {
+    padding: 0 6px;
+    font-weight: 500;
+    margin: 0 2px;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.navbar ul.navbar-nav li:nth-of-type(6) {
+    padding-right: 30px
+}
+
+.navbar ul.navbar-nav li.active a {
+    color: #2c73e8 !important;
+}
+
+.navbar ul.navbar-nav li i {
+    font-size: 22px;
+}
+
+.navbar ul.navbar-nav li form {
+    position: absolute;
+    background-color: white;
+    padding: 6px;
+    display: none;
+    width: 230px;
+    right: 0
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbar ul.navbar-nav li form input {
+    border: 1px solid #cbc8c8;
+    background-color: #e2dfdf;
+    width: 100%;
+}
+
+footer div.copyright a {
+    color: #fff;
+}
+
+footer div.copyright a:hover,
+footer div.copyright a:focus {
+    color: #ea4808;
+}
+
+/* header */
+
+header .row > div:first-of-type {
+    background-color: #2c73e8;
+    margin-top: 94px;
+    color: #FFF;
+}
+
+header .row > div:first-of-type p {
+    font-size: 110px;
+    margin-left: 15%;
+    line-height: 110px;
+    font-weight: 500;
+    margin-top: 150px;
+}
+
+header .row > div:first-of-type p span {
+    color: #000;
+}
+
+header .row > div:first-of-type button {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    background-color: #2c73e8;
+    box-shadow: 0 0 25px -6px #000;
+    border: none;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+}
+
+header .row > div:first-of-type button a {
+    display: block;
+    padding: 0 40px;
+    color: #FFF;
+    height: 65px;
+    width: auto;
+    line-height: 63px;
+}
+
+header .row > div:last-of-type, header .row > div:first-of-type {
+    padding: 0;
+}
+
+header .row > div:last-of-type {
+    background-image: url('../imgs/header.png');
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+header .row > div:last-of-type button {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 2px solid #2c73e8;
+    padding: 0;
+}
+
+header .row > div:last-of-type button:hover {
+    background-color: #2c73e8;
+}
+
+header .row > div:last-of-type button:hover a {
+    color: #FFF;
+}
+
+header .row > div:last-of-type button a {
+    display: block;
+    padding: 15px 90px;
+    font-size: 25px;
+    color: #000;
+}
+.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+/* about us */
+
+.about-us {
+    padding: 100px 0;
+}
+
+.about-us strong{
+    color: #2c73e8;
+}
+
+.about-us h2 {
+    margin: 10px 0;
+}
+
+.about-us .container > p {
+    font-size: 25px;
+}
+
+.about-us button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    border: 1px solid #000;
+    padding: 0
+}
+
+.about-us a {
+    display: block;
+    padding: 15px 40px;
+    color: #000;
+}
+
+.about-us button:hover {
+    background-color: #2c73e8;
+    border: 1px solid #2c73e8;
+}
+
+.about-us button:hover a {
+    color: #FFF;
+}
+
+.about-us .blue-shadow {
+    height: 400px;
+    width: 250px;
+    background-color: blue;
+    position: absolute;
+    z-index: -1;
+    top: 50px;
+    left: 200px;
+}
+
+/* services */
+
+.services {
+    padding: 100px 0;
+    position: relative;
+}
+
+.services h2 + p {
+    margin-bottom: 100px;
+}
+
+.services .item {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #FFF;
+    margin-bottom: 15px;
+}
+
+.services i {
+    margin-bottom: 15px;
+    color: #17a5e9;
+}
+
+.services h4 {
+    margin-bottom: 15px;
+}
+
+.services h4 a {
+    color: #000;
+}
+
+.services h4 a:hover {
+    color: #2c73e8;
+}
+
+.services .active i {
+    color: #e84708;
+}
+
+.services button {
+    position: relative;
+    display: block;
+    bottom: -70px;
+    padding: 0;
+    background-color: #FFF;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.services button a {
+    padding: 15px 60px;
+    display: block;
+    color: #000;
+}
+
+.services button:hover {
+    background-color: #2c73e8;
+    border: 1px solid #2c73e8;
+}
+
+.services button:hover a {
+    color: #FFF;
+}
+
+.services .rectangle {
+    width: 1600px;
+    height: 550px;
+    position: absolute;
+    transform: rotate(-4deg);
+    z-index: -1; 
+    right: -85px; 
+    bottom: 95px;
+    background-color: #2c73e8;
+}
+
+/* what we do */
+
+.what-we-do {
+    margin: 100px 0;
+    position: relative;
+}
+
+.what-we-do .container {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.what-we-do h2 + p {
+    margin-bottom: 30px;
+}
+
+.what-we-do .img {
+    height: 300px;
+    width: 100%;
+    box-shadow: 3px 3px 10px #d9d5d5, -3px -3px 10px #d9d5d5;
+    background-image: url('../imgs/about-us.png');
+    background-size: cover;
+}
+
+.what-we-do .start-button {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    color: #FFF;
+    background-color: #2c73e8;
+    bottom: 39px;
+    cursor: pointer;
+}
+
+.what-we-do .start-button i {
+    font-size: 20px;
+    position: relative;
+    left: 2px;
+}
+
+/* prices */
+
+.prices h2 {
+    margin-bottom: 100px;
+}
+
+.prices .item > div:last-of-type{
+    border: 1px solid #000;
+    border-top: none;
+}
+
+.prices .item > div:first-of-type{
+    padding: 20px;
+    background-color: #e84708;
+    color: #FFF;
+    text-align: center;
+    border-top-right-radius: 50px;
+}
+
+.prices .item > div:last-of-type {
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.prices .item > div:last-of-type p span:first-of-type {
+    color: #e84708;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.prices .item > div:last-of-type p span:nth-of-type(2) {
+    color: #2c73e8;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.prices .item > div:last-of-type ul {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.prices .item > div:last-of-type ul li{
+    padding: 20px 0;
+    list-style-type: none;
+    border-top: 1px solid #898989;
+    color: #898989;
+}
+
+.prices .item > div:last-of-type ul li:last-of-type{
+    border-bottom: 1px solid #898989;
+}
+
+.prices .item > div:last-of-type button {
+    background: #2c73e8;
+    border: none;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.prices .item > div:last-of-type button a {
+    padding: 15px 40px;
+    display: block;
+    color: #FFF;
+}
+
+.prices .row .item.active {
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    box-shadow: 6px 6px 10px #d9d5d5, -6px -6px 10px #d9d5d5;
+    position: relative;
+    bottom: 60px;
+}
+
+.prices .row .item.active button {
+    background-color: #e84708;
+}
+
+.prices .row .item.active > div:first-of-type{
+    padding: 35px 0;
+    background-color: #2c73e8;
+}
+
+.prices .row .item.active > div:last-of-type p {
+    margin-top: 30px;
+}
+
+/* contact */
+
+.contact {
+    background-image: url('../imgs/contact.png');
+    background-size: cover;
+}
+
+.contact .container {
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+}
+
+.contact .contact-form {
+    background-color: rgba(44, 115, 232, .65);
+    padding: 30px;
+    width: 40%;
+}
+
+.contact .contact-form input {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+.contact .contact-form input[type='text'] {
+    width: 48%;
+}
+
+.contact .contact-form input:nth-of-type(3) {
+    float: right;
+}
+
+.contact .contact-form input:first-of-type, .contact .contact-form input[type="email"], .contact .contact-form textarea {
+    width: 100%;
+}
+
+.contact .contact-form textarea {
+    resize: none;
+    height: 150px;
+    padding: 5px 10px;
+}
+
+.contact .contact-form input[type="submit"] {
+    margin-bottom: 0;
+    margin-top: 10px;
+    background-color: #e84708;
+    border: none;
+    padding: 10px 30px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    color: #FFF;
+}
+
+footer .main-part {
+    background-color: #06395a;
+}
+
+footer .d-flex {
+    padding: 20px 0;
+    border-bottom: 1px solid #DDD;
+}
+
+footer a {
+    color: white
+}
+
+footer ul {
+    overflow: hidden;
+}
+
+footer ul li {
+    float: left;
+    padding: 0 12px
+}
+
+footer .d-flex + div {
+    padding: 40px 0 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer .d-flex + div form {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer .d-flex + div input[type='text'] {
+    margin-left: 20px;
+    width: 250px;
+    padding-left: 10px
+}
+
+footer .d-flex + div input[type="submit"] {
+    position: relative;
+    right: 4px;
+    height: 29.5px;
+    width: 120px;
+    border: none;
+    background-color: #ea4808;
+    color: #FFF;
+    font-size: 16px;
+}
+
+footer .copyright {
+    padding: 20px 0;
+    background-color: #074a74;
+}
+
+footer .copyright p {
+    margin: 0;
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+    
+    /* header*/
+    
+    header .row > div:first-of-type {
+        margin-top: 0;
+    }
+
+    header .row > div:first-of-type p {
+        font-size: 60px;
+        margin-left: 0; 
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    header .row > div:first-of-type button {
+        top: 0;
+        margin-bottom: 65px;
+    }
+    
+    /* about us */
+    
+    .about-us .blue-shadow {
+        left: 140px;
+        height: 320px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    
+    /* navbar */
+    
+    .navbar ul {
+        background-color: rgb(44, 115, 232, .7);
+    }
+    .navbar ul li a{
+        margin-left: 20px
+    }
+    .navbar ul li a{
+        color: #FFF !important;
+    }
+    .navbar ul li:first-of-type {
+        margin-left: 0;
+    }
+    .navbar ul li:first-of-type a {
+        background-color: #FFF !important;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    .navbar ul li.search form {
+        position: static;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    
+     /* header*/
+    
+    header .row > div:first-of-type p {
+        font-size: 50px;
+    }
+    
+    /* about us */
+    
+    .about-us {
+        padding-bottom: 0;
+    }
+    
+    .about-us .row > div:first-of-type {
+        order: 2;
+    }
+    
+    .about-us .row > div:last-of-type {
+        order: 1;
+    }
+    
+    .about-us .d-flex {
+        display: block !important;
+    }
+    
+    .about-us button {
+        position: static;
+        display: block;
+        margin: 35px auto;
+    }
+    
+    .about-us .blue-shadow {
+        display: none;
+    }
+    .about-us img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 50px;
+    }
+    
+    /* services */
+    
+    .services {
+        padding-top: 50px
+    }
+    
+    .services .rectangle {
+        height: 705px;
+        bottom: 115px;
+    }
+    
+    /* what we do */
+    
+    .what-we-do .container {
+        width: 1140px;
+    }
+    
+    /* prices */
+    
+    .prices h2 {
+        margin-bottom: 30px
+    }
+    
+    .prices .item {
+        margin-bottom: 40px;
+    }
+    .prices .item > div:first-of-type {
+        border-top-left-radius: 50px;
+    }
+    .prices .col-lg-4:nth-of-type(2) .active {
+        position: static;
+        border-top-left-radius: 50px;
+    } 
+    .prices .col-lg-4:nth-of-type(2) {
+        order: 1;
+    }
+    .prices .col-lg-4:first-of-type {
+        order: 2
+    }
+    .prices .col-lg-4:last-of-type {
+        order: 3;
+    }
+    
+    /* contact */
+    
+    .contact .contact-form {
+        width: 60%;
+    }
+    
+    /* footer */
+    
+    footer .d-flex {
+        display: block !important;
+        padding-bottom: 0;
+    }
+    footer .d-flex > div {
+        padding-left: 12px;
+        margin-bottom: 20px;
+    }
+    footer .d-flex ul {
+        padding-left: 0;
+        margin-bottom: 20px
+    }
+    footer .d-flex + div {
+        width: 100%
+    }
+    
+}
+
+@media (max-width: 768px) {
+    
+     /* header*/
+    
+    header .row > div:first-of-type p {
+        font-size: 50px;
+        margin-top: 150px;
+        margin-bottom: 25px;
+        line-height: 60px; 
+    }
+
+    header .row > div:first-of-type button {
+        margin-bottom: 65px;
+    }
+    
+    /* about us */
+    
+    .about-us img {
+        width: 70%;
+    }
+    
+    /* services */
+    
+    .services {
+        padding-bottom: 50px;
+    }
+    
+    .services .rectangle {
+        display: none;
+    }
+    .services .item {
+        background-color: #2c73e8;
+        color: white;
+    }
+    .services .item a, .services .item a:hover{
+        color: white;
+    }
+    .services h2 + p {
+        margin-bottom: 50px;
+    }
+    .services button {
+        position: static; 
+        margin: 30px auto;
+    }
+    
+    /* what we do */
+    
+    .what-we-do {
+        margin: 50px 0;
+    }
+    
+    .what-we-do .container {
+        width: 100%;
+    }
+    
+    /* prices */
+    
+    .prices .col-lg-4:last-of-type .item{
+        margin-bottom: 50px
+    }
+    
+    /* contact */
+    
+    .contact .contact-form {
+        width: 80%;
+    }
+    
+    /* footer */
+    
+    footer .d-flex + div form {
+        width: 500px
+    }
+    footer .d-flex ul:first-of-type li {
+        display: block;
+        float: none;
+        margin-bottom: 10px
+    }
+}
+
+@media (max-width: 576px) {
+
+    .navbar {
+       background-color: #fff;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       z-index: 1000;
+    }
+
+    header#home {
+       height: 650px;
+    }
+
+    header .row > div:first-of-type button {
+       display: inline;
+       margin: 0 auto;
+       position: relative;
+       bottom: 0;
+       background-color: #2c73e8;
+       box-shadow: 0 0 25px -6px #000;
+       border: none;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       float: none;
+       display: flex;
+    }
+
+    header .row > div:last-of-type {
+       background-image: url('../imgs/header.png');
+       background-size: cover;
+       height: 350px;
+       width: 100%;
+    }
+    
+    /* contact */
+    
+    .contact .contact-form {
+        width: 100%;
+    }
+    
+    /* footer */
+    
+    footer .d-flex + div form, footer .d-flex + div form label {
+        width: 100%
+    }
+    footer .d-flex + div form input[type="text"] {
+        display: block;
+        margin-bottom: 10px
+    }
+    footer .d-flex + div form input[type="text"] {
+        width: 100%;        
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    footer .d-flex + div form input[type="submit"] {
+        width: 40%
+    }
+}
