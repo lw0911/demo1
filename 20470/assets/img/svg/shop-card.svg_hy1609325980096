@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.747" height="24.479" viewBox="0 0 26.747 24.479">
+  <g id="shopping-cart" transform="translate(0 0)">
+    <g id="Group_340" data-name="Group 340" transform="translate(17.843 17.809)">
+      <g id="Group_339" data-name="Group 339">
+        <path id="Path_111" data-name="Path 111" d="M344.882,362.612a3.335,3.335,0,1,0,3.335,3.335A3.339,3.339,0,0,0,344.882,362.612Zm0,4.669a1.334,1.334,0,1,1,1.334-1.334A1.335,1.335,0,0,1,344.882,367.281Z" transform="translate(-341.547 -362.612)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_342" data-name="Group 342" transform="translate(0 0)">
+      <g id="Group_341" data-name="Group 341" transform="translate(0 0)">
+        <path id="Path_112" data-name="Path 112" d="M26.534,26.624a1,1,0,0,0-.788-.384H6.176l-.9-3.768A1,1,0,0,0,4.3,21.7H1a1,1,0,1,0,0,2H3.512L6.764,37.311a1,1,0,0,0,.973.768H23.312a1,1,0,0,0,.971-.76l2.435-9.838A1,1,0,0,0,26.534,26.624Zm-4.005,9.454h-14L6.654,28.242H24.468Z" transform="translate(0 -21.705)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_344" data-name="Group 344" transform="translate(5.736 17.809)">
+      <g id="Group_343" data-name="Group 343">
+        <path id="Path_113" data-name="Path 113" d="M113.141,362.612a3.335,3.335,0,1,0,3.335,3.335A3.339,3.339,0,0,0,113.141,362.612Zm0,4.669a1.334,1.334,0,1,1,1.334-1.334A1.335,1.335,0,0,1,113.141,367.281Z" transform="translate(-109.806 -362.612)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
