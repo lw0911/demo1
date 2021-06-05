@@ -1,0 +1,729 @@
+/* XL Device :1200px. */
+ @media (min-width: 1200px) and (max-width: 1500px) {
+     .header-two {
+         padding: 20px 0px;
+    }
+}
+ @media (max-width: 1600px) {
+     .our-specialist-list .slick-arrow {
+         left: 0px !important;
+         z-index: 2;
+    }
+     .our-specialist-list .fa-arrow-right.slick-arrow {
+         right: 0px !important;
+         left: auto !important;
+    }
+}
+/* LG Device :1199px. */
+ @media (max-width: 1400px) {
+     span.back-big-text {
+         font-size: 100px;
+    }
+     .subscribe-doctor-img img {
+         margin-left: 0px;
+    }
+}
+/* LG Device :992px. */
+ @media (min-width: 992px) and (max-width: 1199px) {
+     .header-two {
+         padding: 5px 0px;
+    }
+     .best-service-item-box {
+         padding: 60px 24px 53px;
+    }
+     .single-client-box {
+         padding: 60px 55px 50px;
+    }
+     .client-image {
+         width: 180px;
+         height: 180px;
+    }
+     .main-menu nav li a {
+         padding-left: 25px;
+    }
+     .top-header {
+         font-size: 13px;
+         line-height: 22px;
+    }
+     .main-menu-two .menu-items li {
+         margin-right: 20px;
+    }
+     .achievement-funfact {
+         margin-top: 60px;
+    }
+     .contact-us-wrapper {
+         padding-top: 90px;
+    }
+     .single-contact-info {
+         margin-top: 30px;
+    }
+     .single-doctor {
+         padding: 50px 30px;
+    }
+     .single-contact-info {
+         padding: 0px 30px;
+    }
+     .specialist-info {
+         padding: 35px;
+    }
+     .single-specialist-doctor a {
+         display: block;
+    }
+     .single-feature-box {
+         margin-top: 30px;
+    }
+     .features-wrapper {
+         padding-top: 90px;
+    }
+     .footer-two-widgets-wrap {
+         padding-top: 60px;
+    }
+     .single-foo-widgets-two {
+         margin-top: 30px;
+    }
+}
+/* MD Device :768px. */
+ @media (min-width: 768px) and (max-width: 991px) {
+     .banner-promo-content span {
+         color: #fff;
+    }
+     .subscribe-news-block {
+         padding-top: 100px;
+    }
+     .about-two-video {
+         height: 450px;
+    }
+     .single-service-box {
+         padding: 50px 40px 60px;
+    }
+     span.back-big-text {
+         font-size: 80px;
+    }
+     a.theme-btn.mr-lg-3 {
+         margin-right: 20px;
+    }
+     .header-two {
+         padding: 15px 0px;
+    }
+     .top-header {
+         font-size: 11px;
+         line-height: 20px;
+    }
+     .single-hero-slide {
+         padding-top: 240px;
+         padding-bottom: 150px;
+    }
+     .main-menu {
+         padding-top: 20px;
+         margin-top: 0;
+    }
+     .single-feature-box {
+         margin-top: 30px;
+    }
+     .features-wrapper {
+         padding-top: 70px;
+    }
+     .about-us-one-left {
+         position: relative;
+         text-align: center;
+    }
+     .about-us-one-left img:first-child {
+         width: 55%;
+         text-align: center;
+    }
+     .about-animate {
+         left: 60px;
+         width: 25%;
+    }
+     .clients-review-list {
+         padding-right: 0;
+    }
+     .section-padding {
+         padding: 100px 0px;
+    }
+     .appointment-promo-wrapper {
+         padding: 100px 0px;
+         text-align: center;
+    }
+     .promo-right-banner::before {
+         left: 0;
+         bottom: -25px;
+    }
+     .about-welcome-message h1 {
+         font-size: 46px;
+         line-height: 56px;
+         margin-bottom: 35px;
+    }
+     .contact-us-wrapper {
+         padding-top: 70px;
+    }
+     .single-contact-info {
+         margin-top: 30px;
+    }
+}
+/* MD Device Max :991px. */
+ @media only screen and (max-width: 991px) {
+    .single-contact-info .c-icon {
+        min-width: 70px;
+    }
+    .hero-slide-right {
+        margin-top: 60px;
+    }
+    .blog-two-content {
+         padding: 0px 30px;
+         padding-bottom: 35px;
+    }
+    .patients-review-items .fa-arrow-right.slick-arrow {
+         margin-left: 60px;
+    }
+     .patients-review-items {
+         margin-top: 30px;
+    }
+     .specialist-info {
+         padding: 35px;
+    }
+     .single-specialist-doctor a {
+         display: block;
+    }
+     .subscribe-form-wrap h1 {
+         font-size: 50px;
+         line-height: 60px;
+         margin-top: -12px;
+    }
+     .subscribe-form-wrap {
+         text-align: center;
+    }
+     .subscribe-form-wrap form {
+         display: inherit;
+         margin-bottom: 30px;
+    }
+     .single-dental-service {
+         padding: 35px;
+         padding-top: 36px;
+    }
+     .main-menu-two .menu-items li {
+         margin-right: 20px;
+    }
+     .header-one {
+         top: 0;
+         min-height: 70px;
+         background: #fff;
+    }
+     .main-menu .container {
+         background: transparent;
+         border-radius: 0;
+         transition: all .5s ease-in-out;
+         padding: 0px 15px;
+    }
+     .main-menu nav li a {
+         padding-left: 0px;
+    }
+     .navbar-nav {
+         margin-top: 20px;
+         text-align: center;
+    }
+     .author-bio-section img {
+         float: inherit;
+         margin-right: 0;
+         margin-bottom: 20px;
+    }
+     .single-comment img {
+         float: left;
+         margin-right: 15px;
+    }
+     .single-comment.replay {
+         margin-left: 20px;
+    }
+     .comment-form-section {
+         margin-bottom: 80px;
+    }
+     .mean-container .mean-nav ul li a, .mean-container .mean-nav ul li li a {
+         font-size: 14px;
+         padding: 3px 25px;
+    }
+     .mean-container .mean-nav ul li li a {
+         padding-left: 40px;
+    }
+     .comming-soon-contents h1, .comming-soon-contents h1 span {
+         font-size: 40px;
+         text-align: center;
+    }
+     .comming-soon-page, .comming-soon-wrapper {
+         height: auto !important;
+         text-align: center;
+         padding: 80px 0px;
+    }
+     .comming-soon-contents {
+         overflow: hidden;
+         text-align: center;
+         position: relative;
+    }
+     .count-box .single-count-box {
+         position: static;
+         left: inherit !important;
+         top: inherit !important;
+         margin: 0px auto !important;
+         margin-top: 40px !important;
+    }
+     .comming-soon-contents a {
+         width: 32px;
+         height: 32px;
+         line-height: 32px;
+         font-size: 18px;
+         color: #666666;
+         margin-right: 15px;
+    }
+     .time-count-section {
+         top: 0;
+    }
+     .footer-widgets-wrapper {
+         padding-top: 60px;
+         padding-bottom: 90px;
+    }
+     .single-footer-widget {
+         margin-top: 40px;
+    }
+     .footer-copyright-wrapper {
+         padding: 15px 0px;
+    }
+     .f-widget-title {
+         margin-bottom: 20px;
+    }
+     .header-two .mean-container .mean-bar {
+         min-height: 0px;
+         top: -20px;
+    }
+     .slide-item .hero-slide-content h3 {
+         font-size: 24px;
+         font-weight: 300;
+         color: #fff;
+    }
+     .slide-item .hero-slide-content h1 {
+         font-size: 44px;
+         color: #fff;
+         line-height: 60px;
+    }
+     .slide-item {
+         min-height: 600px;
+    }
+     .slide-item .hero-slide-content p {
+         color: #fff;
+    }
+     .slide-item .hero-slide-content a {
+        font-size: 14px;
+         color: #fff;
+    }
+     .theme-btn {
+         height: 50px;
+         line-height: 48px !important;
+         padding: 0px 40px;
+    }
+     .slide-item::before {
+         opacity: 0.6;
+    }
+}
+/* Mobile Device :767px. */
+ @media only screen and (max-width: 767px) {
+    .testimonail-block .slick-slide img {
+        display: inline-block;
+    }    
+    .breadcrumb-wrap, .page-banner {
+         padding-left: 0px;
+    }
+    .single-blog-card .card-content {
+         padding: 30px;
+    }
+    .single-foo-widgets-two h3 {
+         font-size: 26px;
+         line-height: 42px;
+    }
+    .slide-item .hero-slide-content a {
+         margin-top: 25px;
+    }
+    .footer-two-widgets-wrap {
+         padding-top: 60px;
+    }
+     .single-foo-widgets-two {
+         margin-top: 30px;
+    }
+     .about-two-video {
+         display: none;
+    }
+     .subscribe-news-block {
+         padding-top: 80px;
+    }
+     .subscribe-form-wrap h1 {
+         margin-top: -10px !important 
+    }
+     .subscribe-doctor-img {
+         margin-top: 30px;
+    }
+     .subscribe-form-wrap {
+         text-align: center;
+    }
+     .about-welcome-message {
+         margin-top: 0;
+    }
+     .banner-promo-content h1, .subscribe-form-wrap h1 {
+         font-size: 40px;
+         line-height: 50px;
+    }
+     .about-welcome-message h1 {
+         font-size: 40px;
+         line-height: 56px;
+    }
+     h1 {
+         font-size: 36px;
+         line-height: 50px;
+    }
+     .page-banner-img {
+         display: none;
+    }
+     .breadcrumb-wrap, .page-banner {
+         padding-bottom: 60px;
+    }
+     .main-menu {
+         padding-top: 20px;
+         margin-top: 0;
+    }
+     .sticky {
+         position: relative;
+    }
+     .top-header {
+         display: none;
+    }
+     span.back-big-text {
+         display: none;
+    }
+     .single-hero-slide {
+         padding-top: 200px;
+         padding-bottom: 120px;
+    }
+     .hero-slide-right {
+         margin-top: 80px;
+    }
+     .single-feature-box {
+         margin-bottom: 30px;
+    }
+     .features-wrapper {
+         padding-bottom: 50px;
+    }
+     .fun-fact-section {
+         padding: 65px 65px 21px;
+    }
+     .about-us-one-left {
+         text-align: center;
+    }
+     .client-image {
+         margin: 0px auto;
+         margin-bottom: 24px;
+    }
+     .single-review-item {
+         margin-top: 30px;
+    }
+     .featured-thumb {
+         background-position: center;
+    }
+     .appointment-promo-wrapper {
+         text-align: center;
+         padding: 80px 0px;
+    }
+     .section-title-one {
+         text-align: center;
+    }
+     .footer-widgets-wrapper {
+         padding-top: 40px;
+         padding-bottom: 70px;
+    }
+     .theme-btn.mr-lg-3 {
+         margin-right: 15px;
+    }
+     .achievement-funfact {
+         margin-top: 50px;
+    }
+     .page-banner-breadcrumb h1 {
+         font-size: 36px;
+    }
+     .breadcrumb-nav a {
+         font-size: 15px;
+    }
+     .subscribe-doctor-img img {
+         margin-left: 0;
+    }
+     .header-two {
+         padding: 15px 0px;
+    }
+     .main-menu nav li {
+         padding: 0;
+    }
+     .main-menu ul > li a:hover {
+         color: #333;
+    }
+     .section-padding {
+         padding: 80px 0px;
+    }
+     .page-banner-wrap {
+         min-height: auto;
+         padding: 60px 0px;
+    }
+     .page-banner h2 {
+         font-size: 32px;
+    }
+     .single-blog-details blockquote span {
+         font-weight: 300;
+    }
+     .single-blog-details blockquote {
+         font-size: 16px;
+    }
+     .single-blog-details h1 {
+         font-size: 22px;
+    }
+     .comment-form {
+         margin-bottom: 40px;
+    }
+     .single-sidebar-widgets h3 {
+         font-size: 20px;
+    }
+     .single-sidebar-widgets a {
+         font-size: 16px;
+         line-height: 26px;
+    }
+     .author-bio-section {
+         margin: 60px 0px;
+         border-bottom: 1px solid #eee;
+         border-top: 1px solid #eee;
+         padding: 45px 0px;
+    }
+     .author-bio-section {
+         text-align: center;
+    }
+     .blog-pages-link ul li {
+         margin-top: 10px;
+    }
+     .blog-page-nav ul li a, .blog-pages-link ul li a {
+         width: 30px;
+         height: 30px;
+         line-height: 30px;
+         font-size: 12px;
+    }
+     .single-contact-info {
+         margin-bottom: 30px;
+    }
+     button.contact-submit-btn {
+         height: 50px;
+         font-size: 15px;
+    }
+     .contact-form-wraper form input, .contact-form-wraper form textarea {
+         font-size: 14px;
+    }
+     form .radio-checked span {
+        font-size: 14px;
+    }
+     #scrollUp {
+         font-size: 16px;
+         height: 30px;
+         line-height: 30px;
+         width: 30px;
+    }
+     .promo-content-section p {
+         font-weight: 400;
+    }
+     h1 {
+         font-size: 36px;
+         line-height: 42px;
+    }
+     h2 {
+         font-size: 30px;
+         line-height: 40px;
+    }
+     h3 {
+         font-size: 24px;
+         line-height: 34px;
+    }
+     h4 {
+         font-size: 20px;
+         line-height: 30px;
+    }
+     .contact-form-wraper h1 {
+         font-size: 36px;
+         line-height: 1;
+         margin-bottom: 30px;
+    }
+}
+ @media (max-width: 480px) {
+     .about-welcome-message h1, .banner-promo-content h1, .subscribe-form-wrap h1 {
+         font-size: 30px;
+         line-height: 40px;
+    }
+     .bannerimg.a2 {
+         right: 0;
+         bottom: 50px;
+    }
+     .bannerimg.a3 {
+         left: 28%;
+         bottom: 0;
+    }
+     .bannerimg.a4 {
+         bottom: 67px;
+         right: 15%;
+    }
+     .bannerimg.a5 {
+         top: 0;
+         right: 1%;
+         z-index: 1;
+    }
+     .bannerimg.a4 {
+         bottom: 57px;
+         right: 16%;
+    }
+     .promo-right-banner img {
+         width: 55%;
+         margin-top: 30px;
+    }
+     .hero-slide-left h1 {
+         font-size: 50px;
+         line-height: 60px;
+         margin-bottom: 15px;
+    }
+     .hero-slide-left h2 {
+         font-size: 26px;
+    }
+     .theme-btn {
+         height: 50px;
+         line-height: 50px !important;
+         padding: 0px 35px;
+         font-size: 14px;
+    }
+     .animate-img img:first-child {
+         left: -40px;
+         bottom: 0;
+    }
+     .hero-slide-left a {
+         margin-top: 30px;
+    }
+     .single-hero-slide {
+         padding-top: 150px;
+         padding-bottom: 80px;
+    }
+     .single-feature-box {
+         padding: 50px 30px 65px;
+    }
+     .about-us-one-left img:first-child {
+         width: 55%;
+    }
+     .about-animate {
+         left: 30px;
+         width: 30%;
+    }
+     .about-heading h1 {
+         font-size: 36px;
+         line-height: 46px;
+    }
+     button.submit-btn {
+         padding: 17px 40px;
+         font-weight: 400;
+    }
+     .fun-fact-section {
+         padding: 65px 30px 21px;
+    }
+     .single-funfact-one.sp-fun {
+         padding-left: 30px;
+    }
+     .clients-review-list {
+         padding-left: 30px;
+         padding-right: 30px;
+    }
+     .hero-slide-left {
+         font-size: 16px;
+         line-height: 30px;
+    }
+     h3 {
+         font-size: 22px;
+         line-height: 36px;
+    }
+     h1 {
+         line-height: 46px;
+         font-size: 36px;
+    }
+     .appointment-promo-content h1 {
+         font-size: 32px;
+         line-height: 44px;
+    }
+     .section-text-wrap a {
+         margin-top: 25px;
+    }
+     .contact-form-wraper h1 {
+         font-size: 36px;
+         line-height: 1;
+         margin-bottom: 30px;
+    }
+     .single-service-box {
+         padding: 30px 30px 40px;
+    }
+     .single-client-box {
+         padding: 50px 25px 40px;
+    }
+     .subscribe-form-wrap form button {
+         margin-left: -15px;
+    }
+}
+ @media (max-width: 400px) {
+     .subscribe-form-wrap form input {
+         margin-right: 0;
+    }
+     .subscribe-form-wrap form button {
+         margin-left: 0;
+         margin-top: 20px;
+    }
+     .patients-review-items {
+         padding: 30px;
+         position: relative;
+    }
+     .patients-review-items .slick-arrow {
+         bottom: 35px;
+    }
+     h1, .contact-form-wraper h1 {
+         line-height: 40px;
+         font-size: 30px;
+    }
+     h2 {
+         line-height: 34px;
+         font-size: 24px;
+    }
+     .breadcrumb-nav a {
+         font-size: 14px;
+         line-height: 24px;
+    }
+     .page-banner-breadcrumb h1 {
+         font-size: 32px;
+    }
+     .single-footer-widget h2 {
+         font-size: 26px;
+    }
+     span.line {
+         display: none;
+    }
+     .page-banner-img {
+         display: none;
+    }
+     .single-footer-widget a {
+         line-height: 30px;
+         font-size: 15px;
+    }
+     .promo-content-section p {
+         font-weight: 400;
+    }
+     .single-funfact-one.sp-fun {
+         padding-left: 20px;
+    }
+     .fun-fact-section {
+         padding: 65px 20px 21px;
+    }
+     .single-doctor {
+         padding: 50px 20px;
+    }
+     .single-contact-info {
+         padding: 0px 20px;
+    }
+}
+ 
