@@ -1,0 +1,1792 @@
+@media only screen and (max-width: 7000px){
+	.page-wrapper{
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width: 1740px){
+	.header-top-one .top-text{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1500px){
+	.banner-carousel .content-box h1,
+	.banner-two .banner-carousel .content-box h1{
+		font-size: 72px;
+	}
+
+	.banner-carousel .content-box .subtitle{
+		font-weight: 600;
+		font-size: 16px;
+	}
+
+	.banner-section .owl-theme .owl-nav .owl-prev{
+		left: 20px;
+	}
+
+	.banner-section .owl-theme .owl-nav .owl-next{
+		right: 20px;
+	}
+
+	.banner-three .banner-carousel .owl-dots{
+		left: auto;
+		right: 30px;
+	}
+
+	.fluid-section .column h2{
+		font-size: 32px;
+	}
+
+	.facts-section .facts-box .title{
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 1340px){
+	.main-menu .navigation > li,
+	.header-style-three .main-menu .navigation > li{
+		margin-right: 30px;
+	}
+
+	.header-style-two .main-menu .navigation > li > a{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.top-search-form,
+	.header-style-one .other-links .social-links{
+		display: none;
+	}
+
+	.header-style-one .header-upper .inner{
+		padding-right: 20px;
+	}
+
+	.header-top-three .contact-text{
+		margin-left: 20px;
+	}
+
+	.banner-section .owl-theme .owl-nav{
+		opacity: 0.30;
+	}
+
+	.banner-section:hover .owl-theme .owl-nav{
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.banner-carousel .content-box h1,
+	.banner-two .banner-carousel .content-box h1,
+	.banner-three .banner-carousel .content-box h1{
+		font-size: 64px;
+	}
+
+	.fluid-section .column h2{
+		font-size: 24px;
+	}
+
+	.yacht-featured-image .hover-inner h3{
+		font-size: 20px;
+	}
+
+	.content-container .widgets-side .widgets-content{
+		padding-left: 0;
+	}
+
+	.activity-block-two .content-box h4{
+		font-size: 24px;
+	}
+
+	.comming-soon h1{
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 1191px){
+	.main-menu .navigation > li,
+	.header-style-three .main-menu .navigation > li{
+		margin-right: 20px;
+	}
+
+	.header-style-three .header-upper .search-btn{
+		margin-left: 10px;
+	}
+
+	.fluid-section .column h2{
+		font-size: 24px;
+	}
+
+	.fluid-section .left-column,
+	.fluid-section .right-column{
+		width: 100%;
+	}
+
+	.fluid-section .left-column .content{
+		padding-top: 120px;
+	}
+
+	.fluid-section .left-column .inner,
+	.fluid-section .right-column .inner{
+		padding: 0 20px;
+		max-width: none;
+	}
+
+	.fluid-section .image-layer{
+		display: none;
+	}
+
+	.fluid-section .column .image-layer{
+		display: block;
+	}
+
+	.fluid-section .image-layer:before{
+		transform: none;
+		right: 0;
+		left: auto;
+	}
+
+	.yacht-details .content-column .inner{
+		padding-right: 0px;
+		border: none;
+	}
+
+	.yacht-details .specs-column .inner{
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 1139px){
+	.header-style-two .main-menu .navigation > li > a{
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+
+	.header-style-one .other-links .book-btn,
+	.header-style-three .header-upper .link-box,
+	.sticky-header .booking-link{
+		display: none;
+	}
+
+	.about-section .left-col .upper-row .image-box{
+		position: relative;
+		left: 0;
+		top: 0;
+		margin-bottom: 20px;
+	}
+
+	.about-section .left-col .upper-row{
+		padding-left: 0;
+	}
+
+
+	.activities-section .carousel-outer{
+		padding: 0;
+	}
+
+	.activities-section .owl-theme .owl-nav{
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding-top: 50px;
+		text-align: center;
+	}
+
+	.activities-section .owl-theme .owl-nav .owl-prev,
+	.activities-section .owl-theme .owl-nav .owl-next{
+		position: relative;
+		left: 0;
+		right: 0;
+		display: inline-block;
+		margin: 0 10px;
+	}
+
+	.activity-carousel .activity-block .inner-box{
+		padding-left: 0;
+		max-width: 480px;
+		margin: 0 auto;
+	}
+
+	.activity-carousel .activity-block .image-box,
+	.activity-carousel .activity-block .image-box img{
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+	}
+
+	.pricing-section .image-column{
+		order: 12;
+	}
+
+	.pricing-section .pricing-column{
+		order: 0;
+	}
+
+	.pricing-section .image-column .inner{
+		text-align: left;
+		margin-left: 0;
+	}
+
+	.booking-section .title-col .inner{
+		padding: 50px 0px;
+		text-align: center;
+	}
+
+	.booking-section .form-col .inner{
+		padding: 50px 0;
+	}
+
+	.about-section-two .content-outer{
+		margin-left: 0;
+		padding-left: 80px;
+	}
+
+	.about-section-two .content-inner .video-link{
+		position: relative;
+		left: 0;
+		top: 0;
+		margin: 50px 0 0;
+	}
+
+	.about-section-two .image-box-left .image-layer{
+		display: none;
+	}
+
+	.footer-style-two .widgets-inner,
+	.footer-style-two .footer-bottom .inner{
+		padding-left: 0;
+	}
+
+	.footer-style-two .widgets-inner .shape-1,
+	.footer-style-two .widgets-inner .shape-2,
+	.footer-style-two .widgets-inner .left-image{
+		display: none;
+	}
+
+	.footer-style-two .offer-carousel-box{
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		min-height: 0;
+		padding-bottom: 30px;
+		background: #d5ae82;
+		margin-bottom: 50px;
+	}
+
+	.destinations-two .destinations-box .outer-box{
+		display: block;
+	}
+
+	.destinations-two .destinations-box .outer-box .destination-block-two{
+		display: block;
+		float: left;
+		width: 33.333%;
+		margin-bottom: 30px;
+	}
+
+	.destinations-two .destinations-box .outer-box:hover .destination-block-two,
+	.destinations-two .destinations-box .outer-box .destination-block-two:hover{
+		width: 33.333%;
+	}
+
+	.destination-block-two .image-layer{
+		display: none;
+	}
+
+	.destination-block-two .inner-box{
+		height: auto;
+	}
+
+	.destination-block-two .image-box .image{
+		display: block;
+	}
+
+	.facts-section .facts-box .title{
+		font-size: 64px;
+	}
+
+	.sec-title h2,
+	.sec-title-two h2,
+	.booking-section .title-box h2,
+	.welcome-section .title-box h2,
+	.services-section-four .title-box h2,
+	.contact-container .sec-title h2{
+		font-size: 32px;
+	}
+
+	.welcome-section .title-box h4,
+	.event-carousel-box .event-block h4{
+		font-size: 20px;
+	}
+
+	.facts-section{
+		padding-bottom: 50px;
+	}
+
+	.featured-service-block-two{
+		margin-bottom: 50px;
+	}
+
+	.featured-service-block-two .inner-box,
+	.featured-service-block-two.active-block .inner-box{
+		padding: 0px;
+	}
+
+	.footer-style-three .copyright{
+		margin-left: 30px;
+	}
+
+	.content-container .widgets-side .widgets-content{
+		padding-left: 0;
+	}
+
+	.page-banner h1{
+		font-size: 40px;
+	}
+
+	.activity-carousel .activity-block-three .inner-box{
+		box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
+	}
+
+	.testimonials-section-three .image-layer{
+		display: none;
+	}
+
+	.attraction-block .sec-title h2{
+		font-size: 30px;
+	}
+
+	.rental-block .meta-info li{
+		font-size: 12px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.yacht-featured-image .hover-inner h3{
+		font-size: 18px;
+	}
+
+	.yacht-details .main-image-box .caption-box h2{
+		font-size: 40px;
+	}
+
+	.activity-block-three .content-box h4{
+		font-size: 24px;
+	}
+
+	.activity-block-three .links-box{
+		margin-top: 30px;
+	}
+
+	.activity-block-three .links-box .btn-style-four .btn-title{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.package-block-two .content h4,
+	.about-section-three .content-outer .info .name{
+		font-size: 20px;
+	}
+
+	.event-carousel-box .event-block .year,
+	.about-section-three .content-outer h2{
+		font-size: 30px;
+	}
+
+	.service-block-two .title-box h4{
+		font-size: 20px;
+	}
+
+	.services-section-three .upper-row .image-layer{
+		display: none;
+	}
+
+	.services-section-three .left-col .inner{
+		padding: 70px 0px;
+	}
+
+	.services-section-three .right-col .inner{
+		padding: 0 0 30px;
+	}
+
+	.services-section-three .process-container{
+		margin-top: 0;
+	}
+
+	.featured-block h4,
+	.featured-block .link-box a{
+		color: #061138;
+	}
+
+	.process-container .process-block .text{
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		padding-top: 20px;
+		opacity: 1;
+		visibility: visible;
+		-ms-transform: translateY(-18px);
+		transform: translateY(-18px);
+	}
+
+	.process-container .process-block:hover .count {
+	    -ms-transform: translateY(0px);
+	    transform: translateY(0px);
+	    background: #d5ae82;
+	    color: #ffffff;
+	}
+
+	.process-container .process-block:hover .title-box{
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	.contact-section .filter-box{
+		width: 50%;
+		max-width: none;
+		padding-right: 15px;
+	}
+
+	.comming-soon h1{
+		font-size: 48px;
+	}
+
+	.time-counter .time-countdown .counter-column .count{
+		font-size: 60px;
+	}
+
+	.news-block-five h3,
+	.news-block-six h3{
+		font-size: 24px;
+	}
+
+	.news-block-five .content-column .content{
+		padding-top: 0;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+@media only screen and (max-width: 991px){	
+	.main-header .nav-outer .main-menu,
+	.sticky-header,
+	.main-header .header-top .top-left,
+	.header-top-three .contact-text,
+	.banner-three .banner-carousel .owl-dots{
+		display: none !important;
+	}
+
+	.main-header .header-top-three .top-left{
+		display: block !important;
+	}
+
+	.header-style-one .nav-content .nav-outer,
+	.header-style-two .header-upper .nav-outer,
+	.header-style-three .header-upper .nav-outer{
+		float: right;
+	}
+
+	.nav-outer .mobile-nav-toggler{
+		display: block;
+	}
+
+	.header-style-two .nav-outer .mobile-nav-toggler{
+		margin-top: 10px;	
+	}
+
+	.header-style-three .nav-outer .mobile-nav-toggler{
+		color: #061138;
+		margin-top: 17px;
+	}
+
+	.header-style-one .header-upper .inner{
+		padding-left: 20px;
+	}
+
+	.banner-carousel .content-box h1,
+	.banner-two .banner-carousel .content-box h1,
+	.banner-three .banner-carousel .content-box h1{
+		font-size: 54px;
+	}
+
+	.about-section .right-col .inner{
+		margin-top: 0;
+		padding-left: 0;
+	}
+
+	.banner-carousel .content-right .content-box .inner,
+	.banner-carousel .content-box .inner,
+	.banner-carousel .content-box .text{
+		float: none;
+		max-width: none;
+		text-align: center;
+	}
+
+	.banner-carousel .content-box,
+	.banner-three .banner-carousel .content-box{
+		height: 600px;
+	}
+
+	.activity-carousel .activity-block .content-box{
+		padding: 20px 20px 10px;
+	}
+
+	.activity-carousel .activity-block .add-to-fav{
+		top: 25px;
+	}
+
+	.activity-carousel .activity-block .content-box h4{
+		font-size: 20px;
+	}
+
+	.features-section .feature-block .inner-box{
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.features-section .feature-block .icon-box:before,
+	.features-section .feature-block .icon-box:after{
+		display: none;
+	}
+
+	.features-section .feature-block .icon-box{
+		position: relative;
+		left: 0;
+		top: 0;
+		margin: 0 auto 30px;
+	}
+
+	.about-section-two .content-outer{
+		padding-left: 0;
+	}
+
+	.destinations-two .destinations-box .outer-box .destination-block-two,
+	.destinations-two .destinations-box .outer-box:hover .destination-block-two,
+	.destinations-two .destinations-box .outer-box .destination-block-two:hover{
+		width: 50%;
+	}
+
+	.facts-section .facts-box .title{
+		font-size: 48px;
+	}
+
+	.footer-style-three .copyright,
+	.footer-style-three .payment-cards,
+	.footer-style-three .social-links-two{
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.footer-style-three .copyright{
+		padding: 20px 0px;
+	}
+
+	.footer-style-three .payment-cards ul{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.page-banner h1{
+		font-size: 36px;
+	}
+
+	.subscribe-section.style-three .inner{
+		padding: 50px 20px 40px;
+	}
+
+	.sidebar-page-container .sidebar:before{
+		display: none;
+	}
+
+	.sidebar-page-container .blog-sidebar{
+		padding-left: 0;
+	}
+
+	.about-section .left-col .inner,
+	.features-section{
+		padding: 70px 0px 0px;
+	}
+
+	.about-section{
+		padding-bottom: 40px;
+	}
+
+	.services-section{
+		padding-bottom: 60px;
+	}
+
+	.services-section .title-box{
+		padding-top: 70px;
+	}
+
+	.activities-section{
+		padding: 70px 0px 60px;
+	}
+
+	.testimonials-section{
+		padding: 70px 0px;
+	}
+
+	.news-section,
+	.news-section-two{
+		padding: 70px 0px 20px;
+	}
+
+	.main-footer .widgets-section{
+		padding: 80px 0px 30px;
+	}
+
+	.testimonials-section .carousel-container{
+		padding: 0px 20px;
+	}
+
+	.scroll-to-top{
+		right: 20px;
+		bottom: 20px;
+		-ms-transform: scale(0.7);
+		transform: scale(0.7);
+	}
+
+	.booking-section .booking-form .range-box{
+		padding-top: 5px;
+	}
+
+	.footer-style-two .widgets-inner{
+		padding-top: 70px;
+	}
+
+	.footer-style-two .widgets-section{
+		padding-top: 0;
+	}
+
+	.yacht-rental-section,
+	.destinations-section,
+	.about-section-two .content-inner,
+	.testimonials-section-two,
+	.team-section,
+	.testimonials-section-three{
+		padding: 70px 0px;
+	}
+
+	.yacht-rental-section .title-row .filter-box{
+		padding-top: 40px;
+	}
+
+	.featured-services{
+		padding: 70px 0px 50px;
+	}
+
+	.featured-service-block-two .inner-box .text{
+		height: auto;
+		padding-top: 55px;
+		opacity: 1;
+		visibility: visible;
+		-ms-transform: scaleY(1);
+		transform: scaleY(1);
+	}
+
+	.featured-service-block-two .inner-box .link-box a.link{
+		border-color: #ffffff;
+		padding: 10px 45px;
+		top: 5px;
+	}
+
+	.subscribe-section{
+		padding: 0 0 50px;
+	}
+
+	.subscribe-section .inner{
+		padding: 40px 20px;
+	}
+
+	.subscribe-section.style-two .inner{
+		padding: 60px 20px 0px;
+	}
+
+	.destinations-two .destinations-box{
+		margin-bottom: 50px;
+	}
+
+	.destinations-two,
+	.top-destinations,
+	.yacht-tours-container,
+	.sidebar-page-container{
+		padding: 70px 0px 40px;
+	}
+
+	.facts-section{
+		padding: 70px 0px 30px;
+	}
+
+	.testimonial-block-two .content .title-box h3{
+		font-size: 24px;
+	}
+
+	.testimonial-block-two .content .text{
+		font-size: 18px;
+	}
+
+	.rent-buy-section{
+		padding-bottom: 60px;
+	}
+
+	.yacht-details{
+		padding-bottom: 20px;
+	}
+
+	.yacht-details .main-image-box .caption-box h2{
+		font-size: 32px;
+	}
+
+	.yacht-details .content-column .text-block h4{
+		font-size: 20px;
+	}
+
+	.yacht-featured-image .hover-box{
+		padding: 15px 15px;
+	}
+
+	.team-section-two{
+		padding: 70px 0px 40px;
+	}
+
+	.similar-yachts{
+		padding: 70px 0px 20px;
+	}
+
+	.yacht-tours-container{
+		padding: 65px 0px 30px;
+	}
+
+	.subscribe-section.no-padding-top{
+		padding-bottom: 60px;
+	}
+
+	.yacht-tours-container .main-title h3{
+		font-size: 24px;
+	}
+
+	.tour-details .info-title .left-info h3{
+		font-size: 24px;
+	}
+
+	.tour-details .info-title .rating-info{
+		padding-top: 0;
+	}
+
+	.tour-details .info-title .rating-info .rate-text strong{
+		font-size: 20px;
+	}
+
+	.tour-details h4{
+		font-size: 18px;
+	}
+
+	.subscribe-section.style-three{
+		padding: 70px 0px;
+	}
+
+	.destinations-two.alternate{
+		padding: 70px 0px 30px;
+	}
+
+	.choose-destination .upper-row{
+		padding: 70px 0px 100px;
+	}
+
+	.more-destinations .inner-container{
+		padding-left: 0;
+	}
+
+	.more-destinations .left-title-box{
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		padding: 50px 20px;
+		margin-bottom: 30px;
+	}
+
+	.event-carousel-box .event-block .year{
+		font-size: 24px;
+	}
+
+	.about-section-three .image-box-left{
+		display: none;
+	}
+
+	.about-section-three .content-outer .content-inner{
+		width: 100%;
+		max-width: 420px;
+	}
+
+	.about-section-three,
+	.welcome-section{
+		padding: 70px 0px;
+	}
+
+	.process-container{
+		padding: 40px 20px 30px;
+	}
+
+	.process-container .process-block .inner-box{
+		padding: 30px 0px 20px;
+	}
+
+	.services-section-four .service-list li{
+		margin: 0 20px;
+	}
+
+	.services-section-three{
+		padding-bottom: 70px;
+	}
+
+	.services-section-four{
+		padding: 70px 0px;
+	}
+
+	.process-container .process-block .inner-box:before,
+	.process-container .process-block .inner-box:after{
+		display: none;
+	}
+
+	.portfolio-one-column{
+		padding: 70px 0px 30px;
+	}
+
+	.gallery-block{
+		margin-bottom: 40px;
+	}
+
+	.gallery-block .link-btn{
+		right: 66px;
+		opacity: 0;
+	}
+
+	.gallery-block:hover .link-btn{
+		opacity: 1;
+	}
+
+	.gallery-block .title-box{
+		text-align: left;
+	}
+
+	.gallery-block .title-box h4,
+	.gallery-block-two .title-box h4,
+	.gallery-block-four .lower-box h4{
+		font-size: 20px;
+	}
+
+	.portfolio-section,
+	.masonry-news-section,
+	.news-section-three{
+		padding: 70px 0px;
+	}
+
+	.filter-gallery .filters{
+		text-align: center;
+	}
+
+	.filter-gallery .filters li{
+		margin: 0 5px 10px;
+	}
+
+	.contact-section{
+		padding: 70px 0px 0px;
+	}
+
+	.contact-section .info-container{
+		margin-bottom: 30px;
+	}
+
+	.time-counter .time-countdown .counter-column{
+		margin: 0 25px 50px;
+	}
+
+	.news-block-five .image-column .image{
+		margin-right: 0;
+	}
+
+	.news-block-five .content-column .inner{
+		padding-top: 30px;
+	}
+
+	.news-block-five .content-column .content{
+		padding-left: 80px;
+	}
+
+	.news-block-five .other-info{
+		left: 0;
+		top: 0;
+	}
+
+	.news-block-five .other-info:before{
+		top: 0;
+		bottom: 0;
+	}
+
+	.sidebar .archives .archive-block .inner,
+	.sidebar .recent-posts .post,
+	.sidebar .popular-tags .tags-list li a,
+	.sidebar .insta-widget .insta-feeds{
+		background: #f0f3f7;
+	}
+
+}
+
+@media only screen and (max-width: 767px){
+	.header-style-one,
+	.header-style-two{
+		position: relative;
+		background: #061138;
+	}
+
+	.banner-one{
+		padding-top: 0;
+	}
+
+	.banner-two .banner-carousel .content-box{
+		padding-top: 0px;
+	}
+
+	.header-style-one .logo-desktop{
+		display: none;
+	}
+
+	.header-top-one .inner{
+		height: auto;
+		padding:0px  0px;
+	}
+
+	.header-top-one .my-account,
+	.main-header .header-top .top-right{
+		position: relative;
+		width: 100%;
+	}
+
+	.header-style-three .header-top-three .top-right{
+		width: auto;
+	}
+
+	.header-style-one .header-upper .logo-box{
+		display: block;
+	}
+
+	.header-style-one .header-upper{
+		background: #061138;
+	}
+
+	.header-style-one .other-links .book-btn,
+	.header-style-three .header-upper .link-box{
+		display: none;
+	}
+
+	.search-popup .search-form fieldset input[type="search"]{
+		width: 100%;
+		padding: 10px 30px;
+		text-align: center;
+		font-size: 20px;
+		border-radius: 7px 7px 0px 0px;
+	}
+
+	.search-popup .search-form fieldset input[type="submit"]{
+		position: relative;
+		width: 100%;
+		font-size: 16px;
+		border-radius: 0px 0px 7px 7px;
+	}
+
+	.banner-carousel .content-box,
+	.banner-three .banner-carousel .content-box{
+		height: 500px;
+	}
+
+	.banner-carousel .content-box h1,
+	.banner-two .banner-carousel .content-box h1,
+	.banner-three .banner-carousel .content-box h1{
+		font-size: 40px;
+	}
+
+	.banner-carousel .content-box .text{
+		font-size: 15px;
+	}
+
+	.main-footer .footer-bottom .bottom-links,
+	.main-footer .footer-bottom .copyright{
+		width: 100%;
+		text-align: center;
+	}
+
+	.facts-section .facts-box .title{
+		font-size: 30px;
+	}
+
+	.facts-section .facts-box .count{
+		font-size: 48px;
+	}
+
+	.sec-title h2,
+	.sec-title-two h2,
+	.booking-section .title-box h2,
+	.welcome-section .title-box h2,
+	.services-section-four .title-box h2,
+	.contact-container .sec-title h2{
+		font-size: 24px;
+	}
+
+	.footer-style-three .drop-link{
+		float: right;
+	}
+
+	.footer-style-three .useful-links{
+		width: 100%;
+		margin: 30px 0px 0px;
+	}
+
+	.footer-style-three .useful-links .links-btn{
+		text-align: center;
+	}
+
+	.page-banner h1{
+		font-size: 30px;
+	}
+
+	.activity-block-three .inner-box{
+		position: relative;
+		padding-left: 0;
+		height: auto;
+		max-width: 480px;
+		margin: 0 auto;
+	}
+
+	.activity-block-three .image-box,
+	.activity-block-three .image-box img{
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+	}
+
+	.yacht-tours-container .lower-filter-row .filters{
+		width: 100%;
+		margin: 0 0;
+	}
+
+	.yacht-tours-container .lower-filter-row .filters .filter-box{
+		width: 100%;
+		margin: 0 0 10px;
+	}
+
+	.news-section .title-row .link-box{
+		padding-top: 35px;
+	}
+
+	.sec-title h3{
+		font-size: 22px;
+	}
+
+	.service-block .lower-content h4,
+	.features-section .feature-block h4{
+		font-size: 20px;
+	}
+
+	.main-footer .links-widget .widget-content{
+		padding-left: 0;
+	}
+
+	.yacht-rental-section .title-row .filter-box{
+		width: 100%;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	.about-section-two .content-box{
+		padding: 40px 25px;
+	}
+
+	.popular-packages .title-row .link-box,
+	.news-section-two .title-row .link-box{
+		padding-top: 0;
+		width: 100%;
+	}
+
+	.package-block .content-box{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.attraction-block .lower-box{
+		padding: 35px 20px;
+	}
+
+	.rent-buy-section .lower-filter-row .results-count,
+	.rent-buy-section .lower-filter-row .filters{
+		width: 100%;
+		padding-top: 0;
+		margin-bottom: 0;
+	}
+
+	.rent-buy-section .lower-filter-row .filters .filter-box{
+		width: 100%;
+		margin: 0 0 15px;
+	}
+
+	.destinations-two .destinations-box .outer-box,
+	.yacht-featured-images .outer-box{
+		display: block;
+	}
+
+	.yacht-featured-images .outer-box .yacht-featured-image{
+		display: block;
+	}
+
+	.yacht-featured-images .outer-box .yacht-featured-image,
+	.yacht-featured-images .outer-box:hover .yacht-featured-image,
+	.yacht-featured-images .outer-box .yacht-featured-image:hover,
+	.destinations-two .destinations-box .outer-box .destination-block-two,
+	.destinations-two .destinations-box .outer-box:hover .destination-block-two,
+	.destinations-two .destinations-box .outer-box .destination-block-two:hover{
+		width: 100%;
+	}
+
+	.yacht-featured-image .image-layer{
+		display: none;
+	}
+
+	.yacht-featured-image .image-box .image{
+		display: block;
+	}
+
+	.yacht-featured-image .inner-box{
+		height: auto;
+	}
+
+	.team-block-two .image-box{
+		padding-right: 0;
+	}
+
+	.team-block-two .inner{
+		padding: 25px 20px 25px;
+	}
+
+	.activity-block-two .content-box{
+		padding: 30px;
+	}
+
+	.activity-block-two .links-box{
+		left: 30px;
+		bottom: 30px;
+	}
+
+	.activity-block-two .content{
+		left: 30px;
+		top: 30px;
+	}
+
+	.activity-block-two .ratings{
+		right: 30px;
+		bottom: 30px;
+	}
+
+	.activity-block-two .pricing{
+		right: 30px;
+		top: 30px;
+	}
+
+	.activity-block-two .ratings .rate-text strong{
+		font-size: 20px;
+	}
+
+	.page-banner .inner-container{
+		padding-top: 100px;
+	}
+
+	.activity-block-three .ratings .rate-text strong{
+		font-size: 20px;
+	}
+
+	.activity-block-three .content-box{
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	.tour-details .facilities .facility-box ul li{
+		width: 50%;
+	}
+
+	.about-section-three .content-outer .content-inner{
+		max-width: none;
+		text-align: center;
+	}
+
+	.about-section-three .content-outer .video-link{
+		display: none;
+	}
+
+	.services-section-four .service-list li{
+		margin: 0px 15px;
+	}
+
+	.services-section-four .service-list li:nth-child(2):before,
+	.services-section-four .service-list li:nth-child(2):after{
+		display: none;
+	}
+
+	.services-section-three .left-col .info .phone{
+		font-size: 20px;
+	}
+
+	.featured-block .inner-box,
+	.services-section-three .left-col .inner{
+		text-align: center;
+	}
+
+	.services-section-three .left-col .info{
+		padding-left: 0;
+	}
+
+	.services-section-three .left-col .info:before{
+		display: none;
+	}
+
+	.gallery-block .title-box h4{
+		font-size: 20px;
+	}
+
+	.contact-section .filter-box{
+		width: 100%;
+		max-width: none;
+		padding-right: 0;
+	}
+
+	.contact-container .form-column .inner{
+		padding: 40px 20px;
+	}
+
+	.comming-soon h1,
+	.time-counter .time-countdown .counter-column .count{
+		font-size: 40px;
+	}
+
+	.time-counter .time-countdown .counter-column{
+		display: block;
+		float: left;
+		width: 50%;
+		margin: 0 0 50px;
+	}
+
+	.time-counter .time-countdown .counter-column:after{
+		display: none;
+	}
+
+	.comments-area{
+		margin-bottom: 50px;
+	}
+
+	.group-title h4,
+	.news-post-details .text h4,
+	.team-block-two .inner .title h4,
+	.team-block .lower-content h4{
+		font-size: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 599px){
+	.header-top-two .inner{
+		margin-left: 0;
+		padding-left: 0px;
+	}
+
+	.header-style-two .header-upper .inner{
+		padding-left: 0;
+	}
+
+	.header-style-two .header-upper .logo-box{
+		position: relative;
+		float: left;
+		left: 0;
+		top: 0;
+		height: auto;
+		padding: 0;
+	}
+
+	.header-style-two .header-upper .nav-content{
+		float: right;
+		padding-top: 10px;
+	}
+
+	.header-top-two .my-account{
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+
+	.header-top-two .my-account li{
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+
+	.header-style-three .header-upper .search-btn{
+		display: none;
+	}
+
+	.banner-carousel .links-box .discount-btn{
+		padding-left: 0;
+		display: block;
+	}
+
+	.banner-carousel .links-box .discount-btn .icon{
+		display: none;
+	}
+
+	.banner-carousel .links-box .discount-btn .btn-title{
+		text-align: center;
+	}
+
+	.banner-two .banner-carousel .content-box h1,
+	.banner-three .banner-carousel .content-box h1{
+		font-size: 32px;
+	}
+
+	.yacht-featured-images .outer-box .yacht-featured-image,
+	.yacht-featured-images .outer-box:hover .yacht-featured-image,
+	.yacht-featured-images .outer-box .yacht-featured-image:hover,
+	.destinations-two .destinations-box .outer-box .destination-block-two,
+	.destinations-two .destinations-box .outer-box:hover .destination-block-two,
+	.destinations-two .destinations-box .outer-box .destination-block-two:hover{
+		width: 100%;
+	}
+
+	.page-banner h1{
+		font-size: 24px;
+	}
+
+	.about-section .left-col .upper-row{
+		text-align: center;
+	}
+
+	.about-section .left-col .video-link{
+		padding: 0;
+	}
+
+	.about-section .left-col .video-link .video-thumb,
+	.about-section .left-col .upper-row .image-box{
+		position: relative;
+		display: inline-block;
+		left: 0;
+		top: 0;
+		margin: 0 auto 10px;
+	}
+
+	.about-section .book-form-box{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 30px;
+	}
+
+	.service-block .lower-box{
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: center;
+	}
+
+	.service-block .lower-content{
+		padding-top: 70px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 30px;
+	}
+
+	.service-block .lower-content .icon-box{
+		left: 50%;
+		right: auto;
+		margin-left: -45px;
+	}
+
+	.activity-carousel .activity-block .ratings .rate-text strong,
+	.process-container .process-block h4{
+		font-size: 20px;
+	}
+
+	.price-block .plan-header .price .amount{
+		font-size: 40px;
+	}
+
+	.testimonial-block .inner-box{
+		padding: 30px 20px;
+		text-align: center;
+	}
+
+	.testimonial-block .content{
+		padding-left: 0;
+		min-height: 0;
+	}
+
+	.testimonial-block .content .image{
+		position: relative;
+		left: 0;
+		top: 0;
+		margin: 0 auto 20px;
+	}
+
+	.testimonial-block .content .info:before{
+		left: 50%;
+		margin-left: -35px;
+	}
+
+	.testimonial-block .rating{
+		position: relative;
+		left: 0;
+		right: 0;
+		top: 0;
+		margin: 0 0 20px;
+		text-align: center;
+	}
+
+	.testimonial-block .rating .curve,
+	.testimonial-block .rating:before{
+		display: none;
+	}
+
+	.testimonial-block .content .icon-box{
+		right: -10px;
+		top: -10px;
+		left: auto;
+		width: 50px;
+		line-height: 50px;
+		font-size: 30px;
+		line-height: 50px;
+	}
+
+	.news-section .title-row .sec-title{
+		width: 100%;
+	}
+
+	.news-section .title-row .link-box{
+		width: 100%;
+		text-align: left;
+		padding-top: 0;
+	}
+
+	.news-block .inner-box{
+		padding-left: 0;
+	}
+
+	.news-block .image-box{
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 250px;
+		max-width: 100%;
+		margin: 0 0 30px;
+	}
+
+	.news-block .image-box img{
+		height: auto;
+		width: 100%;
+	}
+
+	.news-block h4,
+	.main-footer .widget-title h4{
+		font-size: 20px;
+	}
+
+	.activity-carousel .activity-block .links-box{
+		margin-top: 30px;
+	}
+
+	.about-section .left-col .lower-content .text:first-letter{
+		float: none; 
+		font-size: 18px;
+		line-height: 1.6em;
+		margin: 0px;
+	}
+
+	.price-block .inner-box{
+		border-bottom-width: 3px;
+	}
+
+	.about-section-two .content-box .lower-row .info{
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: left;
+		padding-left: 20px;
+		padding-right: 0;
+	}
+
+	.about-section-two .content-box .lower-row .info:before{
+		left: 0;
+		right: auto;
+	}
+
+	.activity-block-two .pricing{
+		display: none;
+	}
+
+	.activity-block-two .content,
+	.activity-block-two .ratings{
+		position: relative;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		margin-bottom: 20px;
+		text-align: left;
+	}
+
+	.activity-block-two .links-box{
+		position: relative;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.activity-block-two .image-layer:before{
+		opacity: 0.70;
+	}
+
+	.activity-block-two.with-offer .content{
+		padding-left: 0;
+	}
+
+	.activity-block-two.with-offer .content .off-price{
+		display: none;
+	}
+
+	.activity-block-two .inner-box{
+		min-height: 0;
+	}
+
+	.activity-block-two .content-box{
+		position: relative;
+		padding: 30px 20px;
+	}
+
+	.activity-block-two .info-btn-box .info-panel,
+	.activity-block-three .info-btn-box .info-panel{
+		left: auto;
+		right: -20px;
+		margin: 0 0 30px;
+		bottom: 100%;
+	}
+
+	.tour-widget-title h4{
+		font-size: 18px;
+	}
+
+	.subscribe-section .title h4,
+	.activity-block-two .content-box h4,
+	.activity-block-three .content-box h4{
+		font-size: 20px;
+	}
+
+	.tour-details .facilities .facility-box ul li,
+	.tour-details .info-title .left-info,
+	.tour-details .info-title .rating-info{
+		width: 100%;
+		text-align: left;
+	}
+
+	.tour-details .tour-map .location-point .loc-title{
+		display: none;
+	}
+
+	.tour-details .included-material .included-box{
+		padding-top: 20px;
+	}
+
+	.tour-details .facilities .facility-box{
+		padding: 30px 20px 10px;
+	}
+
+	.about-section-three .content-outer h2{
+		font-size: 24px;
+	}
+
+	.services-section-four .service-list{
+		text-align: left;
+	}
+
+	.comming-soon h1,
+	.time-counter .time-countdown .counter-column .count{
+		font-size: 30px;
+	}
+
+	.news-block-five h3{
+		font-size: 20px;
+	}
+
+	.news-block-five .content .link-box{
+		padding-top: 25px;
+	}
+
+	.news-block-six .content-box .inner{
+		padding-left: 0;
+		min-height: 0;
+	}
+
+	.news-block-six .other-info{
+		display: none;
+	}
+
+	.news-block-six h3{
+		font-size: 20px;
+	}
+
+	.comments-area .comment.reply-comment{
+		margin-left: 0;
+	}
+
+	.comments-area .comment{
+		padding-left: 0;
+	}
+
+	.comments-area .comment-box .author-thumb{
+		position: relative;
+		left: 0;
+		top: 0;
+		margin: 0 0 20px;
+	}
+
+	.comments-area{
+		margin-bottom: 40px;
+	}
+
+	.team-section .owl-theme .owl-nav{
+		position: relative;
+		top: 0;
+		right: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.team-section .owl-theme .owl-nav .owl-next, .team-section .owl-theme .owl-nav .owl-prev{
+		margin: 0 7px;
+	}
+
+	.yacht-details .specs-column .title-box h4{
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.header-style-one .other-links .max-nav-toggler,
+	.header-style-two .language{
+		display: none;
+	}
+
+	.main-header .header-top-three .top-left{
+		display: none !important;
+	}
+
+	.main-header .header-top .top-right,
+	.header-top-three .my-account{
+		width: 100%;
+		text-align: center;
+	}
+
+	.header-top-three .my-account li{
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+
+	.footer-style-three .upper-row .logo-box{
+		width: 100%;
+		margin: 0 0 30px;
+		padding: 0;
+		text-align: center;
+	}
+
+	.footer-style-three .upper-row .logo-box:before,
+	.activity-carousel .activity-block .add-to-fav{
+		display: none;
+	}
+
+	.activity-carousel .activity-block .links-box .pricing{
+		text-align: left;
+		width: 100%;
+		padding-bottom: 10px;
+	}
+
+	.activity-carousel .activity-block .btn-style-four .btn-title{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.subscribe-form-box{
+		padding: 40px 20px;
+	}
+
+	.about-section-two .content-inner .video-link,
+	.about-section-two .content-inner .video-link .video-thumb{
+		width: 100%;
+		height: auto;
+	}
+
+	.news-block-two .lower-content{
+		padding-left: 0;
+	}
+
+	.news-block-two .other-links,
+	.footer-style-three .drop-link{
+		display: none;
+	}
+
+	.footer-style-three .upper-row .logo-box{
+		margin-bottom: 0;
+	}
+
+	.yacht-details .basic-info .down-link,
+	.yacht-details .basic-info .left-info{
+		width: 100%;
+	}
+
+	.yacht-details .specs-column .title-box .options a:last-child{
+		display: none;
+	}
+
+	.activity-block-two .btn-style-two .btn-title{
+		padding-left: 25px;
+		padding-right:25px;
+	}
+
+	.offers-widget .post h5{
+		font-size: 16px;
+	}
+
+	.news-block-five .content-column .inner{
+		min-height: 0;
+	}
+
+	.news-block-five .content-column .content,
+	.news-block-five .content-column .inner{
+		padding-left: 0;
+	}
+
+	.news-block-five .other-info{
+		display: none;
+	}
+}

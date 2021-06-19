@@ -1,0 +1,275 @@
+/*
+Theme Name: Toor - Travel Booking HTML5 Template.
+Author: codezionsoftwares
+Author URL: https://themeforest.net/user/codezionsoftwares
+Version: 1.0.0
+*/ 
+@media (max-width: 1200px) {
+	/*navigation*/
+	.navigation .main-navigation .main-menu>nav>ul>.menu-item>a{
+		padding: 0 10px;
+	} 
+	.cruise-grid .cruise-grid-wrapper .cruise-grid-caption .time .departure{
+		text-align: right;
+	    float: right;
+	    justify-content: flex-end;
+	}
+	.mb-lg-20 {
+		margin-bottom: 20px;
+	}
+	.mb-lg-30 {
+		margin-bottom: 30px;
+	}
+	.mb-lg-40 {
+		margin-bottom: 40px;
+	}
+	.mb-lg-80 {
+		margin-bottom: 80px;
+	}
+}
+@media (max-width: 992px) {
+	.section-header.style-right{
+		text-align: left;
+	}
+	.section-header.style-right .section-heading h3:after {
+	    margin: 20px 0 0 0;
+	}
+	/*navigation*/
+	.navigation .main-navigation .main-menu .logo{
+	    display: block;
+	    margin: 20px 10px;
+	}
+	.navigation .main-navigation .hamburger-menu{
+		display: flex;
+	}
+	.navigation .main-navigation .main-menu .cta-btn{
+		margin: 0 10px;
+	}
+	.navigation .main-navigation .main-menu .cta-btn>a{
+		width: 100%;
+	}
+	.navigation .main-navigation .main-menu{
+		display: block;
+		position: fixed;
+		left: -320px;
+		width: 320px;
+		height: 100vh;
+		top: 0;
+		background: #01b7f2;
+		transition: 0.5s all;
+		overflow: auto;
+		z-index: 100;
+	}
+	.navigation .main-navigation .main-menu.active{
+		left: 0;
+	}
+	.navigation .main-navigation .main-menu>nav>ul{
+		display: block;
+	}
+	.navigation .main-navigation .main-menu>nav>ul>.menu-item{
+		padding: 0;
+		margin: 10px;
+	}
+	.navigation .main-navigation .main-menu>nav>ul>.menu-item>a{
+		padding: 10px 15px;
+		display: block;
+		background: #fff;
+	}
+	.menu-item-has-children>a>.arrow:after, 
+	.menu-item-has-megamenu>a>.arrow:after{
+		position: absolute;
+		right: 15px;
+	}
+	.menu-item-has-children .sub-menu .menu-item-has-children>a>.arrow:after{
+		transform: rotate(0deg);
+	}
+	.menu-item-has-children .sub-menu .menu-item-has-children>.sub-menu,
+	.menu-item-has-megamenu:hover>.megamenu,
+	.menu-item-has-megamenu .megamenu,
+	.menu-item-has-children .sub-menu{
+		opacity: 1;
+		visibility: visible;
+		left: 0;
+		width: 100%;
+		position: relative;
+		display: none;
+		padding: 0;
+	}
+	.menu-item-has-children .sub-menu>.menu-item.open>a,
+	.menu-item-has-megamenu.open>a{
+		background: #fff;
+		color: #01b7f2;
+    	font-weight: 500;
+	}
+	.menu-item-has-children .sub-menu>.menu-item>a{
+		background: #04afe7;
+    	color: #fff;
+	}
+	.mb-md-20 {
+		margin-bottom: 20px;
+	}
+	.mb-md-30 {
+		margin-bottom: 30px;
+	}
+	.mb-md-40 {
+		margin-bottom: 40px;
+	}
+	.mb-md-80 {
+		margin-bottom: 80px;
+	}
+}
+@media (max-width: 767px) {
+	/*General*/
+	.banner-tabs{
+		margin-top: 0;
+		padding-top: 110px;
+	}
+	.section-header{
+		display: block;
+	}
+	.main-banner .slick-dots{
+		margin-top: -30px;
+	}
+	.slider-content h1{
+		font-size: 40px;
+	}
+	.section-header .section-btn{
+		display: none;
+	}
+	/*blog*/
+	.blog-details .post-details-tags-social .tags-box{
+		justify-content: center;
+		margin-bottom: 10px;
+	}
+	.blog-details .post-details-tags-social .social-media-box ul{
+		justify-content: center;
+	}
+	.blog-details .post-author{
+		display: block;
+	}
+	.blog-details .post-author .author-caption{
+		flex: 0 0 calc(100% - 0px);
+    	max-width: calc(100% - 0px);
+	}
+	.coming-soon .coming-soon-text h1{
+		font-size: 40px;
+	}
+	.coming-soon .coming-soon-text .counter .counter-box .inner-box{
+		font-size: 28px;
+		margin-top: 10px;
+	}
+	.coming-soon .coming-soon-text .counter .counter-box{
+		margin: 0 5px;
+	}
+	.mb-sm-20 {
+		margin-bottom: 20px;
+	}
+	.mb-sm-30 {
+		margin-bottom: 30px;
+	}
+	.mb-sm-40 {
+		margin-bottom: 40px;
+	}
+	.mb-sm-80 {
+		margin-bottom: 80px;
+	}
+}
+@media (max-width: 576px) {
+	/*topbar*/
+	.topbar .left-side>ul,
+	.topbar .right-side>ul{
+		justify-content: center;
+	}
+	.tabs .nav-tabs{
+		display: block;
+	}
+	.tabs .nav-tabs .nav-item .nav-link.active:before{
+		display: none;
+	}
+	/*Navigation*/
+	.navigation .main-navigation .main-menu{
+		left: -260px;
+		width: 260px;
+	}
+	/*our services*/
+	.service-box .service-wrapper{
+		display: block;
+	}
+	.service-box .service-wrapper .service-img,
+	.service-box .service-wrapper .service-text{
+		flex: 0 0 calc(100% - 0px);
+    	max-width: calc(100% - 0px);
+	}
+	.coming-soon .coming-soon-text .counter{
+		flex-wrap: wrap;
+	}
+	.coming-soon .coming-soon-text .counter .counter-box{
+		margin: 0 5px 10px;
+		width: 100px;
+	}
+	.coming-soon .coming-soon-contact ul{
+		justify-content: center;
+	}
+	.coming-soon .coming-soon-contact ul li{
+		width: auto;
+		padding: 0 15px;
+	}
+	.mb-xs-20 {
+		margin-bottom: 20px;
+	}
+	.mb-xs-30 {
+		margin-bottom: 30px;
+	}
+	.mb-xs-40 {
+		margin-bottom: 40px;
+	}
+	.mb-xs-80 {
+		margin-bottom: 80px;
+	}
+	#page404 .txt{
+		margin: 0 0 0 -190px;
+	}
+}
+@media (max-width:450px){
+	blockquote{
+		padding: 15px;
+	}
+	blockquote p{
+		font-size: 14px;
+	}
+	.blog-details .post .post-wrapper .blog-meta .post-meta-box .post-meta .post-date{
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		margin-top: 0;
+	}
+	.blog-details .post-details-tags-social span,
+	.blog-details .post-details-tags-social .social-media-box ul li .social-number,
+	.blog-details .post-author .author-caption .authorpost{
+		display: none;
+	}
+	.blog-details .post-details-tags-social .tags{
+		margin-left: 0;
+	}
+	.comment-box .children{
+		padding-left: 0;
+	}
+	/*coming soon*/
+	.coming-soon .main .counter .counter-box{
+		margin: 0 10px;
+	}
+	.coming-soon .main .counter .counter-box .inner-box{
+		width: 50px;
+		height: 50px;
+	}
+	.about-us .about-left-side ul{
+		columns: 1;
+	}
+	.about-us .about-right-side .about-img:before,
+	.about-us .about-right-side .about-img:after{
+		height: calc(50% - 20px;)
+	}
+	.about-us .about-right-side .about-img img{
+		padding: 20px;
+	}
+}
