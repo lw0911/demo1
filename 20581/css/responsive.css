@@ -1,0 +1,181 @@
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+#banner {
+    padding: 250px 0 50px;
+}
+#features {
+    padding: 90px 0 20px;
+}
+#pricing {
+    padding: 40px 0 80px;
+}
+#work {
+    padding: 40px 0 30px;
+}
+#testimonilas {
+    margin-bottom: 100px;
+}
+footer {
+    padding: 90px 0 177px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.logo {
+    width: 67%;
+}
+nav {
+    width: 23%;
+}
+#banner {
+    padding: 250px 0 50px;
+}
+#banner a.start {
+    margin: 0 auto 50px;
+}
+#features {
+    padding: 70px 0 20px;
+}
+#bottom p {
+    padding: 13px 0 50px;
+}
+#pricing {
+    padding: 40px 0 40px;
+}
+#work article{min-height:270px;}
+#team {
+    padding: 30px 0 60px;
+}
+.imgDescription2 {
+    padding-top: 51px;
+ 
+}
+#work article p {
+    padding-bottom: 20px;
+}
+#work {
+    padding: 40px 0 30px;
+}
+#testimonilas {
+    margin-bottom: 100px;
+}
+footer {
+    padding: 90px 0 107px;
+}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+#topmenu {
+    display: none;
+}
+.logo {
+    width: 90%;
+    text-align: right;
+}
+button#c-button--slide-left i{font-size:26px;}
+#banner h1 {
+    font-size: 26px;
+    line-height: 40px;
+}
+#banner {
+    background: #fcdb00;
+    padding: 120px 0 29px;
+}
+header {
+    padding: 20px 0;
+}
+#banner a.start {
+    margin: 0 auto 30px;
+}
+#features {
+    padding: 40px 0;
+	text-align: center;
+}
+#bottom p {
+    padding: 13px 0 40px;
+}
+#pricing {
+    padding: 0px 0 50px;
+}
+h2 {
+    font-size: 26px;
+}
+p.top {
+    font-size: 18px;
+    margin: 15px 0 40px;
+}
+#pricing article a {
+    margin: 20px auto 35px;
+}
+#pricing article p.small {
+    padding-bottom: 20px;
+}
+#work {
+    padding: 0px 0 40px;
+}
+#work article p {
+    padding-bottom: 35px;
+}
+#team {
+    padding: 0px 0 35px;
+}
+#team article h3 {
+    margin-top: 15px;
+}
+#team article img{
+    display: block;
+    margin: 30px auto 0;
+}
+#states {
+    padding-bottom: 40px;
+}
+i.onemore {
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+}
+i.twomore {
+    right: 0;
+    margin-top: 10px;
+}
+#testimonilas {
+    margin-bottom: 50px;
+}
+
+
+footer .mesg input {
+    width: 100%;
+	margin-bottom:20px;
+}
+footer .mesg button {
+	margin-left:0;
+}
+.mesg {
+    margin: 0 auto 40px;
+}
+footer a, footer address {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#contact {
+    padding-bottom: 40px;
+}
+footer {
+    padding: 40px 0 40px;
+}
+header.sticky {
+    padding: 10px 0px;
+}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+}

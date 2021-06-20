@@ -1,0 +1,1008 @@
+@charset "UTF-8";
+/*====================================================== 
+@Template Name: Volition Studio Bootstrap Template
+@Author: Daat Creations
+@Developed By: Manavjot Singh
+@Author URL: http://www.daatcreations.com/ 
+
+This file contains the styling for the actual template, this
+is the file you need to edit to change the look of the
+template.
+========================================================
+
+====================Table Of Contents===================
+
+01. General CSS
+    a. Header Section
+    b. Form Design
+    c. Pagination Design
+    d. Preloader
+    e. Footer Section
+    f. Inner Pages Banner Section
+02. Homepage CSS
+    a. Banner Section
+    b. White Background Section
+    c. Success Stories Section
+    d. What We Do Section
+    e. Featured Projects & Testimonials Section
+    f. Our Team Section
+    g. Client Section
+    h. Latest News Section
+    i. Work With Us Section
+03. About Page CSS
+04. Service Page CSS
+05. Project Page CSS
+06. Team Page CSS
+07. Career Page CSS
+08. Blog Page CSS
+09. FAQ Page CSS
+10. Pricing Page CSS
+11. Testimonial Page CSS
+12. 404 Error Page CSS
+13. Contact Page CSS
+
+========================================================*/
+
+/*==================== 01. General CSS ====================*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a, .btn, button, a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+h5 {
+    font-size: 18px;
+    line-height: 26px;
+}
+h6 {
+    color: #807d7d;
+    line-height: 24px;
+}
+p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.ms-font-size-70 {
+    font-size:70px;
+    font-weight: 600;
+}
+.ms-font-color-191919 {
+    color: #191919;
+}
+.ms-font-color-8f8f8f {
+    color: #8f8f8f;
+}
+.ms-font-color-red {
+    color: #f33030;
+}
+.ms-font-color-807d7d {
+    color: #807d7d;
+}
+.ms-font-size-70 {
+    font-size: 70px;
+}
+.ms-font-weight-600 {
+    font-weight: 600;
+}
+.ms-spacer-30, .ms-spacer-40, .ms-spacer-50, .ms-spacer-60, .ms-spacer-80, .ms-spacer-120 {
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.ms-spacer-30 {
+    height: 30px;
+}
+.ms-spacer-40 {
+    height: 40px;
+}
+.ms-spacer-50 {
+    height: 50px;
+}
+.ms-spacer-60 {
+    height: 60px;
+}
+.ms-spacer-80 {
+    height: 80px;
+}
+.ms-spacer-120 {
+    height: 120px;
+}
+.ms-bg-191919 {
+    background-color:#191919;
+}
+.ms-bg-232325 {
+    background-color: #232325;
+}
+.ms-bg-red {
+    background-color: #f33030;
+}
+.ms-primary-btn, .ms-secondary-btn {
+    border: 2px solid #f33030;
+    font-size: 15px;
+    color: #fff;
+    transition: all 0.3s linear;
+    -webkit-transition:  all 0.3s linear;
+    padding:15px 40px;
+    border-radius: 0;
+    letter-spacing: 0.5em;
+}
+.ms-primary-btn {
+    background: #f33030;
+}
+.ms-primary-btn:hover {
+    color: #000;
+    background: #fff;
+    border: 2px solid #fff;
+    box-shadow: 5px 8.66px 30px 0px rgba(25, 25, 25, 0.275);
+}
+.ms-secondary-btn {
+    background: transparent;
+}
+.ms-secondary-btn:hover {
+    background:#f33030;
+    color: #fff;
+}
+.ms-third-btn {
+    color:#191919;
+}
+.ms-white-btn {
+    border:2px solid #fff;
+    background: transparent;
+    padding: 13px 25px;
+}
+.ms-sec-pad {
+    padding: 120px 0;
+}
+.ms-top-margin {
+    margin-top: -120px;
+}
+.ms-overflow-hidden {
+    overflow: hidden;
+}
+iframe {
+    width:100%;
+}
+
+/*========== Header Section CSS ==========*/
+header {
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    z-index: 99;
+}
+header .ms-header-bg {
+    background-color: #fff;
+}
+header nav ul .nav-item {
+    margin: 0 15px;
+    padding: 4px 0;
+}
+header nav ul li.dropdown, header nav ul li.dropdown .dropdown-menu {
+    backface-visibility: hidden;
+}
+header nav ul li a {
+    color: #000;
+    font-size: 15px;
+}
+header nav ul li a:hover, header nav ul li.dropdown .dropdown-menu a:hover {
+    color: #f33030;
+}
+header nav.ms-header-padding {
+    padding: 16px 0px 15px 30px;
+}
+header nav .ms-header-btn {
+    background: #f33030;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 35px 40px;
+    transition: all 0.3s linear;
+}
+header nav .ms-header-btn:hover {
+    color: #fff;
+}
+header nav ul li.dropdown .dropdown-menu {
+    top: 60px;
+    left: -20px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 1px 0px 7px 0px rgba(22, 43, 70, 0.1);
+    transition: all 300ms linear 0s;
+    transform: rotateX(-90deg);
+    transform-origin: top;
+}
+@media (min-width:800px) {
+    header nav .navbar-nav li.dropdown .dropdown-menu {
+        display: block;
+        min-width: 240px;
+    }
+}
+header nav ul li.dropdown .dropdown-menu a {
+    padding: 12px 20px;
+}
+header nav .navbar-nav li:hover.dropdown .dropdown-menu {
+    transform: rotateX(0deg);
+}
+header nav li.dropdown .dropdown-menu:before {
+    content: "\f0d8";
+    font: normal normal normal 30px/1 FontAwesome;
+    position: absolute;
+    top: -21px;
+    left: 25px;
+    color: rgba(22, 43, 70, 0.1);
+}
+header .dropdown-item:active {
+    background: #f33030;
+    color:#fff !important;
+}
+/*---------- hamburger menu css ----------*/
+.navbar-toggler:focus {
+    outline: none;
+}
+.menu_toggle {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}  
+.menu_toggle .hamburger {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.menu_toggle .hamburger span {
+    width: 0%;
+    height: 2px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 4px 0;
+    display: block;
+    background: #000;
+    border-radius: 3px;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+.menu_toggle .hamburger span:nth-child(1) {
+    -webkit-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.menu_toggle .hamburger span:nth-child(2) {
+    -webkit-transition-delay: .125s;
+    -o-transition-delay: .125s;
+    transition-delay: .125s;
+}
+.menu_toggle .hamburger span:nth-child(3) {
+    -webkit-transition-delay: .2s;
+    -o-transition-delay: .2s;
+    transition-delay: .2s;
+}
+.menu_toggle .hamburger-cross {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: block;
+}
+.menu_toggle .hamburger-cross span {
+    display: block;
+    background: #000;
+    border-radius: 3px;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+.menu_toggle .hamburger-cross span:nth-child(1) {
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    -webkit-transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
+}
+.menu_toggle .hamburger-cross span:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    -webkit-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    transition-delay: .4s;
+}
+.collapsed .menu_toggle .hamburger span {
+    width: 100%;
+}
+.collapsed .menu_toggle .hamburger span:nth-child(1) {
+    -webkit-transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
+}
+.collapsed .menu_toggle .hamburger span:nth-child(2) {
+    -webkit-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    transition-delay: .4s;
+}
+.collapsed .menu_toggle .hamburger span:nth-child(3) {
+    -webkit-transition-delay: .5s;
+    -o-transition-delay: .5s;
+    transition-delay: .5s;
+}
+.collapsed .menu_toggle .hamburger-cross span:nth-child(1) {
+    height: 0%;
+    -webkit-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+.collapsed .menu_toggle .hamburger-cross span:nth-child(2) {
+    width: 0%;
+    -webkit-transition-delay: .2s;
+    -o-transition-delay: .2s;
+    transition-delay: .2s;
+}
+
+/*========== Form Design ==========*/
+input, textarea {
+    font-size:14px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width: 100%;
+    border:none;
+    border-bottom:1px solid #757575;
+    background-color: transparent;
+    color: #fff;
+}
+input:focus, textarea:focus { 
+    outline:none;
+}
+label {
+    color:rgba(255,255,255,0.5);
+    font-size:15px;
+    font-weight: 300;
+    position:absolute;
+    left:15px;
+    top:10px;
+    transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+}
+input:focus ~ label, input:valid ~ label, textarea:focus ~ label, textarea:valid ~ label {
+    top:-10px;
+    font-size:14px;
+    color:rgba(255,255,255,0.5);
+}
+.bar { 
+    position:relative; 
+    display:block; 
+    width:100%; 
+}
+.bar:before, .bar:after {
+  content:'';
+  height:1px; 
+  width:0;
+  bottom:0px; 
+  position:absolute;
+  background:#fff; 
+  transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+input:focus ~ .bar:before, input:focus ~ .bar:after, textarea:focus ~ .bar:before, textarea:focus ~ .bar:after {
+  width:100%;
+}
+
+/*========== Pagination Design ==========*/
+.pagination li a {
+    margin-right: 6px;
+    margin-left: 6px;
+    border: 1px solid #363636;
+    border-radius: 50% !important;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #c8c8c8;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 12px;
+    background: transparent;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+.pagination li:last-child a, .pagination li:last-child a:hover {
+    background: #fff;
+    border: 1px solid #fff;
+}
+.pagination li a:hover, .pagination li a.active {
+    background-color: #f33030;
+    color: #fff;
+    border: 1px solid #f33030;
+}
+
+/*========== Preloader CSS==========*/
+.preloader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color:#fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../images/loader.gif');
+}
+
+/*========== Footer Section CSS ==========*/
+footer .ms-footer-top {
+    padding: 120px 0 60px 0;
+}
+footer .ms-footer-top a, footer .ms-footer-bottom a, footer .ms-footer-bottom p {
+    color:#8f8f8f;
+    transition: all 0.3s linear;
+    -webkit-transition:  all 0.2s linear;
+}
+footer .ms-footer-top a:hover, footer .ms-footer-bottom a:hover {
+    color:#fff;
+}
+
+/*========== Inner Pages Banner Section CSS ==========*/
+#ms-inr-bnr-sec {
+    padding: 300px 0 200px 0;
+}
+
+/*==================== 2. Homepage CSS ====================*/
+/*---------- Banner Section ----------*/
+#ms-bnr-sec .ms-home-bnr {
+    background:url('../images/home-banner.jpg') rgba(0, 0, 0, 0.4) center;
+    background-blend-mode: multiply;
+    padding: 280px 10% 160px 10%;
+    background-size: cover;
+}
+#ms-bnr-sec h2 {
+    font-size: 130px;
+    letter-spacing: 0.05em;
+    line-height: 1;
+}
+#ms-bnr-sec h3 {
+    letter-spacing: 0.024em;
+    line-height: 1;
+}
+/*---------- White Background Section ----------*/
+#ms-white-bg-sec {
+    padding-top: 120px;
+    margin-bottom: -170px;
+}
+/*---------- Success Stories Section ----------*/
+#ms-success-sec .ms-right-side {
+    margin-top: -340px;
+    padding: 60px 50px;
+}
+#ms-success-sec .ms-blank-space {
+    padding: 170px 0;
+    margin-top: -339px;
+}
+/*---------- What We Do Section ----------*/
+#ms-do-sec {
+    padding-bottom: 60px;
+}
+#ms-do-sec .ms-img-box {
+    background: #232325;
+    padding:50px 30px 90px 30px;
+    transition: all 0.3s linear;
+    -webkit-transition:  all 0.3s linear;
+}
+#ms-do-sec .ms-img-box:hover {
+    background: #f33030;
+    box-shadow: 0px 5px 20px 2px rgba(174, 10, 7, 0.6);
+}
+#ms-do-sec .ms-img-box .ms-third-btn {
+    position: relative;
+    background: #fff;
+    border-radius: 40px;
+    padding: 17px;
+}
+#ms-do-sec .ms-img-box .ms-third-btn span {
+    position: absolute;
+    min-width: 65px;
+    top: -1px;
+    right: 0;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0;
+    background: #fff;
+    padding: 18px 40px 18px 25px;
+    border-radius: 40px;
+    transition: all .3s linear;
+    transform: rotateY(-90deg);
+    transform-origin: right;
+}
+#ms-do-sec .ms-img-box .ms-third-btn:hover span {
+    opacity: 1;
+    right: -3px;
+    min-width: 130px;
+    background: #f33030;
+    box-shadow: 0px 5px 20px 2px rgba(174, 10, 7, 0.5);
+    transform: rotateY(0deg);
+}
+/*---------- Featured Projects & Testimonials Section ----------*/
+#ms-project-sec {
+    padding: 60px 0 120px 0;
+    background: url('../images/bg-image.jpg') no-repeat bottom #191919;
+}
+#ms-project-sec .ms-special-padding {
+    padding: 0 10% 0 10%;
+}
+#ms-project-sec .ms-img-bnr {
+    position: relative;
+    overflow: hidden;
+}
+.ms-img-bnr .ms-content-overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.ms-img-bnr:hover .ms-content-overlay{
+    opacity: 1;
+}
+.ms-content-details {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    opacity: 0;
+    width: 90%;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.ms-img-bnr:hover .ms-content-details{
+    top: 10%;
+    left: 10%;
+    opacity: 1;
+    width: 100%;
+} 
+#ms-project-sec p {
+    color: rgba(255, 255, 255, 0.6);
+}
+#ms-project-sec .ms-testimonial-carousel {
+    background: #f33030;
+    padding: 120px 75px;
+}
+#ms-project-sec .ms-testimonial-carousel .ms-quote-bg {
+    background: url('../images/quote.png') no-repeat center;
+}
+#ms-project-sec .ms-testimonial-carousel #counter {
+    font-size: 24px;
+    color: #fff;
+    float: right;
+    right: 40px;
+    bottom: 20px;
+    position: relative;
+} 
+#ms-project-sec .ms-testimonial-carousel .owl-carousel .nav-btn {
+    height: 47px;
+    width: 26px;
+    position: absolute;
+    top: 205px;
+}
+#ms-project-sec .ms-testimonial-carousel .owl-carousel .prev-slide {
+    background: url('../images/arrow-white.png') no-repeat scroll 0 0;
+    left: 460px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+#ms-project-sec .ms-testimonial-carousel .owl-carousel .next-slide {
+    background: url('../images/arrow-white.png') no-repeat scroll 0 0;
+    right: 0px;
+}
+/*---------- Our Team Section ----------*/
+#ms-team-sec {
+    padding: 120px 0 220px 0;
+}
+#ms-team-sec a:hover {
+    color: #f33030;
+}
+#ms-team-sec .ms-team-box, #ms-team-page .ms-team-box {
+    cursor:pointer;
+}
+#ms-team-sec .ms-team-box .ms-team-content, #ms-team-page .ms-team-box .ms-team-content {
+    background: #fff;
+    padding: 13px 15px 10px 15px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
+}
+#ms-team-sec .ms-team-box img, #ms-team-page .ms-team-box img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+#ms-team-sec .ms-team-box .ms-team-content .ms-team-hover, 
+#ms-team-page .ms-team-box .ms-team-content .ms-team-hover {
+    background: #f33030;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    opacity: 0;
+}
+#ms-team-sec .ms-team-box .ms-team-content .ms-team-hover .ms-social-icon, 
+#ms-team-page .ms-team-box .ms-team-content .ms-team-hover .ms-social-icon {
+    color: #fff;
+    font-size: 20px;
+}
+#ms-team-sec .ms-team-box:hover img, #ms-team-sec .ms-team-box:hover .ms-team-content .ms-team-hover, 
+#ms-team-page .ms-team-box:hover img, #ms-team-page .ms-team-box:hover .ms-team-content .ms-team-hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+/*---------- Client Section ----------*/
+#ms-client-sec .ms-bg-232325 {
+    padding: 100px 0;
+    top:-100px;
+}
+/*---------- Latest News Section ----------*/
+#ms-news-sec {
+    padding-bottom: 200px;
+}
+#ms-news-sec .d-flex.justify-content-between a:hover, #ms-news-sec .ms-font-color-red:hover {
+    color: #f33030;
+}
+#ms-news-sec .ms-blog-right-pad {
+    padding-right: 40px;
+}
+#ms-news-sec .ms-blog-left-pad {
+    padding-left: 40px;
+}
+#ms-news-sec .ms-blog-box h6, #ms-news-sec .ms-blog-box-two h6 {
+    font-size: 14px;
+}
+#ms-news-sec .ms-blog-box h6 span, #ms-news-sec .ms-blog-box-two h6 span {
+    color: #c8c8c8;
+}
+#ms-news-sec .ms-blog-box h3 a, #ms-news-sec .ms-blog-box-two h3 a {
+    color:#fff;
+    transition: all 0.2s linear;
+}
+#ms-news-sec .ms-blog-box:hover h3 a, #ms-news-sec .ms-blog-box-two:hover h3 a {
+    color: #f33030;
+}
+/*---------- Work With Us Section ----------*/
+#ms-work-sec {
+    padding-top: 120px;
+}
+#ms-work-sec .ms-map {
+    margin-top: -220px;
+}
+
+/*==================== 03. About Page CSS ====================*/
+/*---------- We are volition studio Section ----------*/
+#ms-we-are-volition-sec .container-fluid .ms-abt-pg-img {
+    margin-top: -620px;
+}
+#ms-we-are-volition-sec .ms-pad-right {
+    padding-right: 60px;
+}
+/*---------- Our Vision Section ----------*/
+#ms-vision-sec .ms-rotate-box h6 {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+#ms-vision-sec .ms-rotate-box {
+    padding-left: 60px;
+    padding-right: 80px;
+}
+#ms-vision-sec .ms-rotate-box .ms-first-text {
+    top: 100px;
+    left: -100px;
+    letter-spacing: 5px;
+}
+#ms-vision-sec .ms-rotate-box .ms-second-text {
+    top: 65px;
+    left: -60px;
+    letter-spacing: 5px;
+}
+#ms-vision-sec .ms-video-img {
+    margin-top: -320px;
+    margin-bottom: -250px;
+}
+/*---------- Our Team Section ----------*/
+#ms-team-sec.ms-abt-team-sec {
+    padding: 220px 0 120px 0; 
+}
+/*---------- Call To Action Section ----------*/
+#ms-cta-sec {
+    background: url('../images/cta-bg-img.jpg') center no-repeat;
+}
+
+/*==================== 04. Service Page CSS ====================*/
+/*---------- Best Solution Section ----------*/
+#ms-solution-sec .ms-video-img {
+    margin-top: -470px;
+}
+
+/*==================== 05. Project Page CSS ====================*/
+/*---------- Projects Section ----------*/
+#ms-project-pg-sec .ms-project-title {
+    padding: 25px 30px;
+}
+#ms-project-pg-sec .ms-project-box  {
+    backface-visibility: hidden;
+    margin-bottom: 10px;
+}
+#ms-project-pg-sec .ms-project-box .ms-img-hover {
+    transition:0.7s ease all;
+    -webkit-transition: 0.7s ease all;   
+}
+#ms-project-pg-sec .ms-project-box:hover .ms-img-hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    cursor: pointer;
+}
+/*---------- Projects Detail Page CSS ----------*/
+#ms-project-detail-sec p {
+    font-size: 15px;
+}
+
+/*==================== 06. Team Page CSS ====================*/
+#ms-team-page .ms-apply-img {
+    background: url('../images/team-apply-img.jpg') no-repeat center;
+    background-size: cover;
+    padding: 145px 20px;
+}
+/*---------- Team Detail Page CSS ----------*/
+#ms-team-detail-page .progress {
+    height: 4px;
+}
+#ms-team-detail-page .ms-social-icon {
+    color: #8f8f8f;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border: 2px solid #363636;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+#ms-team-detail-page .ms-social-icon:hover {
+    color: #fff;
+}
+#ms-team-detail-page .ms-fb-icon:hover {
+    background: #3b5998;
+    border: 2px solid #3b5998;
+}
+#ms-team-detail-page .ms-twitter-icon:hover {
+    background: #00acee;
+    border: 2px solid #00acee;
+}
+#ms-team-detail-page .ms-insta-icon:hover {
+    background: #E1306C;
+    border: 2px solid #E1306C;
+}
+#ms-team-detail-page .ms-behance-icon:hover {
+    background: #1769FF;
+    border: 2px solid #1769FF;
+}
+
+/*==================== 07. Career Page CSS ====================*/
+#ms-career-one-sec .ms-job-box .ms-bg-img .ms-job-title {
+    bottom: 35px;
+    left: 35px;
+}
+#ms-career-one-sec .ms-job-box .ms-job-content {
+    background: #fff;
+    padding: 35px;
+}
+#ms-career-one-sec .ms-job-box .ms-job-content h6 {
+    line-height: 30px;
+}
+#ms-career-one-sec .ms-job-box .ms-job-content .btn.ms-secondary-btn.ms-third-btn {
+    padding: 15px 60px;
+}
+/*---------- Career Detail Page CSS ----------*/
+#ms-career-detail-page .ms-padding {
+    padding: 70px 40px;
+}
+
+/*==================== 08. Blog Pages CSS ====================*/
+#ms-blog-one-pg-sec .ms-blog-box .ms-author, #ms-blog-two-pg-sec .ms-blog-box .ms-author {
+    color: #c8c8c8;
+}
+#ms-blog-one-pg-sec .ms-blog-box, #ms-blog-two-pg-sec .ms-blog-box {
+    backface-visibility: hidden;
+    margin-bottom: 10px;
+}
+#ms-blog-one-pg-sec .ms-blog-box .ms-img-hover, #ms-blog-two-pg-sec .ms-blog-box .ms-img-hover {
+    transition:0.7s ease all;
+    -webkit-transition: 0.7s ease all;   
+}
+#ms-blog-one-pg-sec .ms-blog-box:hover .ms-img-hover, #ms-blog-two-pg-sec .ms-blog-box:hover .ms-img-hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    cursor: pointer;
+}
+#ms-blog-one-pg-sec .ms-blog-box {
+    margin-bottom: 70px;
+}
+#ms-blog-two-pg-sec .ms-blog-box .ms-blog-content {
+    padding: 60px 30px;
+}
+/*---------- Blog Detail Page CSS ----------*/
+#ms-blog-detail-sec .ms-blog-detail-content .ms-author {
+    color: #c8c8c8;
+}
+#ms-blog-detail-sec .ms-blog-detail-content {
+    padding: 0 50px;
+}
+#ms-blog-detail-sec .ms-quote-box {
+    padding: 80px;
+}
+#ms-blog-detail-sec .ms-quote-box .ms-quote-img {
+    background: url('../images/quote.png') no-repeat center;
+}
+#ms-blog-detail-sec .ms-social-btn .ms-fb-icon:before, 
+#ms-blog-detail-sec .ms-social-btn .ms-twitter-icon:before, 
+#ms-blog-detail-sec .ms-social-btn .ms-google-icon:before,
+#ms-blog-detail-sec .ms-social-btn .ms-linked-icon:before {
+    content: "\f09a";   /*----- Facebook Icon -----*/
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+}
+#ms-blog-detail-sec .ms-social-btn .ms-twitter-icon:before {
+    content: "\f099";   /*----- Twitter Icon -----*/
+}
+#ms-blog-detail-sec .ms-social-btn .ms-google-icon:before {
+    content: "\f1a0";   /*----- Google  Icon -----*/
+}
+#ms-blog-detail-sec .ms-social-btn .ms-linked-icon:before {
+    content: "\f0e1";   /*----- LinkedIn Icon -----*/
+}
+#ms-blog-detail-sec .ms-social-btn .ms-fb-icon, 
+#ms-blog-detail-sec .ms-social-btn .ms-twitter-icon,
+#ms-blog-detail-sec .ms-social-btn .ms-google-icon,
+#ms-blog-detail-sec .ms-social-btn .ms-linked-icon {
+    border: 1px solid #363636;
+    padding: 15px 32px;
+    border-radius: 35px;
+    color: #8f8f8f;
+    margin-right: 30px;
+    width: 150px;
+}
+#ms-blog-detail-sec .ms-social-btn .ms-fb-icon:hover {
+    background: #3b5998;
+    color: #fff;
+    border: 1px solid #3b5998;
+}
+#ms-blog-detail-sec .ms-social-btn .ms-twitter-icon:hover {
+    background: #38A1F3;
+    color: #fff;
+    border: 1px solid #38A1F3;
+}
+#ms-blog-detail-sec .ms-social-btn .ms-google-icon:hover {
+    background: #DD4B39;
+    color: #fff;
+    border: 1px solid #DD4B39;
+}
+#ms-blog-detail-sec .ms-social-btn .ms-linked-icon:hover {
+    background: #2867B2;
+    color: #fff;
+    border: 1px solid #2867B2;
+}
+
+/*==================== 09. FAQ Page CSS ====================*/
+#ms-faq-page-sec .card-header {
+    padding: 0;
+    border: 0;
+}
+#ms-faq-page-sec .card-title > a {
+    display: block;
+    padding: 20px 40px;
+    background: #191919;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+#ms-faq-page-sec .card-title > a:hover, #ms-faq-page-sec .card-title > a[aria-expanded="true"] {
+    color: red;
+}
+#ms-faq-page-sec .card-body {
+    padding: 20px 40px;
+}
+#ms-faq-page-sec .card-body h6 {
+    line-height: 28px;
+}
+#ms-faq-page-sec .card-title > a:after {
+    content: "\f067"; /* fa-plus */
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 40px;
+}
+#ms-faq-page-sec .card-title > a[aria-expanded="true"]:after {
+    content: "\f068"; /* fa-minus */
+}
+
+/*==================== 10. Pricing Page CSS ====================*/
+#ms-pricing-pg-sec .ms-pricing-box {
+    background: #232325;
+    padding: 50px 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+#ms-pricing-pg-sec .ms-pricing-box .ms-pricing-detail h6 {
+    color:#bdbdbe;
+}
+#ms-pricing-pg-sec .ms-pricing-detail h6.ms-font-color-38383a {
+    color: #38383a;
+}
+#ms-pricing-pg-sec .ms-pricing-detail .ms-btn-sec .btn.ms-btn {
+    background: #fff;
+    padding: 17px 20px;
+    border-radius: 40px;
+    font-weight: 500;
+    color: #191919;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+#ms-pricing-pg-sec .ms-pricing-box:hover .ms-btn-sec .btn.ms-btn {
+    box-shadow: 0px 10px 30px 0px rgba(174, 10, 7, 0.7);
+}
+#ms-pricing-pg-sec .ms-pricing-box, 
+#ms-pricing-pg-sec .ms-pricing-box .ms-pricing-detail .ms-font-color-red, 
+#ms-pricing-pg-sec .ms-pricing-box .ms-pricing-detail .ms-font-color-red, 
+#ms-pricing-pg-sec .ms-pricing-detail h6.ms-font-color-38383a, 
+#ms-pricing-pg-sec .ms-pricing-box .ms-pricing-detail p.ms-font-color-8f8f8f {
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+#ms-pricing-pg-sec .ms-pricing-box:hover {
+    background: #f33030;
+    box-shadow: 0px 0px 20px 0px rgba(255, 87, 84, 0.4);
+}
+#ms-pricing-pg-sec .ms-pricing-box:hover .ms-pricing-detail .ms-font-color-red {
+    color:#fbd0d0;
+}
+#ms-pricing-pg-sec .ms-pricing-box:hover .ms-pricing-detail h6.ms-font-color-38383a {
+    color: #f45d5d;
+}
+#ms-pricing-pg-sec .ms-pricing-box:hover .ms-pricing-detail p.ms-font-color-8f8f8f {
+    color: #fff;
+}
+
+/*==================== 11. Testimonial Page CSS ====================*/
+#ms-testimonial-page-sec .ms-testimonial-box {
+    padding: 40px;
+}
+
+/*==================== 12. Error Page CSS ====================*/
+#ms-inr-bnr-sec.ms-error-page {
+    padding: 230px 0 130px 0;
+}
+#ms-inr-bnr-sec.ms-error-page h1 {
+    font-size: 300px;
+    line-height: 1;
+}

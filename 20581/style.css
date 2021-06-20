@@ -1,0 +1,449 @@
+/*................................reset...........................................*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+/*................................clearfix...........................................*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*.........GLOBLE......*/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #898989;
+	font-weight: 400;
+}
+h2 {
+	font-weight: 700;
+	font-size: 32px;
+	color: #010101;
+	line-height: 34px;
+	text-align: center;
+}
+p.top{
+	color:#898989;
+	font-size:20px;
+	line-height:24px;
+	text-align:center;
+	margin:20px 0 70px;	
+}
+header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	width: 100%;
+	padding: 60px 0;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+header.sticky {
+	position: fixed;
+	width: 100%;
+	background: #fcdb00;
+	box-shadow: 3px 1px 0.99px 0.01px rgba(0, 0, 0, 0.05);
+	padding: 20px 0px;
+	    z-index: 89;
+}
+header a.logo {
+	padding-top: 10px;
+	display: block;
+}
+header a.logo img {
+	display: block;
+}
+.logo {
+	width: 70%;
+	float: left;
+	text-align:center;
+}
+nav {
+	width: 20%;
+	float: right;
+	text-align: right;
+	padding-top:10px;
+}
+.menuside {
+	width: 10%;
+	float: left;
+	text-align: left;
+	padding-top:10px;
+}
+nav ul li {
+	display: inline-block;
+	padding: 0px 10px;
+}
+nav ul li a {
+	font-size: 20px;
+	line-height: 30px;
+	color: #212121;
+}
+nav ul li a:hover {
+	color: #999;
+	transition: all 0.5s;
+}
+
+#banner {
+	background: #fcdb00;
+	padding: 360px 0 50px;
+	text-align: center;
+	position: relative;
+}
+#banner h1 {
+	font-size: 48px;
+	line-height: 60px;
+	font-weight: 900;
+	color:#222222;
+}
+#banner p {
+	color:#222222;
+	font-size:20px;
+	line-height:24px;
+	margin:20px 0 40px;
+}
+#banner a.start {
+	width: 256px;
+	height: 56px;
+	line-height: 56px;
+	border: 2px solid #000000;
+	color: #000000;
+	font-size:22px;
+	display: block;
+	margin:0 auto 180px;
+	text-align: center;
+	font-weight: 700;
+}
+#banner a.start:hover {
+	color: #fff;
+	background: #232323;
+	transition: all 0.5s;
+}
+#banner a i{color:#000; font-size:34px;}
+#features{padding:110px 0;}
+#features h3{font-size:22px; line-height:24px; font-weight:700; color:#010101;}
+#features i{font-size:50px; text-align:center; display:block; color:#010101;}
+#bottom p{padding:13px 0 80px;}
+
+#pricing{padding:40px 0 150px; text-align:center;}
+#pricing article i{font-size:48px; color:#010101; height:100px; width:100px; border-radius:50%; line-height:100px; background:#ebebeb;}
+#pricing article h3{font-size:24px; line-height:24px; font-weight:700; color:#010101; margin:22px 0 15px;}
+#pricing article  p.small{font-size:14px; color:#898989; padding-bottom:36px;}
+#pricing article h4{font-size:32px; line-height:24px; font-weight:700; color:#010101;}
+
+#pricing article span.line{ width:50px; height:2px; background:#010101; display:inline-block;}
+#pricing article a{width:140px; height:47px; line-height:47px; border:2px solid #010101; font-weight:700; display:block; color:#010101; margin:34px auto 20px;}
+#pricing article a:hover{background:#010101; color:#fff; transition:all 0.5s;}
+#pricing article:hover i{background:#010101;color:#fff;}
+#work{padding: 40px 0 150px;}
+#work article h3{ font-size:22px; font-weight:700; color:#010101; line-height:24px; text-align:center; margin-top:17px;}
+#work article p{text-align:center; padding-bottom:65px;}
+
+
+.mainimg{position:relative;}
+.mainimg img{display:block; width:100%;}
+.mainimg{width:100%; display:block;}
+.halfleft{width:50%; float:left; font-size:14px; color:#fff;}
+.halfright{width:50%; float:right; text-align:right; font-size:14px; color:#fff;}
+.match{position:absolute; left:10px; right:10px; bottom:10px; z-index:9998; }
+
+.imgDescription2 {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  background:  #000;
+  color: #fff;
+	width:100%;
+	height:auto;
+font-size:18px;
+	font-weight:400;
+	text-align:center;
+  visibility: hidden;
+  opacity: 0;
+  padding-top:80px;
+  transition:all 0.5s;
+  cursor:pointer;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+.mainimg:hover .imgDescription2 {
+  visibility: visible;
+  opacity: 1;
+}
+.imgDescription2 i{font-size:50px;}
+
+#team{padding:50px 0 155px; text-align:center;}
+#team article span{display:block; font-size:14px; line-height:18px; color:#313841; margin-bottom:10px;}
+#team article h3{ font-size:22px;color:#010101; line-height:24px; text-align:center; margin-top:35px; margin-bottom:5px;}
+#team article p{text-align:center; padding-bottom:10px;}
+#team article a i{font-size:16px; color:#010101; margin:0 4px;}
+#states{padding-bottom:75px; text-align:center;}
+#states article i{font-size:50px; color:#010101; display:block; }
+#team article a i:hover{color:#fcdb00; transition:all 0.5s;}
+#states article h3{ font-size:24px;color:#010101; font-weight:700; line-height:24px; text-align:center; margin-top:15px;}
+#states article p{text-align:center; padding-bottom:10px; font-size:14px;}
+#testimonilas{text-align:center; margin-bottom:200px;}
+#testimonilas h3{font-size:22px; margin-top:10px; color:#010101; margin-bottom:5px;}
+#testimonilas span{display:block; margin-bottom:25px;}
+#testimonilas p{display:inline-block; font-size:20px; color:#898989;}
+i.onemore {
+    text-align: left;
+    position: relative;
+    top: -40px;
+    left: -35px;
+    font-size: 20px;
+    color: #010101;
+}
+i.twomore{text-align:right; position: relative;
+    right: -35px;
+    font-size: 20px;
+    color: #010101;}
+#contact{padding-bottom:75px; text-align:center;}
+#contact i{font-size:22px; color:#010101;}
+
+#contact h3{font-size:24px; margin-top:15px; color:#010101; margin-bottom:5px;}
+#contact span{font-size:14px; line-height:16px; display:block; margin-bottom:40px;}
+
+#contact form{max-width:480px; width:100%; margin:0 auto;}
+#contact form input , #contact form textarea{width:100%; outline:0; border:2px solid #010101; margin-bottom:25px; padding:13px; color:#010101;}
+#contact form textarea{height:200px;}
+#contact form a{width:170px; height:51px; line-height:51px; background:#010101; color:#fff; font-weight:700; text-transform:uppercase;display:block; margin:0 auto;}
+#contact form a:hover{background:#fcdb00; color:#010101; transition:all 0.5s;}
+footer{padding:90px 0 277px; background:#010101;}
+footer h2{color:#fff;}
+footer p.top{margin-bottom:35px;}
+.mesg{max-width:740px; width:100%; display:block; margin:0 auto 110px;}
+footer .mesg input{width:78%; background:#fff; border:0; padding:13px; outline:0; height:51px;}
+footer .mesg button{width:135px; margin-left:10px; background:#fff; border:0; outline:0; height:52px; line-height:49px; color:#010101; font-weight:700;}
+footer .mesg button:hover{background:#fcdb00;}
+footer a , footer address{display:block; color:#fff;}
+footer a:hover{color:#fcdb00;}
+.active {
+	color: #999;
+}
+
+
+/* New */
+
+.os-animation {
+	opacity: 0;
+}
+.os-animation.animated {
+	opacity: 1;
+}
+.staggered-animation {
+	opacity: 0;
+}
+.staggered-animation.animated {
+	opacity: 1;
+}
+/*LOADER EFFECT*/
+/*Paste this css to your style sheet file or under head tag*/
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background: #fcdb00;
+}
+
+
+.cssload-container{
+	display: block;
+	margin:49px auto;
+	width:97px;
+	top:50%;
+	position:relative;
+}
+
+.cssload-loading i{
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+	border-radius: 50%;
+	background: rgb(255,255,255);
+}
+.cssload-loading i:first-child{
+	opacity: 0;
+	animation:cssload-loading-ani2 0.58s linear infinite;
+		-o-animation:cssload-loading-ani2 0.58s linear infinite;
+		-ms-animation:cssload-loading-ani2 0.58s linear infinite;
+		-webkit-animation:cssload-loading-ani2 0.58s linear infinite;
+		-moz-animation:cssload-loading-ani2 0.58s linear infinite;
+	transform:translate(-19px);
+		-o-transform:translate(-19px);
+		-ms-transform:translate(-19px);
+		-webkit-transform:translate(-19px);
+		-moz-transform:translate(-19px);
+}
+.cssload-loading i:nth-child(2),
+.cssload-loading i:nth-child(3){
+	animation:cssload-loading-ani3 0.58s linear infinite;
+		-o-animation:cssload-loading-ani3 0.58s linear infinite;
+		-ms-animation:cssload-loading-ani3 0.58s linear infinite;
+		-webkit-animation:cssload-loading-ani3 0.58s linear infinite;
+		-moz-animation:cssload-loading-ani3 0.58s linear infinite;
+}
+.cssload-loading i:last-child{
+	animation:cssload-loading-ani1 0.58s linear infinite;
+		-o-animation:cssload-loading-ani1 0.58s linear infinite;
+		-ms-animation:cssload-loading-ani1 0.58s linear infinite;
+		-webkit-animation:cssload-loading-ani1 0.58s linear infinite;
+		-moz-animation:cssload-loading-ani1 0.58s linear infinite;
+}
+
+
+
+
+@keyframes cssload-loading-ani1{
+	100%{
+		transform:translate(39px);
+		opacity: 0;
+	}
+}
+
+@-o-keyframes cssload-loading-ani1{
+	100%{
+		-o-transform:translate(39px);
+		opacity: 0;
+	}
+}
+
+@-ms-keyframes cssload-loading-ani1{
+	100%{
+		-ms-transform:translate(39px);
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes cssload-loading-ani1{
+	100%{
+		-webkit-transform:translate(39px);
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes cssload-loading-ani1{
+	100%{
+		-moz-transform:translate(39px);
+		opacity: 0;
+	}
+}
+
+@keyframes cssload-loading-ani2{
+	100%{
+		transform:translate(19px);
+		opacity: 1;
+	}
+}
+
+@-o-keyframes cssload-loading-ani2{
+	100%{
+		-o-transform:translate(19px);
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes cssload-loading-ani2{
+	100%{
+		-ms-transform:translate(19px);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes cssload-loading-ani2{
+	100%{
+		-webkit-transform:translate(19px);
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes cssload-loading-ani2{
+	100%{
+		-moz-transform:translate(19px);
+		opacity: 1;
+	}
+}
+
+@keyframes cssload-loading-ani3{
+	100%{
+		transform:translate(19px);
+	}
+}
+
+@-o-keyframes cssload-loading-ani3{
+	100%{
+		-o-transform:translate(19px);
+	}
+}
+
+@-ms-keyframes cssload-loading-ani3{
+	100%{
+		-ms-transform:translate(19px);
+	}
+}
+
+@-webkit-keyframes cssload-loading-ani3{
+	100%{
+		-webkit-transform:translate(19px);
+	}
+}
+
+@-moz-keyframes cssload-loading-ani3{
+	100%{
+		-moz-transform:translate(19px);
+	}
+}

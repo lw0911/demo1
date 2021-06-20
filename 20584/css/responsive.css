@@ -1,0 +1,565 @@
+/*==================== Media Queries for all the devices ====================*/
+
+/*==================== Media Query for max-width 1300px (Laptop View) ====================*/
+
+@media (max-width:1300px) {
+    /*==================== 02. About Page CSS ====================*/
+    /*---------- We are volition studio section ----------*/
+    #ms-we-are-volition-sec .ms-spacer-120 {
+        height: 60px;
+    }
+    #ms-we-are-volition-sec .container-fluid .ms-abt-pg-img {
+        margin-top: -560px;
+    }
+}
+
+/*==================== Media Query for max-width 1030px (Ipad Pro View) ====================*/
+
+@media (max-width:1030px) {
+    /*==================== 01. General CSS ====================*/
+    .ms-sec-pad {
+        padding: 100px 0;
+    }
+    /*========== Footer Section CSS ==========*/
+    footer .ms-footer-top {
+        padding: 100px 0 60px 0;
+    }
+
+    /*==================== 02. Homepage CSS ====================*/
+    /*---------- White Background Section ----------*/
+    #ms-white-bg-sec {
+        padding-top: 100px;
+    }
+    /*---------- Featured Projects & Testimonials Section ----------*/
+    #ms-do-sec {
+        padding-bottom: 50px;
+    }
+    #ms-project-sec {
+        padding: 50px 0 100px 0;
+    }
+    #ms-project-sec .ms-spacer-120 {
+        height: 100px;
+    }
+    #ms-project-sec .ms-special-padding {
+        padding: 0 4% 0 4%;
+    }
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .nav-btn {
+        top: 235px;
+    }
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .prev-slide {
+        left:340px;
+    }
+    /*---------- Our Team Section ----------*/
+    #ms-team-sec {
+        padding: 100px 0 200px 0;
+    }
+
+    /*==================== 03. About Page CSS ====================*/
+    /*---------- We are volition studio section ----------*/
+    #ms-we-are-volition-sec .container-fluid .ms-abt-pg-img {
+        margin-top: -520px;
+    }
+    /*---------- Our Vision section ----------*/
+    #ms-vision-sec .ms-video-img {
+        margin-top: -500px;
+        margin-bottom: -250px;
+    }
+    #ms-vision-sec .ms-rotate-box {
+        padding-right: 30px;
+    }
+    /*---------- Our Team section ----------*/
+    #ms-team-sec.ms-abt-team-sec {
+        padding: 100px 0 100px 0;
+    }
+
+    /*==================== 06. Team Page CSS ====================*/
+    #ms-team-page .ms-apply-img {
+        padding: 115px 20px;
+    }
+
+    /*==================== 08. Blog Page CSS ====================*/
+    #ms-blog-one-pg-sec .ms-spacer-30 {
+        height: 0;
+    }
+
+    /*==================== 09. FAQ Page CSS ====================*/
+    #ms-faq-page-sec .ms-spacer-120 {
+        height: 100px;
+    }
+
+    /*==================== 10. Pricing Page CSS ====================*/
+    #ms-pricing-pg-sec .ms-pricing-box {
+        padding: 50px 15px;
+    }
+    #ms-pricing-pg-sec .ms-pricing-detail .ms-btn-sec .btn.ms-btn {
+        padding: 17px 13px;
+    }
+
+    /*==================== 12. Error Page CSS ====================*/
+    #ms-inr-bnr-sec.ms-error-page h1 {
+        font-size: 250px;
+    }
+}
+/*==================== Media Query for max-width 770px (Ipad View) ====================*/
+
+@media (max-width:770px) {
+    /*==================== 01. General CSS ====================*/
+    h2 {
+        font-size: 32px;
+    }
+    .ms-sec-pad {
+        padding: 80px 0;
+    }
+    .ms-font-size-70 {
+        font-size:60px;
+    }
+    /*========== Header Section CSS ==========*/
+    header nav.ms-header-padding {
+        padding: 16px 15px 15px 15px;
+    }
+    header nav .ms-header-btn {
+        padding: 10px 15px;
+        display: inline-block;
+    }
+    header nav ul .nav-item {
+        margin: 0 8px;
+    }
+    /*========== Footer Section CSS ==========*/
+    footer .ms-footer-top {
+        padding: 80px 0 60px 0;
+    }    
+
+    /*==================== 02. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec .ms-home-bnr {
+        padding: 280px 10% 160px 5%;
+    }
+    /*---------- White Background Section ----------*/
+    #ms-white-bg-sec {
+        padding-top: 100px;
+    }
+    /*---------- Success Stories Section ----------*/
+    #ms-success-sec .ms-right-side {
+        padding: 30px 10px;
+    }
+    #ms-success-sec .ms-blank-space {
+        margin-top: 125px;
+    }
+    /*---------- Featured Projects & Testimonials Section ----------*/
+    #ms-project-sec .ms-img-bnr h3 {
+        font-size: 20px;
+    }
+    #ms-project-sec .ms-img-bnr p {
+        font-size: 12px;
+    }
+    #ms-project-sec .ms-img-bnr h6 {
+        font-size: 14px;
+    }
+    #ms-project-sec .ms-img-bnr .ms-spacer-30 {
+        height: 20px;
+    }
+    #ms-project-sec .ms-testimonial-carousel {
+        padding: 50px 55px;
+    }
+    #ms-project-sec .ms-testimonial-carousel #counter {
+        right: 10px;
+    }
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .nav-btn {
+        top: 295px;
+    }
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .prev-slide {
+        left: 255px;
+    }
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .next-slide {
+        right:-30px;
+    }
+    #ms-project-sec .ms-special-padding {
+        padding: 0;
+    }
+    /*---------- Our Team Section ----------*/
+    #ms-team-sec.ms-abt-team-sec {
+        padding: 80px 0 80px 0;
+    }
+    #ms-team-sec .ms-team-box img {
+        width: 100%;
+    }
+    /*---------- Latest News Section ----------*/
+    #ms-news-sec .ms-blog-right-pad {
+        padding-right: 15px;
+    }
+    #ms-news-sec .ms-blog-left-pad {
+        padding-left:15px;
+    }
+
+    /*==================== 03. About Page CSS ====================*/
+    /*---------- We are volition studio section ----------*/
+    #ms-we-are-volition-sec .container-fluid .ms-abt-pg-img {
+        margin-top: -1450px;
+        width: 90%;
+    }
+    #ms-we-are-volition-sec .ms-pad-right {
+        padding-right: 60px;
+        padding-top: 600px;
+        padding-bottom: 30px;
+    }
+    /*---------- Our Vision section ----------*/
+    #ms-vision-sec .ms-spacer-120 {
+        height: 0;
+    }
+    #ms-vision-sec .ms-video-img {
+        margin-bottom: -110px;
+    }
+
+    /*==================== 04. Service Page CSS ====================*/
+    /*---------- Creativity section ----------*/
+    #ms-service-one-creativity-sec .ms-spacer-120, #ms-service-two-creativity-sec .ms-spacer-120 {
+        height: 80px;
+    }
+    /*---------- Strategy section ----------*/
+    #ms-service-one-strategy-sec .ms-spacer-120, #ms-service-two-strategy-sec .ms-spacer-120 {
+        height: 0;
+    }
+    /*---------- Best Solutions section ----------*/
+    #ms-solution-sec .ms-video-img {
+        margin-top: -370px;
+    }
+
+    /*==================== 05. Project Page CSS ====================*/
+    #ms-project-pg-sec .ms-project-title {
+        padding: 25px 15px;
+    }
+
+    /*==================== 06. Team Page CSS ====================*/
+    #ms-team-page .ms-apply-img {
+        padding: 63px 10px;
+    }
+
+    /*==================== 07. Career Page CSS ====================*/
+    /*---------- Career One Page CSS ----------*/
+    #ms-career-one-sec .ms-job-box .ms-bg-img img {
+        width: 100%;
+    }
+    #ms-career-one-sec .ms-job-box.ms-margin-bottom {
+        margin-bottom: 30px;
+    }
+    /*---------- Career Detail Page CSS ----------*/
+    #ms-career-detail-page {
+        padding-bottom: 0;
+    }
+
+    /*==================== 08. Blog Pages CSS ====================*/
+    #ms-blog-two-pg-sec .ms-blog-box .ms-blog-content {
+        padding: 60px 20px 30px 10px;
+    }
+    #ms-blog-detail-sec .ms-blog-detail-content {
+        padding: 0;
+    }
+    #ms-blog-detail-sec .ms-spacer-40 {
+        height: 10px;
+    }
+    #ms-blog-detail-sec .ms-quote-box {
+        padding: 50px;
+    }
+    #ms-blog-detail-sec .ms-social-btn .ms-fb-icon, 
+    #ms-blog-detail-sec .ms-social-btn .ms-twitter-icon, 
+    #ms-blog-detail-sec .ms-social-btn .ms-google-icon, 
+    #ms-blog-detail-sec .ms-social-btn .ms-linked-icon {
+        margin-right: 15px;
+    }
+
+    /*==================== 09. FAQ Page CSS ====================*/
+    #ms-faq-page-sec .ms-spacer-120 {
+        height: 80px;
+    }
+    #ms-faq-page-sec .card-title > a {
+        padding: 20px 30px;
+    }   
+    #ms-faq-page-sec .card-body {
+        padding: 20px 30px;
+    }
+    #ms-faq-page-sec .card-title > a:after {
+        right: 30px;
+    }
+
+    /*==================== 10. Pricing Page CSS ====================*/
+    #ms-pricing-pg-sec .ms-pricing-box {
+        padding: 50px;
+    }
+
+    /*==================== 12. Error Page CSS ====================*/
+    #ms-inr-bnr-sec.ms-error-page h1 {
+        font-size: 200px;
+    }
+    
+    /*==================== 13. Contact Page CSS ====================*/
+    #ms-testimonial-page-sec .ms-spacer-60 {
+        height: 40px;
+    }
+}
+
+/*==================== Media Query for max-width 500px, 380px, 350px (Mobile View) ====================*/
+
+@media (max-width:500px) {
+    /*==================== 01. General CSS ====================*/
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .ms-primary-btn {
+        letter-spacing: 0.3em;
+        padding: 12px 25px;
+    }
+    .ms-top-margin {
+        margin-top: -60px;
+    }
+    .ms-sec-pad {
+        padding: 60px 0;
+    }
+    .ms-font-size-70 {
+        font-size: 32px;
+    }
+    /*========== Footer Section CSS ==========*/
+    footer .ms-footer-top {
+        padding: 60px 0 60px 0;
+    }
+    /*========== Inner Pages banner Section CSS ==========*/
+    #ms-inr-bnr-sec {
+        padding: 250px 0 130px 0;
+    }
+
+    /*==================== 02. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec .ms-home-bnr {
+        padding: 250px 10% 150px 3%;
+    }
+    #ms-bnr-sec h2 {
+        font-size:70px;
+    }
+    #ms-bnr-sec .ms-spacer-60 {
+        height: 30px;
+    }
+    /*---------- White Background Section ----------*/
+    #ms-white-bg-sec {
+        padding-top: 80px;
+    }
+    /*---------- Featured Projects & Testimonials Section ----------*/
+    #ms-project-sec {
+        padding: 20px 0 80px 0;
+    }
+    #ms-project-sec .ms-spacer-60 {
+        height: 10px;
+    }
+    #ms-project-sec .ms-spacer-120 {
+        height: 40px;
+    }
+    #ms-project-sec .ms-testimonial-carousel {
+        padding: 40px 35px;
+    }
+    #ms-project-sec .ms-testimonial-carousel #counter {
+        right: 30px;
+        top: -20px;
+    }
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .nav-btn {
+        top: 295px;
+    }
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .prev-slide {
+        left: 205px;
+    }
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .next-slide {
+        right: -10px;
+    }
+    /*---------- Our Team Section ----------*/
+    #ms-team-sec {
+        padding: 60px 0 140px 0;
+    }
+    /*---------- Client Section ----------*/
+    #ms-client-sec .ms-bg-232325 {
+        padding: 60px 0;
+        top: -100px;
+    }
+    #ms-client-sec .ms-spacer-80 {
+        height: 30px;
+    }
+    /*---------- Latest News Section ----------*/
+    #ms-news-sec {
+        padding-bottom: 50px;
+    }
+    #ms-news-sec .ms-spacer-60 {
+        height: 40px;
+    }
+    #ms-news-sec .ms-spacer-40 {
+        height: 20px;
+    }
+    /*---------- Work With Us Section ----------*/
+    #ms-work-sec {
+        padding-top: 50px;
+    }
+    #ms-work-sec .ms-map {
+        margin-top: 50px;
+    }
+
+    /*==================== 03. About Page CSS ====================*/
+    /*---------- We are Volition Studio Section ----------*/
+    #ms-we-are-volition-sec .ms-pad-right {
+        padding-top: 250px;
+        padding-right: 15px;
+    }
+    /*---------- Our Vision Section ----------*/
+    #ms-vision-sec {
+        padding-bottom: 370px;
+    }
+    #ms-vision-sec .ms-spacer-60 {
+        height: 40px;
+    }
+    #ms-vision-sec .ms-video-img {
+        margin-bottom: -890px;
+    }
+    #ms-vision-sec .ms-rotate-box {
+        padding-right: 0;
+    }
+    /*---------- Our Team Section ----------*/
+    #ms-team-sec.ms-abt-team-sec {
+        padding: 80px 0 40px 0;
+    }
+
+    /*==================== 04. Service Page CSS ====================*/
+    /*---------- Creativity Section ----------*/
+    #ms-service-one-creativity-sec .ms-spacer-120, #ms-service-two-creativity-sec .ms-spacer-120 {
+        height: 80px;
+    }
+    /*---------- Best Solutiions Section ----------*/
+    #ms-solution-sec {
+        padding-top: 470px;
+        padding-bottom: 20px;
+    }
+    #ms-solution-sec .ms-video-img {
+        margin-top: -950px;
+    }
+
+    /*==================== 05. Project Page CSS ====================*/
+    #ms-project-pg-sec .ms-project-title {
+        padding: 15px 15px;
+    }
+    /*---------- Projects Detail Page CSS ----------*/
+    #ms-project-detail-sec .ms-spacer-60 {
+        height: 30px;
+    }
+
+    /*==================== 06. Team Page CSS ====================*/
+    #ms-team-page .ms-apply-img {
+        padding: 120px 10px;
+    }
+    #ms-team-page .ms-team-box img {
+        width: 100%;
+    }
+    #ms-team-page .ms-spacer-30 {
+        height: 0;
+    }
+    /*---------- Team Detail Page CSS ----------*/
+    #ms-team-detail-page .ms-spacer-60 {
+        height: 40px;
+    }
+    #ms-team-detail-page .ms-spacer-120 {
+        height: 0;
+    }
+
+    /*==================== 07. Career Page CSS ====================*/
+    /*---------- Career One Page CSS ----------*/
+    #ms-team-page .ms-spacer-80 {
+        height: 50px;
+    }
+    /*---------- Career Detail Page CSS ----------*/
+    #ms-career-detail-page .ms-spacer-80 {
+        height: 40px;
+    }
+    #ms-career-detail-page .ms-padding {
+        padding: 60px 20px;
+    }
+
+    /*==================== 08. Blog Page CSS ====================*/
+    #ms-blog-one-pg-sec .ms-spacer-40 {
+        height: 20px;
+    }
+    #ms-blog-one-pg-sec .ms-blog-box {
+        margin-bottom: 40px;
+    }
+    #ms-blog-two-pg-sec .ms-blog-box .ms-blog-content {
+        padding: 20px;
+    }
+    #ms-blog-two-pg-sec .ms-spacer-60 {
+        height: 30px;
+    }
+    #ms-blog-detail-sec .ms-quote-box {
+        padding: 40px 30px;
+    }
+    #ms-blog-detail-sec .ms-social-btn .ms-fb-icon, #ms-blog-detail-sec .ms-social-btn .ms-twitter-icon {
+        margin-bottom: 20px;
+    }
+
+    /*==================== 09. FAQ Page CSS ====================*/
+    #ms-faq-page-sec .card-title > a, #ms-faq-page-sec .card-body {
+        padding: 20px;
+    }
+    #ms-faq-page-sec .card-title > a:after {
+        top: 35px;
+    }
+
+    /*==================== 10. Pricing Page CSS ====================*/
+    #ms-pricing-pg-sec .ms-pricing-box {
+        padding: 50px 30px;
+    }
+
+    /*==================== 11. Testimonial Page CSS ====================*/
+    #ms-testimonial-page-sec .ms-testimonial-box.ms-margin-bottom {
+        margin-bottom: 30px;
+    }
+    #ms-testimonial-page-sec .ms-spacer-80 {
+        height: 50px;
+    }
+   
+}
+
+@media (max-width:380px) {
+    /*==================== 2. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec h2 {
+        font-size:60px;
+    }
+    .ms-font-size-70 {
+        font-size: 30px;
+    }
+    /*---------- Featured Projects & Testimonials Section ----------*/
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .prev-slide {
+        left: 165px;
+    }
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .nav-btn {
+        top: 325px;
+    }
+
+    /*==================== 05. Project Page CSS ====================*/
+    #ms-project-pg-sec .ms-project-title {
+        padding: 15px 10px;
+    }
+
+    /*==================== 12. Error Page CSS ====================*/
+    #ms-inr-bnr-sec.ms-error-page h1 {
+        font-size: 150px;
+    }
+
+}
+
+@media (max-width:350px) {
+    /*==================== 2. Homepage CSS ====================*/
+    /*---------- Featured Projects & Testimonials Section ----------*/
+    #ms-project-sec .ms-testimonial-carousel {
+        padding: 30px;
+    }
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .nav-btn {
+        top: 385px;
+    }
+    #ms-project-sec .ms-testimonial-carousel .owl-carousel .prev-slide {
+        left: 120px;
+    }
+}
