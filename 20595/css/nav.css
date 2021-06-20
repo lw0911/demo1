@@ -1,0 +1,246 @@
+/* header */
+
+header {
+    background: #fff;
+}
+
+
+.header li:last-child a {
+    border-right: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover,
+li.nav-item.active a {
+    background-color: #35b53e;
+    color: #fff;
+}
+
+.header .logo {
+    font-size: 0.85em;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #2a419f;
+    font-weight: 600;
+}
+
+.header .logo span {
+    color: #35b53e;
+    margin-right: 10px;
+}
+
+.header-wthree {
+    float: left;
+}
+
+/* menu */
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+    text-align: center;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.header .menu-icon .navicon {
+    background: #35b53e;
+    display: block;
+    height: 5px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 25px;
+    border-radius: 5px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+    background: #35b53e;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.header .menu-icon .navicon:before {
+    top: 10px;
+}
+
+.header .menu-icon .navicon:after {
+    top: -10px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn {
+    overflow: hidden;
+}
+
+.header .menu-btn:checked~.menu {
+    max-height: 500px;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon {
+    background: transparent;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+.nav-link {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #031f9a;
+    background: transparent;
+    border: none;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    border-radius: 5px;
+}
+
+.nav-link:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+}
+
+.nav-link:hover:after,
+.active .nav-link:after,
+.nav-link.active:after {
+    width: 100%;
+    left: 0;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    background: #000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+li.dropdown.nav-item:hover {
+    background: #35b53e;
+}
+
+.dropdown-content .show {
+    background: #fff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    background: #fff;
+    top: 40px;
+    padding: 10px;
+}
+
+.dropdown-content a {
+    color: #031f9a;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+/* 48em = 768px */
+
+@media (min-width: 1024px) {
+    .header li {
+        float: left;
+        margin-right: 5px;
+    }
+
+    .header li:last-child {
+        margin-right: 0;
+    }
+
+    .nav_w3ls {
+        float: right;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .header li a {
+        border-right: 1px solid transparent;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .dropdown-content {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:568px) {
+    .header .logo {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:375px) {
+
+    .header .logo {
+        font-size: 0.7em;
+    }
+}

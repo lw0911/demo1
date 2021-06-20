@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title></title>
+	<!-- Font Awesome Css -->
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!-- Bootstrap version 4.4.1 -->
+	<link rel="stylesheet" href="assets/css/bootstrap-4.4.1.min.css" />
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- magnific popup versison 1.1.0 -->
+	<link rel="stylesheet" href="assets/css/magnific-popup-1.1.0.css">
+	<!-- Nice Select  -->
+	<link rel="stylesheet" href="assets/css/nice-select-1.0.css">
+	<!-- meanmenu version 2.0.7 -->
+	<link rel="stylesheet" href="assets/css/meanmenu-2.0.7.min.css">
+	<!-- Slick Version 1.9.0 -->
+	<link rel="stylesheet" href="assets/css/slick-1.9.0.css" />
+	<!-- datetimepicker -->
+	<link rel="stylesheet" href="assets/css/bootstrap-datepicker.css" />
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<!-- Responsive Css -->
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body class="room-details-page">
+	<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<!-- preloader -->
+	<div class="loader" id="preLoader">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<!-- Header Start -->
+	<header>
+		<div class="header-top-area section-bg">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-xl-4 col-lg-7 offset-xl-3 col-md-6">
+						<ul class="top-contact-info list-inline">
+							<li><i class="far fa-map-marker-alt"></i>205 Main Rood, New York</li>
+							<li><i class="far fa-phone"></i>+89(456) 789 999</li>
+						</ul>
+					</div>
+					<div class="col-xl-5 col-lg-5 col-md-6">
+						<div class="top-right text-right">
+							<ul class="top-menu list-inline d-inline">
+								<li><a href="">Home</a></li>
+								<li><a href="">Services</a></li>
+								<li><a href="">Privacy</a></li>
+							</ul>
+							<ul class="top-social-icon list-inline d-inline">
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-google"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-menu-area">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-xl-3 col-lg-3 col-md-4 col-7">
+						<div class="logo">
+							<a href="index.html"><img src="assets/img/logo.png" alt="Avson"></a>
+						</div>
+					</div>
+					<div class="col-xl-9 col-lg-9 col-md-8 col-5">
+						<div class="menu-right-area text-right">
+							<div class="lag-select">
+								<div class="lag-img">
+									<img src="assets/img/icons/flag.png" alt="Flug">
+								</div>
+								<div class="lag-option">
+									<select>
+										<option value="English">English</option>
+										<option value="Bangla">Bangla</option>
+										<option value="Hindi">Hindi</option>
+									</select>
+								</div>
+							</div>
+							<nav class="main-menu">
+								<ul class="list-inline">
+									<li class="have-submenu">
+										<a href="index.html">Home</a>
+										<ul class="submenu">
+											<li><a href="index.html">Home 1</a></li>
+											<li><a href="index-2.html">Home 2</a></li>
+										</ul>
+									</li>
+									<li class="have-submenu active-page">
+										<a href="room-gird.html">Rooms</a>
+										<ul class="submenu">
+											<li><a href="room-list.html">Room List</a></li>
+											<li><a href="room-gird.html">Room Gird</a></li>
+											<li><a href="room-details.html">Room Details</a></li>
+										</ul>
+									</li>
+									<li><a href="service.html">Services</a></li>
+									<li class="have-submenu">
+										<a href="blog.html">News</a>
+										<ul class="submenu">
+											<li><a href="blog-gird.html">News Gird</a></li>
+											<li><a href="blog.html">News Standard</a></li>
+											<li><a href="blog-details.html">News Details</a></li>
+										</ul>
+									</li>
+									<li class="have-submenu">
+										<a href="">Pages</a>
+										<ul class="submenu">
+											<li class="have-submenu"> <a href="index.html">Home</a>
+												<ul class="submenu">
+													<li><a href="index.html">Home 1</a></li>
+													<li><a href="index-2.html">Home 2</a></li>
+												</ul>
+											</li>
+											<li><a href="about.html">About Us</a></li>
+											<li class="have-submenu">
+												<a href="room-gird.html">Rooms</a>
+												<ul class="submenu">
+													<li><a href="room-list.html">Room List</a></li>
+													<li><a href="room-gird.html">Room Gird</a></li>
+													<li><a href="room-details.html">Room Details</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="service.html">Services</a>
+											</li>
+											<li class="have-submenu"> <a href="blog.html">News</a>
+												<ul class="submenu">
+													<li><a href="blog-gird.html">News Gird</a></li>
+													<li><a href="blog.html">News Standard</a></li>
+													<li><a href="blog-details.html">News Details</a></li>
+												</ul>
+											</li>
+											<li><a href="gallery.html">Gallery</a></li>
+											<li><a href="contact.html">Contact</a></li>
+											<li><a href="our-staff.html">Our Staff</a></li>
+											<li><a href="resturent.html">Resturent</a></li>
+											<li><a href="reservation.html">Reservation</a></li>
+										</ul>
+									</li>
+									<li><a href="gallery.html">Gallery</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+							<div class="search-wrap">
+								<a href="" class="search-icon"><i class="far fa-search"></i></a>
+								<a href="" class="search-icon icon-close">
+									<i class="far fa-times"></i>
+								</a>
+								<div class="search-form">
+									<form>
+										<input type="search" placeholder="TYPE AND PRESS ENTER.....">
+									</form>
+								</div>
+							</div>
+							<div class="quote-btn">
+								<a href="#" class="btn filled-btn">get a quote <i
+										class="far fa-long-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mobilemenu"></div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+	<!-- Main Wrap start -->
+	<main>
+		<!-- Breadcrumb section -->
+		<section class="breadcrumb-area d-flex align-items-center position-relative bg-img-center"
+			style="background-image: url(assets/img/blog/blog-breadcrumb.jpg);">
+			<div class="container">
+				<div class="breadcrumb-content text-center">
+					<h1>Room Details</h1>
+					<ul class="list-inline">
+						<li><a href="index.html">Home</a></li>
+						<li><i class="far fa-angle-double-right"></i></li>
+						<li>Room Details</li>
+					</ul>
+				</div>
+			</div>
+			<h1 class="big-text">
+				Room
+			</h1>
+		</section>
+		<!-- Breadcrumb section End-->
+		<section class="room-details-wrapper section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<!-- Room Details -->
+						<div class="room-details">
+							<div class="entry-header">
+								<div class="post-thumb position-relative">
+									<img src="assets/img/blog/01.jpg" alt="Image">
+									<div class="price-tag">$180</div>
+								</div>
+								<div class="room-cat">
+									<a href="">Guest House</a>
+								</div>
+								<h2 class="entry-title">Modern Guest Rooms</h2>
+								<ul class="entry-meta list-inline">
+									<li><i class="far fa-bed"></i>3 Bed</li>
+									<li><i class="far fa-bath"></i>2 Baths</li>
+									<li><i class="far fa-ruler-triangle"></i>72 m</li>
+								</ul>
+							</div>
+							<div class="entry-content">
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+									doloremque
+									laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+									architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+									voluptas
+									sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+									ratione
+									voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+									sit
+									amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+									ut
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+									nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+									comm
+									odi consequatur
+								</p>
+								<div class="entry-gallery-img">
+									<figure class="entry-media-img">
+										<img src="assets/img/blog/02.jpg" alt="Image">
+									</figure>
+								</div>
+							</div>
+							<div class="room-specification">
+								<div class="row">
+									<div class="col-lg-4 col-md-12">
+										<div class="pricing-plan">
+											<h4 class="specific-title"> Pricing Plan </h4>
+											<table>
+												<tbody>
+													<tr>
+														<td>Nightly: </td>
+														<td class="big">$525</td>
+													</tr>
+													<tr>
+														<td>Weekends (Sat_sun): </td>
+														<td class="big">$515</td>
+													</tr>
+													<tr>
+														<td>Weekly (7d+): </td>
+														<td class="big">$515</td>
+													</tr>
+													<tr>
+														<td>Monthly (30d+): </td>
+														<td class="big">$505</td>
+													</tr>
+													<tr>
+														<td>Security Deposit: </td>
+														<td class="big">$1050</td>
+													</tr>
+													<tr>
+														<td>Additional Guests: </td>
+														<td class="big">$525</td>
+													</tr>
+													<tr>
+														<td> Additional Guests: </td>
+														<td class="big">Yes</td>
+													</tr>
+													<tr>
+														<td>Cleaning Fee: </td>
+														<td class="big">$1050</td>
+													</tr>
+													<tr>
+														<td>City Fee:</td>
+														<td class="big">$25 Per Stay</td>
+													</tr>
+													<tr>
+														<td>Minimum Number Of Days:</td>
+														<td class="big">1</td>
+													</tr>
+													<tr>
+														<td>Maximum Number Of Days:</td>
+														<td class="big">60</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div class="col-lg-4 col-6">
+										<div class="feature">
+											<h4 class="specific-title"> Features </h4>
+											<ul>
+												<li>Gym </li>
+												<li>Laundry</li>
+												<li>TV Cable</li>
+												<li>Wi-Fi</li>
+											</ul>
+										</div>
+										<div class="facilities">
+											<h4 class="specific-title"> Facilities </h4>
+											<ul>
+												<li>Farmacy </li>
+												<li>Free Parking</li>
+												<li>Reception</li>
+												<li>Security</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-4 col-6">
+										<div class="accomodation">
+											<h4 class="specific-title"> Features </h4>
+											<ul>
+												<li>Master Room</li>
+												<li>1 King Size</li>
+												<li>2 Guests</li>
+											</ul>
+										</div>
+										<div class="bedrooms">
+											<h4 class="specific-title"> Bedrooms </h4>
+											<ul>
+												<li>1 Queen Size</li>
+												<li>2 Guests</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<!-- Sidebars Area -->
+						<div class="sidebar-wrap">
+							<div class="widget booking-widget">
+								<h4 class="widget-title">$160.00 <span>Night</span></h4>
+								<form>
+									<div class="input-wrap">
+										<input type="text" placeholder="Location" id="location">
+										<i class="far fa-search"></i>
+									</div>
+									<div class="input-wrap">
+										<input type="text" placeholder="Arrive Date" id="arrive-date">
+										<i class="far fa-calendar-alt"></i>
+									</div>
+									<div class="input-wrap">
+										<input type="text" placeholder="Depart Date" id="depart-date">
+										<i class=""></i>
+										<i class="far fa-calendar-alt"></i>
+									</div>
+									<div class="input-wrap">
+										<select name="guests" id="guests">
+											<option value="Guests">Guests</option>
+											<option value="Guests">Guests</option>
+											<option value="Guests">Guests</option>
+										</select>
+									</div>
+									<div class="input-wrap">
+										<button type="submit" class="btn filled-btn btn-block">
+											book now <i class="far fa-long-arrow-right"></i>
+										</button>
+									</div>
+								</form>
+							</div>
+							<div class="widget category-widget">
+								<h4 class="widget-title">Gategory</h4>
+								<div class="single-cat bg-img-center"
+									style="background-image: url(assets/img/blog/cat-01.jpg);">
+									<a href="">Luxury Room</a>
+								</div>
+								<div class="single-cat bg-img-center"
+									style="background-image: url(assets/img/blog/cat-02.jpg);">
+									<a href="">Couple Room</a>
+								</div>
+								<div class="single-cat bg-img-center"
+									style="background-image: url(assets/img/blog/cat-03.jpg);">
+									<a href="">Hotel Views</a>
+								</div>
+							</div>
+							<div class="widget banner-widget"
+								style="background-image: url(assets/img/blog/sidebar-banner.jpg);">
+								<h2>Booking Your Latest apartment</h2>
+								<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit sed do eiusmod tempor
+									incididunt ut labore </p>
+								<a href="" class="btn filled-btn">BOOK NOW <i class="far fa-long-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Latest Room Start -->
+		<section class="latest-room-d section-bg section-padding">
+			<div class="container">
+				<!-- Section Title -->
+				<div class="section-title text-center">
+					<span class="title-top">Latest Product</span>
+					<h1>Explore Latest Product</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<!-- Single Room -->
+						<div class="single-room">
+							<div class="room-thumb">
+								<img src="assets/img/rooms/01.jpg" alt="Room">
+							</div>
+							<div class="room-desc">
+								<div class="room-cat">
+									<p>Guest House</p>
+								</div>
+								<h4><a href="single-room.html">Modern Guest Rooms</a></h4>
+								<p>
+									Avoids pleasure itself, because pleasure,
+									but because those who do not know how
+									to pursue pleasure rationally encounter
+								</p>
+								<ul class="room-info list-inline">
+									<li><i class="far fa-bed"></i>3 Bed</li>
+									<li><i class="far fa-bath"></i>2 Baths</li>
+									<li><i class="far fa-ruler-triangle"></i>72 m</li>
+								</ul>
+								<div class="room-price">
+									<p>$180.00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<!-- Single Room -->
+						<div class="single-room">
+							<div class="room-thumb">
+								<img src="assets/img/rooms/02.jpg" alt="Room">
+							</div>
+							<div class="room-desc">
+								<div class="room-cat">
+									<p>Meeting Room</p>
+								</div>
+								<h4><a href="single-room.html">Conference Room</a></h4>
+								<p>
+									Great explorer of the truth, the master-
+									builder of human happiness one rejects,
+									dislikes avoids pleasure because
+								</p>
+								<ul class="room-info list-inline">
+									<li><i class="far fa-bed"></i>3 Bed</li>
+									<li><i class="far fa-bath"></i>2 Baths</li>
+									<li><i class="far fa-ruler-triangle"></i>72 m</li>
+								</ul>
+								<div class="room-price">
+									<p>$205.00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mx-auto">
+						<!-- Single Room -->
+						<div class="single-room">
+							<div class="room-thumb">
+								<img src="assets/img/rooms/03.jpg" alt="Room">
+							</div>
+							<div class="room-desc">
+								<div class="room-cat">
+									<p>Guest Room</p>
+								</div>
+								<h4><a href="single-room.html">Deluxe Couple Room</a></h4>
+								<p>
+									Provident, similique sunt in culpa qui
+									officia deserunt mollitia animi laborum
+									dolorum fuga. Et harum quidem
+								</p>
+								<ul class="room-info list-inline">
+									<li><i class="far fa-bed"></i>3 Bed</li>
+									<li><i class="far fa-bath"></i>2 Baths</li>
+									<li><i class="far fa-ruler-triangle"></i>72 m</li>
+								</ul>
+								<div class="room-price">
+									<p>$199.00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Latest Room End -->
+		<!-- Brands section start -->
+		<section class="brands-section primary-bg">
+			<div class="container">
+				<div id="brandsSlideActive" class="row">
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/01.png" alt="Brands">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/02.png" alt="Brands">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/03.png" alt="Brands">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/04.png" alt="Brands">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/05.png" alt="Brands">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/06.png" alt="Brands">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/01.png" alt="Brands">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/02.png" alt="Brands">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/03.png" alt="Brands">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/04.png" alt="Brands">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/05.png" alt="Brands">
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="brand-item text-center">
+							<img src="assets/img/brands/06.png" alt="Brands">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Brands section End -->
+	</main>
+	<!-- Main Wrap end -->
+	<!-- Footer Start -->
+	<footer>
+		<div class="container">
+			<div class="footer-top">
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="widget footer-widget">
+							<div class="footer-logo">
+								<img src="assets/img/logo.png" alt="Logo">
+							</div>
+							<p>Avoids pleasure itself, because pleasure, but because those who do not</p>
+							<ul class="social-icons">
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-google"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="widget footer-widget">
+							<h4 class="widget-title">Quick Links</h4>
+							<ul class="nav-widget clearfix">
+								<li><a href="">Latest Services</a></li>
+								<li><a href="">Our History</a></li>
+								<li><a href="">Need A Career ?</a></li>
+								<li><a href="">My Account</a></li>
+								<li><a href="">Meet The Team</a></li>
+								<li><a href="">Web Security</a></li>
+								<li><a href="">Setting & Privacy</a></li>
+								<li><a href="">Domain & Hosting</a></li>
+								<li><a href="">Case Study</a></li>
+								<li><a href="">Server System</a></li>
+								<li><a href="">Company Fact</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="widget footer-widget">
+							<h4 class="widget-title">Recent News</h4>
+							<ul class="recent-post">
+								<li>
+									<div class="recent-post-img">
+										<img src="assets/img/recent-post/01.jpg" alt="News">
+									</div>
+									<h6><a href="">Using Low Vision As My Too Me Teach WordPress</a></h6>
+									<span class="recent-post-date">05 Jan 20</span>
+								</li>
+								<li>
+									<div class="recent-post-img">
+										<img src="assets/img/recent-post/02.jpg" alt="News">
+									</div>
+									<h6><a href="">Embarking On New Advent Inspiring Desktop Wall</a></h6>
+									<span class="recent-post-date">05 Jan 20</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<a href="#" class="back-to-top"><i class="far fa-angle-up"></i></a>
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="">Home</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Services</a></li>
+							<li><a href="">Team</a></li>
+							<li><a href="">Features</a></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<p class="copy-right text-right">Copyright &copy; 2020.Company name All rights reserved <a href="http://www.aizhanzhe.com/template.html" target="_blank">懒之才</a>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer End -->
+	<!-- modernizr version 3.6.0 -->
+	<script src="assets/js/modernizr-3.6.0.min.js"></script>
+	<!-- jQuery Version 1.12.4 -->
+	<script src="assets/js/jquery-1.12.4.min.js"></script>
+	<!-- Proper Version 1.16.0-->
+	<script src="assets/js/popper.min-1.16.0.js"></script>
+	<!-- Bootstrap Version 4.4.1 -->
+	<script src="assets/js/bootstrap-4.4.1.min.js"></script>
+	<!-- Slick Version 1.9.0 -->
+	<script src="assets/js/slick.min-1.9.0.js"></script>
+	<!-- isotope version 3.0.6 -->
+	<script src="assets/js/isotope.pkgd-3.0.6.min.js"></script>
+	<!-- MeanMenu version 2.0.7-->
+	<script src="assets/js/meanmenu-2.0.7.min.js"></script>
+	<!-- Nice select js version 1.0 -->
+	<script src="assets/js/jquery.nice-select-1.0.min.js"></script>
+	<!-- wow js version 1.1.3-->
+	<script src="assets/js/wow-1.1.3.min.js"></script>
+	<!-- magnific popup version 1.1.0 -->
+	<script src="assets/js/magnific-popup-1.1.0.min.js"></script>
+	<!-- Waypoints js version 2.0.3 -->
+	<script src="assets/js/waypoints-2.0.3.min.js"></script>
+	<!-- counterup js version 1.0 -->
+	<script src="assets/js/jquery.counterup-1.0.min.js"></script>
+	<!-- bootstrap datepicker -->
+	<script src="assets/js/bootstrap-datepicker.js"></script>
+	<!-- Google Maps -->
+	<script src="https://ditu.google.cn/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ "></script>
+	<!-- Main JS file -->
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
