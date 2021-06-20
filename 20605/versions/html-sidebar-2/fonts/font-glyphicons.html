@@ -1,0 +1,2662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="">
+    <meta name="keywords" content="thema bootstrap template, thema admin, bootstrap, admin template, bootstrap admin">
+
+    <meta name="author" content="LanceCoder">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="shortcut icon" href="">
+    <title>Thema Admin Boostrap Template</title>
+
+    <!-- Start Global plugin css -->
+    <link href="../../../assets/css/global-plugins.css" rel="stylesheet">
+    <link href="../../../assets/vendors/jquery-icheck/skins/all.css" rel="stylesheet" />
+    <!-- <link href="../../../assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/css/bootstrap-reset.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/font-awesome/css/font-awesome.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet" /> -->
+    <!-- <link href="../../../assets/vendors/pe-icon-7-stroke/css/helper.css" rel="stylesheet"/> -->
+    <!-- <link href="../../../assets/vendors/jquery-notific8/jquery.notific8.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/line-icons/line-icons.css" rel="stylesheet" /> -->
+    <!-- <link href="../../../assets/vendors/jquery-ui/jquery-ui.min.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/dropdowns-enhancement/css/dropdowns-enhancement.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/hover/hover.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/animate/animate.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/tooltipster/css/tooltipster.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../../assets/vendors/tooltipster/css/themes/tooltipster-light.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../../assets/vendors/tooltipster/css/themes/tooltipster-noir.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../../assets/vendors/tooltipster/css/themes/tooltipster-punk.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../../assets/vendors/tooltipster/css/themes/tooltipster-shadow.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet" /> -->
+    <!-- End Global plugin css -->
+    
+
+    <!-- Custom styles for this template -->
+    <link href="../../../assets/css/theme.css" rel="stylesheet">
+    <link href="../../../assets/css/style-responsive.css" rel="stylesheet"/>
+    <link href="../../../assets/css/class-helpers.css" rel="stylesheet"/>
+
+    <!--Color schemes-->
+    <link href="../../../assets/css/colors/green.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/turquoise.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/blue.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/amethyst.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/cloud.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/sun-flower.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/carrot.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/alizarin.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/concrete.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/wet-asphalt.css" rel="stylesheet">
+
+    <!--Fonts-->
+    <link href="../../../assets/fonts/Indie-Flower/indie-flower.css" rel="stylesheet" />
+    <link href="../../../assets/fonts/Open-Sans/open-sans.css?family=Open+Sans:300,400,700" rel="stylesheet" />
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]>
+    <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!--
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Thema Color Schemes
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+* Just add the attribute value to the attribute ID in <body> element
+* List of color scheme values that supported to this theme
+    - default-scheme - the default is green color
+    - alizarin-scheme
+    - amethyst-scheme
+    - blue-scheme
+    - carrot-scheme
+    - cloud-scheme
+    - concrete-scheme
+    - sun-flower-scheme
+    - turquoise-scheme
+    - wet-asphalt-scheme
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+
+
+<!--
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Thema Layout Options
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+* Lists of layout options just follow the instructions if you want to use this feature
+    > Boxed Page
+        - Just add class "fixed-width-unfixed-header" in <body> element 
+        - and add class "unfixed-header" also in  <div class="leftside-navigation"> just search "leftside-navigation"
+        - and add class also "unfixed-header" to the <section id="main-content"> element just search it
+        
+    > Boxed Page + Fixed Header
+        - Just add class "fixed-width" in <body> element
+        - and add class also "boxed-page-fixed-header" to the <section id="main-content"> element just search it
+
+    > Boxed Page + No sidebar
+        - Just add class "fixed-width-unfixed-header no-sidebar" in <body> element 
+        - and add class also "unfixed-header merge-left" to the <section id="main-content"> element just search it
+    
+    > Boxed Page + No sidebar + Fixed header
+        - Just add class "fixed-width no-sidebar" in <body> element
+        - and add class also "merge-left" to the <section id="main-content"> element just search it
+
+    > Full width + Unfixed header
+        - Just add class "full-content-unfixed-header" in <body> element
+        - and add class also "merge-left" to the <section id="main-content"> element just search it 
+    
+    > Right Sidebar
+        - Just follow the sample page
+        - the important to do is replace "<section id="main-content">" to "<section id="main-content-right">"
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<body id="default-scheme" class="theme-sidebar-2">
+
+    <!--======== Start Style Switcher ========-->    
+    <i class="style-switcher-btn fa fa-cogs hidden-xs"></i>
+    <div class="style-switcher">
+        <div class="style-swticher-header">
+            <div class="style-switcher-heading fg-white">Color Switcher</div>            
+            <div class="theme-close"><i class="icon-close"></i></div>
+        </div>
+
+        <div class="style-swticher-body">
+            <ul class="list-unstyled">
+                <li class="theme-default theme-active" data-style="default"></li>
+                <li class="theme-turquoise" data-style="turquoise"></li>
+                <li class="theme-blue" data-style="blue"></li>
+                <li class="theme-amethyst" data-style="amethyst"></li>
+                <li class="theme-cloud" data-style="cloud"></li>
+                <li class="theme-sun-flower" data-style="sun-flower"></li>
+                <li class="theme-carrot" data-style="carrot"></li>
+                <li class="theme-alizarin" data-style="alizarin"></li>
+                <li class="theme-concrete" data-style="concrete"></li>
+                <li class="theme-wet-ashphalt" data-style="wet-ashphalt"></li>
+            </ul>         
+        </div>
+    </div><!--/style-switcher-->
+    <!--======== End Style Switcher ========-->
+
+    <section id="container">
+
+        <!--header start-->
+        <header class="header fixed-top clearfix">
+
+            <!--logo start-->
+            <div class="brand">
+
+                <a href="../index.html" class="logo">
+                    Thema Admin
+                </a>
+                <div class="sidebar-toggle-box">
+                    <div class="fa fa-bars"></div>
+                </div>
+            </div>
+            <!--logo end-->
+
+            <!-- 
+                *****************************
+                ** Start of top navigation **
+                *****************************
+             -->
+            <div class="top-nav">
+
+                <ul class="nav navbar-nav navbar-left" style="margin-left:30px;">
+                    <li>
+                        <a href="javascript:void(0)" class="btn-menu-grid" title="Menu Grid">
+                            <span class="icon-grid"></span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            <span class=" fa fa-angle-down" style="font-size:12px;"></span>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInUp pull-right">
+                            <li>
+                                <a href="javascript:void(0);" class="hvr-bounce-to-right">  Submenu 1</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="hvr-bounce-to-right">
+                                    <span class="badge bg-red pull-right">20%</span>
+                                    <span>Submenu 2</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="hvr-bounce-to-right">Submenu 3</a>
+                            </li>
+                            <li><a href="login.html" class="hvr-bounce-to-right">Submenu 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>    
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="search-box">
+                        <input type="text" class="form-control search" placeholder=" Search">
+                    </li>
+                    <li role="presentation" class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                            <span class="pe-7s-mail" style="font-size:22.9px;"></span>
+                            <span class="badge bg-color label-danger">6</span>
+                        </a>
+                        <ul id="menu" class="dropdown-menu list-unstyled msg_list animated fadeInUp" role="menu">
+                            <li>
+                                <a class="hvr-bounce-to-right">
+                                    <span class="image">
+                                        <img src="../../../assets/images/profile.jpg" alt="Profile Image" />
+                                    </span>
+                                    <span>
+                                        <span>John Smith</span>
+                                        <span class="time">3 mins ago</span>
+                                    </span>
+                                    <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hvr-bounce-to-right">
+                                    <span class="image">
+                                        <img src="../../../assets/images/profile.jpg" alt="Profile Image" />
+                                    </span>
+                                    <span>
+                                        <span>John Smith</span>
+                                        <span class="time">3 mins ago</span>
+                                    </span>
+                                    <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hvr-bounce-to-right">
+                                    <span class="image">
+                                        <img src="../../../assets/images/profile.jpg" alt="Profile Image" />
+                                    </span>
+                                    <span>
+                                        <span>John Smith</span>
+                                        <span class="time">3 mins ago</span>
+                                    </span>
+                                    <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hvr-bounce-to-right">
+                                    <span class="image">
+                                        <img src="../../../assets/images/profile.jpg" alt="Profile Image" />
+                                    </span>
+                                    <span>
+                                        <span>John Smith</span>
+                                        <span class="time">3 mins ago</span>
+                                    </span>
+                                    <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                </a>
+                            </li>
+                            <li class='top-nav-li-see-all-alerts'>
+                                <div class="text-center">
+                                    <a href="inbox.html">
+                                        <strong>See All Alerts</strong>
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <img src="../../../assets/images/profile.jpg" alt="image">John Doe
+                            <span class=" fa fa-angle-down"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-usermenu animated fadeInUp pull-right">
+                            <li>
+                                <a href="../app-pages/page-profile-dashboard.html" class="hvr-bounce-to-right">  Profile</a>
+                            </li>
+                            <li>
+                                <a href="../app-pages/page-profile-settings.html" class="hvr-bounce-to-right">
+                                    <span class="badge bg-red pull-right">50%</span>
+                                    <span>Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="hvr-bounce-to-right">Help</a>
+                            </li>
+                            <li><a href="../app-pages/page-login-2.html" class="hvr-bounce-to-right"><i class=" icon-login pull-right"></i> Log Out</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- 
+                *****************************
+                *** End of top navigation ***
+                *****************************
+             -->
+
+        </header>    
+        <!--header end-->
+
+        <!--sidebar start-->
+        <aside>
+            <div id="sidebar" class="nav-collapse md-box-shadowed">
+                <!-- sidebar menu start-->
+                <div class="leftside-navigation leftside-navigation-scroll">
+                    <ul class="sidebar-menu" id="nav-accordion">
+                        <li class="sidebar-profile">
+                            
+                            <div class="profile-options-container">
+                                <p class="text-right profile-options"><span class="profile-options-close pe-7s-close fa-2x font-bold"></span></p>
+
+                                <div class="profile-options-list animated zoomIn">
+                                    <p><a href="app-pages/page-profile-dashboard.html">Profile</a></p>
+                                    <p><a href="app-pages/page-profile-settings.html">Settings</a></p>
+                                    <p><a href="javascript:void(0)">Help</a></p>
+                                    <p><a href="app-pages/page-login-2.html">Log Out</a></p>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="profile-main">
+                                <p class="text-right profile-options"><i class="profile-options-open icon-options-vertical fa-2x"></i></p>
+                                <p class="image">
+                                    <img alt="image" src="../../../assets/images/profile.jpg" width="80">
+                                    <span class="status"><i class="fa fa-circle text-success"></i></span>
+                                </p>
+                                <p>
+                                    <span class="name">John Doe</span><br>
+                                    <span class="position" style="font-family: monospace;">Administrator</span>
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class='../index.html'><a href="#" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar icon-home fa-2x'></span><span>Dashboard</span></a></li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar icon-screen-desktop fa-2x'></span><span>Layouts</span></a>
+                            <ul class='sub'>
+                                <li class="sub-menu"><a href="javascript:void(0);">Boxed Page</a>
+                                    <ul class='sub active'>
+                                        <li><a href='../layouts/boxed_page.html'>Default</a>
+                                        </li>
+                                        <li><a href='../layouts/boxed_page_fixed_header.html'>Default + Fixed Header</a>
+                                        </li>
+                                        <li><a href='../layouts/boxed_page_no_sidebar.html'>No sidebar</a>
+                                        </li>
+                                        <li><a href='../layouts/boxed_page_no_sidebar_fixed_header.html'>No sidebar + Fixed Header</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href='../layouts/full_width_content.html'>Full width content</a>
+                                </li>
+                                <li><a href='../layouts/blank.html'>Blank Page</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-portfolio fa-2x'></span><span>UI Elements</span></a>
+                            <ul class='sub'>
+                                <li><a href='../ui-elements/class-helpers.html'>Class Helpers</a>
+                                </li>
+                                <li><a href='../ui-elements/accordions.html'>Accordions</a>
+                                </li>
+                                <li><a href='../ui-elements/alerts.html'>Alerts</a>
+                                </li>
+                                <li><a href='../ui-elements/buttons.html'>Buttons</a>
+                                </li>
+                                <li><a href='../ui-elements/draggable-portlet.html'>Draggable Portlet</a>
+                                </li>
+                                <li><a href='../ui-elements/grids.html'>Grids</a>
+                                </li>
+                                <li><a href='../ui-elements/labels-badges.html'>Labels and Badges</a>
+                                </li>
+                                <li><a href='../ui-elements/list-group.html'>List Group</a>
+                                </li>
+                                <li><a href='../ui-elements/modal.html'>Modal</a>
+                                </li>
+                                <li><a href='../ui-elements/nestable.html'>Nestable</a>
+                                </li>
+                                <li><a href='../ui-elements/pagination.html'>Pagination</a>
+                                </li>
+                                <li><a href='../ui-elements/panels.html'>Panels</a>
+                                </li>
+                                <li><a href='../ui-elements/progressbar.html'>Progress Bar</a>
+                                </li>
+                                <li><a href='../ui-elements/tabs.html'>Tabs</a>
+                                </li>
+                                <li><a href='../ui-elements/tooltips_popover.html'>Tooltips and Popover</a>
+                                </li>
+                                <li><a href='../ui-elements/typography.html'>Typography</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-display2 fa-2x'></span><span>UI Admin</span></a>
+                            <ul class='sub'>
+                                <li><a href='../ui-admin/animatecss.html'>Animate CSS</a>
+                                </li>
+                                <li><a href='../ui-admin/hovercss.html'>Hover CSS</a>
+                                </li>
+                                <li><a href='../ui-admin/hover-ideas.html'>Hover Ideas</a>
+                                </li>
+                                <li><a href='../ui-admin/icheck.html'>iCheck</a>
+                                </li>
+                                <li><a href='../ui-admin/tooltipster.html'>Tooltipster</a>
+                                </li>
+                                <li><a href='../ui-admin/sweetalert.html'>Sweet Alert</a>
+                                </li>
+                                <li><a href='../ui-admin/counter.html'>Counter</a>
+                                </li>
+                                <li><a href='../ui-admin/word-rotator.html'>Word Rotator</a>
+                                </li>
+                                <li><a href='../ui-admin/wow-animations.html'>Wow animations</a>
+                                </li>
+                                <li><a href='../ui-admin/owl-carousel.html'>Owl Carousel</a>
+                                </li>
+                                <li><a href='../ui-admin/magnific-popup.html'>Magnific Popup</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=' '><a href="../ui-widgets/widgets.html" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-ribbon fa-2x'></span><span>UI Widgets <span class="badge label-info">23</span></span></a>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent active"><span class='icon-sidebar pe-7s-note fa-2x'></span><span>Fonts</span></a>
+                            <ul class='sub'>
+                                <li><a href='../fonts/font-awesome.html'>Font Awesome</a>
+                                </li>
+                                <li><a href='../fonts/font-icon-7stroke.html'>Pe Icon 7 Stroke </a>
+                                </li>
+                                <li><a href='../fonts/font-simple-line-icons.html'>Simple Line Icons</a>
+                                </li>
+                                <li><a href='../fonts/font-glyphicons.html' class="active">Glyphicons</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-box1 fa-2x'></span><span>Data Tables</span></a>
+                            <ul class='sub'>
+                                <li><a href='../data-tables/basic-table.html'>Basic Table</a>
+                                </li>
+                                <li><a href='../data-tables/responsive-table.html'>Responsive Table</a>
+                                </li>
+                                <li><a href='../data-tables/dynamic-table.html'>Dynamic Table</a>
+                                </li>
+                                <li><a href='../data-tables/editable-table.html'>Editable Table</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-calculator      fa-2x'></span><span>UI Form</span></a>
+                            <ul class='sub'>
+                                <li><a href='../ui-form/form-elements.html'>Form Elements</a>
+                                </li>
+                                <li><a href='../ui-form/advanced-form.html'>Advanced Components</a>
+                                </li>
+                                <li><a href='../ui-form/form-wizard.html'>Form Wizard</a>
+                                </li>
+                                <li><a href='../ui-form/form-validation.html'>Form Validation</a>
+                                </li>
+                                <li><a href='../ui-form/advanced-form-upload.html'>Advanced Form Upload</a>
+                                </li>
+                                <li><a href='../ui-form/x-editable.html'>X-editable</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-albums fa-2x'></span><span>Form Templates <span class="badge label-info">20</span></span></a>
+                            <ul class='sub'>
+                                <li class="sub-menu"><a href="javascript:void(0);">Business</a>
+                                    <ul class='sub'>
+                                        <li><a href='../form-templates/business-bug-tracker.html'>Bug Tracker</a>
+                                        </li>
+                                        <li><a href='../form-templates/business-client-details.html'>Client Details</a>
+                                        </li>
+                                        <li><a href='../form-templates/business-complaints.html'>Complaints</a>
+                                        </li>
+                                        <li><a href='../form-templates/business-tpl-contact-us.html'>Contact Us</a>
+                                        </li>
+                                        <li><a href='../form-templates/business-email-subscription.html'>Email Subscription</a>
+                                        </li>
+                                        <li><a href='../form-templates/business-software-evaluation.html'>Software Evaluation</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Human Resources</a>
+                                    <ul class='sub'>
+                                        <li><a href='../form-templates/hr-employee-emergency-information.html'>Employee Emergency Information</a>
+                                        </li>
+                                        <li><a href='../form-templates/hr-employee-evaluation.html'>Employee Evaluation</a>
+                                        </li>
+                                        <li><a href='../form-templates/hr-employee-satisfaction.html'>Employee Satisfaction</a>
+                                        </li>
+                                        <li><a href='../form-templates/hr-job-application.html'>Job Application</a>
+                                        </li>
+                                        <li><a href='../form-templates/hr-resignation-form.html'>Resignation Form</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Requests</a>
+                                    <ul class='sub'>
+                                        <li><a href='../form-templates/requests-leave-application.html'>Leave Application</a>
+                                        </li>
+                                        <li><a href='../form-templates/requests-product-review.html'>Prodoct Review</a>
+                                        </li>
+                                        <li><a href='../form-templates/requests-software-request.html'>Software Request</a>
+                                        </li>
+                                        <li><a href='../form-templates/requests-testimonial.html'>Testimonial</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Construction</a>
+                                    <ul class='sub'>
+                                        <li><a href='../form-templates/construction-client-review.html'>Client Review</a>
+                                        </li>
+                                        <li><a href='../form-templates/construction-location-updates.html'>Location Updates</a>
+                                        </li>
+                                        <li><a href='../form-templates/construction-on-site-inquiries.html'>On-site Inquiries</a>
+                                        </li>
+                                        <li><a href='../form-templates/construction-status-updates.html'>Status Updates</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Non-profit</a>
+                                    <ul class='sub'>
+                                        <li><a href='../form-templates/non-profit-donation-form.html'>Donation Form</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-mail fa-2x'></span><span>Mail</span></a>
+                            <ul class='sub'>
+                                <li><a href='../mail/email.html'>Emails</a>
+                                </li>
+                                <li><a href='../mail/create_email.html'>Create Email</a>
+                                </li>
+                                <li><a href='../mail/view_email.html'>View Email</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-graph fa-2x'></span><span>Charts</span></a>
+                            <ul class='sub'>
+                                <li><a href='../charts/chart-morris.html'>Morris</a>
+                                </li>
+                                <li><a href='../charts/chart-js.html'>Chartjs</a>
+                                </li>
+                                <li><a href='../charts/chart-flotchart.html'>Flot Charts</a>
+                                </li>
+                                <li><a href='../charts/chart-c3.html'>C3 Chart</a>
+                                </li>
+                                <li><a href='../charts/chart-sparkline.html'>Sparkline</a>
+                                </li>
+                                <li><a href='../charts/chart-ricksaw.html'>Ricksaw</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-map-marker fa-2x'></span><span>Maps <span class="badge label-info">22</span></span></a>
+                            <ul class='sub'>
+                                <li class="sub-menu"><a href="javascript:void(0);">Google Map</a>
+                                    <ul class='sub'>
+                                        <li><a href='../maps/google-map-basic.html'>Basic Map</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-events.html'>Map Events</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-markers.html'>Map Makers</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-geolocation.html'>Map Geolocation</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-geocoding.html'>Map Geocoding</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-polylines.html'>Map Polylines</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-overlays.html'>Map Overlays</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-polygon.html'>Map Polygon</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-routes.html'>Map Routes</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-advanced-routes.html'>Map Advanced Routes</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-static.html'>Map Static</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-static-markers.html'>Map Static Markers</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-static-polylines.html'>Map Static Polylines</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-context-menu.html'>Map Context Menu</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-geofences.html'>Map Geofences</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-custom-controls.html'>Map Custom Controls</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-fusion-table-layers.html'>Map Fusion Tables layers</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-kml-georss-layers.html'>Map KML and GeoRSS layers</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-street-view-panoramas.html'>Map Street View Panoramas</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-interacting-ui.html'>Map Interacting with UI</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-clustering.html'>Map Clustering</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href='../maps/vector-map.html'>Vector Map</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-box2 fa-2x'></span><span>App Pages <span class="badge label-success">45</span></span></a>
+                            <ul class='sub'>
+                                <li><a href='../app-pages/page-user-management.html'>User Management</a>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">User Profile</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-profile-dashboard.html'>Profile Dashboard</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-profile-about.html'>Profile About</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-profile-timeline.html'>Profile Timeline</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-profile-projects.html'>Profile Projects</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-profile-gallery.html'>Profile Gallery</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-profile-settings.html'>Profile Settings</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Project Management</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-project-all.html'>All Projects</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-project-view.html'>View Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Services</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-services-1.html'>Services 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-services-2.html'>Services 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Login &amp; Registration</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-registration-1.html'>Registration 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-registration-2.html'>Registration 2</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-login-1.html'>Login 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-login-2.html'>Login 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Errors</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-error-404.html'>404 Error</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-error-500.html'>500 Error</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Timelines</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-timeline-1.html'>Timeline 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-timeline-2.html'>Timeline 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Forum</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-main-forum.html'>Main</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-forum-details.html'>Details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Email Templates</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-email-template-1.html'>Email Templates 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-email-template-2.html'>Email Templates 2</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-email-template-3.html'>Email Templates 3</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-email-template-4.html'>Email Templates 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Ecommerce</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-ecommerce-dashboard.html'>Dashboard</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-ecommerce-products.html'>Product Lists</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-ecommerce-view-product.html'>View Product</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-ecommerce-cart-summary.html'>Cart Summary</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-ecommerce-checkout.html'>Checkout</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-ecommerce-product-envoice.html'>Envoice</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Contact</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-contact-1.html'>Contact 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-contact-2.html'>Contact 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href='../app-pages/page-full-calendar.html'>Full Calendar</a>
+                                </li>
+                                <li><a href='../app-pages/page-people-directory.html'>Contact Management</a>
+                                </li>
+                                <li><a href='../app-pages/page-search-results-1.html'>Search Results</a>
+                                </li>
+                                <li><a href='../app-pages/page-faqs.html'>FAQs</a>
+                                </li>
+                                <li><a href='../app-pages/page-about-us-1.html'>About Us</a>
+                                </li>
+                                <li><a href='../app-pages/page-coming-soon.html'>Coming Soon</a>
+                                </li>
+                                <li><a href='../app-pages/page-pricing-tables.html'>Pricing Tables</a>
+                                </li>
+                                <li><a href='../app-pages/page-lock-screen.html'>Lock Screen</a>
+                                </li>
+                                <li><a href='../app-pages/page-media-gallery.html'>Media Gallery</a>
+                                </li>
+                                <li><a href='../app-pages/page-privacy-policy.html'>Privacy Policy</a>
+                                </li>
+                                <li><a href='../app-pages/page-terms-of-condition.html'>Terms of Condition</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>           
+                </div>
+                <!-- sidebar menu end-->
+            </div>
+        </aside>    
+        <!--sidebar end-->
+
+        <!-- /menu footer buttons -->
+        
+        <!--<div class="sidebar-footer hidden-small">
+            <a class="tooltip-settings" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+            </a>
+            <a class="tooltip-fullscreen" title="Full Screen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+            </a>
+            <a class="tooltip-resize-fullscreen" title="Resize Screen" style='display:none'>
+                <span class="glyphicon glyphicon-resize-full" aria-hidden="true"></span>
+            </a>
+            <a class="tooltip-lock" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+            </a>
+            <a class="tooltip-logout" title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+            </a>
+        </div>-->    <!-- /menu footer buttons -->
+
+        <!--main content start-->
+        <section id="main-content">
+
+                
+            <section class="wrapper">
+                    
+                <!--======== Grid Menu Start ========-->
+                <div id="grid-menu">
+                    <div class="color-overlay grid-menu-overlay">
+                        <div class="grid-icon-wrap grid-icon-effect-8">
+                            <a href="#" class="grid-icon icon-envelope font-size-50 turquoise"></a>
+                            <a href="#" class="grid-icon icon-user font-size-50 teal"></a>
+                            <a href="#" class="grid-icon icon-support font-size-50 peter-river"></a>
+                            <a href="#" class="grid-icon icon-settings font-size-50 light-blue"></a>
+                            <a href="#" class="grid-icon icon-picture font-size-50 orange"></a>
+                            <a href="#" class="grid-icon icon-camrecorder font-size-50 light-orange"></a>
+                        </div>
+                    </div>
+                </div>                
+                <!--======== Grid Menu End ========-->
+
+                <!--======== Page Title and Breadcrumbs Start ========-->
+                <div class="top-page-header margin-bottom-27">
+                    
+                    <div class="page-title">
+                        <h2>Thema Glyphicons</h2>
+                        <small>Thema glyphicons.</small>
+                    </div>
+                    <div class="page-breadcrumb">
+                        <nav class="c_breadcrumbs">
+                            <ul>
+                                <li><a href="#">Thema</a></li>
+                                <li><a href="#">Fonts</a></li>
+                                <li class="active"><a href="#">Glyphicons</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="right-menu pull-right">
+
+                    </div>
+
+                    <div class="pull-right toggle-right-sidebar">
+                        <span class="fa fa-outdent fa-2x title-open-right-sidebar"></span>
+                    </div>
+
+                </div>
+                <!--======== Page Title and Breadcrumbs End ========-->
+
+                <!--======== Font Glyphicons Content Start End ========-->
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="c_panel">
+
+                            <div class="c_title">
+                                <h2>Glyphicons</h2>
+                                <div class="clearfix"></div>
+                            </div><!--/.c_title-->
+
+                            <div class="c_content">
+                                
+                               
+                               <div class="row">
+
+                                    <div class="bs-glyphicons">
+                                        <ul class="bs-glyphicons-list">
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-asterisk</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-plus</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-euro" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-euro</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-eur" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-eur</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-minus</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-cloud</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-envelope</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-pencil</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-glass" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-glass</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-music</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-search</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-heart</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-star</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-star-empty</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-user</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-film" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-film</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-th-large</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-th</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-th-list</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-ok</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-remove</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-zoom-in</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-zoom-out" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-zoom-out</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-off</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-signal" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-signal</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-cog</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-trash</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-home</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-file</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-time</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-road" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-road</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-download-alt</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-download" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-download</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-upload" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-upload</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-inbox" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-inbox</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-play-circle</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-repeat</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-refresh</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-list-alt</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-lock</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-flag" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-flag</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-headphones</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-volume-off" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-volume-off</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-volume-down" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-volume-down</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-volume-up</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-qrcode" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-qrcode</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-barcode" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-barcode</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-tag</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-tags" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-tags</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-book</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-bookmark</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-print" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-print</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-camera</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-font" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-font</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-bold" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-bold</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-italic" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-italic</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-text-height" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-text-height</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-text-width" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-text-width</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-align-left</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-align-center" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-align-center</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-align-right" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-align-right</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-align-justify</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-list</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-indent-left" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-indent-left</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-indent-right" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-indent-right</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-facetime-video</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-picture</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-map-marker</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-adjust</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-tint" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-tint</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-edit</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-share" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-share</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-check" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-check</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-move" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-move</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-step-backward" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-step-backward</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-fast-backward" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-fast-backward</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-backward</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-play</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-pause</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-stop" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-stop</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-forward" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-forward</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-fast-forward" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-fast-forward</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-step-forward</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-eject" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-eject</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-chevron-left</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-chevron-right</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-plus-sign</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-minus-sign" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-minus-sign</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-remove-sign</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-ok-sign</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-question-sign</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-info-sign</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-screenshot</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-remove-circle</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-ok-circle</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-ban-circle</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-arrow-left</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-arrow-right</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-arrow-up</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-arrow-down</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-share-alt</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-resize-full" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-resize-full</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-resize-small" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-resize-small</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-exclamation-sign</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-gift</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-leaf</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-fire</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-eye-open</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-eye-close</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-warning-sign</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-plane</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-calendar</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-random" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-random</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-comment</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-magnet" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-magnet</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-chevron-up</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-chevron-down</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-retweet" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-retweet</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-shopping-cart</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-folder-close</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-folder-open</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-resize-vertical" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-resize-vertical</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-resize-horizontal" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-resize-horizontal</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-hdd</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-bullhorn</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-bell</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-certificate</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-thumbs-up</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-thumbs-down</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-hand-right</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-hand-left</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-hand-up</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-hand-down</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-circle-arrow-right</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-circle-arrow-left</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-circle-arrow-up" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-circle-arrow-up</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-circle-arrow-down</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-globe</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-wrench</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-tasks</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-filter" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-filter</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-briefcase</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-fullscreen</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-dashboard</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-paperclip</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-heart-empty</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-link</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-phone</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-pushpin</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-usd</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-gbp" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-gbp</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sort" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sort</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sort-by-alphabet" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sort-by-alphabet</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sort-by-alphabet-alt" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sort-by-alphabet-alt</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sort-by-order" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sort-by-order</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sort-by-order-alt" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sort-by-order-alt</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sort-by-attributes" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sort-by-attributes</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sort-by-attributes-alt" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sort-by-attributes-alt</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-unchecked</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-expand" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-expand</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-collapse-down" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-collapse-down</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-collapse-up" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-collapse-up</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-log-in</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-flash</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-log-out</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-new-window</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-record" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-record</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-save</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-open" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-open</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-saved" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-saved</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-import" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-import</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-export" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-export</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-send</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-floppy-disk</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-floppy-saved" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-floppy-saved</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-floppy-remove</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-floppy-save</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-floppy-open" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-floppy-open</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-credit-card</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-transfer</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-cutlery</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-header" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-header</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-compressed" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-compressed</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-earphone</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-phone-alt</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-tower" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-tower</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-stats</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sd-video" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sd-video</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-hd-video" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-hd-video</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-subtitles" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-subtitles</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sound-stereo" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sound-stereo</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sound-dolby" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sound-dolby</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sound-5-1" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sound-5-1</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sound-6-1" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sound-6-1</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sound-7-1" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sound-7-1</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-copyright-mark</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-registration-mark" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-registration-mark</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-cloud-download</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-cloud-upload</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-tree-conifer" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-tree-conifer</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-tree-deciduous</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-cd" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-cd</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-save-file</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-open-file" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-open-file</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-level-up" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-level-up</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-copy" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-copy</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-paste" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-paste</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-alert" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-alert</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-equalizer" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-equalizer</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-king" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-king</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-queen" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-queen</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-pawn" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-pawn</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-bishop" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-bishop</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-knight" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-knight</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-baby-formula" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-baby-formula</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-tent" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-tent</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-blackboard</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-bed" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-bed</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-apple" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-apple</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-erase</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-hourglass</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-lamp" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-lamp</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-duplicate</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-piggy-bank</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-scissors</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-bitcoin" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-bitcoin</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-btc" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-btc</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-xbt" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-xbt</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-yen</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-jpy" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-jpy</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-ruble" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-ruble</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-rub" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-rub</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-scale" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-scale</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-ice-lolly" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-ice-lolly</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-ice-lolly-tasted" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-ice-lolly-tasted</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-education</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-option-horizontal</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-option-vertical</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-menu-hamburger</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-modal-window" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-modal-window</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-oil" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-oil</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-grain" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-grain</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-sunglasses</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-text-size" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-text-size</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-text-color" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-text-color</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-text-background" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-text-background</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-object-align-top" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-object-align-top</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-object-align-bottom" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-object-align-bottom</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-object-align-horizontal" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-object-align-horizontal</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-object-align-left" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-object-align-left</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-object-align-vertical" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-object-align-vertical</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-object-align-right" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-object-align-right</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-triangle-right</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-triangle-left</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-triangle-bottom</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-triangle-top</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-console" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-console</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-superscript" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-superscript</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-subscript" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-subscript</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-menu-left</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-menu-right</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-menu-down</span>
+                                            </li>
+
+                                            <li>
+                                              <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+                                              <span class="glyphicon-class">glyphicon glyphicon-menu-up</span>
+                                            </li>
+
+                                        </ul>
+                                      </div>
+
+                               </div>
+                                
+                                
+                            </div><!--/.c_content-->
+
+                        </div><!--/.c_panels-->
+
+
+                    </div>
+
+                </div>
+                <!--======== Font Glyphicons Content Start End ========-->
+
+
+            </section>
+        </section>
+        <!--======== Main Content End ========-->
+
+
+        <!--===== Right sidebar nofications start ========-->
+        <aside>
+            <div id="right-sidebar" class="right-sidebar-notifcations nav-collapse hide-right-bar-notifications">
+                <div class="bs-example bs-example-tabs right-sidebar-tab-notification" data-example-id="togglable-tabs">
+                    <ul id="right-sidebar-tabs" class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#activities" id="activities-tab" role="tab" data-toggle="tab" aria-controls="activities" aria-expanded="true">Activities</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#tasks" role="tab" id="tasks-tab" data-toggle="tab" aria-controls="tasks">Tasks</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#settings" role="tab" id="settings-tab" data-toggle="tab" aria-controls="settings">Settings</a>
+                        </li>
+                        
+                    </ul>
+                    <div id="right-sidebar-tab-content" class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="activities" aria-labelledBy="activities-tab">
+                            <div class="right-sidebar-panel-content-heading">
+                                <h4><span class="icon-user"></span> Latest user activities</h4>
+                                <small>10 Latest Activities</small>
+                            </div>
+                            <div class="right-sidebar-panel-content animated fadeInRight">
+                                
+                                <ul class="right-sidebar-list">
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - User Login...</h5>
+                                            <p>Accessing the system...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img3.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating...</h5>
+                                            <p>Updating user ID 1 ...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img2.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting...</h5>
+                                            <p>Deleting user message...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img5.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Accessing...</h5>
+                                            <p>User accessing the sys...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Viewing...</h5>
+                                            <p>Viewing the user...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Reading...</h5>
+                                            <p>Reading user message...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Registering...</h5>
+                                            <p>Registering new user...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Registering...</h5>
+                                            <p>Registering new user...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Registering...</h5>
+                                            <p>Registering new user...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Registering...</h5>
+                                            <p>Registering new user...</p>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>    
+
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="tasks" aria-labelledBy="tasks-tab">
+                            <div class="right-sidebar-panel-content-heading">
+                                <h4><span class="icon-list"></span> Recent tasks</h4>
+                                <small>15 Ongoing tasks</small>
+                            </div>
+                            <div class="right-sidebar-panel-content animated fadeInRight">
+                                
+                                <ul class="right-sidebar-list">
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5><a href="#">John Doe - Creating Tasks</a></h5>
+                                            <p>To update the sidebar...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img2.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img3.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img4.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img5.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img4.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="settings" aria-labelledBy="settings-tab">
+                            <div class="right-sidebar-panel-content-heading">
+                                <h4><span class="icon-list"></span> System Settins</h4>
+                                <small>80% Completed Settings</small>
+                            </div>
+                            <div class="right-sidebar-panel-content animated fadeInRight">
+                                <ul class="right-sidebar-list">
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox" checked="">
+                                            <i data-on="YES" data-off="NO"></i> Email Notifications
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox">
+                                            <i data-on="YES" data-off="NO"></i> Daily Email Notifiactions
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox" checked="">
+                                            <i data-on="YES" data-off="NO"></i> Show user visitors
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox" checked="">
+                                            <i data-on="YES" data-off="NO"></i> Show birthdate
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox">
+                                            <i data-on="YES" data-off="NO"></i> Show address
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox">
+                                            <i data-on="YES" data-off="NO"></i> Payment Recurring
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox">
+                                            <i data-on="YES" data-off="NO"></i> SMS Notifications
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /example -->
+                <div class="btn-bottom-right-sidebar-close">
+                    <span class="fa fa-times"></span>
+                </div>
+                    
+            </div>
+        </aside>    
+        <!--===== Right sidebar nofications end ========-->
+
+    </section><!--/.container-->
+
+    <!--===== Footer Start ========-->
+
+    <!-- Placed js at the end of the document so the pages load faster -->
+
+    <!--##################################################################################
+    #
+    # Thema GLOBAL JS PLUGINS
+    # 
+    # NOTE: These libraries are neccessary to run the template so don't remove one of these libraries. 
+    # You can uncomment the following libraries commented and comment the global-plugins.js but it will may cause slow performance of the template because of many links should be load from the server.
+    #
+    ##################################################################################-->
+    <script src="../../../assets/js/global-plugins.js"></script>
+    <!-- <script src="../../../assets/js/jquery.js"></script>
+    <script src="../../../assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../../../assets/vendors/jquery.cookie/jquery.cookie.js"></script>
+    <script src="../../../assets/vendors/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../../../assets/vendors/jquery-easing/jquery.easing.1.3.js"></script>
+    <script src="../../../assets/vendors/bootstrap/js/bootstrap.js"></script>
+    <script src="../../../assets/vendors/jquery/dcjqaccordion.2.7.js"></script>
+    <script src="../../../assets/vendors/jquery/scrollTo.min.js"></script>
+    <script src="../../../assets/vendors/jquery/slimscroll.js"></script>
+    <script src="../../../assets/vendors/jquery/nicescroll.js"></script>
+    <script src="../../../assets/vendors/progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="../../../assets/vendors/counter/waypoints.min.js" type="text/javascript" ></script>
+    <script src="../../../assets/vendors/counter/jquery.counterup.min.js" type="text/javascript" ></script>
+    <script src="../../../assets/vendors/jquery-icheck/icheck.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="../../../assets/vendors/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+    <script src="../../../assets/vendors/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+    <script src="../../../assets/vendors/summernote/summernote.min.js"></script>
+    <script src="../../../assets/vendors/jquery.autosize/jquery.autosize.js"></script>
+    <script src="../../../assets/vendors/jquery.multi-select/js/jquery.multi-select.js"></script>
+    <script src="../../../assets/vendors/jquery.multi-select/js/jquery.quicksearch.js"></script>
+    <script src="../../../assets/vendors/typeahead/js/typeahead.bundle.js"></script>
+    <script src="../../../assets/vendors/typeahead/js/handlebars.min.js"></script>
+    <script src="../../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+    <script src="../../../assets/vendors/select2/select2.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-star-rating/js/star-rating.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-fileupload/js/bootstrap-fileupload.js"></script>
+    <script src="../../../assets/vendors/bootstrap-inputmask/bootstrap-inputmask.min.js"></script>
+    <script src="../../../assets/vendors/jquery.validate/jquery.validate.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+    <script src="../../../assets/vendors/dropzone/dropzone.min.js"></script>
+    <script src="../../../assets/vendors/plupload/js/plupload.full.min.js"></script>
+    <script src="../../../assets/vendors/plupload/js/jquery.plupload.queue/jquery.plupload.queue.min.js"></script>
+    <script src="../../../assets/vendors/x-editable/bootstrap3-editable/js/bootstrap-editable.js"></script>
+    <script src="../../../assets/vendors/x-editable/inputs-ext/address/address.js"></script>
+    <script src="../../../assets/vendors/x-editable/inputs-ext/typeaheadjs/typeaheadjs.js"></script>
+    <script src="../../../assets/vendors/owl-carousel/owl.carousel.js"></script>
+    <script src="../../../assets/vendors/magnific-popup/js/jquery.magnific-popup.js"></script>
+    <script src="../../../assets/vendors/masonry/masonry.pkgd.min.js"></script>
+    <script src="../../../assets/vendors/moment.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+    <script src="../../../assets/vendors/raphael-min.js" charset="utf-8" ></script>
+    <script src="../../../assets/vendors/sweetalert/sweetalert.min.js"></script>
+    <script src="../../../assets/vendors/word-rotator/jquery.wordrotator.min.js"></script>
+    <script src="../../../assets/vendors/wow-animations/js/wow.min.js"></script>
+    <script src="../../../assets/vendors/rwd-table/js/rwd-table.min.js?v=5.0.3"></script>
+    <script src="../../../assets/vendors/jqueryui.sortable.animation/jquery.ui.sortable-animation.js"></script>
+    <script src="../../../assets/vendors/tooltipster/js/jquery.tooltipster.js" type="text/javascript" ></script>
+    <script src="../../../assets/vendors/dropdowns-enhancement/js/dropdowns-enhancement.min.js" type="text/javascript"></script>
+    <script src="../../../assets/vendors/jquery-notific8/jquery.notific8.js" type="text/javascript"></script>
+    <script src="../../../assets/vendors/date.js"></script>
+    <script src="../../../assets/vendors/pogo-slider/js/jquery.pogo-slider.min.js" type="text/javascript" ></script>
+    <script src="../../../assets/vendors/bootstrap-daterangepicker/daterangepicker.js" type="text/javascript" ></script>
+    <script src="../../../vendors/nestable/jquery.nestable.js" type="text/javascript" ></script>
+    <script src="../../../assets/vendors/bstooltip/bstooltip.js"></script> -->
+
+    <!--##################################################################################
+    #
+    # COMMON SCRIPT FOR THIS PAGE
+    #
+    ##################################################################################-->
+
+    <!--common script init for all pages-->
+    <script src="../../../assets/js/theme.js" type="text/javascript" ></script>
+
+    <!-- For the page has tooltipslter only -->
+    <script src="../../../assets/js/tooltipster.js" type="text/javascript" ></script>
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function(){
+            new WOW().init();
+
+            App.initPage();
+            App.initLeftSideBar();
+            App.initCounter();
+            App.initNiceScroll();
+            App.initPanels();
+            App.initProgressBar();
+            App.initSlimScroll();
+            App.initNotific8();
+            App.initTooltipster();
+            App.initStyleSwitcher();
+            App.initMenuSelected();
+            App.initRightSideBar();
+            App.initSummernote();
+            App.initAccordion();
+            App.initModal();
+            App.initPopover();
+
+        });
+    </script>
+
+
+</body>
+
+</html>
+
+<!--===== Footer End ========-->

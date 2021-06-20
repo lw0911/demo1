@@ -1,0 +1,2228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="">
+    <meta name="keywords" content="thema bootstrap template, thema admin, bootstrap, admin template, bootstrap admin">
+
+    <meta name="author" content="LanceCoder">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="shortcut icon" href="">
+    <title>Thema Admin Boostrap Template</title>
+
+    <!-- Start Global plugin css -->
+    <link href="../../../assets/css/global-plugins.css" rel="stylesheet">
+    <link href="../../../assets/vendors/jquery-icheck/skins/all.css" rel="stylesheet" />
+    <!-- <link href="../../../assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/css/bootstrap-reset.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/font-awesome/css/font-awesome.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet" /> -->
+    <!-- <link href="../../../assets/vendors/pe-icon-7-stroke/css/helper.css" rel="stylesheet"/> -->
+    <!-- <link href="../../../assets/vendors/jquery-notific8/jquery.notific8.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/line-icons/line-icons.css" rel="stylesheet" /> -->
+    <!-- <link href="../../../assets/vendors/jquery-ui/jquery-ui.min.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/dropdowns-enhancement/css/dropdowns-enhancement.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/hover/hover.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/animate/animate.css" rel="stylesheet"> -->
+    <!-- <link href="../../../assets/vendors/tooltipster/css/tooltipster.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../../assets/vendors/tooltipster/css/themes/tooltipster-light.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../../assets/vendors/tooltipster/css/themes/tooltipster-noir.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../../assets/vendors/tooltipster/css/themes/tooltipster-punk.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../../assets/vendors/tooltipster/css/themes/tooltipster-shadow.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <link href="../../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet" /> -->
+    <!-- End Global plugin css -->
+    
+
+    <!--For this page uses this css plugin only-->
+    <link href="../../../assets/css/table-responsive.css" rel="stylesheet"/>
+    <link href="../../../assets/vendors/datatable/bootstrap/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="../../../assets/vendors/rwd-table/css/rwd-table.min.css?v=5.0.3" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../../assets/css/theme.css" rel="stylesheet">
+    <link href="../../../assets/css/style-responsive.css" rel="stylesheet"/>
+    <link href="../../../assets/css/class-helpers.css" rel="stylesheet"/>
+
+    <!--Color schemes-->
+    <link href="../../../assets/css/colors/green.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/turquoise.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/blue.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/amethyst.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/cloud.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/sun-flower.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/carrot.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/alizarin.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/concrete.css" rel="stylesheet">
+    <link href="../../../assets/css/colors/wet-asphalt.css" rel="stylesheet">
+
+    <!--Fonts-->
+    <link href="../../../assets/fonts/Indie-Flower/indie-flower.css" rel="stylesheet" />
+    <link href="../../../assets/fonts/Open-Sans/open-sans.css?family=Open+Sans:300,400,700" rel="stylesheet" />
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]>
+    <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!--
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Thema Color Schemes
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+* Just add the attribute value to the attribute ID in <body> element
+* List of color scheme values that supported to this theme
+    - default-scheme - the default is green color
+    - alizarin-scheme
+    - amethyst-scheme
+    - blue-scheme
+    - carrot-scheme
+    - cloud-scheme
+    - concrete-scheme
+    - sun-flower-scheme
+    - turquoise-scheme
+    - wet-asphalt-scheme
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+
+
+<!--
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Thema Layout Options
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+* Lists of layout options just follow the instructions if you want to use this feature
+    > Boxed Page
+        - Just add class "fixed-width-unfixed-header" in <body> element 
+        - and add class "unfixed-header" also in  <div class="leftside-navigation"> just search "leftside-navigation"
+        - and add class also "unfixed-header" to the <section id="main-content"> element just search it
+        
+    > Boxed Page + Fixed Header
+        - Just add class "fixed-width" in <body> element
+        - and add class also "boxed-page-fixed-header" to the <section id="main-content"> element just search it
+
+    > Boxed Page + No sidebar
+        - Just add class "fixed-width-unfixed-header no-sidebar" in <body> element 
+        - and add class also "unfixed-header merge-left" to the <section id="main-content"> element just search it
+    
+    > Boxed Page + No sidebar + Fixed header
+        - Just add class "fixed-width no-sidebar" in <body> element
+        - and add class also "merge-left" to the <section id="main-content"> element just search it
+
+    > Full width + Unfixed header
+        - Just add class "full-content-unfixed-header" in <body> element
+        - and add class also "merge-left" to the <section id="main-content"> element just search it 
+    
+    > Right Sidebar
+        - Just follow the sample page
+        - the important to do is replace "<section id="main-content">" to "<section id="main-content-right">"
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+<body id="default-scheme">
+
+    <!--======== Start Style Switcher ========-->    
+    <i class="style-switcher-btn fa fa-cogs hidden-xs"></i>
+    <div class="style-switcher">
+        <div class="style-swticher-header">
+            <div class="style-switcher-heading fg-white">Color Switcher</div>            
+            <div class="theme-close"><i class="icon-close"></i></div>
+        </div>
+
+        <div class="style-swticher-body">
+            <ul class="list-unstyled">
+                <li class="theme-default theme-active" data-style="default"></li>
+                <li class="theme-turquoise" data-style="turquoise"></li>
+                <li class="theme-blue" data-style="blue"></li>
+                <li class="theme-amethyst" data-style="amethyst"></li>
+                <li class="theme-cloud" data-style="cloud"></li>
+                <li class="theme-sun-flower" data-style="sun-flower"></li>
+                <li class="theme-carrot" data-style="carrot"></li>
+                <li class="theme-alizarin" data-style="alizarin"></li>
+                <li class="theme-concrete" data-style="concrete"></li>
+                <li class="theme-wet-ashphalt" data-style="wet-ashphalt"></li>
+            </ul>         
+        </div>
+    </div><!--/style-switcher-->
+    <!--======== End Style Switcher ========-->
+    <section id="container">
+
+        <!--header start-->
+        <header class="header fixed-top clearfix">
+
+            <!--logo start-->
+            <div class="brand">
+
+                <a href="../index.html" class="logo">
+                    Thema Admin
+                </a>
+                <div class="sidebar-toggle-box">
+                    <div class="fa fa-bars"></div>
+                </div>
+            </div>
+            <!--logo end-->
+
+            <!-- 
+                *****************************
+                ** Start of top navigation **
+                *****************************
+             -->
+            <div class="top-nav">
+
+                <ul class="nav navbar-nav navbar-left" style="margin-left:30px;">
+                    <li>
+                        <a href="javascript:void(0)" class="btn-menu-grid" title="Menu Grid">
+                            <span class="icon-grid"></span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            <span class=" fa fa-angle-down" style="font-size:12px;"></span>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInUp pull-right">
+                            <li>
+                                <a href="javascript:void(0);" class="hvr-bounce-to-right">  Submenu 1</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="hvr-bounce-to-right">
+                                    <span class="badge bg-red pull-right">20%</span>
+                                    <span>Submenu 2</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="hvr-bounce-to-right">Submenu 3</a>
+                            </li>
+                            <li><a href="login.html" class="hvr-bounce-to-right">Submenu 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>    
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="search-box">
+                        <input type="text" class="form-control search" placeholder=" Search">
+                    </li>
+                    <li role="presentation" class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                            <span class="pe-7s-mail" style="font-size:22.9px;"></span>
+                            <span class="badge bg-color label-danger">6</span>
+                        </a>
+                        <ul id="menu" class="dropdown-menu list-unstyled msg_list animated fadeInUp" role="menu">
+                            <li>
+                                <a class="hvr-bounce-to-right">
+                                    <span class="image">
+                                        <img src="../../../assets/images/profile.jpg" alt="Profile Image" />
+                                    </span>
+                                    <span>
+                                        <span>John Smith</span>
+                                        <span class="time">3 mins ago</span>
+                                    </span>
+                                    <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hvr-bounce-to-right">
+                                    <span class="image">
+                                        <img src="../../../assets/images/profile.jpg" alt="Profile Image" />
+                                    </span>
+                                    <span>
+                                        <span>John Smith</span>
+                                        <span class="time">3 mins ago</span>
+                                    </span>
+                                    <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hvr-bounce-to-right">
+                                    <span class="image">
+                                        <img src="../../../assets/images/profile.jpg" alt="Profile Image" />
+                                    </span>
+                                    <span>
+                                        <span>John Smith</span>
+                                        <span class="time">3 mins ago</span>
+                                    </span>
+                                    <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hvr-bounce-to-right">
+                                    <span class="image">
+                                        <img src="../../../assets/images/profile.jpg" alt="Profile Image" />
+                                    </span>
+                                    <span>
+                                        <span>John Smith</span>
+                                        <span class="time">3 mins ago</span>
+                                    </span>
+                                    <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                </a>
+                            </li>
+                            <li class='top-nav-li-see-all-alerts'>
+                                <div class="text-center">
+                                    <a href="inbox.html">
+                                        <strong>See All Alerts</strong>
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <img src="../../../assets/images/profile.jpg" alt="image">John Doe
+                            <span class=" fa fa-angle-down"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-usermenu animated fadeInUp pull-right">
+                            <li>
+                                <a href="../app-pages/page-profile-dashboard.html" class="hvr-bounce-to-right">  Profile</a>
+                            </li>
+                            <li>
+                                <a href="../app-pages/page-profile-settings.html" class="hvr-bounce-to-right">
+                                    <span class="badge bg-red pull-right">50%</span>
+                                    <span>Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="hvr-bounce-to-right">Help</a>
+                            </li>
+                            <li><a href="../app-pages/page-login-2.html" class="hvr-bounce-to-right"><i class=" icon-login pull-right"></i> Log Out</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- 
+                *****************************
+                *** End of top navigation ***
+                *****************************
+             -->
+
+        </header>    
+        <!--header end-->
+
+        <!--sidebar start-->
+        <aside>
+            <div id="sidebar" class="nav-collapse md-box-shadowed">
+                <!-- sidebar menu start-->
+                <div class="leftside-navigation leftside-navigation-scroll">
+                    <ul class="sidebar-menu" id="nav-accordion">
+                        <li class="sidebar-profile">
+                            
+                            <div class="profile-options-container">
+                                <p class="text-right profile-options"><span class="profile-options-close pe-7s-close fa-2x font-bold"></span></p>
+
+                                <div class="profile-options-list animated zoomIn">
+                                    <p><a href="app-pages/page-profile-dashboard.html">Profile</a></p>
+                                    <p><a href="app-pages/page-profile-settings.html">Settings</a></p>
+                                    <p><a href="javascript:void(0)">Help</a></p>
+                                    <p><a href="app-pages/page-login-2.html">Log Out</a></p>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="profile-main">
+                                <p class="text-right profile-options"><i class="profile-options-open icon-options-vertical fa-2x"></i></p>
+                                <p class="image">
+                                    <img alt="image" src="../../../assets/images/profile.jpg" width="80">
+                                    <span class="status"><i class="fa fa-circle text-success"></i></span>
+                                </p>
+                                <p>
+                                    <span class="name">John Doe</span><br>
+                                    <span class="position" style="font-family: monospace;">Administrator</span>
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class='../index.html'><a href="#" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar icon-home fa-2x'></span><span>Dashboard</span></a></li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar icon-screen-desktop fa-2x'></span><span>Layouts</span></a>
+                            <ul class='sub'>
+                                <li class="sub-menu"><a href="javascript:void(0);">Boxed Page</a>
+                                    <ul class='sub active'>
+                                        <li><a href='../layouts/boxed_page.html'>Default</a>
+                                        </li>
+                                        <li><a href='../layouts/boxed_page_fixed_header.html'>Default + Fixed Header</a>
+                                        </li>
+                                        <li><a href='../layouts/boxed_page_no_sidebar.html'>No sidebar</a>
+                                        </li>
+                                        <li><a href='../layouts/boxed_page_no_sidebar_fixed_header.html'>No sidebar + Fixed Header</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href='../layouts/full_width_content.html'>Full width content</a>
+                                </li>
+                                <li><a href='../layouts/blank.html'>Blank Page</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-portfolio fa-2x'></span><span>UI Elements</span></a>
+                            <ul class='sub'>
+                                <li><a href='../ui-elements/class-helpers.html'>Class Helpers</a>
+                                </li>
+                                <li><a href='../ui-elements/accordions.html'>Accordions</a>
+                                </li>
+                                <li><a href='../ui-elements/alerts.html'>Alerts</a>
+                                </li>
+                                <li><a href='../ui-elements/buttons.html'>Buttons</a>
+                                </li>
+                                <li><a href='../ui-elements/draggable-portlet.html'>Draggable Portlet</a>
+                                </li>
+                                <li><a href='../ui-elements/grids.html'>Grids</a>
+                                </li>
+                                <li><a href='../ui-elements/labels-badges.html'>Labels and Badges</a>
+                                </li>
+                                <li><a href='../ui-elements/list-group.html'>List Group</a>
+                                </li>
+                                <li><a href='../ui-elements/modal.html'>Modal</a>
+                                </li>
+                                <li><a href='../ui-elements/nestable.html'>Nestable</a>
+                                </li>
+                                <li><a href='../ui-elements/pagination.html'>Pagination</a>
+                                </li>
+                                <li><a href='../ui-elements/panels.html'>Panels</a>
+                                </li>
+                                <li><a href='../ui-elements/progressbar.html'>Progress Bar</a>
+                                </li>
+                                <li><a href='../ui-elements/tabs.html'>Tabs</a>
+                                </li>
+                                <li><a href='../ui-elements/tooltips_popover.html'>Tooltips and Popover</a>
+                                </li>
+                                <li><a href='../ui-elements/typography.html'>Typography</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-display2 fa-2x'></span><span>UI Admin</span></a>
+                            <ul class='sub'>
+                                <li><a href='../ui-admin/animatecss.html'>Animate CSS</a>
+                                </li>
+                                <li><a href='../ui-admin/hovercss.html'>Hover CSS</a>
+                                </li>
+                                <li><a href='../ui-admin/hover-ideas.html'>Hover Ideas</a>
+                                </li>
+                                <li><a href='../ui-admin/icheck.html'>iCheck</a>
+                                </li>
+                                <li><a href='../ui-admin/tooltipster.html'>Tooltipster</a>
+                                </li>
+                                <li><a href='../ui-admin/sweetalert.html'>Sweet Alert</a>
+                                </li>
+                                <li><a href='../ui-admin/counter.html'>Counter</a>
+                                </li>
+                                <li><a href='../ui-admin/word-rotator.html'>Word Rotator</a>
+                                </li>
+                                <li><a href='../ui-admin/wow-animations.html'>Wow animations</a>
+                                </li>
+                                <li><a href='../ui-admin/owl-carousel.html'>Owl Carousel</a>
+                                </li>
+                                <li><a href='../ui-admin/magnific-popup.html'>Magnific Popup</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=' '><a href="../ui-widgets/widgets.html" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-ribbon fa-2x'></span><span>UI Widgets <span class="badge label-info">23</span></span></a>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-note fa-2x'></span><span>Fonts</span></a>
+                            <ul class='sub'>
+                                <li><a href='../fonts/font-awesome.html'>Font Awesome</a>
+                                </li>
+                                <li><a href='../fonts/font-icon-7stroke.html'>Pe Icon 7 Stroke </a>
+                                </li>
+                                <li><a href='../fonts/font-simple-line-icons.html'>Simple Line Icons</a>
+                                </li>
+                                <li><a href='../fonts/font-glyphicons.html'>Glyphicons</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent active"><span class='icon-sidebar pe-7s-box1 fa-2x'></span><span>Data Tables</span></a>
+                            <ul class='sub'>
+                                <li><a href='../data-tables/basic-table.html'>Basic Table</a>
+                                </li>
+                                <li><a href='../data-tables/responsive-table.html' class="active">Responsive Table</a>
+                                </li>
+                                <li><a href='../data-tables/dynamic-table.html'>Dynamic Table</a>
+                                </li>
+                                <li><a href='../data-tables/editable-table.html'>Editable Table</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-calculator      fa-2x'></span><span>UI Form</span></a>
+                            <ul class='sub'>
+                                <li><a href='../ui-form/form-elements.html'>Form Elements</a>
+                                </li>
+                                <li><a href='../ui-form/advanced-form.html'>Advanced Components</a>
+                                </li>
+                                <li><a href='../ui-form/form-wizard.html'>Form Wizard</a>
+                                </li>
+                                <li><a href='../ui-form/form-validation.html'>Form Validation</a>
+                                </li>
+                                <li><a href='../ui-form/advanced-form-upload.html'>Advanced Form Upload</a>
+                                </li>
+                                <li><a href='../ui-form/x-editable.html'>X-editable</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-albums fa-2x'></span><span>Form Templates <span class="badge label-info">20</span></span></a>
+                            <ul class='sub'>
+                                <li class="sub-menu"><a href="javascript:void(0);">Business</a>
+                                    <ul class='sub'>
+                                        <li><a href='../form-templates/business-bug-tracker.html'>Bug Tracker</a>
+                                        </li>
+                                        <li><a href='../form-templates/business-client-details.html'>Client Details</a>
+                                        </li>
+                                        <li><a href='../form-templates/business-complaints.html'>Complaints</a>
+                                        </li>
+                                        <li><a href='../form-templates/business-tpl-contact-us.html'>Contact Us</a>
+                                        </li>
+                                        <li><a href='../form-templates/business-email-subscription.html'>Email Subscription</a>
+                                        </li>
+                                        <li><a href='../form-templates/business-software-evaluation.html'>Software Evaluation</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Human Resources</a>
+                                    <ul class='sub'>
+                                        <li><a href='../form-templates/hr-employee-emergency-information.html'>Employee Emergency Information</a>
+                                        </li>
+                                        <li><a href='../form-templates/hr-employee-evaluation.html'>Employee Evaluation</a>
+                                        </li>
+                                        <li><a href='../form-templates/hr-employee-satisfaction.html'>Employee Satisfaction</a>
+                                        </li>
+                                        <li><a href='../form-templates/hr-job-application.html'>Job Application</a>
+                                        </li>
+                                        <li><a href='../form-templates/hr-resignation-form.html'>Resignation Form</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Requests</a>
+                                    <ul class='sub'>
+                                        <li><a href='../form-templates/requests-leave-application.html'>Leave Application</a>
+                                        </li>
+                                        <li><a href='../form-templates/requests-product-review.html'>Prodoct Review</a>
+                                        </li>
+                                        <li><a href='../form-templates/requests-software-request.html'>Software Request</a>
+                                        </li>
+                                        <li><a href='../form-templates/requests-testimonial.html'>Testimonial</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Construction</a>
+                                    <ul class='sub'>
+                                        <li><a href='../form-templates/construction-client-review.html'>Client Review</a>
+                                        </li>
+                                        <li><a href='../form-templates/construction-location-updates.html'>Location Updates</a>
+                                        </li>
+                                        <li><a href='../form-templates/construction-on-site-inquiries.html'>On-site Inquiries</a>
+                                        </li>
+                                        <li><a href='../form-templates/construction-status-updates.html'>Status Updates</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Non-profit</a>
+                                    <ul class='sub'>
+                                        <li><a href='../form-templates/non-profit-donation-form.html'>Donation Form</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-mail fa-2x'></span><span>Mail</span></a>
+                            <ul class='sub'>
+                                <li><a href='../mail/email.html'>Emails</a>
+                                </li>
+                                <li><a href='../mail/create_email.html'>Create Email</a>
+                                </li>
+                                <li><a href='../mail/view_email.html'>View Email</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-graph fa-2x'></span><span>Charts</span></a>
+                            <ul class='sub'>
+                                <li><a href='../charts/chart-morris.html'>Morris</a>
+                                </li>
+                                <li><a href='../charts/chart-js.html'>Chartjs</a>
+                                </li>
+                                <li><a href='../charts/chart-flotchart.html'>Flot Charts</a>
+                                </li>
+                                <li><a href='../charts/chart-c3.html'>C3 Chart</a>
+                                </li>
+                                <li><a href='../charts/chart-sparkline.html'>Sparkline</a>
+                                </li>
+                                <li><a href='../charts/chart-ricksaw.html'>Ricksaw</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-map-marker fa-2x'></span><span>Maps <span class="badge label-info">22</span></span></a>
+                            <ul class='sub'>
+                                <li class="sub-menu"><a href="javascript:void(0);">Google Map</a>
+                                    <ul class='sub'>
+                                        <li><a href='../maps/google-map-basic.html'>Basic Map</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-events.html'>Map Events</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-markers.html'>Map Makers</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-geolocation.html'>Map Geolocation</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-geocoding.html'>Map Geocoding</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-polylines.html'>Map Polylines</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-overlays.html'>Map Overlays</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-polygon.html'>Map Polygon</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-routes.html'>Map Routes</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-advanced-routes.html'>Map Advanced Routes</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-static.html'>Map Static</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-static-markers.html'>Map Static Markers</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-static-polylines.html'>Map Static Polylines</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-context-menu.html'>Map Context Menu</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-geofences.html'>Map Geofences</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-custom-controls.html'>Map Custom Controls</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-fusion-table-layers.html'>Map Fusion Tables layers</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-kml-georss-layers.html'>Map KML and GeoRSS layers</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-street-view-panoramas.html'>Map Street View Panoramas</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-interacting-ui.html'>Map Interacting with UI</a>
+                                        </li>
+                                        <li><a href='../maps/google-map-clustering.html'>Map Clustering</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href='../maps/vector-map.html'>Vector Map</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class='sub-menu '><a href="1" class="hvr-bounce-to-right-sidebar-parent"><span class='icon-sidebar pe-7s-box2 fa-2x'></span><span>App Pages <span class="badge label-success">45</span></span></a>
+                            <ul class='sub'>
+                                <li><a href='../app-pages/page-user-management.html'>User Management</a>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">User Profile</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-profile-dashboard.html'>Profile Dashboard</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-profile-about.html'>Profile About</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-profile-timeline.html'>Profile Timeline</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-profile-projects.html'>Profile Projects</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-profile-gallery.html'>Profile Gallery</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-profile-settings.html'>Profile Settings</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Project Management</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-project-all.html'>All Projects</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-project-view.html'>View Projects</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Services</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-services-1.html'>Services 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-services-2.html'>Services 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Login &amp; Registration</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-registration-1.html'>Registration 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-registration-2.html'>Registration 2</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-login-1.html'>Login 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-login-2.html'>Login 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Errors</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-error-404.html'>404 Error</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-error-500.html'>500 Error</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Timelines</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-timeline-1.html'>Timeline 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-timeline-2.html'>Timeline 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Forum</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-main-forum.html'>Main</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-forum-details.html'>Details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Email Templates</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-email-template-1.html'>Email Templates 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-email-template-2.html'>Email Templates 2</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-email-template-3.html'>Email Templates 3</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-email-template-4.html'>Email Templates 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Ecommerce</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-ecommerce-dashboard.html'>Dashboard</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-ecommerce-products.html'>Product Lists</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-ecommerce-view-product.html'>View Product</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-ecommerce-cart-summary.html'>Cart Summary</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-ecommerce-checkout.html'>Checkout</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-ecommerce-product-envoice.html'>Envoice</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu"><a href="javascript:void(0);">Contact</a>
+                                    <ul class='sub'>
+                                        <li><a href='../app-pages/page-contact-1.html'>Contact 1</a>
+                                        </li>
+                                        <li><a href='../app-pages/page-contact-2.html'>Contact 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href='../app-pages/page-full-calendar.html'>Full Calendar</a>
+                                </li>
+                                <li><a href='../app-pages/page-people-directory.html'>Contact Management</a>
+                                </li>
+                                <li><a href='../app-pages/page-search-results-1.html'>Search Results</a>
+                                </li>
+                                <li><a href='../app-pages/page-faqs.html'>FAQs</a>
+                                </li>
+                                <li><a href='../app-pages/page-about-us-1.html'>About Us</a>
+                                </li>
+                                <li><a href='../app-pages/page-coming-soon.html'>Coming Soon</a>
+                                </li>
+                                <li><a href='../app-pages/page-pricing-tables.html'>Pricing Tables</a>
+                                </li>
+                                <li><a href='../app-pages/page-lock-screen.html'>Lock Screen</a>
+                                </li>
+                                <li><a href='../app-pages/page-media-gallery.html'>Media Gallery</a>
+                                </li>
+                                <li><a href='../app-pages/page-privacy-policy.html'>Privacy Policy</a>
+                                </li>
+                                <li><a href='../app-pages/page-terms-of-condition.html'>Terms of Condition</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>           
+                </div>
+                <!-- sidebar menu end-->
+            </div>
+        </aside>    
+        <!--sidebar end-->
+
+        <!-- /menu footer buttons -->
+        
+        <!--<div class="sidebar-footer hidden-small">
+            <a class="tooltip-settings" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+            </a>
+            <a class="tooltip-fullscreen" title="Full Screen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+            </a>
+            <a class="tooltip-resize-fullscreen" title="Resize Screen" style='display:none'>
+                <span class="glyphicon glyphicon-resize-full" aria-hidden="true"></span>
+            </a>
+            <a class="tooltip-lock" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+            </a>
+            <a class="tooltip-logout" title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+            </a>
+        </div>-->    <!-- /menu footer buttons -->
+
+        <!--main content start-->
+        <section id="main-content">
+
+                
+            <section class="wrapper">
+                    
+                <!--======== Grid Menu Start ========-->
+                <div id="grid-menu">
+                    <div class="color-overlay grid-menu-overlay">
+                        <div class="grid-icon-wrap grid-icon-effect-8">
+                            <a href="#" class="grid-icon icon-envelope font-size-50 turquoise"></a>
+                            <a href="#" class="grid-icon icon-user font-size-50 teal"></a>
+                            <a href="#" class="grid-icon icon-support font-size-50 peter-river"></a>
+                            <a href="#" class="grid-icon icon-settings font-size-50 light-blue"></a>
+                            <a href="#" class="grid-icon icon-picture font-size-50 orange"></a>
+                            <a href="#" class="grid-icon icon-camrecorder font-size-50 light-orange"></a>
+                        </div>
+                    </div>
+                </div>                
+                <!--======== Grid Menu End ========-->
+
+                <!--======== Page Title and Breadcrumbs Start ========-->
+                <div class="top-page-header">
+                    
+                    <div class="page-title">
+                        <h2>Thema Responsive Table</h2>
+                        <small>Thema responsive data table.</small>
+                    </div>
+                    <div class="page-breadcrumb">
+                        <nav class="c_breadcrumbs">
+                            <ul>
+                                <li><a href="#">Thema</a></li>
+                                <li><a href="#">Data Table</a></li>
+                                <li class="active"><a href="#">Responsive Table</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="right-menu pull-right">
+
+                    </div>
+
+                    <div class="pull-right toggle-right-sidebar">
+                        <span class="fa fa-outdent fa-2x title-open-right-sidebar"></span>
+                    </div>
+
+                </div>
+                <!--======== Page Title and Breadcrumbs End ========-->
+
+                <!--======== Table Content Start ========-->
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="c_panel">
+
+                            <div class="c_title">
+                                <h2>Responsive Table</h2>
+                                <ul class="nav navbar-right panel_options">
+                                    <li>
+                                        <a class="full-screen">
+                                            <span class="icon-size-fullscreen"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="collapse-link">
+                                            <i class="fa fa-chevron-up"></i>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                            <i class="fa fa-wrench"></i>
+                                        </a>
+                                        <ul class="dropdown-menu bullet pull-right animated pulse" role="menu">
+                                            <li class="hvr-bounce-to-right-global-parent">
+                                                <a href="#">Settings 1</a>
+                                            </li>
+                                            <li class="hvr-bounce-to-right-global-parent">
+                                                <a href="#">Settings 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="close-link">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div><!--/.c_title-->
+
+                            <div class="c_content">
+
+                                <p>It is uses RWD Table Patterns for responsive table, you can visit their official website <a href="http://gergeo.se/RWD-Table-Patterns/">here</a> for more information.</p>
+                                
+                                <div class="table-responsive" data-pattern="priority-columns">
+                                   <table style="border-spacing:0px;" id="tech-companies-1" class="table table-small-font table-bordered table-striped">
+                                      <thead>
+                                         <tr>
+                                            <th>Company</th>
+                                            <th data-priority="1">Last Trade</th>
+                                            <th data-priority="3">Trade Time</th>
+                                            <th data-priority="1">Change</th>
+                                            <th data-priority="3">Prev Close</th>
+                                            <th data-priority="3">Open</th>
+                                            <th data-priority="6">Bid</th>
+                                            <th data-priority="6">Ask</th>
+                                            <th data-priority="6">1y Target Est</th>
+                                            <th data-priority="6">Lorem</th>
+                                            <th data-priority="6">Ipsum</th>
+                                         </tr>
+                                      </thead>
+                                      <tbody>
+                                         <tr>
+                                            <th>GOOG <span class="co-name">Google Inc.</span></th>
+                                            <td>597.74</td>
+                                            <td>12:12PM</td>
+                                            <td>14.81 (2.54%)</td>
+                                            <td>582.93</td>
+                                            <td>597.95</td>
+                                            <td>597.73 x 100</td>
+                                            <td>597.91 x 300</td>
+                                            <td>731.10</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>AAPL <span class="co-name">Apple Inc.</span></th>
+                                            <td>378.94</td>
+                                            <td>12:22PM</td>
+                                            <td>5.74 (1.54%)</td>
+                                            <td>373.20</td>
+                                            <td>381.02</td>
+                                            <td>378.92 x 300</td>
+                                            <td>378.99 x 100</td>
+                                            <td>505.94</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>AMZN <span class="co-name">Amazon.com Inc.</span></th>
+                                            <td>191.55</td>
+                                            <td>12:23PM</td>
+                                            <td>3.16 (1.68%)</td>
+                                            <td>188.39</td>
+                                            <td>194.99</td>
+                                            <td>191.52 x 300</td>
+                                            <td>191.58 x 100</td>
+                                            <td>240.32</td>
+                                            <td colspan="2">Spanning cell</td>  
+                                         </tr>       
+                                         <tr>
+                                            <th>ORCL <span class="co-name">Oracle Corporation</span></th>
+                                            <td>31.15</td>
+                                            <td>12:44PM</td>
+                                            <td>1.41 (4.72%)</td>
+                                            <td>29.74</td>
+                                            <td>30.67</td>
+                                            <td>31.14 x 6500</td>
+                                            <td>31.15 x 3200</td>
+                                            <td>36.11</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>MSFT <span class="co-name">Microsoft Corporation</span></th>
+                                            <td>25.50</td>
+                                            <td>12:27PM</td>
+                                            <td>0.66 (2.67%)</td>
+                                            <td>24.84</td>
+                                            <td>25.37</td>
+                                            <td>25.50 x 71100</td>
+                                            <td>25.51 x 17800</td>
+                                            <td>31.50</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>  
+                                         </tr>
+                                         <tr>
+                                            <th>CSCO <span class="co-name">Cisco Systems, Inc.</span></th>
+                                            <td>18.65</td>
+                                            <td>12:45PM</td>
+                                            <td>0.97 (5.49%)</td>
+                                            <td>17.68</td>
+                                            <td>18.23</td>
+                                            <td>18.65 x 10300</td>
+                                            <td>18.66 x 24000</td>
+                                            <td>21.12</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>  
+                                         </tr>      
+                                         <tr>
+                                            <th>YHOO <span class="co-name">Yahoo! Inc.</span></th>
+                                            <td>15.81</td>
+                                            <td>12:25PM</td>
+                                            <td>0.11 (0.67%)</td>
+                                            <td>15.70</td>
+                                            <td>15.94</td>
+                                            <td>15.79 x 6100</td>
+                                            <td>15.80 x 17000</td>
+                                            <td>18.16</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>         
+                                         </tr>
+                                         <!-- Repeat -->
+                                         <tr>
+                                            <th>GOOG <span class="co-name">Google Inc.</span></th>
+                                            <td>597.74</td>
+                                            <td>12:12PM</td>
+                                            <td>14.81 (2.54%)</td>
+                                            <td>582.93</td>
+                                            <td>597.95</td>
+                                            <td>597.73 x 100</td>
+                                            <td>597.91 x 300</td>
+                                            <td>731.10</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>AAPL <span class="co-name">Apple Inc.</span></th>
+                                            <td>378.94</td>
+                                            <td>12:22PM</td>
+                                            <td>5.74 (1.54%)</td>
+                                            <td>373.20</td>
+                                            <td>381.02</td>
+                                            <td>378.92 x 300</td>
+                                            <td>378.99 x 100</td>
+                                            <td>505.94</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>AMZN <span class="co-name">Amazon.com Inc.</span></th>
+                                            <td>191.55</td>
+                                            <td>12:23PM</td>
+                                            <td>3.16 (1.68%)</td>
+                                            <td>188.39</td>
+                                            <td>194.99</td>
+                                            <td>191.52 x 300</td>
+                                            <td>191.58 x 100</td>
+                                            <td>240.32</td>
+                                            <td colspan="2">Spanning cell</td>  
+                                         </tr>       
+                                         <tr>
+                                            <th>ORCL <span class="co-name">Oracle Corporation</span></th>
+                                            <td>31.15</td>
+                                            <td>12:44PM</td>
+                                            <td>1.41 (4.72%)</td>
+                                            <td>29.74</td>
+                                            <td>30.67</td>
+                                            <td>31.14 x 6500</td>
+                                            <td>31.15 x 3200</td>
+                                            <td>36.11</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>MSFT <span class="co-name">Microsoft Corporation</span></th>
+                                            <td>25.50</td>
+                                            <td>12:27PM</td>
+                                            <td>0.66 (2.67%)</td>
+                                            <td>24.84</td>
+                                            <td>25.37</td>
+                                            <td>25.50 x 71100</td>
+                                            <td>25.51 x 17800</td>
+                                            <td>31.50</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>  
+                                         </tr>
+                                         <tr>
+                                            <th>CSCO <span class="co-name">Cisco Systems, Inc.</span></th>
+                                            <td>18.65</td>
+                                            <td>12:45PM</td>
+                                            <td>0.97 (5.49%)</td>
+                                            <td>17.68</td>
+                                            <td>18.23</td>
+                                            <td>18.65 x 10300</td>
+                                            <td>18.66 x 24000</td>
+                                            <td>21.12</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>  
+                                         </tr>      
+                                         <tr>
+                                            <th>YHOO <span class="co-name">Yahoo! Inc.</span></th>
+                                            <td>15.81</td>
+                                            <td>12:25PM</td>
+                                            <td>0.11 (0.67%)</td>
+                                            <td>15.70</td>
+                                            <td>15.94</td>
+                                            <td>15.79 x 6100</td>
+                                            <td>15.80 x 17000</td>
+                                            <td>18.16</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>         
+                                         </tr>
+                                         <!-- Repeat -->
+                                         <tr>
+                                            <th>GOOG <span class="co-name">Google Inc.</span></th>
+                                            <td>597.74</td>
+                                            <td>12:12PM</td>
+                                            <td>14.81 (2.54%)</td>
+                                            <td>582.93</td>
+                                            <td>597.95</td>
+                                            <td>597.73 x 100</td>
+                                            <td>597.91 x 300</td>
+                                            <td>731.10</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>AAPL <span class="co-name">Apple Inc.</span></th>
+                                            <td>378.94</td>
+                                            <td>12:22PM</td>
+                                            <td>5.74 (1.54%)</td>
+                                            <td>373.20</td>
+                                            <td>381.02</td>
+                                            <td>378.92 x 300</td>
+                                            <td>378.99 x 100</td>
+                                            <td>505.94</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>AMZN <span class="co-name">Amazon.com Inc.</span></th>
+                                            <td>191.55</td>
+                                            <td>12:23PM</td>
+                                            <td>3.16 (1.68%)</td>
+                                            <td>188.39</td>
+                                            <td>194.99</td>
+                                            <td>191.52 x 300</td>
+                                            <td>191.58 x 100</td>
+                                            <td>240.32</td>
+                                            <td colspan="2">Spanning cell</td>  
+                                         </tr>       
+                                         <tr>
+                                            <th>ORCL <span class="co-name">Oracle Corporation</span></th>
+                                            <td>31.15</td>
+                                            <td>12:44PM</td>
+                                            <td>1.41 (4.72%)</td>
+                                            <td>29.74</td>
+                                            <td>30.67</td>
+                                            <td>31.14 x 6500</td>
+                                            <td>31.15 x 3200</td>
+                                            <td>36.11</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>MSFT <span class="co-name">Microsoft Corporation</span></th>
+                                            <td>25.50</td>
+                                            <td>12:27PM</td>
+                                            <td>0.66 (2.67%)</td>
+                                            <td>24.84</td>
+                                            <td>25.37</td>
+                                            <td>25.50 x 71100</td>
+                                            <td>25.51 x 17800</td>
+                                            <td>31.50</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>  
+                                         </tr>
+                                         <tr>
+                                            <th>CSCO <span class="co-name">Cisco Systems, Inc.</span></th>
+                                            <td>18.65</td>
+                                            <td>12:45PM</td>
+                                            <td>0.97 (5.49%)</td>
+                                            <td>17.68</td>
+                                            <td>18.23</td>
+                                            <td>18.65 x 10300</td>
+                                            <td>18.66 x 24000</td>
+                                            <td>21.12</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>  
+                                         </tr>      
+                                         <tr>
+                                            <th>YHOO <span class="co-name">Yahoo! Inc.</span></th>
+                                            <td>15.81</td>
+                                            <td>12:25PM</td>
+                                            <td>0.11 (0.67%)</td>
+                                            <td>15.70</td>
+                                            <td>15.94</td>
+                                            <td>15.79 x 6100</td>
+                                            <td>15.80 x 17000</td>
+                                            <td>18.16</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>         
+                                         </tr>
+                                         <!-- Repeat -->
+                                         <tr>
+                                            <th>GOOG <span class="co-name">Google Inc.</span></th>
+                                            <td>597.74</td>
+                                            <td>12:12PM</td>
+                                            <td>14.81 (2.54%)</td>
+                                            <td>582.93</td>
+                                            <td>597.95</td>
+                                            <td>597.73 x 100</td>
+                                            <td>597.91 x 300</td>
+                                            <td>731.10</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>AAPL <span class="co-name">Apple Inc.</span></th>
+                                            <td>378.94</td>
+                                            <td>12:22PM</td>
+                                            <td>5.74 (1.54%)</td>
+                                            <td>373.20</td>
+                                            <td>381.02</td>
+                                            <td>378.92 x 300</td>
+                                            <td>378.99 x 100</td>
+                                            <td>505.94</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>AMZN <span class="co-name">Amazon.com Inc.</span></th>
+                                            <td>191.55</td>
+                                            <td>12:23PM</td>
+                                            <td>3.16 (1.68%)</td>
+                                            <td>188.39</td>
+                                            <td>194.99</td>
+                                            <td>191.52 x 300</td>
+                                            <td>191.58 x 100</td>
+                                            <td>240.32</td>
+                                            <td colspan="2">Spanning cell</td>  
+                                         </tr>       
+                                         <tr>
+                                            <th>ORCL <span class="co-name">Oracle Corporation</span></th>
+                                            <td>31.15</td>
+                                            <td>12:44PM</td>
+                                            <td>1.41 (4.72%)</td>
+                                            <td>29.74</td>
+                                            <td>30.67</td>
+                                            <td>31.14 x 6500</td>
+                                            <td>31.15 x 3200</td>
+                                            <td>36.11</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>MSFT <span class="co-name">Microsoft Corporation</span></th>
+                                            <td>25.50</td>
+                                            <td>12:27PM</td>
+                                            <td>0.66 (2.67%)</td>
+                                            <td>24.84</td>
+                                            <td>25.37</td>
+                                            <td>25.50 x 71100</td>
+                                            <td>25.51 x 17800</td>
+                                            <td>31.50</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>  
+                                         </tr>
+                                         <tr>
+                                            <th>CSCO <span class="co-name">Cisco Systems, Inc.</span></th>
+                                            <td>18.65</td>
+                                            <td>12:45PM</td>
+                                            <td>0.97 (5.49%)</td>
+                                            <td>17.68</td>
+                                            <td>18.23</td>
+                                            <td>18.65 x 10300</td>
+                                            <td>18.66 x 24000</td>
+                                            <td>21.12</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>  
+                                         </tr>      
+                                         <tr>
+                                            <th>YHOO <span class="co-name">Yahoo! Inc.</span></th>
+                                            <td>15.81</td>
+                                            <td>12:25PM</td>
+                                            <td>0.11 (0.67%)</td>
+                                            <td>15.70</td>
+                                            <td>15.94</td>
+                                            <td>15.79 x 6100</td>
+                                            <td>15.80 x 17000</td>
+                                            <td>18.16</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>         
+                                         </tr>
+                                         <!-- Repeat -->
+                                         <tr>
+                                            <th>GOOG <span class="co-name">Google Inc.</span></th>
+                                            <td>597.74</td>
+                                            <td>12:12PM</td>
+                                            <td>14.81 (2.54%)</td>
+                                            <td>582.93</td>
+                                            <td>597.95</td>
+                                            <td>597.73 x 100</td>
+                                            <td>597.91 x 300</td>
+                                            <td>731.10</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>AAPL <span class="co-name">Apple Inc.</span></th>
+                                            <td>378.94</td>
+                                            <td>12:22PM</td>
+                                            <td>5.74 (1.54%)</td>
+                                            <td>373.20</td>
+                                            <td>381.02</td>
+                                            <td>378.92 x 300</td>
+                                            <td>378.99 x 100</td>
+                                            <td>505.94</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>AMZN <span class="co-name">Amazon.com Inc.</span></th>
+                                            <td>191.55</td>
+                                            <td>12:23PM</td>
+                                            <td>3.16 (1.68%)</td>
+                                            <td>188.39</td>
+                                            <td>194.99</td>
+                                            <td>191.52 x 300</td>
+                                            <td>191.58 x 100</td>
+                                            <td>240.32</td>
+                                            <td colspan="2">Spanning cell</td>  
+                                         </tr>       
+                                         <tr>
+                                            <th>ORCL <span class="co-name">Oracle Corporation</span></th>
+                                            <td>31.15</td>
+                                            <td>12:44PM</td>
+                                            <td>1.41 (4.72%)</td>
+                                            <td>29.74</td>
+                                            <td>30.67</td>
+                                            <td>31.14 x 6500</td>
+                                            <td>31.15 x 3200</td>
+                                            <td>36.11</td>
+                                            <td colspan="2">Spanning cell</td>
+                                         </tr>      
+                                         <tr>
+                                            <th>MSFT <span class="co-name">Microsoft Corporation</span></th>
+                                            <td>25.50</td>
+                                            <td>12:27PM</td>
+                                            <td>0.66 (2.67%)</td>
+                                            <td>24.84</td>
+                                            <td>25.37</td>
+                                            <td>25.50 x 71100</td>
+                                            <td>25.51 x 17800</td>
+                                            <td>31.50</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>  
+                                         </tr>
+                                         <tr>
+                                            <th>CSCO <span class="co-name">Cisco Systems, Inc.</span></th>
+                                            <td>18.65</td>
+                                            <td>12:45PM</td>
+                                            <td>0.97 (5.49%)</td>
+                                            <td>17.68</td>
+                                            <td>18.23</td>
+                                            <td>18.65 x 10300</td>
+                                            <td>18.66 x 24000</td>
+                                            <td>21.12</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>  
+                                         </tr>      
+                                         <tr>
+                                            <th>YHOO <span class="co-name">Yahoo! Inc.</span></th>
+                                            <td>15.81</td>
+                                            <td>12:25PM</td>
+                                            <td>0.11 (0.67%)</td>
+                                            <td>15.70</td>
+                                            <td>15.94</td>
+                                            <td>15.79 x 6100</td>
+                                            <td>15.80 x 17000</td>
+                                            <td>18.16</td>
+                                            <td>Non-spanning</td>
+                                            <td>Non-spanning</td>         
+                                         </tr>
+                                      </tbody>
+                                   </table>
+                                </div>  
+                                
+                                
+                            </div><!--/.c_content-->
+
+                        </div><!--/.c_panels-->
+
+
+                    </div><!--/col-md-12-->
+
+                </div><!--/row-->
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="c_panel">
+
+                            <div class="c_title">
+                                <h2>Flip Scroll Responsive Table</h2>
+                                <ul class="nav navbar-right panel_options">
+                                    <li>
+                                        <a class="full-screen">
+                                            <span class="icon-size-fullscreen"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="collapse-link">
+                                            <i class="fa fa-chevron-up"></i>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                            <i class="fa fa-wrench"></i>
+                                        </a>
+                                        <ul class="dropdown-menu bullet pull-right animated pulse" role="menu">
+                                            <li class="hvr-bounce-to-right-global-parent">
+                                                <a href="#">Settings 1</a>
+                                            </li>
+                                            <li class="hvr-bounce-to-right-global-parent">
+                                                <a href="#">Settings 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="close-link">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div><!--/.c_title-->
+
+                            <div class="c_content">
+                                
+                                <section id="flip-scroll">
+                                    <table class="table table-bordered table-striped table-condensed cf">
+                                        <thead class="cf">
+                                        <tr>
+                                            <th>Code</th>
+                                            <th>Company</th>
+                                            <th class="numeric">Price</th>
+                                            <th class="numeric">Change</th>
+                                            <th class="numeric">Change %</th>
+                                            <th class="numeric">Open</th>
+                                            <th class="numeric">High</th>
+                                            <th class="numeric">Low</th>
+                                            <th class="numeric">Volume</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>AAC</td>
+                                            <td>AUSTRALIAN AGRICULTURAL COMPANY LIMITED.</td>
+                                            <td class="numeric">$1.38</td>
+                                            <td class="numeric">-0.01</td>
+                                            <td class="numeric">-0.36%</td>
+                                            <td class="numeric">$1.39</td>
+                                            <td class="numeric">$1.39</td>
+                                            <td class="numeric">$1.38</td>
+                                            <td class="numeric">9,395</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AAD</td>
+                                            <td>ARDENT LEISURE GROUP</td>
+                                            <td class="numeric">$1.15</td>
+                                            <td class="numeric">  +0.02</td>
+                                            <td class="numeric">1.32%</td>
+                                            <td class="numeric">$1.14</td>
+                                            <td class="numeric">$1.15</td>
+                                            <td class="numeric">$1.13</td>
+                                            <td class="numeric">56,431</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AAX</td>
+                                            <td>AUSENCO LIMITED</td>
+                                            <td class="numeric">$4.00</td>
+                                            <td class="numeric">-0.04</td>
+                                            <td class="numeric">-0.99%</td>
+                                            <td class="numeric">$4.01</td>
+                                            <td class="numeric">$4.05</td>
+                                            <td class="numeric">$4.00</td>
+                                            <td class="numeric">90,641</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ABC</td>
+                                            <td>ADELAIDE BRIGHTON LIMITED</td>
+                                            <td class="numeric">$3.00</td>
+                                            <td class="numeric">  +0.06</td>
+                                            <td class="numeric">2.04%</td>
+                                            <td class="numeric">$2.98</td>
+                                            <td class="numeric">$3.00</td>
+                                            <td class="numeric">$2.96</td>
+                                            <td class="numeric">862,518</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ABP</td>
+                                            <td>ABACUS PROPERTY GROUP</td>
+                                            <td class="numeric">$1.91</td>
+                                            <td class="numeric">0.00</td>
+                                            <td class="numeric">0.00%</td>
+                                            <td class="numeric">$1.92</td>
+                                            <td class="numeric">$1.93</td>
+                                            <td class="numeric">$1.90</td>
+                                            <td class="numeric">595,701</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ABY</td>
+                                            <td>ADITYA BIRLA MINERALS LIMITED</td>
+                                            <td class="numeric">$0.77</td>
+                                            <td class="numeric">  +0.02</td>
+                                            <td class="numeric">2.00%</td>
+                                            <td class="numeric">$0.76</td>
+                                            <td class="numeric">$0.77</td>
+                                            <td class="numeric">$0.76</td>
+                                            <td class="numeric">54,567</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ACR</td>
+                                            <td>ACRUX LIMITED</td>
+                                            <td class="numeric">$3.71</td>
+                                            <td class="numeric">  +0.01</td>
+                                            <td class="numeric">0.14%</td>
+                                            <td class="numeric">$3.70</td>
+                                            <td class="numeric">$3.72</td>
+                                            <td class="numeric">$3.68</td>
+                                            <td class="numeric">191,373</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ADU</td>
+                                            <td>ADAMUS RESOURCES LIMITED</td>
+                                            <td class="numeric">$0.72</td>
+                                            <td class="numeric">0.00</td>
+                                            <td class="numeric">0.00%</td>
+                                            <td class="numeric">$0.73</td>
+                                            <td class="numeric">$0.74</td>
+                                            <td class="numeric">$0.72</td>
+                                            <td class="numeric">8,602,291</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AGG</td>
+                                            <td>ANGLOGOLD ASHANTI LIMITED</td>
+                                            <td class="numeric">$7.81</td>
+                                            <td class="numeric">-0.22</td>
+                                            <td class="numeric">-2.74%</td>
+                                            <td class="numeric">$7.82</td>
+                                            <td class="numeric">$7.82</td>
+                                            <td class="numeric">$7.81</td>
+                                            <td class="numeric">148</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AGK</td>
+                                            <td>AGL ENERGY LIMITED</td>
+                                            <td class="numeric">$13.82</td>
+                                            <td class="numeric">  +0.02</td>
+                                            <td class="numeric">0.14%</td>
+                                            <td class="numeric">$13.83</td>
+                                            <td class="numeric">$13.83</td>
+                                            <td class="numeric">$13.67</td>
+                                            <td class="numeric">846,403</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AGO</td>
+                                            <td>ATLAS IRON LIMITED</td>
+                                            <td class="numeric">$3.17</td>
+                                            <td class="numeric">-0.02</td>
+                                            <td class="numeric">-0.47%</td>
+                                            <td class="numeric">$3.11</td>
+                                            <td class="numeric">$3.22</td>
+                                            <td class="numeric">$3.10</td>
+                                            <td class="numeric">5,416,303</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </section>
+                                
+                                
+                            </div><!--/.c_content-->
+
+                        </div><!--/.c_panels-->
+
+
+                    </div><!--/col-md-12-->
+
+                </div><!--/row-->
+
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="c_panel">
+
+                            <div class="c_title">
+                                <h2>No More Tables</h2>
+                                <ul class="nav navbar-right panel_options">
+                                    <li>
+                                        <a class="full-screen">
+                                            <span class="icon-size-fullscreen"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="collapse-link">
+                                            <i class="fa fa-chevron-up"></i>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                            <i class="fa fa-wrench"></i>
+                                        </a>
+                                        <ul class="dropdown-menu bullet pull-right animated pulse" role="menu">
+                                            <li class="hvr-bounce-to-right-global-parent">
+                                                <a href="#">Settings 1</a>
+                                            </li>
+                                            <li class="hvr-bounce-to-right-global-parent">
+                                                <a href="#">Settings 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="close-link">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div><!--/.c_title-->
+
+                            <div class="c_content">
+                                
+                                <section id="no-more-tables">
+                                    <table class="table table-bordered table-striped table-condensed cf">
+                                        <thead class="cf">
+                                        <tr>
+                                            <th>Code</th>
+                                            <th>Company</th>
+                                            <th class="numeric">Price</th>
+                                            <th class="numeric">Change</th>
+                                            <th class="numeric">Change %</th>
+                                            <th class="numeric">Open</th>
+                                            <th class="numeric">High</th>
+                                            <th class="numeric">Low</th>
+                                            <th class="numeric">Volume</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td data-title="Code">AAC</td>
+                                            <td data-title="Company">AUSTRALIAN AGRICULTURAL COMPANY LIMITED.</td>
+                                            <td class="numeric" data-title="Price">$1.38</td>
+                                            <td class="numeric" data-title="Change">-0.01</td>
+                                            <td class="numeric" data-title="Change %">-0.36%</td>
+                                            <td class="numeric" data-title="Open">$1.39</td>
+                                            <td class="numeric" data-title="High">$1.39</td>
+                                            <td class="numeric" data-title="Low">$1.38</td>
+                                            <td class="numeric" data-title="Volume">9,395</td>
+                                        </tr>
+                                        <tr>
+                                            <td data-title="Code">AAD</td>
+                                            <td data-title="Company">ARDENT LEISURE GROUP</td>
+                                            <td class="numeric" data-title="Price">$1.15</td>
+                                            <td class="numeric" data-title="Change">  +0.02</td>
+                                            <td class="numeric" data-title="Change %">1.32%</td>
+                                            <td class="numeric" data-title="Open">$1.14</td>
+                                            <td class="numeric" data-title="High">$1.15</td>
+                                            <td class="numeric" data-title="Low">$1.13</td>
+                                            <td class="numeric" data-title="Volume">56,431</td>
+                                        </tr>
+                                        <tr>
+                                            <td data-title="Code">AAX</td>
+                                            <td data-title="Company">AUSENCO LIMITED</td>
+                                            <td class="numeric" data-title="Price">$4.00</td>
+                                            <td class="numeric" data-title="Change">-0.04</td>
+                                            <td class="numeric" data-title="Change %">-0.99%</td>
+                                            <td class="numeric" data-title="Open">$4.01</td>
+                                            <td class="numeric" data-title="High">$4.05</td>
+                                            <td class="numeric" data-title="Low">$4.00</td>
+                                            <td class="numeric" data-title="Volume">90,641</td>
+                                        </tr>
+                                        <tr>
+                                            <td data-title="Code">ABC</td>
+                                            <td data-title="Company">ADELAIDE BRIGHTON LIMITED</td>
+                                            <td class="numeric" data-title="Price">$3.00</td>
+                                            <td class="numeric" data-title="Change">  +0.06</td>
+                                            <td class="numeric" data-title="Change %">2.04%</td>
+                                            <td class="numeric" data-title="Open">$2.98</td>
+                                            <td class="numeric" data-title="High">$3.00</td>
+                                            <td class="numeric" data-title="Low">$2.96</td>
+                                            <td class="numeric" data-title="Volume">862,518</td>
+                                        </tr>
+                                        <tr>
+                                            <td data-title="Code">ABP</td>
+                                            <td data-title="Company">ABACUS PROPERTY GROUP</td>
+                                            <td class="numeric" data-title="Price">$1.91</td>
+                                            <td class="numeric" data-title="Change">0.00</td>
+                                            <td class="numeric" data-title="Change %">0.00%</td>
+                                            <td class="numeric" data-title="Open">$1.92</td>
+                                            <td class="numeric" data-title="High">$1.93</td>
+                                            <td class="numeric" data-title="Low">$1.90</td>
+                                            <td class="numeric" data-title="Volume">595,701</td>
+                                        </tr>
+                                        <tr>
+                                            <td data-title="Code">ABY</td>
+                                            <td data-title="Company">ADITYA BIRLA MINERALS LIMITED</td>
+                                            <td class="numeric" data-title="Price">$0.77</td>
+                                            <td class="numeric" data-title="Change">  +0.02</td>
+                                            <td class="numeric" data-title="Change %">2.00%</td>
+                                            <td class="numeric" data-title="Open">$0.76</td>
+                                            <td class="numeric" data-title="High">$0.77</td>
+                                            <td class="numeric" data-title="Low">$0.76</td>
+                                            <td class="numeric" data-title="Volume">54,567</td>
+                                        </tr>
+                                        <tr>
+                                            <td data-title="Code">ACR</td>
+                                            <td data-title="Company">ACRUX LIMITED</td>
+                                            <td class="numeric" data-title="Price">$3.71</td>
+                                            <td class="numeric" data-title="Change">  +0.01</td>
+                                            <td class="numeric" data-title="Change %">0.14%</td>
+                                            <td class="numeric" data-title="Open">$3.70</td>
+                                            <td class="numeric" data-title="High">$3.72</td>
+                                            <td class="numeric" data-title="Low">$3.68</td>
+                                            <td class="numeric" data-title="Volume">191,373</td>
+                                        </tr>
+                                        <tr>
+                                            <td data-title="Code">ADU</td>
+                                            <td data-title="Company">ADAMUS RESOURCES LIMITED</td>
+                                            <td class="numeric" data-title="Price">$0.72</td>
+                                            <td class="numeric" data-title="Change">0.00</td>
+                                            <td class="numeric" data-title="Change %">0.00%</td>
+                                            <td class="numeric" data-title="Open">$0.73</td>
+                                            <td class="numeric" data-title="High">$0.74</td>
+                                            <td class="numeric" data-title="Low">$0.72</td>
+                                            <td class="numeric" data-title="Volume">8,602,291</td>
+                                        </tr>
+                                        <tr>
+                                            <td data-title="Code">AGG</td>
+                                            <td data-title="Company">ANGLOGOLD ASHANTI LIMITED</td>
+                                            <td class="numeric" data-title="Price">$7.81</td>
+                                            <td class="numeric" data-title="Change">-0.22</td>
+                                            <td class="numeric" data-title="Change %">-2.74%</td>
+                                            <td class="numeric" data-title="Open">$7.82</td>
+                                            <td class="numeric" data-title="High">$7.82</td>
+                                            <td class="numeric" data-title="Low">$7.81</td>
+                                            <td class="numeric" data-title="Volume">148</td>
+                                        </tr>
+                                        <tr>
+                                            <td data-title="Code">AGK</td>
+                                            <td data-title="Company">AGL ENERGY LIMITED</td>
+                                            <td class="numeric" data-title="Price">$13.82</td>
+                                            <td class="numeric" data-title="Change">  +0.02</td>
+                                            <td class="numeric" data-title="Change %">0.14%</td>
+                                            <td class="numeric" data-title="Open">$13.83</td>
+                                            <td class="numeric" data-title="High">$13.83</td>
+                                            <td class="numeric" data-title="Low">$13.67</td>
+                                            <td class="numeric" data-title="Volume">846,403</td>
+                                        </tr>
+                                        <tr>
+                                            <td data-title="Code">AGO</td>
+                                            <td data-title="Company">ATLAS IRON LIMITED</td>
+                                            <td class="numeric" data-title="Price">$3.17</td>
+                                            <td class="numeric" data-title="Change">-0.02</td>
+                                            <td class="numeric" data-title="Change %">-0.47%</td>
+                                            <td class="numeric" data-title="Open">$3.11</td>
+                                            <td class="numeric" data-title="High">$3.22</td>
+                                            <td class="numeric" data-title="Low">$3.10</td>
+                                            <td class="numeric" data-title="Volume">5,416,303</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </section>
+                                
+                                
+                            </div><!--/.c_content-->
+
+                        </div><!--/.c_panels-->
+
+
+                    </div><!--/col-md-12-->
+
+                
+
+                </div><!--/row-->
+                <!--======== Table Content End ========-->
+
+
+            </section>
+        </section>
+        <!--======== Main Content End ========-->
+
+
+        <!--===== Right sidebar nofications start ========-->
+        <aside>
+            <div id="right-sidebar" class="right-sidebar-notifcations nav-collapse hide-right-bar-notifications">
+                <div class="bs-example bs-example-tabs right-sidebar-tab-notification" data-example-id="togglable-tabs">
+                    <ul id="right-sidebar-tabs" class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#activities" id="activities-tab" role="tab" data-toggle="tab" aria-controls="activities" aria-expanded="true">Activities</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#tasks" role="tab" id="tasks-tab" data-toggle="tab" aria-controls="tasks">Tasks</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#settings" role="tab" id="settings-tab" data-toggle="tab" aria-controls="settings">Settings</a>
+                        </li>
+                        
+                    </ul>
+                    <div id="right-sidebar-tab-content" class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="activities" aria-labelledBy="activities-tab">
+                            <div class="right-sidebar-panel-content-heading">
+                                <h4><span class="icon-user"></span> Latest user activities</h4>
+                                <small>10 Latest Activities</small>
+                            </div>
+                            <div class="right-sidebar-panel-content animated fadeInRight">
+                                
+                                <ul class="right-sidebar-list">
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - User Login...</h5>
+                                            <p>Accessing the system...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img3.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating...</h5>
+                                            <p>Updating user ID 1 ...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img2.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting...</h5>
+                                            <p>Deleting user message...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img5.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Accessing...</h5>
+                                            <p>User accessing the sys...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Viewing...</h5>
+                                            <p>Viewing the user...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Reading...</h5>
+                                            <p>Reading user message...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Registering...</h5>
+                                            <p>Registering new user...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Registering...</h5>
+                                            <p>Registering new user...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Registering...</h5>
+                                            <p>Registering new user...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Registering...</h5>
+                                            <p>Registering new user...</p>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>    
+
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="tasks" aria-labelledBy="tasks-tab">
+                            <div class="right-sidebar-panel-content-heading">
+                                <h4><span class="icon-list"></span> Recent tasks</h4>
+                                <small>15 Ongoing tasks</small>
+                            </div>
+                            <div class="right-sidebar-panel-content animated fadeInRight">
+                                
+                                <ul class="right-sidebar-list">
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5><a href="#">John Doe - Creating Tasks</a></h5>
+                                            <p>To update the sidebar...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img2.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img3.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img4.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img5.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/users/img4.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Updating Tasks</h5>
+                                            <p>To update the header UI...</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pull-left thumbnail-hover">
+                                            <div class="overflow-hidden">
+                                                <img src="../../../assets/images/profile.jpg" width="80" alt="image"/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h5>John Doe - Deleting Tasks</h5>
+                                            <p>Change the content UI...</p>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="settings" aria-labelledBy="settings-tab">
+                            <div class="right-sidebar-panel-content-heading">
+                                <h4><span class="icon-list"></span> System Settins</h4>
+                                <small>80% Completed Settings</small>
+                            </div>
+                            <div class="right-sidebar-panel-content animated fadeInRight">
+                                <ul class="right-sidebar-list">
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox" checked="">
+                                            <i data-on="YES" data-off="NO"></i> Email Notifications
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox">
+                                            <i data-on="YES" data-off="NO"></i> Daily Email Notifiactions
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox" checked="">
+                                            <i data-on="YES" data-off="NO"></i> Show user visitors
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox" checked="">
+                                            <i data-on="YES" data-off="NO"></i> Show birthdate
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox">
+                                            <i data-on="YES" data-off="NO"></i> Show address
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox">
+                                            <i data-on="YES" data-off="NO"></i> Payment Recurring
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="switch-input success">
+                                            <input type="checkbox" name="switch-checkbox">
+                                            <i data-on="YES" data-off="NO"></i> SMS Notifications
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /example -->
+                <div class="btn-bottom-right-sidebar-close">
+                    <span class="fa fa-times"></span>
+                </div>
+                    
+            </div>
+        </aside>    
+        <!--===== Right sidebar nofications end ========-->
+
+    </section><!--/.container-->
+
+    <!--===== Footer Start ========-->
+
+    <!-- Placed js at the end of the document so the pages load faster -->
+
+    <!--##################################################################################
+    #
+    # Thema GLOBAL JS PLUGINS
+    # 
+    # NOTE: These libraries are neccessary to run the template so don't remove one of these libraries. 
+    # You can uncomment the following libraries commented and comment the global-plugins.js but it will may cause slow performance of the template because of many links should be load from the server.
+    #
+    ##################################################################################-->
+    <script src="../../../assets/js/global-plugins.js"></script>
+    <!-- <script src="../../../assets/js/jquery.js"></script>
+    <script src="../../../assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../../../assets/vendors/jquery.cookie/jquery.cookie.js"></script>
+    <script src="../../../assets/vendors/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../../../assets/vendors/jquery-easing/jquery.easing.1.3.js"></script>
+    <script src="../../../assets/vendors/bootstrap/js/bootstrap.js"></script>
+    <script src="../../../assets/vendors/jquery/dcjqaccordion.2.7.js"></script>
+    <script src="../../../assets/vendors/jquery/scrollTo.min.js"></script>
+    <script src="../../../assets/vendors/jquery/slimscroll.js"></script>
+    <script src="../../../assets/vendors/jquery/nicescroll.js"></script>
+    <script src="../../../assets/vendors/progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="../../../assets/vendors/counter/waypoints.min.js" type="text/javascript" ></script>
+    <script src="../../../assets/vendors/counter/jquery.counterup.min.js" type="text/javascript" ></script>
+    <script src="../../../assets/vendors/jquery-icheck/icheck.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="../../../assets/vendors/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+    <script src="../../../assets/vendors/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+    <script src="../../../assets/vendors/summernote/summernote.min.js"></script>
+    <script src="../../../assets/vendors/jquery.autosize/jquery.autosize.js"></script>
+    <script src="../../../assets/vendors/jquery.multi-select/js/jquery.multi-select.js"></script>
+    <script src="../../../assets/vendors/jquery.multi-select/js/jquery.quicksearch.js"></script>
+    <script src="../../../assets/vendors/typeahead/js/typeahead.bundle.js"></script>
+    <script src="../../../assets/vendors/typeahead/js/handlebars.min.js"></script>
+    <script src="../../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+    <script src="../../../assets/vendors/select2/select2.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-star-rating/js/star-rating.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-fileupload/js/bootstrap-fileupload.js"></script>
+    <script src="../../../assets/vendors/bootstrap-inputmask/bootstrap-inputmask.min.js"></script>
+    <script src="../../../assets/vendors/jquery.validate/jquery.validate.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+    <script src="../../../assets/vendors/dropzone/dropzone.min.js"></script>
+    <script src="../../../assets/vendors/plupload/js/plupload.full.min.js"></script>
+    <script src="../../../assets/vendors/plupload/js/jquery.plupload.queue/jquery.plupload.queue.min.js"></script>
+    <script src="../../../assets/vendors/x-editable/bootstrap3-editable/js/bootstrap-editable.js"></script>
+    <script src="../../../assets/vendors/x-editable/inputs-ext/address/address.js"></script>
+    <script src="../../../assets/vendors/x-editable/inputs-ext/typeaheadjs/typeaheadjs.js"></script>
+    <script src="../../../assets/vendors/owl-carousel/owl.carousel.js"></script>
+    <script src="../../../assets/vendors/magnific-popup/js/jquery.magnific-popup.js"></script>
+    <script src="../../../assets/vendors/masonry/masonry.pkgd.min.js"></script>
+    <script src="../../../assets/vendors/moment.min.js"></script>
+    <script src="../../../assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+    <script src="../../../assets/vendors/raphael-min.js" charset="utf-8" ></script>
+    <script src="../../../assets/vendors/sweetalert/sweetalert.min.js"></script>
+    <script src="../../../assets/vendors/word-rotator/jquery.wordrotator.min.js"></script>
+    <script src="../../../assets/vendors/wow-animations/js/wow.min.js"></script>
+    <script src="../../../assets/vendors/rwd-table/js/rwd-table.min.js?v=5.0.3"></script>
+    <script src="../../../assets/vendors/jqueryui.sortable.animation/jquery.ui.sortable-animation.js"></script>
+    <script src="../../../assets/vendors/tooltipster/js/jquery.tooltipster.js" type="text/javascript" ></script>
+    <script src="../../../assets/vendors/dropdowns-enhancement/js/dropdowns-enhancement.min.js" type="text/javascript"></script>
+    <script src="../../../assets/vendors/jquery-notific8/jquery.notific8.js" type="text/javascript"></script>
+    <script src="../../../assets/vendors/date.js"></script>
+    <script src="../../../assets/vendors/pogo-slider/js/jquery.pogo-slider.min.js" type="text/javascript" ></script>
+    <script src="../../../assets/vendors/bootstrap-daterangepicker/daterangepicker.js" type="text/javascript" ></script>
+    <script src="../../../vendors/nestable/jquery.nestable.js" type="text/javascript" ></script>
+    <script src="../../../assets/vendors/bstooltip/bstooltip.js"></script> -->
+
+    <!--##################################################################################
+    #
+    # COMMON SCRIPT FOR THIS PAGE
+    #
+    ##################################################################################-->
+
+    <!--common script init for all pages-->
+    <script src="../../../assets/js/theme.js" type="text/javascript" ></script>
+
+    <!-- For the page has tooltipslter only -->
+    <script src="../../../assets/js/tooltipster.js" type="text/javascript" ></script>
+
+    <!-- For this page only -->
+    <script src="../../../assets/js/tables.js"></script>
+    <script src="../../../assets/js/table_editable.js"></script>
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function(){
+            new WOW().init();
+
+            App.initPage();
+            App.initLeftSideBar();
+            App.initCounter();
+            App.initNiceScroll();
+            App.initPanels();
+            App.initProgressBar();
+            App.initSlimScroll();
+            App.initNotific8();
+            App.initTooltipster();
+            App.initStyleSwitcher();
+            App.initMenuSelected();
+            App.initRightSideBar();
+            App.initSummernote();
+            App.initAccordion();
+            App.initModal();
+            App.initPopover();
+
+        });
+    </script>
+
+
+</body>
+
+</html>
+
+<!--===== Footer End ========-->

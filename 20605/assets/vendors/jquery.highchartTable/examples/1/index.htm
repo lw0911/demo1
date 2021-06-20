@@ -1,0 +1,30 @@
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharttable.org/master/jquery.highchartTable-min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+      $('table.highchart').highchartTable();
+    });
+</script>
+<table class="highchart" data-graph-container-before="1" data-graph-type="column" style="display:none">
+    <caption>Example of title</caption>
+    <thead>
+        <tr>                                  
+            <th>Month</th>
+            <th>Sales</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+            <td>January</td>
+            <td>8000</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>12000</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td>18000</td>
+        </tr>
+    </tbody>
+</table>

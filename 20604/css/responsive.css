@@ -1,0 +1,292 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
+
+@media (min-width: 1343px) and (max-width: 1600px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 28px;
+    }
+    .full_bg {
+        height: 100% !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .header_midil {
+        padding: 23px 15px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 19px;
+    }
+    .full_bg {
+        height: 100% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header_midil {
+        padding: 23px 0px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 12px;
+    }
+    .full_bg {
+        height: 100% !important;
+    }
+    .titlepage h2 {
+        font-size: 32px;
+    }
+    .bak_h {
+        width: 281px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header_midil {
+        padding: 23px 0px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 10px;
+    }
+    .full_bg {
+        height: 100% !important;
+    }
+    .titlepage h2 {
+        font-size: 32px;
+    }
+    .bak_h {
+        width: 200px;
+    }
+    .d_none {
+        display: none;
+    }
+    .recipe {
+        padding-top: 30px;
+    }
+    .left_be figure::before {
+        left: -15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header_midil {
+        padding: 23px 0px;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 10px;
+    }
+    .full_bg {
+        height: 100% !important;
+    }
+    .titlepage h2 {
+        font-size: 32px;
+    }
+    .about_img {
+        margin-top: 30px;
+        text-align: left;
+    }
+    .grid {
+        display: grid;
+    }
+    .older1 {
+        order: -1;
+    }
+    .right_ber {
+        text-align: right;
+    }
+    .property_box {
+        max-width: 373px;
+        margin: 0 auto;
+    }
+    .bak_h {
+        width: 280px;
+    }
+    .d_none {
+        display: none;
+    }
+    .recipe {
+        padding-top: 30px;
+    }
+    .left_be figure::before {
+        left: -15px;
+    }
+    .contact {
+        margin-bottom: 0;
+    }
+    .main_form {
+        padding: 45px 30px 30px 30px;
+    }
+    .contat {
+        padding: 70px 0;
+    }
+    .logo_footer {
+        padding-bottom: 30px;
+        display: block;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #111111;
+        padding: 20px;
+        margin-top: 59px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+        text-align: center;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding: 0;
+        width: 100%;
+        outline: inherit;
+        margin-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+        width: 48px;
+        float: right;
+    }
+    .d_none {
+        display: none;
+    }
+    .copyright {
+        justify-content: center;
+    }
+    .copyright span {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header_midil {
+        padding: 23px 0px;
+    }
+    ul.top_infomation li {
+        font-size: 9px;
+    }
+    .owen h1 {
+        font-size: 47px;
+    }
+    .full_bg {
+        height: 100% !important;
+    }
+    .about_img {
+        margin-top: 30px;
+        text-align: left;
+    }
+    .grid {
+        display: grid;
+    }
+    .older1 {
+        order: -1;
+    }
+    .right_ber {
+        text-align: right;
+    }
+    .property_box {
+        max-width: 373px;
+        margin: 0 auto;
+    }
+    .bak_h {
+        width: 280px;
+    }
+    .d_none {
+        display: none;
+    }
+    .recipe {
+        padding-top: 30px !important;
+    }
+    .left_be figure::before {
+        left: -15px;
+    }
+    .contact {
+        margin-bottom: 0;
+    }
+    .main_form {
+        padding: 45px 30px 30px 30px;
+    }
+    .bubscr h3 {
+        font-size: 18px;
+        line-height: 19px;
+    }
+    .newsl {
+        width: 83%;
+    }
+    .contat {
+        padding: 70px 0;
+    }
+    .test_box {
+        padding: 10px;
+    }
+    .test_box i {
+        float: inherit;
+    }
+    .test_box h4 {
+        padding-top: 16px;
+    }
+    .about .titlepage {
+        padding-left: 0;
+    }
+    .logo_footer {
+        padding-bottom: 30px;
+        display: block;
+    }
+    .titlepage h2 {
+        line-height: 35px;
+        font-size: 26px;
+    }
+    .recipe h3 {
+        font-size: 20px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -33px;
+    }
+    .navigation .navbar-collapse {
+        background: #111111;
+        padding: 20px;
+        margin-top: 58px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+        text-align: center;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        border: inherit;
+        margin-top: 1px;
+        padding: 0;
+        outline: inherit;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+        width: 48px;
+    }
+    .d_none {
+        display: none;
+    }
+    .copyright {
+        justify-content: center;
+    }
+    .copyright span {
+        padding-top: 10px;
+    }
+}

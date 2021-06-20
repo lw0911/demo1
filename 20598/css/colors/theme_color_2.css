@@ -1,0 +1,329 @@
+.loading .loading-content .inner-item,
+.main-title .separator:before,	
+.main-title .separator:after,
+.upper-bar .inner-bar,
+.header-inner .menu-toggle,
+.header-inner .search-form .search-btn,
+.header-inner .navbar .nav li a:before,
+.side-menu .social-icons li a:hover,
+.home.demo2,
+.services .service .service-bg,
+.about-us .about-info .progress-container .progress-bar,
+.class-schedule .filter-menu .list-filter li.active,
+.class-schedule .timetable-small ul li,
+.call-to-action,
+.events .event .event-content .event-date,
+.team .member .member-img .social-media i,
+.pricing .pricing-plans .pricing-plan.two .pricing-head,
+.testimonials .owl-carousel .owl-nav .owl-next:hover,
+.testimonials .owl-carousel .owl-nav .owl-prev:hover,
+.contact .contact-form .form-group .input-border,
+.newsletter .newsletter-inner {
+    background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+}
+
+.main-title .separator .flaticon-chakra:before,
+.custom-btn span,
+.header-inner .my-logo .flaticon-chakra:before,
+.header-inner .nav-search li a:hover,
+.header-inner .navbar .nav li.active a,
+.header-inner .navbar .nav li.active a i,
+.header-inner .navbar .nav li:hover a,
+.header-inner .navbar .nav li:hover a i,
+.side-menu .side-menu-close i,
+.side-menu .my-logo .flaticon-chakra:before,
+.side-menu .side-nav li a:hover,
+.side-menu .side-nav li a.active,
+.side-menu .social-icons li a i,
+.about-us .about-info h3,
+.class-schedule .timetable tr td h4,
+.events .event .event-content .event-title h4:hover,
+.events .event .event-content .event-info li i:before,
+.events .event .event-content .event-more,
+.team .member .member-info span,
+.pricing .pricing-plans .pricing-plan .pricing-price p,
+.pricing .pricing-plans .pricing-plan .main-btn span,
+.testimonials .testimonial-box .description .star i,
+.blog .post .post-content:hover .post-title h4,
+.blog .post .post-content .post-info li .post-more,
+.blog .post .post-content .post-info li .post-more i,
+.contact .contact-form .form-group .form-control:focus ~ label,
+.newsletter .newsletter-inner .main-btn span,
+.footer .footer-top .footer-logo .my-logo .flaticon-chakra:before,
+.footer .footer-bottom .copyright p span {	
+    background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.main-btn {
+    background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+    border: none;
+	box-shadow: 0 2px 4px rgba(4, 6, 6, .15);
+}
+
+.main-btn:before,
+.header-inner .search-form .search-btn:hover,
+.team .member .member-img .social-media i:hover {
+    background: linear-gradient(45deg, #cf11da 0%, #3482fd 100%);
+}
+
+.main-btn:hover,
+.custom-btn:hover {
+	border: none;
+	box-shadow: 0 3px 25px rgba(4, 6, 6, .25);
+}
+
+.custom-btn {
+    background: #fff;
+    border: none;
+}
+
+.custom-btn:hover span,
+.side-menu .side-menu-close:hover i,
+.side-menu .social-icons li a:hover i,
+.pricing .pricing-plans .pricing-plan.two .main-btn span,
+.newsletter .newsletter-inner .main-btn:hover span,
+.pricing .pricing-plans .pricing-plan .main-btn:hover span {
+    color: #fff;
+}
+
+.header-inner .search-form {
+    border-top: 2px solid #3482fd;
+}
+
+.header-inner .navbar .nav .dropdown {
+	border-bottom: 3px solid #3482fd;
+}
+
+.side-menu .side-menu-close,
+.side-menu .social-icons li a {
+    border: 1px solid #3482fd;
+}
+
+.side-menu .side-menu-close:hover {
+ 	background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+    border: 1px solid #3482fd;
+}
+
+.services .service .service-icon i {
+    background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+    -webkit-box-shadow: 0 0 0 0 rgba(207, 17, 218, .3);
+            box-shadow: 0 0 0 0 rgba(207, 17, 218, .3);
+}
+
+@-webkit-keyframes pulse
+{
+    to
+    {
+        -webkit-box-shadow: 0 0 0 9px rgba(207, 17, 218, 0);
+                box-shadow: 0 0 0 9px rgba(207, 17, 218, 0);
+    }
+}
+
+@keyframes pulse
+{
+    to
+    {
+        -webkit-box-shadow: 0 0 0 9px rgba(207, 17, 218, 0);
+                box-shadow: 0 0 0 9px rgba(207, 17, 218, 0);
+    }
+}
+
+.services .service .service-bg .flaticon-lotus:before {
+    opacity: .08;
+}
+
+.about-us .about-info .progress-container .percent,
+.class-schedule .filter-menu .list-filter li {
+    background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 1px solid #3482fd;
+}
+
+.about-us .about-info .progress-container .percent:before {
+	border: 1px solid #3482fd;
+	border-width: 0 1px 1px 0;
+}
+
+.about-us .about-image .about-bg .flaticon-lotus:before,
+.contact .flaticon-lotus:before {
+    color: #7b6cd5;
+}
+
+.call-to-action .flaticon-lotus:before {
+    opacity: .05;
+}
+
+.pricing .pricing-plans .pricing-plan .pricing-head .flaticon-lotus:before {
+    opacity: .06;
+}
+
+.pricing .pricing-plans .pricing-plan .main-btn {
+    background: #fff;
+    border: none;
+}
+
+.pricing .pricing-plans .pricing-plan.two .main-btn {
+    background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+	color: #fff;
+}
+
+.blog .post .post-content .post-date {
+    background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+    border: none;
+}
+
+.contact .contact-form .form-group .form-control {
+    border-bottom: 1px solid #bcb4ef;
+}
+
+.newsletter .newsletter-inner .main-btn {
+    background: #fff;
+	border: none;
+}
+
+.newsletter .newsletter-inner .main-btn:hover {
+	border: none;
+}
+
+.footer .footer-top .social-media li i {
+    background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+    color: #fff;
+    border: none;
+	line-height: 38px;
+}
+
+.footer .footer-top .social-media li i:hover,
+.scroll-top:before {
+	background: linear-gradient(45deg, #cf11da 0%, #3482fd 100%);
+    border: none;
+}
+
+.footer .footer-top .footer-item ul li a:hover {
+    color: #e0dede;
+}
+
+.scroll-top,
+.scroll-top:hover {
+	background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+	border: none;
+	line-height: 52px;
+}
+
+.faq .card .card-header h5 .btn-link,
+.contact .contact-boxes .contact-box {
+    background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+}
+
+.classes .class .class-content:hover .class-title h4,
+.classes .class .class-content .details li i,
+.classes .class .class-content .class-info li .post-more,
+.classes .class .class-content .class-footer .class-tags ul li a:hover,
+.classes .class .class-content .class-comment .reply-btn,
+.classes .class .class-content .class-comment .reply-btn i,
+.classes .class-sidebar .info-list li span,
+.classes .class-sidebar .sidebar-classes .class-info h5 a:hover,
+.classes .class-sidebar .tags-list li a:hover,
+.team-single .trainer-info .view-classes,
+.team-single .trainer-info .view-classes i,
+.team-single .related-trainers .member .member-info span,
+.events .event .event-content .event-comment .reply-btn,
+.events .event .event-content .event-comment .reply-btn i,
+.events .event-sidebar .info-list li span,
+.events .event-sidebar .sidebar-events .event-info h5 a:hover,
+.events .event-sidebar .tags-list li a:hover,
+.blog .blog-sidebar .categories-list li a span,
+.blog .blog-sidebar .categories-list li a:hover,
+.blog .blog-sidebar .sidebar-posts .post-info h5 a:hover,
+.blog .blog-sidebar .archives-list li a:hover,
+.blog .blog-sidebar .tags-list li a:hover,
+.blog .post .post-content .post-footer .post-tags ul li a:hover,
+.blog .post .post-content .post-comment .reply-btn,
+.blog .post .post-content .post-comment .reply-btn i {
+    background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.classes .class .class-content .class-footer .class-share ul li a,
+.blog .post .post-content .post-footer .post-share ul li a {
+    background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+	color: #fff;
+    border: none;
+	line-height: 42px;
+}
+
+.classes .class-sidebar .sidebar-search .search-btn,
+.team-single .trainer-info .info > li .social li a,
+.team-single .related-trainers .member .member-img .social-media i,
+.events .event-sidebar .sidebar-search .search-btn,
+.blog .blog-sidebar .sidebar-search .search-btn {
+	background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+	color: #fff;
+    border: none;
+}
+
+.classes .class .class-content .class-footer .class-share ul li a:hover,
+.classes .class-sidebar .sidebar-search .search-btn:hover,
+.team-single .trainer-info .info > li .social li a:hover,
+.team-single .related-trainers .member .member-img .social-media i:hover,
+.events .event-sidebar .sidebar-search .search-btn:hover,
+.blog .blog-sidebar .sidebar-search .search-btn:hover,
+.blog .post .post-content .post-footer .post-share ul li a:hover {
+	background: linear-gradient(45deg, #cf11da 0%, #3482fd 100%);
+    border: none;
+}
+
+.blog .post .post-content .more-details blockquote i {
+	background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+    border: none;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	.newsletter .newsletter-inner .main-btn {
+        background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+		color: #fff;
+        border: none;
+    }
+	
+	.newsletter .newsletter-inner .main-btn span {
+		color: #fff;
+    }
+}
+
+/* Small Devices */
+@media (max-width: 767.98px) {
+	
+	.newsletter .newsletter-inner .main-btn {
+        background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+		color: #fff;
+        border: none;
+    }
+	
+	.newsletter .newsletter-inner .main-btn span {
+		color: #fff;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .newsletter .newsletter-inner .main-btn {
+        background: #fff;
+	    border: none;
+    }
+
+    .newsletter .newsletter-inner .main-btn span {
+        background: linear-gradient(-45deg, #cf11da 0%, #3482fd 100%);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .newsletter .newsletter-inner .main-btn:hover span {
+        color: #fff;
+    }
+}

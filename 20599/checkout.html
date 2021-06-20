@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title></title>
+
+    <!-- Vendor Stylesheet -->
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive Stylesheet -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+
+    <!-- search Popup -->
+    <div class="body-overlay" id="body-overlay"></div>
+    <div class="search-popup" id="search-popup">
+        <form action="index.html" class="main-search search-form">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </form>
+    </div>
+    <!-- //. search Popup -->
+
+    <!--sidebar menu start-->
+    <div class="sidebar-menu" id="sidebar-menu">
+        <button class="sidebar-menu-close"><i class="flaticon-close"></i></button>
+        <div class="sidebar-inner">
+            <div class="sidebar-logo">
+                <img src="assets/img/logo.png" alt="logo"/>
+            </div>
+            <div class="sidemenu-text">
+                <p>We believe brand interaction is key in commu- nication. Real inno vations and a positive customer experience are the heart of successful commu- nication.</p>
+            </div>
+            <div class="sidebar-contact">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="fa fa-map-marker"></i>Lavaca Street, Suite 2000</li>
+                    <li><i class="fa fa-envelope"></i>email@evha.com</li>
+                    <li><i class="fa fa-phone"></i>(+880) 172570051</li>
+                </ul>
+            </div>
+            <div class="sidebar-subscribe">
+                <input type="text" placeholder="Email">
+                <button><i class="fa fa-long-arrow-right"></i></button>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--sidebar menu end-->
+
+    <!-- navbar start -->
+    <div class="navbar-area">
+        <div class="navbar-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-md-left text-center">
+                        <ul class="topbar-left">
+                            <li class="topbar-single-info"><i class="fa fa-phone"></i>+123 4567 8910</li>
+                            <li class="topbar-single-info"><i class="fa fa-map-marker"></i>Store Location</li>
+                            <li class="topbar-single-info d-none d-lg-block"><i class="fa fa-crosshairs"></i>Track Your Order</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 text-md-right text-center">
+                        <ul class="topbar-right float-md-right">
+                            <li class="topbar-single-info">
+                                <i class="fa fa-user"></i>
+                                <span class="d-none d-lg-inline-block">My Account</span>
+                            </li>
+                            <li>
+                                <select class="topbar-select topbar-currency">
+                                    <option value="rating">Taka</option>
+                                    <option value="date">Rupee</option>
+                                    <option value="price-desc">Riyal</option>
+                                    <option value="categories" selected="selected">USD</option>
+                                </select>
+                            </li>
+                            <li>
+                                <div class="dropdown topbar-help">
+                                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Help
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Help 1</a>
+                                    <a class="dropdown-item" href="#">Help 2</a>
+                                    <a class="dropdown-item" href="#">Help 3</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-middle d-none d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 align-self-center">
+                        <div class="logo-area">
+                            <a href="index.html"> <img src="assets/img/logo.png" alt="logo"></a>
+                        </div>
+                    </div> 
+                    <div class="col-lg-7 text-center">
+                        <form class="main-search d-inline-flex">
+                            <input type="text" placeholder="Search product...">
+                            <div class="topbar-cat-select">
+                                <select>
+                                    <option value="rating">Product Category</option>
+                                    <option value="date">Featured Category</option>
+                                    <option value="price-desc">Price categories</option>
+                                    <option value="categories" selected="selected">All categories</option>
+                                </select>
+                            </div>
+                            <button>Search</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 align-self-center">
+                        <div class="shop-cart-area">
+                            <ul>
+                                <li><span>6</span><i class="fa fa-heart-o"></i></li>
+                                <li><span>5</span><i class="las la-shopping-cart"></i></li>
+                                <li>$155.00</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-area navbar-expand-lg nav-style-01">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <button class="menu toggle-btn d-block d-lg-none" data-toggle="collapse" data-target="#zenax_main_menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-left"></span>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+                <div class="mobile-logo">
+                    <a href="index.html"> <img src="assets/img/logo-2.png" alt="logo"></a>
+                </div>
+                <div class="cat-menu-wrap">
+                    <div class="cat-menu">
+                        <img src="assets/img/icon/bar.png" alt="icon">
+                        All Category
+                    </div>
+                    <ul class="sidebar-categories">
+                        <li><a href="#"><img src="assets/img/icon/laptop.png" alt="img">Computer &amp; Offices<i class="fa fa-angle-down"></i></a></li>
+                        <li><a href="#"><img src="assets/img/icon/chair.png" alt="img">Home &amp; Furniture<i class="fa fa-angle-down"></i></a></li>
+                        <li><a href="#"><img src="assets/img/icon/phone.png" alt="img">Mobile &amp; Tablets<i class="fa fa-angle-down"></i></a></li>
+                        <li><a href="#"><img src="assets/img/icon/ball.png" alt="img">Sports &amp; Outdoors<i class="fa fa-angle-down"></i></a></li>
+                        <li><a href="#"><img src="assets/img/icon/heart.png" alt="img">Beauty &amp; Health<i class="fa fa-angle-down"></i></a></li>
+                        <li><a href="#"><img src="assets/img/icon/monitor.png" alt="img">Radio &amp; TV<i class="fa fa-angle-down"></i></a></li>
+                    </ul>
+                </div>
+                <div class="shop-cart-area">
+                    <ul>
+                        <li><span>6</span><i class="fa fa-heart-o"></i></li>
+                        <li><span>5</span><i class="las la-shopping-cart"></i></li>
+                    </ul>
+                    <ul class="right-part-search">
+                        <li class="search" id="search">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                        </li>
+                        <li class="menubar d-none d-lg-block" id="navigation-button">
+                            <a><i class="flaticon-menu-button"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="zenax_main_menu">
+                    <ul class="navbar-nav menu-open">
+                        <li class="menu-item-has-children current-menu-item">
+                            <a href="#">Home</a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html"><i class="fa fa-long-arrow-right"></i>Home 01</a></li>
+                                <li><a href="home-2.html"><i class="fa fa-long-arrow-right"></i>Home 02</a></li>
+                                <li><a href="home-3.html"><i class="fa fa-long-arrow-right"></i>Home 03</a></li>
+                                <li><a href="home-4.html"><i class="fa fa-long-arrow-right"></i>Home 04</a></li>
+                                <li><a href="home-5.html"><i class="fa fa-long-arrow-right"></i>Home 05</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#">Shop</a>
+                            <ul class="sub-menu">
+                                <li><a href="shop.html"><i class="fa fa-long-arrow-right"></i>Shop 01</a></li>
+                                <li><a href="shop-2.html"><i class="fa fa-long-arrow-right"></i>Shop 02</a></li>
+                                <li><a href="shop-3.html"><i class="fa fa-long-arrow-right"></i>Shop 03</a></li>
+                                <li><a href="shop-4.html"><i class="fa fa-long-arrow-right"></i>Shop 04</a></li>
+                                <li><a href="shop-5.html"><i class="fa fa-long-arrow-right"></i>Shop 05</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#">Product</a>
+                            <ul class="sub-menu">
+                                <li><a href="shop-details.html"><i class="fa fa-long-arrow-right"></i>Product Details 01</a></li>
+                                <li><a href="shop-details-2.html"><i class="fa fa-long-arrow-right"></i>Product Details 02</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#">Pages</a>
+                            <ul class="sub-menu">
+                                <li><a href="checkout.html"><i class="fa fa-long-arrow-right"></i>Checkout</a></li>
+                                <li><a href="compare-product.html"><i class="fa fa-long-arrow-right"></i>Compare Product</a></li>
+                                <li><a href="wishlist.html"><i class="fa fa-long-arrow-right"></i>Wistlist</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#">Card</a>
+                            <ul class="sub-menu">
+                                <li><a href="card.html"><i class="fa fa-long-arrow-right"></i>Card 01</a></li>
+                                <li><a href="card-2.html"><i class="fa fa-long-arrow-right"></i>Card 02</a></li>
+                                <li><a href="card-3.html"><i class="fa fa-long-arrow-right"></i>Card 03</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-right-part">
+                    <a href="shipping.html" class="right-part-text">Free Shipping on Orders $30+</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+
+    <!-- breadcrumb-area start -->
+    <nav class="breadcrumb-area" aria-label="breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Payment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- breadcrumb-area end -->
+
+    <!-- shipping area start -->
+    <div class="bg-gray-4 pd-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="shipping-area">
+                        <h3 class="title">Payment Details</h3>
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="payment-option">
+                                        <label>
+                                            <input type="radio" checked="checked" name="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <img src="assets/img/footer/03.png" alt="#">
+                                    </div>
+                                    <div class="payment-option border-0">
+                                        <label>
+                                            <input type="radio" checked="checked" name="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        Credit Card
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <ul class="footer-currency currency-area">
+                                        <li><a href="#"><img src="assets/img/footer/01.png" alt="img"></a></li>
+                                        <li><a href="#"><img src="assets/img/footer/02.png" alt="img"></a></li>
+                                        <li><a href="#"><img src="assets/img/footer/04.png" alt="img"></a></li>
+                                        <li><a href="#"><img src="assets/img/footer/05.png" alt="img"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-12">
+                                    <div class="single-input-wrap">
+                                        <label>Full name</label>
+                                        <input type="text" class="single-input">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="single-input-wrap">
+                                        <label>Card Number</label>
+                                        <input type="password" class="single-input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-input-wrap">
+                                        <label>Expire Date</label>
+                                        <select class="single-input">
+                                            <option>April</option>
+                                            <option>March</option>
+                                            <option>February</option>
+                                            <option selected="selected">January</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-input-wrap">
+                                        <label>Year</label>
+                                        <select class="single-input">
+                                            <option>2023</option>
+                                            <option>2022</option>
+                                            <option>2020</option>
+                                            <option selected="selected">2021</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="single-input-wrap">
+                                        <label>CCV</label>
+                                        <input type="text" class="single-input">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="payment-option">
+                                        <label>
+                                            <input type="radio" checked="checked" name="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                       Cash on Delivery
+                                    </div>
+                                </div>
+                                <div class="col-12 text-right">
+                                    <button type="submit" class="btn bg-main">Checkout</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- shipping area end -->
+
+    <!-- footer area start -->
+    <footer class="footer-area">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-widget widget contact-widget">
+                            <a href="index.html" class="footer-logo"> 
+                                <img src="assets/img/logo-2.png" alt="footer logo">
+                            </a>
+                            <p>It is a long established fact that a reader will be the distracted by the readable content of a page.</p>
+                            <ul class="contact_info_list">
+                                <li class="single-info-item">
+                                    <h4>Address:</h4>
+                                    <p>45 Grand Central Terminal New York <br> NY 1245, United State USA</p>
+                                </li>
+                                <li class="single-info-item">
+                                    <h4>Email:</h4>
+                                    <p>supports@zenax.com</p>
+                                </li>
+                                <li class="single-info-item">
+                                    <h4>Phone:</h4>
+                                    <p>+123 4567 8910</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-sm-3">
+                        <div class="footer-widget widget widget_nav_menu">
+                            <h4 class="widget-title">Quick Links</h4>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Support</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Helpline</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Affiliates</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Live Support</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Customer Care</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-widget widget widget_nav_menu">
+                            <h4 class="widget-title">Informations</h4>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>About Us</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Customer Services</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Privacy and Policy</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Orders & Returns</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Shipping Policy</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Our Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="footer-widget widget widget_nav_menu">
+                            <h4 class="widget-title">My Account</h4>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Balance</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Checkout</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Cards</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Track Order</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Terms</a></li>
+                                <li><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Site Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-md-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 align-self-lg-center">
+                        <p class="copyright">Copyright &copy; 2020.Company name All rights reserved <a href="http://www.aizhanzhe.com/template.html" target="_blank">懒之才</a>.</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-center">
+                        <ul class="footer-social social-area">
+                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="footer-currency currency-area float-lg-right">
+                            <li><a href="#"><img src="assets/img/footer/01.png" alt="img"></a></li>
+                            <li><a href="#"><img src="assets/img/footer/02.png" alt="img"></a></li>
+                            <li><a href="#"><img src="assets/img/footer/03.png" alt="img"></a></li>
+                            <li><a href="#"><img src="assets/img/footer/04.png" alt="img"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+
+    <!-- all plugins here -->
+    <script src="assets/js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="assets/js/vendor.js"></script>
+    <!-- main js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
