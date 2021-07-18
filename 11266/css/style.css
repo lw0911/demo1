@@ -1,0 +1,933 @@
+/**
+ * Template Name: Appa
+ * Template URL: http://appa.themehexa.com
+ * Author: Themehexa
+ * Author URI: http://themehexa.com
+ * Description: Appa - Single Page App Langing Page, the best way to desctibe your apps.
+ * Version: 1.0.0
+**/
+
+
+/*
+=========================================
+Table of Contents
+=========================================
+
+01. Fonts
+02. Colors
+03. Typography
+04. Custom Style
+    => 4.1. Buttons
+05. Header
+    => 5.1. Navigation
+    => 5.2 Hero
+06. App Info
+07. Features
+08. Video
+09. Screenshots
+10. Reviews
+11. Featured On
+12. Price Table
+13. Subscribe
+14. Download
+15. Footer
+16. Footer Bottom
+
+*/
+
+
+/*===== Fonts =====*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Lora:300,400italic,700,700italic');
+
+/*===== Colors ======*/
+
+.color-darkblue {
+    color: #5500ff;
+}
+
+.color-purple {
+    color: #7400ff;
+}
+
+
+/*===== Typography =====*/
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    color: #333333;
+}
+
+body {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+.h1 {
+    font-size: 40px;
+}
+
+h2,
+.h2 {
+    font-size: 36px;
+}
+
+h3,
+.h3 {
+    font-size: 28px;
+}
+
+h4,
+.h4 {
+    font-size: 21px;
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+a {
+    color: #444444;
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    color: #7400ff;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+    outline: none;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.7;
+    word-spacing: 0.03em;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*===== Custom Styles ======*/
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #ffffff url('../images/preloader.gif') no-repeat center center;
+    -webkit-background-size: 150px;
+    background-size: 150px;
+}
+
+.content-block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-header {
+    padding-bottom: 50px;
+}
+
+.section-title,
+.section-subtitle {
+    padding-bottom: 10px;
+}
+
+.section-subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.text-padding {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+[class*="border-line"] {
+    position: relative;
+}
+
+.border-line:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    background-color: #7400ff;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.border-line-left:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    background-color: #7400ff;
+    bottom: 0;
+    left: 0;
+}
+
+.border-line-right:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    background-color: #7400ff;
+    bottom: 0;
+    right: 0;
+}
+
+.text-emphasize {
+    padding: 20px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+[class*='overlay'] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-margin-top {
+    margin-top: 0 !important;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.no-margin-left {
+    margin-left: 0 !important;
+}
+
+.no-margin-right {
+    margin-right: 0 !important;
+}
+
+.move-top {
+    position: fixed;
+    display: block;
+    bottom: -100px;
+    right: 30px;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #7400ff;
+    -webkit-transition: all .30s ease-in-out;
+    -moz-transition: all .30s ease-in-out;
+    -ms-transition: all .30s ease-in-out;
+    -o-transition: all .30s ease-in-out;
+    transition: all .30s ease-in-out;
+}
+
+.move-top:hover {
+    color: #ffffff;
+    background-color: #111111;
+}
+
+.move-top:focus {
+    color: #ffffff;
+    background-color: #7400ff;
+}
+
+.page-wrap {
+    position: relative;
+}
+
+
+/*----- Buttons -----*/
+
+.btn-main {
+    padding: 10px 50px;
+    margin: 5px;
+    min-width: 200px;
+    border-radius: 20px;
+    border: 1px solid #efefef;
+    color: #efefef;
+    -webkit-transition: all .30s ease-in-out 0s;
+    -moz-transition: all .30s ease-in-out 0s;
+    -ms-transition: all .30s ease-in-out 0s;
+    -o-transition: all .30s ease-in-out 0s;
+    transition: all .30s ease-in-out 0s;
+}
+
+.btn-main:hover,
+.btn-main:active,
+.btn-main.active {
+    background-color: #7400ff;
+    color: #ffffff;
+    border-color: #7400ff;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-main:focus {
+    color: #ffffff;
+}
+
+.btn-reverse {
+    background-color: #7400ff;
+    border-color: #7400ff;
+    color: #ffffff;
+}
+
+.btn-reverse:hover,
+.btn-reverse:active,
+.btn-reverse:focus,
+.btn-reverse.active {
+    background-color: #5500ff;
+    border-color: #7400ff;
+    outline: none;
+    margin-top: -1px;
+}
+
+
+/*===== Header =====*/
+
+
+/*----- Navigation -----*/
+
+.main-menu {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    z-index: 9999;
+    margin-top: -60px;
+    -webkit-transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -ms-transition: all .50s ease-in-out;
+    -o-transition: all .50s ease-in-out;
+    transition: all .50s ease-in-out;
+}
+
+.main-menu.active {
+    margin-top: 0;
+}
+
+.main-menu .navbar-header .navbar-brand {
+    font-weight: 700;
+    color: #7400ff;
+}
+
+.main-menu .navbar-header .navbar-toggle {
+    border-radius: 0;
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -ms-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+.main-menu .navbar-nav > li > a {
+    color: #444444;
+}
+
+.main-menu .navbar-nav > li > a:hover,
+.main-menu .navbar-nav > .active > a,
+.main-menu .navbar-nav > .active > a:hover,
+.main-menu .navbar-nav > .active > a:focus {
+    color: #7400ff;
+    background-color: transparent;
+}
+
+
+/*----- Hero -----*/
+
+.hero {
+    background: url('../images/hero-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.shoutbox .shout-content {
+    color: #efefef;
+    padding-top: 100px;
+}
+
+.shoutbox .shout-title {
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.shoutbox .app-available {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.shoutbox .app-available li {
+    margin: 0 10px;
+}
+
+.shoutbox .app-available .icon {
+    font-size: 25px;
+}
+
+.shout-carousel .owl-dot {
+    height: 10px;
+    width: 10px;
+    border: 1px solid #7400ff;
+    padding: 2px;
+    display: inline-table;
+    margin: 0 5px;
+}
+
+.shout-carousel .owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.shout-carousel .owl-dot.active {
+    background-color: #7400ff;
+}
+
+
+/*====== App Info ======*/
+
+.app-info .info-wrap .info-title {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.info-icon {
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.info-icon:hover {
+    color: #5500ff;
+}
+
+
+/*====== Features ======*/
+
+.features {
+    background-color: #F7F8FA;
+    border-top: 1px solid #F2F2FF;
+    border-bottom: 1px solid #F2F2FF;
+}
+
+.features-content {
+    padding: 50px 50px 0;
+}
+
+.features .feature-list {
+    margin-top: 50px;
+}
+
+.feature-list li.feature {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.feature-icon {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+
+/*===== Describe =====*/
+
+.describe-content {
+    padding: 50px;
+}
+
+
+/*===== More Features =====*/
+
+.more-features {
+    background-color: #F7F8FA;
+    border-top: 1px solid #F2F2FF;
+    border-bottom: 1px solid #F2F2FF;
+}
+
+.more-features .feature {
+    margin-bottom: 50px;
+}
+
+.more-feature-icon {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.more-feature-title {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+
+/*===== Video =====*/
+
+.video {
+    background-image: url('../images/video-bg.jpg');
+    background-position: center bottom;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: #ffffff;
+}
+
+.video .video-icon {
+    font-size: 50px;
+}
+
+
+/*===== Screenshots =====*/
+
+.screenshot-carousel .item:hover {
+    background-color: #5500ff;
+    -webkit-transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -ms-transition: all .50s ease-in-out;
+    -o-transition: all .50s ease-in-out;
+    transition: all .50s ease-in-out;
+}
+
+.screenshot-carousel .item:hover img {
+    opacity: .85;
+    -webkit-transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -ms-transition: all .50s ease-in-out;
+    -o-transition: all .50s ease-in-out;
+    transition: all .50s ease-in-out;
+}
+
+.screenshot-carousel .owl-dot {
+    height: 10px;
+    width: 10px;
+    border: 1px solid #7400ff;
+    padding: 2px;
+    display: inline-table;
+    margin: 0 5px;
+}
+
+.screenshot-carousel .owl-dots {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.screenshot-carousel .owl-dot.active {
+    background-color: #7400ff;
+}
+
+
+/*===== Reviews =====*/
+
+.reviews {
+    background-image: url('../images/reviews-bg.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+}
+
+.reviews .review-icon {
+    font-size: 50px;
+}
+
+.reviews .item p {
+    color: #cdcdcd;
+}
+
+.reviews .item .img-review {
+    position: relative;
+    z-index: 100;
+    height: 115px;
+    width: 100px;
+    margin: 0 auto 20px;
+    border: 1px solid #ffffff;
+}
+
+.reviews .review-name {}
+
+.reviews .review-designation {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.review-carousel .owl-controls {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.review-carousel .owl-controls .owl-prev,
+.review-carousel .owl-controls .owl-next {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #5500ff;
+    margin: 0 10px;
+    padding: 5px 20px;
+    color: #ffffff;
+    background-color: #5500ff;
+    -webkit-transition: all .30s ease-in-out;
+    -moz-transition: all .30s ease-in-out;
+    -ms-transition: all .30s ease-in-out;
+    -o-transition: all .30s ease-in-out;
+    transition: all .30s ease-in-out;
+}
+
+.review-carousel .owl-controls .owl-prev:hover,
+.review-carousel .owl-controls .owl-next:hover {
+    background-color: #7400ff;
+    color: #efefef;
+}
+
+
+/*===== Featured On =====*/
+
+.featured-on {
+    background-color: #F7F8FA;
+    border-top: 1px solid #F2F2FF;
+    border-bottom: 1px solid #F2F2FF;
+}
+
+.client-logos .client-logo {
+    padding: 0 20px;
+}
+
+
+/*===== Price Table =====*/
+
+.price-table .table {
+    overflow: hidden;
+    background-color: #222222;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+.price-table .table-title {
+    background-color: #222222;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 100;
+}
+
+.price-box {
+    z-index: 1;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.price-box .price {
+    font-size: 50px;
+    margin-bottom: 0;
+    line-height: 50px;
+}
+
+.price-box .price sup {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.price-box:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: visible;
+    width: 100%;
+    height: 150px;
+    background-color: #555555;
+    z-index: -1;
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewY(-10deg);
+    -ms-transform: skewY(-10deg);
+    -o-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: initial;
+    -webkit-transition: all .30s ease-in-out 0s;
+    -moz-transition: all .30s ease-in-out 0s;
+    -ms-transition: all .30s ease-in-out 0s;
+    -o-transition: all .30s ease-in-out 0s;
+    transition: all .30s ease-in-out 0s;
+}
+
+.price-table .table-details {
+    color: #ffffff;
+    padding-top: 50px;
+    margin-top: -30px;
+}
+
+.price-table .table.best-price .price-box:before,
+.price-table .table:hover .price-box:before {
+    background-color: #7400ff;
+}
+
+.price-table .table-details ul li {
+    border-bottom: 1px solid #252525;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.price-table .table .btn {
+    min-width: auto;
+}
+
+.price-table .table:hover .btn {
+    background-color: #7400ff;
+    border-color: #7400ff;
+}
+
+
+/*====== Subscribe ======*/
+
+.subscribe {
+    background-image: url('../images/subscribe-bg.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    position: relative;
+}
+
+.subscribe-icon {
+    font-size: 50px;
+}
+
+.subscribe-email-wrap {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 25px auto 0;
+    border-radius: 20px;
+    border: 0 none;
+    width: 300px;
+}
+
+.subscribe-email {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 0 none;
+    width: 80%;
+}
+
+.subscribe-email-submit {
+    cursor: pointer;
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -ms-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+.subscribe-email-submit:hover {
+    color: #7400ff;
+}
+
+
+/*===== Download =====*/
+
+.download-buttons .icon {
+    margin-right: 5px;
+}
+
+
+/*====== Footer ======*/
+
+.footer {
+    background-color: #F7F8FA;
+    border-top: 1px solid #F2F2FF;
+}
+
+.footer .section-title {
+    font-weight: 700;
+}
+
+.footer .social-links {
+    margin-top: 20px;
+}
+
+.footer .social-links a {
+    border: 1px solid #999999;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    line-height: 35px;
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -ms-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+.footer .social-links a:hover {
+    border-color: #7400ff;
+    background-color: #7400ff;
+    color: #ffffff;
+}
+
+
+/*====== Footer Bottom ======*/
+
+.footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F2F2FF;
+    border-top: 1px solid #cccccc;
+}
+
+.footer-bottom .copyright {
+    margin-bottom: 0;
+}
+
+.footer-bottom ul {
+    margin-bottom: 0;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+
+/*===== Media Queries =====*/
+
+
+/*-- Medium devices --*/
+
+@media screen and (max-device-width: 991px) {
+    /*===== Hero =====*/
+    .shoutbox .shout-content {
+        padding-top: 0;
+    }
+    /*====== Menu ======*/
+    .main-menu .navbar-header .navbar-toggle:hover {
+        background-color: #7400ff;
+    }
+    .main-menu .navbar-header .icon-bar {
+        background-color: #7400ff;
+    }
+    .main-menu .navbar-header .navbar-toggle:hover .icon-bar {
+        background-color: #efefef;
+    }
+    /*===== Features =====*/
+    .features-content {
+        padding: 50px 0 0;
+    }
+    /*===== Describe =====*/
+    .describe-content {
+        padding: 0 0 50px;
+    }
+    /*===== Featured On =====*/
+    .client-logos .client-logo {
+        padding: 20px;
+    }
+    .client-logos .client-logo:first-of-type {
+        padding-top: 0;
+    }
+    .client-logos .client-logo:last-of-type {
+        padding-bottom: 0;
+    }
+}
+
+
+/*-- Extra small devices --*/
+
+@media screen and (max-device-width: 767px) {
+    /*===== Custom Styles ======*/
+    .text-padding {
+        padding: 0;
+    }
+    .btn-reverse {
+        width: 80%;
+    }
+    /*====== Features / Describe ======*/
+    .features-content,
+    .describe-content {
+        padding: 0;
+    }
+    .more-features .feature {
+        margin-bottom: 0;
+    }
+    /*===== Price Table =====*/
+    .price-table .table {
+        max-width: 320px;
+        margin: 0 auto 10px;
+    }
+    /*===== Footer =====*/
+    .footer-bottom ul {
+        text-align: left;
+        text-transform: capitalize;
+    }
+}

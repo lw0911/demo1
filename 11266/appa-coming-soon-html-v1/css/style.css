@@ -1,0 +1,209 @@
+/**
+* Template Name: Appa - Coming Soon Page v1
+* Template URL: http://appa.themehexa.com
+* Author: Themehexa
+* Author URI: http://themehexa.com
+* Description: Appa - Appa Commig Soon Page Version 1 Style.
+* Version: 1.0.0
+**/
+
+
+/*
+=========================================
+Table of Contents
+=========================================
+#1 - Typography
+#2 - Common Style
+#3 - Left Container
+#4 - Right Container
+#5 - Media Query
+
+/*===== Fonts =====*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400italic,700,700italic');
+
+/*===== Typography =====*/
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    color: #333333;
+}
+
+body {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+.h1 {
+    font-size: 50px;
+}
+
+h2,
+.h2 {
+    font-size: 36px;
+}
+
+h3,
+.h3 {
+    font-size: 28px;
+}
+
+h4,
+.h4 {
+    font-size: 21px;
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+a {
+    color: #444444;
+    outline: none;
+}
+
+a:hover {
+    color: #7400ff;
+    text-decoration: none;
+}
+
+
+/*===== Common Style =====*/
+
+.main-container {
+    height: 100vh;
+}
+
+.main-container .container-cell {
+    display: table;
+    height: 100%;
+}
+
+.main-container .container-cell .container-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bottom-links {
+    position: absolute;
+    bottom: 20px;
+}
+
+
+/*===== Left Container =====*/
+
+.left-container .logo-content {
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.left-container .logo-subtitle {
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.left-container .content {
+    color: #888888;
+}
+
+.appstore-buttons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.appstore-buttons .btn-store {
+    width: 200px;
+    height: 60px;
+    margin-bottom: 5px;
+    display: block;
+    text-indent: -9999px;
+    background-image: url('../images/appstore-button.png');
+}
+
+.appstore-buttons .btn-store.btn-appstore {
+    background-position: 0 0;
+}
+
+.appstore-buttons .btn-store.btn-googleplay {
+    background-position: 0 -66px;
+}
+
+.left-container .bottom-links li a {
+    padding: 0 5px;
+    display: block;
+}
+
+
+/*===== Right Container =====*/
+
+.main-container .right-container {
+    background-color: #11313E;
+    background-image: url('../images/background-img.jpg');
+    background-position: top right;
+}
+
+.right-container .container-inner img {
+    width: 300px;
+}
+
+.right-container .bottom-links {
+    color: #d1d1d1;
+}
+
+
+/*===== Media Queries =====*/
+
+@media screen and (max-width: 767px) {
+    .main-container {
+        height: auto;
+    }
+    .main-container .container-cell {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main-container .container-cell .container-inner {
+        display: block;
+    }
+    .bottom-links {
+        position: relative;
+        bottom: 0;
+    }
+    .container-cell.right-container {
+        padding-top: 50px;
+    }
+    .right-container .bottom-links {
+        margin-top: 20px;
+    }
+}

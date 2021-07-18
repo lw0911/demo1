@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />  
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />  
+    <meta name="format-detection"content="telephone=no, email=no" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
+	<title>豆瓣电影</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<!-- 回顶部 -->
+<div class='return_top'>
+  <div class='scroll'>
+    <img src="image/over_fhdb.png" id='scroll_out'>
+    <img src="image/out_fhdb.png" id='scroll_over'>
+  </div>
+</div>
+<div class='phone_return_top'>
+  <div class='phone_scroll'>
+    <img src="image/return_top.png">
+  </div>
+</div>
+  <!-- global_nav -->
+<div class='global_nav'>
+  <ul>
+    <li><a href="javascript:;">豆瓣</a></li><li><a href="javascript:;">读书</a></li><li><a href="javascript:;">电影</a></li><li><a href="javascript:;">音乐</a></li><li><a href="javascript:;">同城</a></li><li><a href="javascript:;">小组</a></li><li><a href="javascript:;">阅读</a></li><li><a href="javascript:;">FM</a></li><li><a href="javascript:;">东西</a></li><li><a href="javascript:;">市集</a></li><li><a href="javascript:;">更多</a></li>          
+  </ul>
+  <div class='login'><a href="javascript:;">登录</a><a href="javascript:;">注册</a><span></span></div>   
+  <a href="javascript:;" id='download'>下载豆瓣客户端</a>
+  <div class='download_box'>
+    <img src="image/w6n64Zl7kUTAAAAAElFTkSuQmCC.png" id='logo'>
+    <p>豆瓣</p>
+    <p>我 们 的 精 神 角 落</p>
+    <img src="image/WhxP0IVmg5N5yABzAcqQUVAh5AhZZzwwl4BwxH+mxBdVf8D5Fu4t3+kpbYAAAAAElFTkSuQmCC.png">
+    <div>
+      <a href="javascript:;">iPhone</a>·<a href="javascript:;">Android</a>
+    </div>
+  </div>
+</div>
+<!-- global_nav_wrap -->
+<div class='global_nav_wrap'>
+  <div class='global_nav_auto'>
+    <div class='sousuo'>
+      <h1>豆瓣电影</h1>
+      <input type='text' placeholder='电影、影人、影院、电视剧' class='inp'>
+      <input type='submit' class='inp_sbt'>
+    </div>
+    <a href="javascript:;">
+      <img src="image/ad_web.png" class='niandu_bg'>
+    </a>
+  </div>
+</div>
+
+<!-- 遮罩层 -->
+<div id='misk'></div>
+
+<!-- global_nav_bottom -->
+<div class='global_nav_bottom'>
+  <div class='global_nav_bottom_auto'>
+    <ul>
+      <li><a href="javascript:;">影讯&购票</a></li><li><a href="javascript:;">选电影</a></li><li><a href="javascript:;">电视剧</a></li><li><a href="javascript:;">排行榜</a></li><li><a href="javascript:;">分类</a></li><li><a href="javascript:;">影评</a></li><li><a href="javascript:;">2016年度榜单</a></li><li><a href="javascript:;">2016观影报告</a></li>
+    </ul>
+  </div>
+</div>
+<div class='outer_box'>
+  <div class='auto_box'>
+    <div class='left_box'>
+      <!-- 热映 -->
+      <div class='lebox_hot'>
+        <div class='hot_tit'>
+          <h3>正在热映</h3>
+          <a href="javascript:;">全部正在热映»</a>
+          <a href="javascript:;">即将上映»</a>
+          <div class='hot_tit_sliod'>
+            <div><span id='hot_lunbo_page'>1</span>/4</div>
+            <span id='hot_prev'>&lt</span><span id='hot_next'>&gt</span>
+          </div>
+        </div>
+
+
+        <div class='hot_phone'>
+          <div id='hot_phone_list'>
+           <!-- 单个电影 -->
+          <div class='hot_lunbo_movie'>
+            <div class='hot_img'>
+              <img src="image/p2429713841.jpg">
+            </div>
+            <div class='hot_movie_buy'>
+              <p>生化危机...</p><i class='new_icon'></i><br>
+              <p><i class='star_icon star_35'></i><span>6.9</span></p>
+            </div>
+          </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2432597986.jpg">
+              </div>
+              <div class='hot_movie_buy'>
+                <p>刺客信条</p><i class='new_icon'></i><br>
+                <p><i class='star_icon star_30'></i><span>5.4</span></p>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2428494681.jpg">
+              </div>
+              <div class='hot_movie_buy'>
+                <p>三缺一</p><i class='new_icon'></i><br>
+                <p><i class='star_icon star_30'></i><span>5.4</span></p>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2428871371.jpg">
+              </div>
+              <div class='hot_movie_buy'>
+                <p>为爱担当</p><i class='new_icon'></i><br>
+                <p><i class='star_icon star_30'></i><span>5.0</span></p>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2410569976.jpg">
+              </div>
+              <div class='hot_movie_buy'>
+                <p>极限特工...</p><br>
+                <p><i class='star_icon star_30'></i><span>5.8</span></p>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2411622136.jpg">
+              </div>
+              <div class='hot_movie_buy'>
+                <p>欢乐好声音</p><br>
+                <p><i class='star_icon star_45'></i><span>8.3</span></p>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2412371389.jpg">
+              </div>
+              <div class='hot_movie_buy'>
+                <p>功夫瑜伽</p><br>
+                <p><i class='star_icon star_30'></i><span>5.3</span></p>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2425658570.jpg">
+              </div>
+              <div class='hot_movie_buy'>
+                <p>爱乐之城</p><br>
+                <p><i class='star_icon star_45'></i><span>8.5</span></p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- 热映轮播 -->
+        <div class='hot_lunbo'>
+          <div class='hot_lunbo_list'>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                  <img src="image/p2426952758.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>上海王</p>
+                  <p><i class='star_icon star_30'></i><span>5.2</span></p>
+                  <p>(1092人评价)</p>
+                  <p>111分钟 中国大陆</p>
+                  <p>导演 胡雪华</p>
+                  <p>主演 胡军/余男/凤小岳</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>上海王 </p>
+                <p><i class='star_icon star_30'></i><span>5.2</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2411953504.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>西游伏妖篇</p>
+                  <p><i class='star_icon star_30'></i><span>5.8</span></p>
+                  <p>(17092人评价)</p>
+                  <p>108分钟 中国大陆</p>
+                  <p>导演 徐克</p>
+                  <p>主演 吴亦凡/林更新/姚晨</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>西游伏妖篇</p><br>
+                <p><i class='star_icon star_30'></i><span>5.8</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+             <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2428868031.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>血伞凶灵</p>
+                  <p><i class='star_icon star_30'></i><span>5.0</span></p>
+                  <p>(92人评价)</p>
+                  <p>88分钟 中国大陆</p>
+                  <p>导演 朱林森</p>
+                  <p>主演 刘晓婉/文卓/朱佳希</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>血伞凶灵</p><br>
+                <p><i class='star_icon star_30'></i><span>5.0</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+             <!-- 单个电影 -->
+             <div class='hot_lunbo_movie'>
+              
+            </div>
+
+              <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2429713841.jpg">
+              <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>生化危机：终章Resident Evil: The Final Chapter</p>
+                  <p><i class='star_icon star_35'></i><span>6.9</span></p>
+                  <p>(5692人评价)</p>
+                  <p>99分钟 美国</p>
+                  <p>导演 保罗·安德森</p>
+                  <p>主演 米拉·乔沃维奇/伊恩·格雷</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>生化危机：终章...</p><i class='new_icon'></i><br>
+                <p><i class='star_icon star_35'></i><span>6.9</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2432597986.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>刺客信条 Assassin's Creed</p>
+                  <p><i class='star_icon star_30'></i><span>5.5</span></p>
+                  <p>(4928人评价)</p>
+                  <p>116分钟 美国</p>
+                  <p>导演 贾斯汀·库泽尔 </p>
+                  <p>主演 迈克尔·法斯宾德/玛丽昂·歌迪亚/杰瑞米·艾恩斯</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>刺客信条</p><i class='new_icon'></i><br>
+                <p><i class='star_icon star_30'></i><span>5.4</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2428494681.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>三缺一</p>
+                  <p><i class='star_icon star_30'></i><span>5.5</span></p>
+                  <p>(4928人评价)</p>
+                  <p>92分钟 中国大陆</p>
+                  <p>导演 高飞 </p>
+                  <p>主演 谭卓/葛兆美/詹姆斯·奥夫斯</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>三缺一</p><i class='new_icon'></i><br>
+                <p><i class='star_icon star_30'></i><span>5.4</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2428871371.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>为爱担当</p>
+                  <p><i class='star_icon star_30'></i><span>5.0</span></p>
+                  <p>(28人评价)</p>
+                  <p>90分钟 中国大陆</p>
+                  <p>导演 郑国建</p>
+                  <p>主演 阿牛/江若琳/惠英红</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>为爱担当</p><i class='new_icon'></i><br>
+                <p><i class='star_icon star_30'></i><span>5.0</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2410569976.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>极限特工3：终极回归xXx:The Return of Xander Cage</p>
+                  <p><i class='star_icon star_30'></i><span>5.8</span></p>
+                  <p>(45385人评价)</p>
+                  <p>107分钟 美国</p>
+                  <p>导演 D·J卡卢索</p>
+                  <p>主演 范·迪塞尔/甄子丹</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>极限特工3：终...</p><br>
+                <p><i class='star_icon star_30'></i><span>5.8</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2411622136.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>欢乐好声音 Sing</p>
+                  <p><i class='star_icon star_45'></i><span>8.3</span></p>
+                  <p>(33554人评价)</p>
+                  <p>108分钟 美国</p>
+                  <p>导演 加斯·詹宁斯</p>
+                  <p>主演 马修·麦康纳/瑞茜·威瑟斯彭/赛斯·麦克法兰</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>欢乐好声音</p><br>
+                <p><i class='star_icon star_45'></i><span>8.3</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2412371389.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>功夫瑜伽</p>
+                  <p><i class='star_icon star_30'></i><span>5.3</span></p>
+                  <p>(63124人评价)</p>
+                  <p>108分钟 中国大陆</p>
+                  <p>导演 唐季礼</p>
+                  <p>主演 成龙/李治延/张艺兴</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>功夫瑜伽</p><br>
+                <p><i class='star_icon star_30'></i><span>5.3</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2425658570.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>爱乐之城 La La Land</p>
+                  <p><i class='star_icon star_45'></i><span>8.5</span></p>
+                  <p>(193124人评价)</p>
+                  <p>128分钟 美国</p>
+                  <p>导演 达米恩·查泽雷</p>
+                  <p>主演 瑞恩·高斯林/艾玛·斯通/约翰·传奇</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>爱乐之城</p><br>
+                <p><i class='star_icon star_45'></i><span>8.5</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2408407697.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>乘风破浪</p>
+                  <p><i class='star_icon star_45'></i><span>7.0</span></p>
+                  <p>(189124人评价)</p>
+                  <p>102分钟 中国大陆</p>
+                  <p>导演 韩寒</p>
+                  <p>主演 邓超/彭于晏/赵丽颖</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>乘风破浪</p><br>
+                <p><i class='star_icon star_35'></i><span>7.0</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2403706134.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>合约男女</p>
+                  <p><i class='star_icon star_25'></i><span>5.2</span></p>
+                  <p>(2124人评价)</p>
+                  <p>96分钟 中国大陆</p>
+                  <p>导演 刘国楠</p>
+                  <p>主演 郑秀文/张孝全/林雪</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>合约男女</p><br>
+                <p><i class='star_icon star_25'></i><span>5.2</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2414358483.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>熊出没·奇幻空间</p>
+                  <p><i class='star_icon star_35'></i><span>5.2</span></p>
+                  <p>(6482人评价)</p>
+                  <p>89分钟 中国大陆</p>
+                  <p>导演 丁亮</p>
+                  <p>主演 尚雯婕/鲍春来/孙建弘</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>熊出没·奇幻空...</p><br>
+                <p><i class='star_icon star_35'></i><span>6.5</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2422372719.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>游戏规则</p>
+                  <p><i class='star_icon star_25'></i><span>4.5</span></p>
+                  <p>(3682人评价)</p>
+                  <p>126分钟 中国大陆</p>
+                  <p>导演 高希希</p>
+                  <p>主演 何润东/黄子韬/古力娜扎</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>游戏规则</p><br>
+                <p><i class='star_icon star_25'></i><span>4.5</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2426952758.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>上海王</p>
+                  <p><i class='star_icon star_30'></i><span>5.2</span></p>
+                  <p>(1092人评价)</p>
+                  <p>111分钟 中国大陆</p>
+                  <p>导演 胡雪华</p>
+                  <p>主演 胡军/余男/凤小岳</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>上海王</p>
+                <p><i class='star_icon star_30'></i><span>5.2</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2411953504.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>西游伏妖篇</p>
+                  <p><i class='star_icon star_30'></i><span>5.8</span></p>
+                  <p>(17092人评价)</p>
+                  <p>108分钟 中国大陆</p>
+                  <p>导演 徐克</p>
+                  <p>主演 吴亦凡/林更新/姚晨</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>西游伏妖篇</p><br>
+                <p><i class='star_icon star_30'></i><span>5.8</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+             <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2428868031.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>血伞凶灵</p>
+                  <p><i class='star_icon star_30'></i><span>5.0</span></p>
+                  <p>(92人评价)</p>
+                  <p>88分钟 中国大陆</p>
+                  <p>导演 朱林森</p>
+                  <p>主演 刘晓婉/文卓/朱佳希</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>血伞凶灵</p><br>
+                <p><i class='star_icon star_30'></i><span>5.0</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              
+            </div>
+              <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2429713841.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>生化危机：终章Resident Evil: The Final Chapter</p>
+                  <p><i class='star_icon star_35'></i><span>6.9</span></p>
+                  <p>(5692人评价)</p>
+                  <p>99分钟 美国</p>
+                  <p>导演 保罗·安德森</p>
+                  <p>主演 米拉·乔沃维奇/伊恩·格雷/艾丽·拉特</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>生化危机：终章...</p><i class='new_icon'></i><br>
+                <p><i class='star_icon star_35'></i><span>6.9</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2432597986.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>刺客信条 Assassin's Creed</p>
+                  <p><i class='star_icon star_35'></i><span>5.5</span></p>
+                  <p>(4928人评价)</p>
+                  <p>116分钟 美国</p>
+                  <p>导演 贾斯汀·库泽尔 </p>
+                  <p>主演 迈克尔·法斯宾德/玛丽昂·歌迪亚/杰瑞米·艾恩斯</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>刺客信条</p><i class='new_icon'></i><br>
+                <p><i class='star_icon star_30'></i><span>5.4</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2428494681.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>三缺一</p>
+                  <p><i class='star_icon star_35'></i><span>5.5</span></p>
+                  <p>(4928人评价)</p>
+                  <p>92分钟 中国大陆</p>
+                  <p>导演 高飞 </p>
+                  <p>主演 谭卓/葛兆美/詹姆斯·奥夫斯</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>三缺一</p><i class='new_icon'></i><br>
+                <p><i class='star_icon star_30'></i><span>5.4</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+            <!-- 单个电影 -->
+            <div class='hot_lunbo_movie'>
+              <div class='hot_img'>
+                <img src="image/p2428871371.jpg">
+                <!-- 简介 -->
+                <div class='hot_synopsis'>
+                  <p>为爱担当</p>
+                  <p><i class='star_icon star_35'></i><span>5.0</span></p>
+                  <p>(28人评价)</p>
+                  <p>90分钟 中国大陆</p>
+                  <p>导演 郑国建</p>
+                  <p>主演 阿牛/江若琳/惠英红</p> 
+                </div>
+              </div>
+              <div class='hot_movie_buy'>
+                <p>为爱担当</p><i class='new_icon'></i><br>
+                <p><i class='star_icon star_30'></i><span>5.0</span></p>
+                <div class='movie_buy_btn'>
+                  <a href="javascript:;">选座购票</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='New_film_img'>
+        <img src="image/5f3b9556741102d.jpg">
+      </div>
+      <!-- 选电影 -->
+      <div class='Choices'>
+        <div class='Choices_box'>
+          <div class='Choices_box_tit'>
+            选电影 / <a href="javascript:;">选电视剧</a>
+          </div>
+          <div class='Choices_box_body'>
+            <ul>
+              <li class='Choices_on'>热门</li><li>最新</li><li>经典</li><li>可播放</li><li>豆瓣高分</li><li>冷门佳片</li><li>华语</li><li>欧美</li><li>韩国</li><li>日本</li><li>动作</li><li>喜剧</li><li>爱情</li><li>科幻</li><li>悬疑</li><li>恐怖</li><li>治愈</li>
+            </ul>
+          </div>
+        </div>
+        <div class='Choices_movie'>
+          <div class='Choices_radio'>
+            <label><input type='radio' name='Choices_mover' value='1' checked>按热度排序</label>
+            <label><input type='radio' name='Choices_mover' value='2'>按时间排序</label>
+            <label><input type='radio' name='Choices_mover' value='3'>按评价排序</label>
+          </div>
+          <div class='zaix'>在线观影</div>
+          <div class='Choices_list'>
+          <div class='Choices_list_hot'>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2421855655.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 海边的曼彻斯特<span>8.6</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2397337958.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 血战钢锯岭<span>8.6</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2345382471.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 西葫芦的生活<span>8.4</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2390769140.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 救命解药<span>6.8</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2383038005.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 血浓于罪<span>6.3</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2363100875.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 恶魔蛙男<span>6.6</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2356774595.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 青空呐喊<span>6.6</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2360053703.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 否认<span>7.1</span>
+              </div>
+            </div>
+          </div>
+          <!-- 'Choices_list_time -->
+          <div class='Choices_list_time'>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2402705389.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 王者<span>7.4</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2402162306.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 隐于书后<span>7.7</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2402859930.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 冒牌卧底<span>3.8</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2374067318.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 隐藏人物<span>8.6</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2413210013.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 梅格雷的亡者<span>7.3</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2378933938.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 夜色人生<span>6.2</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2405285938.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 绝对控制<span>5.2</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2404553168.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 罗曼蒂克消亡史<span>7.7</span>
+              </div>
+            </div>
+          </div>
+          <div class='Choices_list_score'>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2315672647.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 疯狂动物城<span>9.2</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2397337958.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 血战钢锯岭<span>8.7</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2421855655.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 海边的曼侧斯特<span>8.6</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2391542403.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 比利的中场战事<span>8.5</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2395733377.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 你的名字<span>8.5</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2393044761.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 驴得水<span>8.3</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2342671303.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 比海更深<span>8.6</span>
+              </div>
+            </div>
+            <div class='Choices_list_box'>
+              <div class='Choices_list_img'>
+                <img src="image/p2404553168.jpg">
+              </div>
+              <div class='Choices_list_name'>
+                 罗曼蒂克消亡史<span>7.7</span>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class='Choices_more'>
+            加载更多
+          </div>
+        </div>
+      </div>
+      <div class='FilmCritic'>
+        <div class='FC_head'>
+          最受欢迎的影评
+          <a href="javascript:;">更多热门影评»</a>
+          <a href="javascript:;">新片影评»</a>
+        </div>
+        <div class='FC_list'>
+          <div class='FC_box'>
+            <div class='FC_img'>
+              <img src="image/p2432597986.jpg">
+            </div>
+            <div class='FC_con'>
+               <div class='FC_con_tit'>
+                  <a href="javascript:;">跑酷很好看，雾霾有点大</a>
+               </div>
+               <div class='FC_con_aut'>
+                 <a href="javascript:;">静待花开</a>评论<a href="javascript:;">《刺客信条》</a><i class='star_icon star_40'></i>
+               </div>
+               <p>对刺客信条的背景并不了解，昨天买票的时候，群里问了下小伙伴，最近有什么好看的电影，朋友推荐了刺客信条：跑酷很厉害，风景很优美，雾霾有点大。 买了票之后，才去评论区看了两眼，才知道是根据游戏改编，没玩... <a href="javascript:;">(全文)</a></p>
+            </div>
+          </div>
+          <div class='FC_box'>
+            <div class='FC_img'>
+              <img src="image/p1918801412.jpg">
+            </div>
+            <div class='FC_con'>
+               <div class='FC_con_tit'>
+                  <a href="javascript:;">平行时空最好的イタズラなKiss</a>
+               </div>
+               <div class='FC_con_aut'>
+                 <a href="javascript:;">桐谷美玲</a>评论<a href="javascript:;">《一吻定情》</a><i class='star_icon star_50'></i>
+               </div>
+               <p>这是我心里最好的一版一吻定情。 嗯，没有之一。 也算是看过每一版的一吻定情了（2017新台版除外，不过也不打算看）。感觉这部是最有人性的一部。女主终于不是没有自我跪舔的偏执狂，男主也不是一味酷炫吊炸天地... <a href="javascript:;">(全文)</a></p>
+            </div>
+          </div>
+          <div class='FC_box'>
+            <div class='FC_img'>
+              <img src="image/p2412301176.jpg">
+            </div>
+            <div class='FC_con'>
+               <div class='FC_con_tit'>
+                  <a href="javascript:;">为什么不和男二在一起？</a>
+               </div>
+               <div class='FC_con_aut'>
+                 <a href="javascript:;">漂洋过海来看你</a>评论<a href="javascript:;">《漂亮的李慧珍》</a><i class='star_icon star_40'></i>
+               </div>
+               <p>剧的开始 看到盛一伦那种表情少的演员演，有点坚持不下去了，不过真的剧荒无聊啊，宝宝就继续追下去了。少一星! 说正题，剧中的男二号真的是理想对象啊我的天，真的超棒的，一开始看没感觉，首先男二会懂得疼人，... <a href="javascript:;">(全文)</a></p>
+            </div>
+          </div>
+          <div class='FC_box'>
+            <div class='FC_img'>
+              <img src="image/p2429713841.jpg">
+            </div>
+            <div class='FC_con'>
+               <div class='FC_con_tit'>
+                  <a href="javascript:;">果然还是帅了我一脸</a>
+               </div>
+               <div class='FC_con_aut'>
+                 <a href="javascript:;">我这儿是晴天</a>评论<a href="javascript:;">《生化危机：终章》</a><i class='star_icon star_40'></i>
+               </div>
+               <p>终于等到你啊，终于等到周五还迫不及待早早的去了电影院。总的来说又被我狂拽吊炸天的女神帅了一脸，还有总感觉还要有番外或者终终章之类的，比前两季有意思太多，果然没让我失望。怪影院的声音播的太大，前面的，... <a href="javascript:;">(全文)</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='right_box'>
+    <div class='bawen'>豆瓣电影评分八问</div>
+    <div class='city'>
+      <div class='city_c'>
+        <div class='city_btn'><span id='cityName'>广州</span><div id='triangle-down'></div></div>
+        <input type='text' placeholder='搜索本地影院'><input type='submit' value=''>
+      </div>
+      <div class='city_box'>
+        <div id='bor_sj'></div>
+        <div id='esc_city'>X</div>
+        <div class='city_box_tit'>
+          <span class='city_on' name='listHot'>热门</span><span name='listAG'>A-G</span><span name='listHL'>H-L</span><span name='listMT'>M-T</span><span name='listWZ'>W-Z</span>
+        </div>
+        <div class='city_list city_list_hot'>
+          <div class='city_list_c'>
+            <div></div>
+            <span>北京</span><span>上海</span><span>广州</span><span>深圳</span><span>成都</span><span>武汉</span><span>杭州</span><span>重庆</span><span>郑州</span><span>南京</span><span>西安</span><span>苏州</span><span>天津</span><span>长沙</span><span>福州</span><span>沈阳</span><span>济南</span><span>合肥</span><span>温州</span><span>青岛</span><span>哈尔滨</span><span>厦门</span><span>大连</span><span>东莞</span><span>长春</span>
+          </div>
+        </div>
+        <div class='city_list city_list_AG'>
+          <div class='city_list_c'>
+            <div>A</div>
+            <span>安庆</span><span>安阳</span><span>鞍山</span><span>安顺</span><span>安康</span><span>阿勒泰</span><span>阿克苏</span><span>阿坝</span>
+          </div>
+          <div class='city_list_c'>
+            <div>B</div>
+            <span>北京</span><span>保定</span><span>宝鸡</span><span>包头</span><span>蚌埠</span><span>滨州</span><span>亳州</span><span>毕节</span><span>北海</span><span>百色</span><span>巴彦淖尔</span><span>本溪</span><span>白山</span><span>保山</span><span>白城</span><span>白银</span><span>巴中</span><span>巴音郭楞</span><span>保亭</span>
+          </div>
+          <div class='city_list_c'>
+            <div>C</div>
+            <span>重庆</span><span>成都</span><span>长沙</span><span>长春</span><span>常州</span><span>常德</span><span>郴州</span><span>滁州</span><span>沧州</span><span>长治</span><span>赤峰</span><span>承德</span><span>朝阳</span><span>潮州</span><span>昌吉</span><span>崇左</span><span>池州</span><span>常熟</span><span>楚雄</span><span>昌江</span>                 
+          </div>
+          <div class='city_list_c'>
+            <div>D</div>
+            <span>重庆</span><span>成都</span><span>长沙</span><span>长春</span><span>常州</span><span>常德</span><span>郴州</span><span>滁州</span><span>沧州</span><span>长治</span><span>赤峰</span><span>承德</span><span>朝阳</span><span>潮州</span><span>昌吉</span><span>崇左</span><span>池州</span><span>常熟</span><span>楚雄</span><span>昌江</span>
+          </div>
+        </div>
+        <div class='city_list city_list_HL'>
+          <div class='city_list_c'>
+            <div>H</div>
+            <span>杭州</span><span>合肥</span><span>哈尔滨</span><span>惠州</span><span>邯郸</span><span>湖州</span><span>海口</span><span>衡阳</span><span>淮安</span><span>呼和浩特</span><span>黄冈</span><span>呼伦贝尔</span><span>黄石</span><span>河源</span><span>黄山</span><span>红河</span><span>衡水</span><span>怀化</span><span>葫芦岛</span><span>淮南</span><span>菏泽</span><span>汉中</span><span>淮北</span><span>鹤壁</span><span>河池</span><span>黑河</span><span>鹤岗</span><span>海西</span><span>贺州</span><span>海东</span><span>哈密</span><span>合肥</span><span>海南</span>                               
+          </div>
+          <div class='city_list_c'>
+            <div>K</div>
+            <span>昆明</span><span>开封</span><span>克拉玛依</span><span>昆山</span><span>喀什</span><span>开平</span><span>昆山</span>   
+          </div>
+          <div class='city_list_c'>
+            <div>L</div>
+            <span>兰州</span><span>临沂</span><span>洛阳</span><span>丽水</span><span>临汾</span><span>六安</span><span>廊坊</span><span>娄底</span><span>聊城</span><span>乐山</span><span>龙岩</span><span>柳州</span>
+          </div>
+        </div>
+        <div class='city_list city_list_MT'>
+          <div class='city_list_c'>
+            <div>M</div>
+            <span>绵阳</span><span>梅州</span><span>马鞍山</span><span>茂名</span><span>眉山</span><span>牡丹江</span>     
+          </div>
+          <div class='city_list_c'>
+            <div>N</div>
+            <span>南京</span><span>宁波</span><span>南通</span><span>南昌</span><span>南宁</span><span>南阳</span><span>宁德</span><span>南充</span><span>南平</span><span>内江</span><span>怒江</span>        
+          </div>
+          <div class='city_list_c'>
+            <div>R</div>
+            <span>日照</span>
+          </div>
+          <div class='city_list_c'>
+            <div>T</div>
+            <span>天津</span><span>台州</span><span>泰州</span><span>太原</span><span>唐山</span><span>泰安</span>
+          </div>
+        </div>
+        <div class='city_list city_list_WZ'>
+          <div class='city_list_c'>
+            <div>W</div>
+            <span>武汉</span><span>无锡</span><span>温州</span><span>潍坊</span><span>乌鲁木齐</span><span>芜湖</span><span>威海</span><span>渭南</span><span>梧州</span><span>乌兰察布</span>         
+          </div>
+          <div class='city_list_c'>
+            <div>X</div>
+            <span>西安</span><span>厦门</span><span>徐州</span><span>新乡</span><span>信阳</span><span>襄阳</span>    
+          </div>
+          <div class='city_list_c'>
+            <div>Y</div>
+            <span>烟台</span><span>盐城</span><span>扬州</span><span>宜春</span><span>银川</span><span>运城</span><span>宜昌</span><span>营口</span><span>宜宾</span>       
+          </div>
+          <div class='city_list_c'>
+            <div>Z</div>
+            <span>郑州</span><span>中山</span><span>珠海</span>    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='adm_box1'>
+      <img src="image/e13bce0c78cc045.jpg">
+      <div class='adm'>广告</div>
+    </div>
+    <div class='campaign'>
+      <p>电影活动 · · · · · ·</p>
+      <p><a href="javascript:;">《乐高蝙蝠侠大电影》带给你纯正的快乐！</a></p>
+      <p><a href="javascript:;">2017第89届【奥斯卡】完整提名名单</a></p>
+      <p><a href="javascript:;">投票 | 你眼中的本届奥斯卡最佳影片是？</a></p>
+    </div>
+
+    <div class='kbb'>
+      <div class='kbb_tit'>
+        本周口碑榜<a href="javascript:;">更多榜单»</a>
+      </div>
+      <div class='kbb_list'>
+        <ul>
+          <li> 1<a href="javascript:;">爱乐之城</a></li>
+          <li> 2<a href="javascript:;">欢乐好声音</a></li>
+          <li> 3<a href="javascript:;">西葫芦的生活</a></li>
+          <li> 4<a href="javascript:;">炙热</a></li>
+          <li> 5<a href="javascript:;">相思</a></li>
+          <li> 6<a href="javascript:;">跆拳道</a></li>
+          <li> 7<a href="javascript:;">我去哪儿？</a></li>
+          <li> 8<a href="javascript:;">杀戮都市：O</a></li>
+          <li> 9<a href="javascript:;">诗无尽头</a></li>
+          <li>10<a href="javascript:;">裸露在狼群</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class='dl'>
+      <div class='dl_tit'>
+        热门豆列
+      </div>
+      <div class='dl_body'>
+        <div class='dl_body_h'>
+          <a href="javascript:;">英国《视与听》杂志评选影史上被忽略的75部佳作</a>
+        </div>
+        <div class='dl_body_tj'>180推荐</div>
+      </div>
+      <div class='dl_body'>
+        <div class='dl_body_h'>
+          <a href="javascript:;">【英国制造】</a>
+        </div>
+        <div class='dl_body_tj'>4275推荐</div>
+      </div>
+    </div>
+
+    <div class='hz'>
+      <div class='hz_tit'>合作联系</div>
+      <div class='hz_con'>
+        <p><a href="javascript:;">申请开通影片小站</a></p>
+        <p><a href="javascript:;">申请开通电影院小站</a></p>
+      </div>
+    </div>
+
+    <div class='gz'>
+      <div class='gz_tit'>关注我们</div>
+      <div class='gz_con'>
+        <div class='gz_con_box'>
+          <div class='gz_wb_img gz_img'></div>
+          <a href="javascript:;">微博</a>
+        </div>
+      </div>
+      <div class='gz_con'>
+        <div class='gz_con_box'>
+          <div class='gz_wx_img gz_img'></div>
+          <a href="javascript:;">微信</a>
+        </div>
+      </div>
+      <div class='gz_con'>
+        <div class='gz_con_box'>
+          <div class='gz_xz_img gz_img'></div>
+          <a href="javascript:;">鑫像奖小站</a>
+        </div>
+      </div>
+      <div class='gz_con'>
+        <div class='gz_con_box'>
+          <div class='gz_cb_img gz_img'></div>
+          <a href="javascript:;">观影club</a>
+        </div>
+      </div>
+    </div>
+
+    <div class='db_img'>
+      <img src="image/qrcode_app4@2x.png">
+    </div>
+    
+    <div class='adm_box2'>
+      <img src="image/8d04dc159c43c32.jpg">
+      <div class='adm'>广告</div>
+    </div>
+
+
+    </div>
+
+    
+  </div>
+</div>
+<div class='bottom_img'>
+  <img src="image/41e8bc15f3a3691.jpg">
+</div>
+<div class='bottom_xx'>
+  <div class='bottom_xx_xx'>
+  <div>&copy;仿豆瓣电影首页作品 By--llinzeyang</div>
+  <span><a href="javascript:;">关于豆瓣</a>·<a href="javascript:;">在豆瓣工作</a>·<a href="javascript:;">联系我们</a>·<a href="javascript:;">免责声明</a>·<a href="javascript:;">帮助中心</a>·<a href="javascript:;">移动应用</a>·<a href="javascript:;">豆瓣广告</a></span>
+  </div>
+</div>
+
+
+
+<!-- ——————————————————————————————————————————————————————END———————————————————————————————————————————————— -->
+
+
+
+
+<script type="text/javascript" src='js/jquery-3.1.1.min.js'></script>
+<script type="text/javascript" src='js/index.js'></script>
+<script type="text/javascript" src='js/index2.js'></script>
+</body>
+</html>

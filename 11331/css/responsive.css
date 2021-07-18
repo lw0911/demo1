@@ -1,0 +1,216 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.services-text p {
+	padding: 0 12px;
+}
+.looking-text h1 {
+	font-size: 40px;
+}
+.looking-wrapper {
+	padding: 124px 15px 128px;
+}
+.investor-text p {
+	padding: 0;
+}
+.features-text p {
+	padding: 0;
+}
+.contact-area {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.footer-text p {
+	margin-bottom: 0;
+	padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.navbar-toggler {
+	padding: 8px;
+	border-radius: 2px;
+	border: 2px solid #000;
+	width: 45px;
+	height: inherit;
+	position: relative;
+	padding-bottom: 10px;
+}
+ .navbar-icon {
+	background: #000;
+	height: 3px;
+	width: 20px;
+	margin: auto;
+	margin: 0 4px;
+	display: block;
+	margin: auto;
+	margin-top: 3px;
+}
+.footer-text p {
+	padding-right: 0;
+}
+.contact-area {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.looking-wrapper {
+	padding: 124px 30px 128px;
+}
+.looking-text h1 {
+	font-size: 45px;
+}
+.services-text p {
+	margin-bottom: 0;
+	padding: 0 17px;
+}
+.slider-content p {
+	padding: 0;
+}
+.header-area {
+	padding: 20px 0;
+}
+.main-menu ul.navbar-nav li a.nav-link {
+	padding: 15px 0;
+}
+
+.main-menu ul.navbar-nav {
+	margin-top: 20px;
+}
+.slider-img img {
+	width: 100%;
+}
+.slider-active button.slick-arrow {
+	left: 20px;
+}
+.slider-active button.slick-next {
+	left: auto;
+	right: 20px;
+}
+
+
+
+
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+ .navbar-toggler {
+	padding: 8px;
+	border-radius: 2px;
+	border: 2px solid #000;
+	width: 45px;
+	height: inherit;
+	position: relative;
+	padding-bottom: 10px;
+}
+ .navbar-icon {
+	background: #000;
+	height: 3px;
+	width: 20px;
+	margin: auto;
+	margin: 0 4px;
+	display: block;
+	margin: auto;
+	margin-top: 3px;
+}
+ .header-icon {
+	text-align: center;
+}
+ .header-right-wrapper{
+	text-align: center;
+}
+ .slider-content h1 {
+	font-size: 30px;
+}
+ .slider-content p {
+	padding: 0;
+}
+ .services-text p {
+	padding: 0 10px;
+}
+ .portfolio-tab li a {
+	margin: 0 4px;
+}
+ .looking-wrapper {
+	padding: 124px 20px 128px;
+}
+.looking-text h1 {
+	font-size: 35px;
+	margin-bottom: 40px;
+	line-height: 45px;
+}
+ .investor-text p {
+	padding: 0;
+}
+ .investor-button a.btn.active {
+	margin-left: 0;
+	margin-top: 10px;
+}
+ .contact-area {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+#contact-form button.btn {
+	padding: 21px 77px;
+}
+ .footer-text p {
+	padding-right: 0;
+}
+ .header-area {
+	padding: 20px 0;
+}
+.main-menu ul.navbar-nav li a.nav-link {
+	padding: 15px 0;
+}
+ .main-menu ul.navbar-nav {
+	margin-top: 20px;
+}
+.main-menu ul.navbar-nav li::before {
+	display: none;
+}
+.slider-img img {
+	width: 100%;
+}
+.slider-height {
+	min-height: 600px;
+}
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ .event-tab-button .btn.active {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+}

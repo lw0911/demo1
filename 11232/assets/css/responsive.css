@@ -1,0 +1,1131 @@
+@media (min-width: 1200px) {
+    .about-area {
+        padding-bottom: 185px;
+    }
+
+    .about-area2 {
+        padding-bottom: 120px;
+    }
+}
+
+@media (min-width: 1920px) {}
+
+@media (max-width:1200px) {
+    .vector-about {
+        display: none;
+    }
+
+    .fanfact-item h2 {
+        font-size: 50px;
+    }
+
+    .fanfact-item p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:991px) {
+    .about-img {
+        display: none;
+    }
+
+    .fanfact-item {
+        width: 50%;
+    }
+
+    .fanfact-item:nth-child(2) {
+        border-right: none;
+    }
+}
+
+@media (max-width:576px) {
+
+    .fanfact-item {
+        width: 100%;
+        border-right: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+    .about-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .comment-item2 {
+        padding-left: 30px;
+    }
+
+    .comingsoon-wrap h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 50px;
+    }
+
+    .countdown {
+        margin: 30px 0;
+    }
+
+    .countdown .cdown {
+        min-width: 70px;
+    }
+
+    .countdown .cdown span {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .countdown .cdown::before {
+        font-size: 18px;
+    }
+
+    .countdown .cdown p {
+        font-size: 14px;
+    }
+
+    .comingsoon-wrap form {
+        margin: 0px 0px 30px;
+    }
+
+    .comingsoon-wrap a img {
+        height: 70px;
+    }
+
+    .comingsoon-wrap form input {
+        padding-left: 15px;
+        padding-right: 120px;
+    }
+
+    .comingsoon-wrap form button {
+        width: 110px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1110px;
+    }
+
+    .hero-content {
+        padding-right: 50px;
+    }
+
+    .why-choose-us .container {
+        padding: 0 60px;
+    }
+}
+@media (min-width: 992px) {
+    .main-menu nav ul li.has-child a {
+        position: relative;
+    }
+    
+    .main-menu nav ul li.has-child>a:after {
+        position: absolute;
+        content: '\f107';
+        font-family: fontAwesome;
+        right: 0;
+        top: calc(50% - 9px);
+    }
+    
+    
+    .main-menu nav ul li:last-child a {
+        padding-right: 16px;
+    }
+}
+
+
+
+
+
+@media (min-width: 1920px) {
+    img.vector-shape1 {
+        left: 220px;
+    }
+
+    .style2 img.vector-shape1 {
+        left: 270px;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1919px) {
+    img.vector-shape1 {
+        left: 220px;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    /*doctor details*/
+    .about-doctor-area .vector-shape1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+    img.vector-shape1 {
+        left: 40px;
+    }
+
+    .shape2 {
+        width: 150px;
+    }
+
+    .hero-content h2 {
+        font-size: 45px;
+        line-height: 61px;
+    }
+
+    .hlp-center-content>h4 {
+        font-size: 32px;
+    }
+
+    .section-title h2 {
+        font-size: 37px;
+    }
+
+    .appnt-form h4 {
+        font-size: 30px;
+    }
+
+    .book-appoinment {
+        padding-bottom: 100px;
+    }
+
+    /*home tree*/
+    .hero-three-content h2 {
+        font-size: 56px;
+    }
+
+    .doctor-info h4 {
+        font-size: 29px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /*padding*/
+    .ptb--120 {
+        padding: 100px 0;
+    }
+
+    .logo a img {
+        max-width: 150px;
+    }
+
+    .hero-content h2 {
+        font-size: 37px;
+        line-height: 49px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-area {
+        padding: 89px 0 173px;
+    }
+
+    .single-feature .content h4 a {
+        font-size: 19px;
+    }
+
+    .feature-area {
+        padding-bottom: 90px;
+    }
+
+    .hlp-center-content>h4 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+
+    .hlp-center-content p {
+        font-size: 14px;
+    }
+
+    .help-feature-lists li .content h4 {
+        font-size: 19px;
+    }
+
+    .help-feature-lists li .content p {
+        font-size: 14px;
+    }
+
+    .help-center-area {
+        padding-bottom: 60px;
+    }
+
+    .shape2 {
+        width: 178px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .doctors-carousel .owl-dots {
+        margin-top: 30px;
+    }
+
+    .appnt-form h4 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .book-appoinment {
+        padding-bottom: 90px;
+    }
+
+    .testimonial-area {
+        padding: 90px 0;
+    }
+
+    .blog-single .content h3 a {
+        font-size: 18px;
+    }
+
+    .flogo a img {
+        width: 180px;
+    }
+
+    .widget-recent-post li .thumb {
+        margin-right: 10px;
+        width: 50px;
+    }
+
+    .mt-doctor .content h2 {
+        font-size: 18px;
+    }
+
+    /*home two*/
+    .hero-two-content h2 {
+        font-size: 31px;
+        line-height: 41px;
+    }
+
+    .hero-two-content p {
+        font-size: 16px;
+        line-height: 31px;
+    }
+
+    .need-doctor .content h2 {
+        font-size: 19px;
+    }
+
+    .need-doctor .content h5 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .need-doctor .icon {
+        height: 60px;
+        width: 60px;
+        line-height: 34px;
+        padding: 15px;
+        margin-right: 13px;
+    }
+
+    .wd-content {
+        padding-left: 0;
+    }
+
+    .wd-content p {
+        font-size: 14px;
+    }
+
+    .offer-item {
+        padding: 30px 5px;
+    }
+
+    .offer-item .content h4 {
+        font-size: 16px;
+    }
+
+    .shape4 {
+        display: none;
+    }
+
+    .wchy-item .icon {
+        height: 100px;
+        width: 100px;
+        line-height: 56px;
+        padding: 23px;
+    }
+
+    .wchy-item h3 {
+        font-size: 18px;
+    }
+
+    /*home tree*/
+    .hero-three-content h2 {
+        font-size: 44px;
+        line-height: 65px;
+    }
+
+    .hero-three-content p {
+        font-size: 16px;
+    }
+
+    .hero3-right-img {
+        left: calc(50% + 87px);
+        max-width: 381px;
+    }
+
+    .doctor-contact-area .appnt-form h4,
+    .dc-skills h4 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .doctor-info {
+        padding-left: 30px;
+    }
+
+    .bio-text {
+        padding-left: 120px;
+    }
+
+    .doctor-info h4 {
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 25px;
+    }
+
+    .doctor-details li p,
+    .doctor-details li span {
+        font-size: 15px;
+    }
+
+    .doctor-thumb {
+        margin-bottom: 30px;
+    }
+
+    .doctor-bio {
+        margin-top: 30px;
+    }
+
+    .doctor-bio h2 {
+        font-size: 21px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*padding*/
+    .pb--90 {
+        padding-bottom: 60px;
+    }
+
+    .pt--110 {
+        padding-top: 70px;
+    }
+
+
+    .ptb--100 {
+        padding: 80px 0;
+    }
+
+    .pt--120 {
+        padding-top: 80px;
+    }
+
+    .ptb--120 {
+        padding: 80px 0;
+    }
+
+    .ht-contacts li a {
+        font-size: 12px;
+        margin-left: 10px;
+        padding-left: 10px;
+        line-height: 14px;
+    }
+
+    .logo {
+        padding: 10px 0;
+    }
+
+    .logo a img {
+        max-width: 150px;
+    }
+
+    .slicknav_menu>a {
+        top: -14px;
+    }
+
+    .transparent-header .slicknav_menu>a {
+        top: 0;
+    }
+
+    .hero-content h2 {
+        font-size: 31px;
+        line-height: 45px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-area {
+        padding: 70px 0 159px;
+    }
+
+    .hero-content a {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 20px;
+        font-size: 13px;
+    }
+
+    .single-feature .content h4 a {
+        font-size: 17px;
+    }
+
+    .single-feature {
+        margin-bottom: 20px;
+    }
+
+    .feature-area {
+        padding-bottom: 60px;
+    }
+
+    .hlp-center-thumb {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .hlp-center-content>h4 {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 33px;
+    }
+
+    .help-feature-lists li .content h4 {
+        font-size: 17px;
+    }
+
+    .help-feature-lists li .icon {
+        height: 60px;
+        width: 60px;
+        margin-right: 15px;
+    }
+
+    .help-feature-lists li .content p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    img.vector-shape1 {
+        display: none;
+    }
+
+    .help-center-area {
+        padding-bottom: 50px;
+    }
+
+    .single-feature {
+        padding: 30px 5px;
+    }
+
+    .single-feature .icon {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto 25px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .shape2 {
+        display: none;
+    }
+
+    .single-service .content h2 {
+        font-size: 19px;
+    }
+
+    .appnt-form h4 {
+        font-size: 25px;
+        line-height: 37px;
+    }
+
+    .book-appoinment {
+        padding-bottom: 80px;
+    }
+
+    .testimonial-area {
+        padding: 87px 0;
+    }
+
+    .blog-area {
+        padding: 70px 0;
+    }
+
+    .mt-doctor .content h2 {
+        font-size: 17px;
+    }
+
+    /*home two*/
+    .hero-two-content h2 {
+        font-size: 31px;
+        line-height: 41px;
+    }
+
+    .hero-two-content p {
+        font-size: 16px;
+        line-height: 31px;
+    }
+
+    .need-doctor .content h2 {
+        font-size: 19px;
+    }
+
+    .need-doctor .content h5 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .need-doctor .icon {
+        height: 60px;
+        width: 60px;
+        line-height: 34px;
+        padding: 15px;
+        margin-right: 13px;
+    }
+
+    .wd-content {
+        padding-left: 0;
+    }
+
+    .wd-content p {
+        font-size: 14px;
+    }
+
+    .offer-item {
+        padding: 30px 5px;
+    }
+
+    .offer-item .content h4 {
+        font-size: 16px;
+    }
+
+    .shape4 {
+        display: none;
+    }
+
+    .wchy-item .icon {
+        height: 100px;
+        width: 100px;
+        line-height: 56px;
+        padding: 23px;
+    }
+
+    .wchy-item h3 {
+        font-size: 18px;
+    }
+
+    /*home tree*/
+    .hero-three-content h2 {
+        font-size: 36px;
+        line-height: 49px;
+    }
+
+    .hero-three-content p {
+        font-size: 15px;
+    }
+
+    .hero3-right-img {
+        max-width: 287px;
+        left: calc(50% + 100px);
+    }
+
+    .hero-area-three {
+        min-height: 578px;
+        padding-top: 110px;
+    }
+
+    .help-center-area.style2 {
+        padding-bottom: 60px;
+    }
+
+    /*doctor details*/
+    .doctor-info {
+        padding-left: 0;
+    }
+
+    .doctor-info h4 {
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 25px;
+    }
+
+    .doctor-details li p,
+    .doctor-details li span {
+        font-size: 15px;
+    }
+
+    .doctor-thumb {
+        margin-bottom: 30px;
+    }
+
+    .doctor-bio {
+        margin-top: 30px;
+    }
+
+    .doctor-bio h2 {
+        font-size: 21px;
+    }
+
+    .bio-text {
+        padding-left: 0;
+    }
+
+    .doctor-contact-area .appnt-form {
+        margin-top: 40px;
+    }
+
+    .dc-skills h4 {
+        font-size: 24px;
+        margin-bottom: 33px;
+    }
+
+    .doctor-contact-area .appnt-form h4 {
+        font-size: 30px;
+    }
+
+    /*contact us page*/
+    .cnt-list {
+        margin-bottom: 20px;
+    }
+
+    #google_map {
+        height: 300px;
+        margin-bottom: 25px;
+    }
+
+    .contact-style2-area .subtitle,
+    .cnt-style1-content h4 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pb--120 {
+        padding-bottom: 60px;
+    }
+
+    .ptb--100 {
+        padding: 70px 0;
+    }
+
+    .pt--120 {
+        padding-top: 70px;
+    }
+
+    .ptb--120 {
+        padding: 70px 0;
+    }
+
+    .pb--90 {
+        padding-bottom: 40px;
+    }
+
+    .pt--110 {
+        padding-top: 60px;
+    }
+
+    /*homepage one*/
+    .hero-content h2 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .breadcumb-area {
+        min-height: 220px;
+    }
+
+    .error-wrap h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .ht-social {
+        text-align: center;
+    }
+
+    .ht-social li a {
+        margin: 0 7px;
+    }
+
+    .ht-contacts {
+        text-align: center;
+    }
+
+    .ht-contacts li a {
+        font-size: 13px;
+        border: none;
+        padding: 0;
+    }
+
+    .logo a img {
+        max-width: 128px;
+    }
+
+    .header-bottom {
+        padding: 10px 0;
+    }
+
+    .hero-content a {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 20px;
+        font-size: 13px;
+    }
+
+    .hero-area {
+        padding: 60px 0 147px;
+    }
+
+    .single-feature .content h4 a {
+        font-size: 19px;
+    }
+
+    .single-feature {
+        margin-bottom: 20px;
+    }
+
+    .feature-area {
+        padding-bottom: 50px;
+    }
+
+    .mt-doctor .content h2 {
+        font-size: 17px;
+    }
+
+    .hlp-center-content>h4 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+
+    .hlp-center-content p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .help-feature-lists li .content h4 {
+        font-size: 17px;
+    }
+
+    .help-feature-lists li .icon {
+        height: 60px;
+        width: 60px;
+        margin-right: 15px;
+    }
+
+    .help-feature-lists li .content p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    img.vector-shape1 {
+        display: none;
+    }
+
+    .hlp-center-thumb {
+        margin: auto;
+    }
+
+    .help-center-area {
+        padding-bottom: 50px;
+    }
+
+    .section-title h2 {
+        font-size: 23px;
+        line-height: 31px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .single-service {
+        text-align: center;
+    }
+
+    .single-service .content h2 {
+        font-size: 20px;
+    }
+
+    .shape2 {
+        display: none;
+    }
+
+    .service-area {
+        padding: 60px 0 10px;
+    }
+
+    .meet-doctor-area {
+        padding: 60px 0;
+    }
+
+    .doctors-carousel .owl-dots {
+        margin-top: 30px;
+    }
+
+    .appnt-form {
+        margin-right: 0;
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .appnt-form h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .appoinment-inner {
+        margin: 0;
+    }
+
+    .book-appoinment {
+        padding-bottom: 70px;
+    }
+
+    .tst-content {
+        padding: 56px 15px 24px;
+    }
+
+    .testimonial-area {
+        padding: 70px 0;
+    }
+
+    .tst-meta .text h5 {
+        font-size: 14px;
+    }
+
+    .tst-meta .text p {
+        font-size: 14px;
+    }
+
+    .blog-area {
+        padding: 70px 0 20px;
+    }
+
+    .blog-meta-top {
+        margin-bottom: 7px;
+    }
+
+    .blog-single .content h3 a {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .blog-single {
+        width: 344px;
+        max-width: 100%;
+        margin: 0 auto 30px;
+    }
+
+    .blog-single .thumb {
+        margin-bottom: 15px;
+    }
+
+    .flogo a img {
+        max-width: 150px;
+    }
+
+    .fwidget-company {
+        padding-right: 0;
+    }
+
+    .footer-top {
+        padding: 70px 0 30px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    /*home two*/
+    .hero2-right-img {
+        position: static;
+        height: 250px;
+        width: 100%;
+    }
+
+    .hero-two-content h2 {
+        font-size: 22px;
+        line-height: 34px;
+        margin-bottom: 22px;
+    }
+
+    .hero-two-content {
+        padding: 50px 0 70px;
+    }
+
+    .hero-two-content p {
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 32px;
+    }
+
+    .need-doctor .content h2 {
+        font-size: 14px;
+    }
+
+    .need-doctor .content h5 {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 2px;
+    }
+
+    .need-doctor .icon {
+        height: 60px;
+        width: 60px;
+        line-height: 33px;
+        padding: 15px;
+        margin-right: 10px;
+    }
+
+    .wd-left-thumb .shape3,
+    .shape4 {
+        display: none;
+    }
+
+    .wd-content {
+        padding-left: 0;
+    }
+
+    .offer-lists .owl-dots {
+        margin-top: 20px;
+    }
+
+    .wchy-item {
+        margin-bottom: 40px;
+    }
+
+    .wchy-item h3 {
+        font-size: 20px;
+    }
+
+    .wchy-item .icon {
+        height: 100px;
+        width: 100px;
+        line-height: 59px;
+        padding: 20px;
+    }
+
+    .why-choose-us {
+        padding-bottom: 30px;
+    }
+
+    /*home tree*/
+    .hero-three-content h2 {
+        font-size: 23px;
+        line-height: 39px;
+    }
+
+    .hero-three-content p {
+        font-size: 14px;
+    }
+
+    .hero3-right-img {
+        position: static;
+        margin-top: 50px;
+    }
+
+    .hero-area-three {
+        min-height: auto;
+        padding-top: 104px;
+    }
+
+    .help-center-area.style2 {
+        padding-bottom: 50px;
+    }
+
+    /*doctor details*/
+    .doctor-info {
+        padding-left: 0;
+    }
+
+    .doctor-info h4 {
+        font-size: 22px;
+        line-height: 33px;
+        margin-bottom: 18px;
+    }
+
+    .doctor-details li p,
+    .doctor-details li span {
+        font-size: 13px;
+    }
+
+    .doctor-thumb {
+        margin-bottom: 30px;
+    }
+
+    .doctor-bio {
+        margin-top: 30px;
+    }
+
+    .doctor-bio h2 {
+        font-size: 21px;
+    }
+
+    .bio-text {
+        padding-left: 0;
+    }
+
+    .doctor-contact-area .appnt-form {
+        margin-top: 40px;
+    }
+
+    .dc-skills h4 {
+        font-size: 24px;
+        margin-bottom: 33px;
+    }
+
+    .doctor-contact-area .appnt-form h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+
+    /*contact us page*/
+    .cnt-style1-content h4,
+    .contact-style2-area .subtitle {
+        font-size: 21px;
+        margin-bottom: 16px;
+    }
+
+    .cnt-list {
+        margin-bottom: 30px;
+    }
+
+    .contact-style2-area .cnt-list {
+        display: block;
+    }
+
+    #google_map {
+        height: 300px;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {}
+
+@media (min-width: 240px) and (max-width: 480px) {}

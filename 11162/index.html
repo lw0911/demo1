@@ -1,0 +1,303 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Claymore Bootstarp Website Template | Home :: aizhanzhe</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<!-- Google Font link ends-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	});
+});
+</script>
+</head>
+<body>
+<!-- Header starts here-->
+<div class="header">
+	<div class="container">
+		<div class="header-top">
+	 		<div class="logo">
+	 			<a href="index.html"><img src="images/logo.png" alt=""></a>
+	 		</div>
+	 		<span class="menu"></span>
+	 		<div class="clear"></div>
+			<div class="navigation">
+				<ul class="navig">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#about" class="scroll">About</a></li>
+					<li><a href="#service" class="scroll">Service</a></li>
+					<li><a href="#features"class="scroll">Features</a></li>
+					<li><a href="#">Price</a></li>
+					<li><a href="#contact"class="scroll">Contact</a></li>
+					<li class="bold"><a href="#">Login</a></li>
+				</ul>
+			</div>
+			<script>
+					$( "span.menu" ).click(function() {
+					  $( "ul.navig" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+
+			<div class="clearfix"> </div>
+		</div>
+		<!-- Log In a BoX -->
+			<div class="login">
+				<div class="text">
+					<input type="text"  placeholder="User Name" required="" />
+				</div>
+				<div class="text">
+					<input type="password"  placeholder="password" required="" />
+				</div>
+				<div class="text">
+					<input type="submit" value="Login"/>
+				</div>
+				<script>
+					$( "ul.navig li.bold a" ).click(function() {
+					  $( ".login" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+			</div>
+		<!-- Log In a BoX -->
+		<div class="banner">
+			<div class="row banner-row">
+				<div class="col-md-6 banner-row-left">
+					<img src="images/ban-mat1.png" />
+				</div>
+				<div class="col-md-6 banner-row-left banner-row-right">
+					<h2>Quam eleifend metus commodo</h2>
+					<p>luctus at sit amet urna. Quisque non augue tincidunt, egestas massa non, elementum sem. Suspendisse mollis nullaeu lorem ultricies dapibus.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </p>
+					<div class="buttons">
+						<input type="button" value="Purchase now"/><input type="button" class="act" value="Learn more"/>
+						<i>or</i>
+					</div>					
+					</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Header ends here-->
+<!-- About starts here-->
+<div class="about" id="about">
+	<div class="container">
+		<div class="row about-content">
+			<div class="col-md-7 about-left-content">
+				<h3>
+					About us
+				</h3>
+				<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam. Donec hendrerit neque sit amet tellus ornare et semper lorem lacinia. Suspendisse ac pellentesque odio. Nunc pharetra malesuada nisi ac condimentum. Curabitur porttitor pulvinar  </p>
+			</div>
+			<div class="col-md-5 about-right-content">
+				<img src="images/about-mat.png" />
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<div class="about-us">
+		<div class="container">
+			<div class="row about-below-content">
+				<div class="col-md-4 about-content-below-left">
+					<img src="images/testi-sy21.png" />
+					<h3>
+						Fully Booked Up
+					</h3>	
+					<p>Curabitur tincidunt dapibus odio, eu gravida felis blanditvel. Vivamus feugiat auctor lorem non eleifend. Nam eu pellentesque est, vitae interdum nisi.</p>					
+				</div>
+				<div class="col-md-4 about-content-below-left">
+					<img src="images/testi-sy1.png" />
+					<h3>
+						Build With Love
+					</h3>	
+					<p>Nullam dignissim felis diam, sed ultricies nisl ultricies quis. Maecenas feugiat urna ante, et viverra tellus facilisis ut. In hac habitasse platea dictumst.</p>							
+				</div>
+				<div class="col-md-4 about-content-below-left">
+					<img src="images/testi-sy3.png" />
+					<h3>
+						Fully Responsive
+					</h3>	
+					<p>Aliquam mattis massa at urna tincidunt ultrices.Curabitur lobortis ante vulputate, imperdiet felisa, adipiscing odio aliquam pharetra molestie mauris</p>							
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- About ends here-->
+<!-- Slide starts here-->
+<div class="slider-start" id="service">
+	<div class="container">
+
+		<div class="slider-content">
+		<div class="slider-heading">
+			<h3> Lorem ipsum dolor sit amet</h3>
+			<p>
+				consectetur adipiscing elit. Maecenas facilisis ligula non ornare vehicula.
+			</p>
+		</div>					
+			<div class="wmuSlider example1">
+	    		 <article style="position: absolute; width: 100%; opacity: 0;"> 
+		   			
+				<div class="banner">
+			     <img src="images/layer-image1.png"   alt=""/> 
+				</div>
+		 </article>
+		 <article style="position: relative; width: 100%; opacity: 1;"> 
+		   
+				 <div class="banner">
+				    <img src="images/layer-image.png"  alt=""/> 
+				 </div>
+		 </article>
+		 <article style="position: absolute; width: 100%; opacity: 0;">
+		  
+				 <div class="banner">
+				    <img src="images/layer-image2.png"  alt=""/> 
+				 </div>
+		   </article>
+		  
+		</div>
+    </div>
+    	 <script src="js/jquery.wmuSlider.js"></script> 
+			<script>
+			     $('.example1').wmuSlider();         
+			</script> 	           	      
+	</div>
+</div>
+</div>
+</div>
+</div>
+   <!-- Slide ends here-->
+<div class="container">
+	<div class="testimonals" id="features">
+		<div class="slide-content-class3">
+			<h3>What people say</h3>
+		</div>
+		<div class="row slide-content-class4">
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-a"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-b"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row slide-content-class4">
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-c"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-d"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row slide-content-class4">
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-e"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-f"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+<!-- Contact start-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="row contact-row">
+			<div class="col-md-6 contact-row-left">
+				<h3>Curabitur ornare neque </h3>
+				<p>id sagittis commodo. Vivamus rhoncus feugiat leo id dictum. Nulla fermentum nibh eu velit molestie ultricies. Curabitur non gravida urna, at varius tortor. Donec feugiat, nisl ultrices adipiscing pharetra, augue lorem pharetra tortor, non tincidunt urna diam in libero. Nam et neque ut nisi consectetur tempor. Maecenas gravida est eu nisi dignissim gravida. Proin mollis sodales ullamcorper.</p>
+				<p class="add-mark"><span><img src="images/ad-sy.png" /></span>venenatis neque sit amet ante aliquam sollicitudin</p>
+				<p class="cel-mark"><span><img src="images/cel-sy.png" /></span>0888-7738-21   /   0977-333-222-111</p>
+				<p class="ema-mark"><span><img src="images/ema-sy.png" /></span><a href="mailto:example@mail.com">parturient@montes.com</a></p>
+			</div>
+			<div class="col-md-6 contact-row-right">
+				<form>
+					<div class="form-row1">
+					<input type="text" placeholder="Type Your Name" required=""/>
+					<input type="text" placeholder="Type Your Email" required=""/>
+					</div>
+					<div class="form-row2">
+						<select> <option>Your subject</option><option>2</option><option>2</option></select>
+					</div>
+					
+					<textarea placeholder="Type Your Message" required=""></textarea>
+				<div class="form-row3">
+					<input type="reset"/><input type="submit" />
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+
+<!-- Contact End-->
+<!--FOOTER START-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-top"><p>2019 Template By &nbsp;  <a href="http://www.aizhanzhe.com/" target="_blank" title="懒之才">懒之才</a> - Collect from <a href="http://www.aizhanzhe.com/" title="网页模板" target="_blank">网页模板</a></p></div>
+								<script type="text/javascript">
+				$(document).ready(function() {
+					/*
+					var defaults = {
+			  			containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+			 		};
+					*/
+					
+					$().UItoTop({ easingType: 'easeOutQuart' });
+					
+				});
+			</script>
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+	</div>
+</div>
+<!--FOOTER END-->
+</body>
+</html>

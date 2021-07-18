@@ -1,0 +1,65 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 04/09/2018 09:05
+  	*/
+
+@font-face {
+  font-family: "FlaticonCurrentTheme";
+  src: url("../fonts/flaticon-set-current-theme/flaticon-set-current-theme.eot");
+  src: url("../fonts/flaticon-set-current-theme/flaticon-set-current-theme.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon-set-current-theme/flaticon-set-current-theme.woff") format("woff"),
+       url("../fonts/flaticon-set-current-theme/flaticon-set-current-theme.ttf") format("truetype"),
+       url("../fonts/flaticon-set-current-theme/flaticon-set-current-theme.svg#FlaticonCurrentTheme") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "FlaticonCurrentTheme";
+    src: url("../fonts/flaticon-set-current-theme/flaticon-set-current-theme.svg#FlaticonCurrentTheme") format("svg");
+  }
+}
+
+[class^="tm-flaticon-"]:before, [class*=" tm-flaticon-"]:before,
+[class^="tm-flaticon-"]:after, [class*=" tm-flaticon-"]:after {   
+  font-family: FlaticonCurrentTheme;
+  font-style: normal;
+}
+
+.tm-flaticon-001-barrier:before { content: "\f100"; }
+.tm-flaticon-002-barrier-1:before { content: "\f101"; }
+.tm-flaticon-003-brick-wall:before { content: "\f102"; }
+.tm-flaticon-004-brickwall:before { content: "\f103"; }
+.tm-flaticon-005-bucket:before { content: "\f104"; }
+.tm-flaticon-006-building:before { content: "\f105"; }
+.tm-flaticon-007-construction:before { content: "\f106"; }
+.tm-flaticon-008-cone:before { content: "\f107"; }
+.tm-flaticon-009-construction-1:before { content: "\f108"; }
+.tm-flaticon-010-constructor:before { content: "\f109"; }
+.tm-flaticon-011-container:before { content: "\f10a"; }
+.tm-flaticon-012-crane:before { content: "\f10b"; }
+.tm-flaticon-013-hook:before { content: "\f10c"; }
+.tm-flaticon-014-crane-truck:before { content: "\f10d"; }
+.tm-flaticon-015-crane-1:before { content: "\f10e"; }
+.tm-flaticon-016-crane-truck-1:before { content: "\f10f"; }
+.tm-flaticon-017-danger:before { content: "\f110"; }
+.tm-flaticon-018-driller:before { content: "\f111"; }
+.tm-flaticon-019-excavator:before { content: "\f112"; }
+.tm-flaticon-020-fence:before { content: "\f113"; }
+.tm-flaticon-021-fuel:before { content: "\f114"; }
+.tm-flaticon-022-gas-pipe:before { content: "\f115"; }
+.tm-flaticon-023-helmet:before { content: "\f116"; }
+.tm-flaticon-024-industry:before { content: "\f117"; }
+.tm-flaticon-025-knot:before { content: "\f118"; }
+.tm-flaticon-026-ladder:before { content: "\f119"; }
+.tm-flaticon-027-pipe:before { content: "\f11a"; }
+.tm-flaticon-028-plan:before { content: "\f11b"; }
+.tm-flaticon-029-roller:before { content: "\f11c"; }
+.tm-flaticon-030-theodolite:before { content: "\f11d"; }
+.tm-flaticon-031-tractor:before { content: "\f11e"; }
+.tm-flaticon-032-trowel:before { content: "\f11f"; }
+.tm-flaticon-033-truck:before { content: "\f120"; }
+.tm-flaticon-034-wheelbarrow:before { content: "\f121"; }
+.tm-flaticon-035-ruler:before { content: "\f122"; }
+.tm-flaticon-036-ruler-1:before { content: "\f123"; }

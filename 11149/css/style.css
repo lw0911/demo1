@@ -1,0 +1,2393 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+input[type="button"],
+input[type="submit"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Vidaloka', serif;
+}
+
+p {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #999;
+    line-height: 1.8em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    margin: 0;
+}
+
+/*-- header --*/
+
+.agile-top {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/*-- logo --*/
+
+.logo h1 a {
+    color: #f72d65;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Tangerine', cursive;
+    text-decoration: none;
+    background: rgba(247, 246, 246, 0.44);
+    padding: 5px 30px;
+}
+
+/*-- //logo --*/
+
+/*-- navigation section --*/
+
+.section p button {
+    top: 28px;
+    right: 80px;
+    width: 50px;
+    padding: 6px 10px 10px;
+    position: fixed;
+    border: none;
+    background: rgba(14, 14, 14, 0.16);
+}
+
+.section p button img {
+    color: #fff;
+    font-size: 1em;
+}
+
+/*-- //navigation section --*/
+
+/*-- //header --*/
+
+/*-- banner slider --*/
+
+.banner-1 {
+    background: url(../images/3.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 848px;
+}
+
+.banner-2 {
+    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 848px;
+}
+
+.banner-3 {
+    background: url(../images/5.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 848px;
+}
+
+/*-- banner text --*/
+
+.slider-info {
+    text-align: right;
+    padding-top: 23em;
+    padding-right: 4em;
+}
+
+.slider-info h4 {
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 7px;
+    font-style: italic;
+}
+
+.slider-info h4 span {
+    color: #f72d65;
+}
+
+.slider-info p {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-top: 2em;
+}
+
+/*-- //banner text --*/
+
+.slider {
+    position: relative;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+.rslides_tabs {
+    position: absolute;
+    bottom: 9%;
+    z-index: 99;
+    right: 41%;
+}
+
+.rslides_tabs li {
+    display: inline-block;
+}
+
+.rslides_tabs li:nth-child(2) {
+    margin: 0 15px;
+}
+
+.rslides_tabs a {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.rslides_tabs li:first-child {
+    margin-left: 0;
+}
+
+.rslides_tabs .rslides_here a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#slider3-pager a {
+    display: inline-block;
+}
+
+#slider3-pager img {
+    float: left;
+    display: block;
+}
+
+#slider3-pager .rslides_here a {
+    background: transparent;
+    border: 2px solid #f72d65;
+}
+
+#slider3-pager a {
+    padding: 4px;
+}
+
+ul#slider3-pager li a img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+/*-- responsive-mediaqueries --*/
+
+@media (max-width:768px) {
+    .rslides_tabs {
+        bottom: 10px;
+    }
+}
+
+@media (max-width:640px) {
+    .rslides_tabs {
+        bottom: 15px;
+    }
+    #slider3-pager a {
+        width: 90%;
+    }
+    ul#slider3-pager li a img {
+        width: 100%;
+    }
+    .rslides_tabs li {
+        margin-right: 3px;
+    }
+}
+
+@media (max-width:480px) {
+    .rslides_tabs {
+        bottom: 20px;
+    }
+}
+
+@media (max-width:320px) {
+    .rslides_tabs {
+        bottom: 25px;
+    }
+}
+
+/*-- grids--*/
+
+h3.tittle-w3l {
+    color: #000;
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+span.heading-style {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -4px;
+    z-index: 4;
+    line-height: 0px;
+}
+
+.heading-style i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #229dff;
+    margin: 0 -7px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.heading-style i:nth-child(2) {
+    width: 12px;
+    height: 12px;
+    background-color: #f53275;
+}
+
+h3.tittle-w3l:after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.33);
+    position: absolute;
+    bottom: 0px;
+    right: 41.5%;
+    width: 200px;
+    height: 1px;
+    z-index: 2;
+    background-position: 0px 0px;
+}
+
+.popular-wthree-text {
+    text-align: center;
+    border: 3px double #3f76f1;
+}
+
+.popular-wthree-grid:hover img {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.popular-wthree-grid img {
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+
+.popular-wthree-grid h5 {
+    font-size: 2em;
+    color: #222;
+    padding: 20px 0;
+}
+
+/*-- //grids--*/
+
+/*-- about-bottom --*/
+
+.grid1-agile {
+    padding: 5em 0;
+}
+
+.grid1-agile.agile-new1 {
+    background-color: #f72d65;
+    background-image: url(../images/model1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;
+}
+
+.grid1-agile.agile-new2 {
+    background-color: #3f76f1;
+    background-image: url(../images/model2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+}
+
+.inner-sub h3 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: right;
+    line-height: 1.3;
+}
+
+.inner-sub {
+    width: 33%;
+    float: right;
+    margin-right: 3em;
+}
+
+.inner-sub a.link-w3l1 {
+    color: #fff;
+    border: none;
+    padding: 12px 23px;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    background: #000;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    float: right;
+}
+
+a.link-w3l1:hover {
+    background: #3f76f1;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.inner-sub-2 h3 {
+    text-align: left;
+}
+
+.inner-sub.inner-sub-2 {
+    float: left;
+    margin-right: 0;
+    margin-left: 3em;
+}
+
+.inner-sub-2 a.link-w3l1 {
+    float: left;
+}
+
+.inner-sub-2 a.link-w3l1:hover {
+    background: #f72d65;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+/*-- //about-bottom --*/
+
+/*-- Services --*/
+
+.serives-agile,
+.team,
+.testimonials,
+.popular-wthree,
+.contact,
+.news {
+    padding: 5em 0;
+    text-align: center;
+}
+
+h3.tittle {
+    font-size: 43px;
+    letter-spacing: 1px;
+    color: #3f76f1;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.welcome-grid h4 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    color: #000;
+}
+
+.welcome-grid i {
+    color: #f72d65;
+    font-size: 50px;
+}
+
+/*-- //Services --*/
+
+/*-- team --*/
+
+.team-agile-img {
+    background-color: #FFF;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.team-agile-img img {
+    width: 100%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.team-agile-img:before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.team-agile-img:hover:before {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.team-agile-img:hover .view-caption {
+    -moz-transform: translateY(0%) scale(1);
+    -o-transform: translateY(0%) scale(1);
+    -ms-transform: translateY(0%) scale(1);
+    -webkit-transform: translateY(0%) scale(1);
+    transform: translateY(0%) scale(1);
+}
+
+.view-caption {
+    background-color: rgba(255, 255, 255, 0.6);
+    bottom: 0;
+    height: 19%;
+    left: 0;
+    padding: 15px 20px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    z-index: 99;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -moz-transform: translateY(150%) scale(1.5);
+    -o-transform: translateY(150%) scale(1.5);
+    -ms-transform: translateY(150%) scale(1.5);
+    -webkit-transform: translateY(150%) scale(1.5);
+    transform: translateY(150%) scale(1.5);
+}
+
+.view-caption .w3ls-info {
+    float: left;
+}
+
+.view-caption .w3ls-info h4 {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.view-caption .w3ls-info p {
+    color: #000;
+    font-size: 1em;
+}
+
+.view-caption ul {
+    float: right;
+    display: inline-block;
+}
+
+.view-caption ul li {
+    display: inline-block;
+}
+
+.view-caption ul li a {
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    color: #f14545;
+    display: inline-block;
+    margin: 0 2px;
+    height: 28px;
+    text-align: center;
+    line-height: 30px;
+    width: 28px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.view-caption ul li a:hover {
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*-- //team --*/
+
+/*-- Special --*/
+
+.projects-info {
+    text-align: center;
+}
+
+.projects-info p {
+    color: #999999;
+    font-size: .9em;
+    margin: 1em auto 0;
+    width: 40%;
+}
+
+.projects-grids {
+    margin: 3em 0 0 0;
+}
+
+#owl-demo .item {
+    text-align: center;
+}
+
+.projects-agile-grid-info {
+    position: relative;
+    overflow: hidden;
+}
+
+.projects-agile-grid-info img {
+    width: 100%;
+}
+
+i.fa.fa-cutlery {
+    color: #FFFFFF;
+    font-size: 2em;
+}
+
+.projects-grid-caption h4 {
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 700;
+    margin: 5em 0 0.5em 0;
+    text-transform: uppercase;
+    background: rgba(247, 45, 101, 0.44);
+    padding: 10px;
+    letter-spacing: 6px;
+}
+
+.projects-grid-caption p {
+    color: #fff;
+    font-size: 1em;
+    margin: 0;
+    letter-spacing: 1px;
+    margin-top: 4em;
+}
+
+.projects-grid-caption {
+    background: rgba(0, 0, 0, 0.61);
+    padding: 8em 1em 1em 1em;
+    position: absolute;
+    left: 0;
+    bottom: -135%;
+    text-align: center;
+    width: 100%;
+    height: 617px;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+    border: 1px solid #999;
+}
+
+.projects-agile-grid-info:hover .projects-grid-caption {
+    bottom: 0%;
+}
+
+/*--flexisel--*/
+
+.flex-slider {
+    background: #222227;
+    padding: 70px 0 165px 0;
+}
+
+#flexiselDemo1 {
+    display: none;
+}
+
+.nbs-flexisel-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.nbs-flexisel-ul {
+    position: relative;
+    width: 9999px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.nbs-flexisel-inner {
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 2em 0 0;
+}
+
+.nbs-flexisel-item {
+    float: left;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    line-height: 35px;
+}
+
+.nbs-flexisel-item>img {
+    cursor: pointer;
+    position: relative;
+}
+
+/*---- Nav ---*/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    background: url(../images/left.png) no-repeat 2px 1px;
+    top: -5% !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.nbs-flexisel-nav-left {
+    left: 92%;
+}
+
+.nbs-flexisel-nav-right {
+    right: 3%;
+    background: url(../images/right.png) no-repeat 2px 1px;
+}
+
+/*--//flexisel--*/
+
+/*-- Counter --*/
+
+.stats {
+    background: url(../images/bg.jpg) no-repeat fixed;
+    padding: 6em 0;
+}
+
+.stats p.text-center {
+    font-size: 16px;
+    padding: 0px 0 40px;
+    color: #999;
+}
+
+.stats-grid {
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+
+.numscroller {
+    font-size: 40px;
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+    margin: 25px 0;
+}
+
+.stats-grid i.fa {
+    font-size: 35px;
+    color: #f72d65;
+}
+
+.stats-grid h4 {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+/*-- //Counter --*/
+
+.modal-header h4 {
+    color: #f72d65;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Tangerine', cursive;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.modal-header h5 {
+    color: #3f76f1;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+.modal-header {
+    padding: 3em 2em;
+}
+
+/*-- testimonials --*/
+
+.testimonials {
+    background: url(../images/5.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.testimonials h3.tittle {
+    color: #fff;
+}
+
+/*--/test-monials --*/
+
+.test-review {
+    padding: 2em;
+    border: 1px solid #fff;
+}
+
+.test-review p {
+    color: #fff;
+    line-height: 2.2em;
+}
+
+.test-review img {
+    margin: 0 auto;
+}
+
+.test-review img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
+    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
+    -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.41);
+}
+
+.w3_about_grid_left h6 {
+    color: #EB4549;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.test-monials h5 {
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    text-transform: none;
+    margin-top: 1em;
+}
+
+.test-review i {
+    color: #fff;
+    font-size: 2em;
+    margin: 0 0.5em;
+}
+
+.img-agile h6 {
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 1em;
+}
+
+.img-agile img {
+    margin: 0 auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius:50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.test-tooltip1:after {
+    content: '';
+    position: absolute;
+    left: -19px;
+    border-color: #fff;
+    top: 40%;
+    border-left: 9px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 18px solid rgba(255, 255, 255, 0.66);
+    transform: rotate(90deg);
+    -webkit-transform: rotate(-92deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+
+/*-- //testimonials --*/
+
+/*-- contact --*/
+
+.contact-left input[type="text"],
+.contact-left input[type="email"] {
+    border: 1px solid #ccc;
+    font-size: 1em;
+    color: #828282;
+    background: none;
+    width: 100%;
+    padding: .8em 1em;
+    outline: none;
+}
+
+.contact-right textarea {
+    border: 1px solid #ccc;
+    font-size: 1em;
+    color: #828282;
+    background: none;
+    width: 100%;
+    padding: .8em 1em;
+    outline: none;
+    min-height: 8em;
+    resize: none;
+}
+
+.contact-left input[type="email"] {
+    margin: 1.5em 0;
+}
+
+.contact-right input[type="submit"] {
+    padding: .6em 1em;
+    color: #fff;
+    font-size: 1.1em;
+    background: #3f76f1;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    outline: none;
+    margin: 1em 0 0;
+    width: 100%;
+    border: 1px solid #3f76f1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact-right input[type="submit"]:hover {
+    background: transparent;
+    color: #f72d65;
+}
+
+.address-row {
+    margin-top: 50px;
+}
+
+.address-right {
+    text-align: left;
+    padding-left: 1em;
+}
+
+.address-left {
+    padding-left: 0;
+    text-align: center;
+}
+
+.address-row span.glyphicon {
+    font-size: 1.2em;
+    border: 1px solid;
+    padding: 1em;
+    color: #f72d65;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+}
+
+.address-row:hover span.glyphicon {
+    border-color: #f72d65;
+    -webkit-transform: rotatey(360deg);
+    -moz-transform: rotatey(360deg);
+    transform: rotatey(360deg);
+    -o-transform: rotatey(360deg);
+    -ms-transform: rotatey(360deg);
+}
+
+.address-row h5 {
+    font-size: 1.6em;
+    color: #000;
+    margin-bottom: .3em;
+    font-weight: 300;
+}
+
+.address-row p a {
+    color: #f72d65;
+}
+
+.address-row p a:hover {
+    color: #999;
+}
+
+/*-- //contact --*/
+
+/*-- footer --*/
+
+.footer {
+    background: #000;
+}
+
+.agileits_w3layouts_footer_grid {
+    border-left: 1px solid #fff;
+    padding-left: 3em;
+}
+
+.agileits_w3layouts_footer_grid h3 {
+    font-size: 27px;
+    color: #3f76f1;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.agileits_w3layouts_footer_grid ul li {
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+}
+
+.agileits_w3layouts_footer_grid ul li span {
+    font-weight: 600;
+}
+
+.agileits_w3layouts_footer_grid ul li a {
+    color: #cecccc;
+}
+
+.agileits_w3layouts_footer_grid ul li a:hover {
+    color: #fff;
+}
+
+.agileits_w3layouts_footer_grid p {
+    color: #fff;
+}
+
+.agileits_w3layouts_footer_grid p i {
+    display: block;
+    font-style: normal;
+    margin: .5em 0 0;
+}
+
+.agileits_w3layouts_logo.logo2 {
+    text-align: center;
+}
+
+.agileits_w3layouts_logo.logo2 h2 a {
+    color: #f72d65;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Tangerine', cursive;
+    text-decoration: none;
+}
+
+.agileits_w3layouts_logo.logo2 h2 span {
+    font-size: .3em;
+    letter-spacing: 8px;
+}
+
+/*-- social-icons --*/
+
+.w3social-icons {
+    margin: 32px 0 60px;
+}
+
+.w3social-icons ul li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+.w3social-icons ul li a {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 1px 0px #fff;
+    -moz-box-shadow: 0px 0px 1px 0px #fff;
+    box-shadow: 0px 0px 1px 0px #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 3.3;
+}
+
+.w3social-icons ul li a:hover {
+    color: #3f76f1;
+    -webkit-box-shadow: 0px 0px 13px 2px #3f76f1;
+    -moz-box-shadow: 0px 0px 13px 2px #3f76f1;
+    box-shadow: 0px 0px 13px 2px #3f76f1;
+}
+
+/*-- //social-icons --*/
+
+.wthree_copy_right {
+    padding: 1.5em 0;
+    background: #212121;
+    text-align: center;
+}
+
+.wthree_copy_right p {
+    color: #fff;
+    line-height: 2em;
+    letter-spacing: 2px;
+}
+
+.wthree_copy_right p a {
+    color: #f72d65;
+    text-decoration: none;
+}
+
+.wthree_copy_right p a:hover {
+    color: #fff;
+}
+
+.footer-style {
+    padding: 4em 0;
+}
+
+/*-- //footer --*/
+
+/*-- slider-up-arrow --*/
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 6%;
+    right: 3%;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    border: none;
+    text-indent: 100%;
+    background: url("../images/move-up.png") no-repeat 0px 0px;
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -o-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+}
+
+/*-- news --*/
+
+.date-info h6 {
+    font-size: 21px;
+    letter-spacing: 2px;
+    color: #f72d65;
+}
+
+.date-info a {
+    color: #000;
+    font-size: 26px;
+    margin: 12px 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.date-info a:hover {
+    color: #3f76f1;
+}
+
+.date-info p {
+    margin: 10px 0 20px;
+}
+
+.news-agileimg img {
+    width: 90%;
+}
+
+.news-grid-right {
+    margin: 4.8em 0 0 0;
+}
+
+.news-grid-right h5 {
+    color: #2B2B2B;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.news-grid-right p {
+    font-size: .9em;
+    margin: 1em 0 3em 0;
+    color: #777;
+    line-height: 2em;
+}
+
+.news-button a,
+.choose-button a {
+    background: none;
+    color: #3f76f1;
+    font-size: 15px;
+    padding: 11px 30px;
+    text-decoration: none;
+    border: solid 2px #3f76f1;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.news-button a:hover,
+.choose-button a:hover {
+    border: solid 2px #3f76f1;
+    background: #3f76f1;
+    color: #FFFFFF;
+}
+
+.news-wthreegrid {
+    text-align: left;
+}
+
+.news-grid-left:nth-child(2) {
+    margin-top: 50px;
+}
+
+/*-- //news --*/
+
+/*--responsive--*/
+
+@media(max-width: 1680px) {
+    .projects-grid-caption h4 {
+        margin: 7.5em 0 0.5em 0;
+    }
+    .inner-sub {
+        width: 38%;
+    }
+}
+
+@media(max-width: 1600px) {
+    .inner-sub {
+        width: 40%;
+    }
+    .projects-grid-caption h4 {
+        margin: 8.2em 0 0.5em 0;
+    }
+}
+
+@media(max-width: 1440px) {
+    .slider-info h4 {
+        font-size: 68px;
+    }
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        min-height: 760px;
+        padding-top: 22em;
+    }
+    .inner-sub {
+        width: 42%;
+    }
+    .projects-grid-caption h4 {
+        margin: 10em 0 0.5em 0;
+    }
+    .projects-grid-caption p {
+        margin-top: 2em;
+    }
+    .nbs-flexisel-nav-right {
+        right: 2%;
+    }
+}
+
+@media(max-width: 1366px) {
+    .inner-sub h3 {
+        font-size: 43px;
+    }
+    .projects-grid-caption {
+        height: 591px;
+    }
+    .projects-grid-caption h4 {
+        margin: 9em 0 0.5em 0;
+    }
+    .stats {
+        background-position: center;
+    }
+}
+
+@media(max-width: 1280px) {
+    .slider-info h4 {
+        font-size: 66px;
+    }
+    .inner-sub h3 {
+        font-size: 40px;
+    }
+    .projects-grid-caption {
+        height: 554px;
+    }
+    .projects-grid-caption h4 {
+        margin: 7.5em 0 0.5em 0;
+    }
+    .rslides_tabs {
+        right: 40%;
+    }
+}
+
+@media(max-width: 1080px) {
+    .logo h1 a {
+        font-size: 72px;
+        padding: 5px 26px;
+    }
+    .slider-info h4 {
+        font-size: 58px;
+    }
+    .slider-info p {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        min-height: 640px;
+        padding-top: 17em;
+    }
+    .inner-sub {
+        width: 48%;
+    }
+    .grid1-agile {
+        padding: 4.5em 0;
+    }
+    .projects-grid-caption {
+        height: 466px;
+    }
+    .projects-grid-caption h4 {
+        margin: 5em 0 0.5em 0;
+    }
+    .nbs-flexisel-nav-left {
+        left: 90%;
+    }
+    .view-caption .w3ls-info h4 {
+        font-size: 1.2em;
+    }
+    .view-caption {
+        height: 22%;
+        padding: 15px 14px;
+    }
+    .date-info a {
+        font-size: 24px;
+    }
+    .date-info h6 {
+        font-size: 20px;
+    }
+    .date-info p {
+        margin: 2px 0 15px;
+    }
+    .news-button a,
+    .choose-button a {
+        font-size: 15px;
+        padding: 11px 24px;
+    }
+    .news-grid-left:nth-child(2) {
+        margin-top: 30px;
+    }
+    .test-review {
+        padding: 2em 1em;
+    }
+    .view-caption .w3ls-info h4 {
+        font-size: 1.3em;
+    }
+    .address-row span.glyphicon {
+        padding: 0.8em;
+    }
+    .agileits_w3layouts_logo.logo2 h2 a {
+        font-size: 76px;
+    }
+    .w3social-icons {
+        margin: 26px 0 50px;
+    }
+    .agileits_w3layouts_footer_grid ul li {
+        font-size: 1em;
+    }
+    .footer-style {
+        padding: 3em 0;
+    }
+    .serives-agile,
+    .team,
+    .testimonials,
+    .popular-wthree,
+    .contact,
+    .news {
+        padding: 4.5em 0;
+    }
+    .rslides_tabs {
+        right: 38%;
+    }
+    .stats-grid h4 {
+        letter-spacing: 1px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .slider-info h4 {
+        font-size: 54px;
+    }
+    .slider-info p {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        min-height: 590px;
+    }
+    .rslides_tabs {
+        bottom: 4%;
+    }
+    .inner-sub h3 {
+        font-size: 33px;
+    }
+    .grid1-agile {
+        padding: 4em 0;
+    }
+    .projects-grid-caption {
+        height: 441px;
+    }
+    .projects-grid-caption h4 {
+        font-size: 1.5em;
+        letter-spacing: 4px;
+    }
+    .projects-grid-caption p {
+        font-size: .9em;
+    }
+    .projects-grid-caption h4 {
+        margin: 5.5em 0 0.5em 0;
+    }
+    .stats-grid h4 {
+        font-size: 18px;
+    }
+    .numscroller {
+        margin: 20px 0;
+    }
+    .stats-grid i.fa {
+        font-size: 30px;
+    }
+    .section p button {
+        right: 50px;
+    }
+}
+
+@media(max-width: 991px) {
+    .popular-wthree-grid h5 {
+        font-size: 1.6em;
+        padding: 16px 0;
+    }
+    .welcome-grid h4 {
+        font-size: 23px;
+        letter-spacing: 1px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .inner-sub h3 {
+        font-size: 32px;
+    }
+    .projects-grid-caption {
+        height: 426px;
+    }
+    .rslides_tabs {
+        right: 36%;
+    }
+    .team-grids {
+        padding: 0 .5em;
+    }
+    .view-caption {
+        height: 42%;
+        padding: 10px 10px;
+    }
+    .view-caption .w3ls-info {
+        float: none;
+        text-align: center;
+    }
+    .view-caption .w3ls-info h4 {
+        margin-bottom: 12px;
+    }
+    .view-caption ul {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .stats-grid h4 {
+        font-size: 16px;
+    }
+    .news-agileimg img {
+        width: 45%;
+    }
+    .news-wthreegrid:nth-child(1) {
+        text-align: center;
+        margin-bottom: 3em;
+    }
+    .modal-header {
+        padding: 2em 2em;
+    }
+    .address-row span.glyphicon {
+        padding: 1em;
+    }
+    .address-left {
+        padding-left: 1em;
+    }
+    .address-right {
+        padding: 0;
+    }
+    .address-row {
+        margin-top: 0;
+    }
+    .address-row:nth-child(2) {
+        margin: 2.5em 0;
+    }
+    .map-pos {
+        margin-top: 4em;
+    }
+    .agileits_w3layouts_footer_grid h3 {
+        font-size: 25px;
+        margin-bottom: 22px;
+        letter-spacing: 1px;
+    }
+    .agileits_w3layouts_footer_grid ul li {
+        font-size: .9em;
+        line-height: 2;
+    }
+    .agileits_w3layouts_footer_grid {
+        padding-left: 1em;
+    }
+}
+
+@media(max-width: 900px) {
+    .slider-info h4 {
+        font-size: 50px;
+    }
+    .slider-info p {
+        font-size: 12px;
+        margin-top: 1.5em;
+    }
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        min-height: 580px;
+    }
+    h3.tittle {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .projects-grid-caption {
+        height: 388px;
+    }
+    .projects-grid-caption h4 {
+        margin: 4em 0 0.5em 0;
+    }
+    .nbs-flexisel-nav-left {
+        left: 88%;
+    }
+    .stats-grid {
+        width: 23%;
+    }
+}
+
+@media(max-width: 800px) {
+    .logo h1 a {
+        font-size: 66px;
+    }
+    .inner-sub.inner-sub-2 {
+        margin-left: 2em;
+    }
+    .inner-sub h3 {
+        font-size: 28px;
+    }
+    .inner-sub a.link-w3l1 {
+        font-size: 13px;
+        margin-top: 34px;
+    }
+    .grid1-agile {
+        padding: 3em 0;
+    }
+    .projects-grid-caption {
+        height: 344px;
+    }
+    .projects-grid-caption h4 {
+        font-size: 1.3em;
+        letter-spacing: 3px;
+    }
+    .projects-grid-caption h4 {
+        margin: 3em 0 0.5em 0;
+    }
+    .stats-grid {
+        width: 25%;
+    }
+}
+
+@media(max-width: 768px) {
+    .slider-info h4 {
+        font-size: 46px;
+    }
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        min-height: 550px;
+        padding-top: 16em;
+    }
+    .rslides_tabs {
+        right: 34%;
+    }
+    .serives-agile,
+    .team,
+    .testimonials,
+    .popular-wthree,
+    .contact,
+    .news {
+        padding: 4em 0;
+    }
+    .nbs-flexisel-nav-left {
+        left: 87%;
+    }
+    .projects-grids {
+        margin: 1em 0 0 0;
+    }
+    .projects-grid-caption h4 {
+        margin: 1em 0 0.5em 0;
+    }
+    .test-review p {
+        font-size: 13px;
+    }
+    .inner-sub {
+        margin-right: 1.5em;
+    }
+    .stats {
+        background-position: right;
+    }
+    .stats-grid {
+        width: 33%;
+    }
+}
+
+@media(max-width: 736px) {
+    .section p button {
+        right: 30px;
+    }
+    .stats-grid h4 {
+        font-size: 15px;
+    }
+    .numscroller {
+        margin: 18px 0;
+        font-size: 40px;
+    }
+    .news-agileimg img {
+        width: 55%;
+    }
+    .contact-right {
+        margin-top: 1.5em;
+    }
+    .address-row span.glyphicon {
+        padding: .8em;
+    }
+    .inner-sub h3 {
+        font-size: 27px;
+    }
+    .contact-right textarea {
+        min-height: 12em;
+    }
+    .agileits_w3layouts_footer_grid {
+        padding-left: 2em;
+        width: 100%;
+    }
+    .agileits_w3layouts_footer_grid:nth-child(2) {
+        margin: 2em 0;
+    }
+    .agileits_w3layouts_footer_grid ul li {
+        font-size: 1em;
+        line-height: 1;
+        display: block;
+    }
+    .agileits_w3layouts_footer_grid h3 {
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+}
+
+@media(max-width: 667px) {
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        min-height: 480px;
+        padding-top: 14em;
+    }
+    .logo h1 a {
+        font-size: 60px;
+    }
+    .slider-info h4 {
+        font-size: 42px;
+        letter-spacing: 6px;
+    }
+    .slider-info p {
+        font-size: 11px;
+    }
+    .rslides_tabs {
+        right: 31%;
+    }
+    .serives-agile,
+    .team,
+    .testimonials,
+    .popular-wthree,
+    .contact,
+    .news {
+        padding: 3em 0;
+    }
+    .popular-wthree-grid {
+        padding: 0 .5em;
+    }
+    .popular-wthree-grid h5 {
+        font-size: 1.4em;
+        padding: 12px 0;
+    }
+    .grid1-agile {
+        padding: 2.5em 0;
+    }
+    .inner-sub a.link-w3l1 {
+        font-size: 12px;
+        margin-top: 24px;
+    }
+    .welcome-grid i {
+        font-size: 42px;
+    }
+    .welcome-grid h4 {
+        font-size: 21px;
+        margin: 15px 0;
+    }
+    p {
+        font-size: 13px;
+    }
+    .nbs-flexisel-nav-left {
+        left: 85%;
+    }
+    .projects-grid-caption {
+        padding: 10em 1em 1em 1em
+    }
+    .view-caption {
+        height: 45%;
+        padding: 4px 10px;
+    }
+    .stats {
+        padding: 5em 0;
+    }
+    .news-button a,
+    .choose-button a {
+        font-size: 13px;
+        padding: 11px 21px;
+    }
+    .agileits_w3layouts_logo.logo2 h2 a {
+        font-size: 70px;
+    }
+    .w3social-icons ul li a {
+        font-size: 15px;
+        width: 45px;
+        height: 45px;
+        line-height: 3;
+    }
+    .w3social-icons {
+        margin: 20px 0 30px;
+    }
+}
+
+@media(max-width: 640px) {
+    .slider-info h4 {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        padding-top: 13.5em;
+        padding-right: 2em;
+    }
+    .grid1-agile {
+        padding: 2.3em 0;
+    }
+    .projects-grid-caption {
+        height: 410px;
+    }
+}
+
+@media(max-width: 600px) {
+    .inner-sub h3 {
+        font-size: 25px;
+    }
+    .rslides_tabs li:nth-child(2) {
+        margin: 0 4px;
+    }
+    .grid1-agile {
+        padding: 2em 0;
+    }
+    h3.tittle {
+        font-size: 36px;
+    }
+    .view-caption {
+        height: 50%;
+    }
+    .news-agileimg img {
+        width: 60%;
+    }
+}
+
+@media(max-width: 568px) {
+    .inner-sub.inner-sub-2 {
+        margin-left: 1em;
+    }
+    .inner-sub h3 {
+        font-size: 23px;
+    }
+    .inner-sub a.link-w3l1 {
+        font-size: 12px;
+        margin-top: 22px;
+        padding: 11px 17px;
+    }
+    .team-grids {
+        padding: 0 1em;
+        width: 50%;
+    }
+    .view-caption .w3ls-info {
+        float: left;
+    }
+    .view-caption ul {
+        float: right;
+    }
+    .view-caption {
+        height: 22%;
+        padding: 17px 15px;
+    }
+    .team-grids:nth-child(3),
+    .team-grids:nth-child(4) {
+        margin-top: 2em;
+    }
+    .test-tooltip1:after {
+        top: 45%;
+    }
+}
+
+@media(max-width: 480px) {
+    .section p button {
+        right: 16px;
+    }
+    .logo h1 a {
+        font-size: 56px;
+        padding: 5px 18px;
+    }
+    .slider-info h4 {
+        font-size: 33px;
+        letter-spacing: 4px;
+    }
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        min-height: 440px;
+    }
+    .rslides_tabs {
+        right: 24%;
+    }
+    .grid1-agile.agile-new1,
+    .grid1-agile.agile-new2 {
+        background-size: 100%;
+    }
+    .inner-sub {
+        width: 90%;
+    }
+    .inner-sub h3 {
+        font-size: 28px;
+    }
+    .inner-sub {
+        background: #f72d65;
+        padding: 2em;
+    }
+    .inner-sub.inner-sub-2 {
+        margin-left: 1.5em;
+        background-color: #3f76f1;
+    }
+    .welcome-grid {
+        width: 100%;
+    }
+    .welcome-grid:nth-child(2) {
+        margin: 2em 0;
+    }
+    .nbs-flexisel-inner {
+        padding: 1em 0 0;
+    }
+    .nbs-flexisel-nav-right {
+        right: 2%;
+    }
+    .projects-grid-caption {
+        height: 603px;
+    }
+    .projects-grid-caption h4 {
+        font-size: 1.7em;
+        letter-spacing: 6px;
+    }
+    .projects-grid-caption {
+        padding: 17em 1em 1em 1em;
+    }
+    .view-caption {
+        height: 25%;
+        padding: 16px 8px;
+    }
+    .numscroller {
+        margin: 14px 0;
+        font-size: 36px;
+    }
+    .stats {
+        padding: 4.5em 0;
+    }
+    .news-agileimg img {
+        width: 80%;
+    }
+    .date-info a {
+        font-size: 22px;
+    }
+    .news-button a,
+    .choose-button a {
+        font-size: 12px;
+    }
+    h3.tittle {
+        font-size: 34px;
+    }
+    .img-agile {
+        width: 100%;
+    }
+    .test-review {
+        padding: 1em 1em;
+        width: 100%;
+        margin-top: 2em;
+    }
+    .img-agile h6 {
+        margin-top: .6em;
+        letter-spacing: 1px;
+    }
+    .test-tooltip1:after {
+        left: 48%;
+        top: -13%;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+    }
+    .nbs-flexisel-nav-left {
+        left: 81%;
+    }
+    .address-right {
+        padding-left: 1em;
+    }
+    .welcome-grid i {
+        font-size: 48px;
+    }
+    .modal-header h4 {
+        font-size: 56px;
+    }
+    .modal-header h5 {
+        font-size: 22px;
+        margin: 16px 0;
+    }
+}
+
+@media(max-width: 440px) {
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        min-height: 400px;
+        padding-top: 12em;
+    }
+    .slider-info h4 {
+        font-size: 30px;
+    }
+    .slider-info p {
+        font-size: 10px;
+    }
+    #slider3-pager a {
+        width: 80%;
+    }
+    .rslides_tabs li:nth-child(2) {
+        margin: 0;
+    }
+    .popular-wthree-grid {
+        padding: 0 1em;
+        width: 100%;
+    }
+    .popular-wthree-grid:nth-child(3) {
+        margin: 2em 0;
+    }
+    .popular-wthree-grid h5 {
+        font-size: 1.6em;
+        padding: 16px 0;
+    }
+    .inner-sub h3 {
+        font-size: 27px;
+    }
+    .team-grids {
+        padding: 0 .5em;
+    }
+    .date-info a {
+        font-size: 20px;
+    }
+    .date-info h6 {
+        font-size: 19px;
+    }
+    .news-button a,
+    .choose-button a {
+        font-size: 12px;
+    }
+    h3.tittle {
+        font-size: 30px;
+    }
+    .agileits_w3layouts_footer_grid h3 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin-bottom: 18px;
+    }
+    .view-caption .w3ls-info h4 {
+        font-size: 1.1em;
+    }
+    .rslides_tabs {
+        right: 21%;
+    }
+    .modal-header h5 {
+        font-size: 21px;
+    }
+}
+
+@media(max-width: 414px) {
+    .inner-sub h3 {
+        font-size: 25px;
+    }
+    .projects-grid-caption {
+        padding: 19em 1em 1em 1em;
+    }
+    .view-caption .w3ls-info h4 {
+        font-size: 1em;
+    }
+    .stats-grid h4 {
+        font-size: 13px;
+    }
+    .stats {
+        background-position: left;
+    }
+    .date-info a {
+        font-size: 18px;
+    }
+    .news-button a,
+    .choose-button a {
+        font-size: 12px;
+    }
+    .address-row h5 {
+        font-size: 1.4em;
+    }
+    .agileits_w3layouts_logo.logo2 h2 a {
+        font-size: 58px;
+    }
+    .w3social-icons ul li a {
+        font-size: 13px;
+        width: 40px;
+        height: 40px;
+        line-height: 3;
+    }
+    .agileits_w3layouts_footer_grid h3 {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .agileits_w3layouts_footer_grid ul li {
+        font-size: .9em;
+    }
+    .slider-info h4 {
+        letter-spacing: 3px;
+    }
+    .nbs-flexisel-nav-left {
+        left: 78%;
+    }
+    .modal-header h5 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+@media(max-width: 384px) {
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        min-height: 356px;
+        padding-top: 11em;
+        padding-right: 1em;
+    }
+    .logo h1 a {
+        font-size: 48px;
+    }
+    .agile-top {
+        margin-top: 16px;
+    }
+    .section p button {
+        width: 42px;
+        padding: 4px 5px 5px;
+    }
+    .slider-info h4 {
+        font-size: 28px;
+    }
+    .projects-grid-caption {
+        padding: 21em 1em 1em 1em;
+    }
+    .team-grids {
+        padding: 0 1em;
+        width: 100%;
+    }
+    .view-caption .w3ls-info h4 {
+        font-size: 1.4em;
+    }
+    .view-caption {
+        height: 17%;
+        padding: 20px;
+    }
+    .team-grids:nth-child(2),
+    .team-grids:nth-child(3),
+    .team-grids:nth-child(4) {
+        margin-top: 2em;
+    }
+    .rslides_tabs {
+        right: 18%;
+    }
+    .date-info a {
+        font-size: 19px;
+    }
+    .news-button a,
+    .choose-button a {
+        font-size: 12px;
+    }
+    .news-agileimg img {
+        width: 100%;
+    }
+    h3.tittle {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .address-row span.glyphicon {
+        padding: .7em;
+        font-size: 1em;
+    }
+    .slider-info p {
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+    .grid1-agile {
+        padding: 1.8em 0;
+    }
+    .section p button {
+        top: 15px;
+    }
+    .test-tooltip1:after {
+        top: -11%;
+    }
+    .modal-header h4 {
+        font-size: 50px;
+    }
+    .modal-header {
+        padding: 1.5em;
+    }
+}
+
+@media(max-width: 375px) {
+    .grid1-agile {
+        padding: 1.6em 0;
+    }
+    .stats-grid h4 {
+        font-size: 12px;
+    }
+    .test-tooltip1:after {
+        top: -11%;
+    }
+    .contact-left input[type="email"] {
+        margin: 1em 0;
+    }
+    .contact-right {
+        margin-top: 1em;
+    }
+    .contact-right textarea {
+        min-height: 10em;
+    }
+}
+
+@media(max-width: 320px) {
+    .slider-info h4 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .logo h1 a {
+        font-size: 42px;
+        padding: 5px 14px;
+    }
+    .banner-1,
+    .banner-2,
+    .banner-3 {
+        min-height: 340px;
+        padding-top: 10em;
+    }
+    .rslides_tabs {
+        right: 14%;
+        bottom: 2%;
+    }
+    .serives-agile,
+    .team,
+    .testimonials,
+    .popular-wthree,
+    .contact,
+    .news {
+        padding: 2em 0;
+    }
+    h3.tittle {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .popular-wthree-grid h5 {
+        font-size: 1.4em;
+        padding: 14px 0;
+    }
+    .popular-wthree-grid:nth-child(3) {
+        margin: 1.5em 0;
+    }
+    .inner-sub {
+        padding: 1.5em;
+    }
+    .inner-sub h3 {
+        font-size: 21px;
+    }
+    .inner-sub a.link-w3l1 {
+        margin-top: 17px;
+    }
+    .grid1-agile {
+        padding: 1.5em 0;
+    }
+    .inner-sub {
+        margin-right: 1em;
+    }
+    .inner-sub.inner-sub-2 {
+        margin-left: 1em;
+    }
+    .projects-grid-caption h4 {
+        font-size: 1.4em;
+    }
+    .projects-grid-caption {
+        height: 524px;
+    }
+    .projects-grid-caption {
+        padding: 18em 1em 1em 1em;
+    }
+    .projects-grid-caption p {
+        font-size: .8em;
+    }
+    .view-caption {
+        height: 22%;
+    }
+    .stats-grid {
+        width: 100%;
+    }
+    .stats-grid.stats-grid-2.gridw3 {
+        margin: 2em 0;
+    }
+    .numscroller {
+        margin: 10px 0;
+        font-size: 34px;
+    }
+    .stats-grid h4 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .test-review p {
+        font-size: 12px;
+    }
+    .img-agile h6 {
+        margin-top: .4em;
+        font-size: 1.1em;
+    }
+    .contact-left input[type="text"],
+    .contact-left input[type="email"] {
+        font-size: .9em;
+    }
+    .contact-right textarea {
+        min-height: 8em;
+        font-size: .9em;
+    }
+    .contact-right input[type="submit"] {
+        font-size: 1em;
+    }
+    .address-row {
+        padding: 0;
+    }
+    .address-row h5 {
+        font-size: 1.2em;
+    }
+    .address-row:nth-child(2) {
+        margin: 2em 0;
+    }
+    .agileits_w3layouts_logo.logo2 h2 a {
+        font-size: 54px;
+    }
+    .w3social-icons ul li a {
+        font-size: 11px;
+        width: 35px;
+        height: 35px;
+    }
+    .agileits_w3layouts_footer_grid h3 {
+        font-size: 21px;
+    }
+    .agileits_w3layouts_footer_grid ul li {
+        font-size: .8em;
+    }
+    .wthree_copy_right p {
+        letter-spacing: 1px;
+    }
+    .wthree_copy_right {
+        padding: 1em 0;
+    }
+    .footer-style {
+        padding: 2em 0;
+    }
+    .nbs-flexisel-nav-left {
+        left: 72%;
+    }
+    .nbs-flexisel-inner {
+        padding: 2em 0 0;
+    }
+    .modal-header h5 {
+        margin: 12px 0 5px;
+        line-height: 1.4;
+    }
+    .modal-header h4 {
+        font-size: 46px;
+        margin-bottom: 8px;
+    }
+}
+
+/*--//responsive--*/

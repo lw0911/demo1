@@ -1,0 +1,51 @@
+html, body {
+
+  overflow-x: hidden; }
+
+.sidebar-list {
+    margin-top: 15px;
+}
+.sidebar {
+  background:#1f1f1f;
+  display: inline-block !important;
+  position: fixed;
+  top: 81px;
+  left: -220px;
+  width: 220px;
+  height: 100%; 
+  z-index: 99;}
+
+.sidebar.open {left: 0;}
+
+.sidebar-content {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  z-index: 10;
+  background-color: white; }
+
+.sidebar-pulled {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease;
+  -o-transition: -o-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000; }
+
+.sidebar-pushed {
+  -webkit-transform: translate3d(220px, 0, 0);
+  -moz-transform: translate3d(220px, 0, 0);
+  -ms-transform: translate3d(220px, 0, 0);
+  -o-transform: translate3d(220px, 0, 0);
+  transform: translate3d(220px, 0, 0); }
+
+.sidebar-scroll-disabled {
+  position: fixed;
+  overflow: hidden; }

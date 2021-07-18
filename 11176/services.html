@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dreach自行车</title>
+	<link rel="shortcut icon" href="./img/favicon.ico">
+	<!-- 引入框架样式 -->
+	<link href='./lib/layui/css/layui.css' rel="stylesheet" />
+	<!-- 单独的样式 -->
+    <link href='./css/server.css' rel='stylesheet' />
+	<!-- 引入框架js -->
+	<script src='./lib/layui/layui.js'></script>
+	<!--引入jquery-->
+	<script src='./js/jquery.min.js'></script>
+	
+	<script src='./js/comm.js'></script>
+</head>
+<body>
+	<!--导航-->
+	<div id='top'>		
+		<iframe align="center" width="100%" height="85px" src="top.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no">	
+		</iframe>	
+	</div>
+	<!-- banner -->
+	<div class='banner'>
+		<div><img src='./img/sbanner.png'></div>
+		<div>
+			<div>SERVICES</div>
+			<div>
+		</div></div>
+	</div>
+	
+	<!-- 选项卡 -->
+	<div class='tab'>
+		<div>
+			<div onclick='tab("index")'><img src='./img/home.png' /> Home</div>
+		    <div> &gt;&nbsp;&nbsp;&nbsp;&nbsp;services</div>
+		</div>
+	</div>
+	
+	<!-- 内容 -->
+	<div class='server'>
+		<form class='layui-form'>
+			  <div>If necessary, please leave a message, we will reply to you within 24 hours.</div>
+			  <div class="layui-form-item layui-form-text">
+			      <textarea placeholder="Please enter your message contents" name='message'  lay-verify="required" class="layui-textarea" style='resize: none;height:200px;' lay-reqText='Please enter your message contents' ></textarea>
+			  </div>
+			  
+			  
+			 <div class="layui-form-item">
+				<div class="layui-inline">
+				    <img src='./img/pre.png' />
+					<input type="text" placeholder="Please enter your name" name="title" lay-verify="required|title" autocomplete="off" class="layui-input" lay-reqText='Please enter your name'>  
+				</div>
+				<div class="layui-inline">
+				    <img src='./img/phone.png' />
+					<input type="text" placeholder="Please enter your mobile phone number" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input" lay-reqText='Please enter your mobile phone number'>
+				</div>
+				<div class="layui-inline">
+				    <img src='./img/email.png' />
+					<input type="tel" placeholder="Please enter your E-mail" name="email" lay-verify="required|email" autocomplete="off" class="layui-input" lay-reqText='Please enter your E-mail'>
+				</div>
+			</div>
+			
+			<div class='layui-form-item'>
+				<button  class="layui-btn tjan" lay-submit="" lay-filter="demo2">Submission</button>
+			</div>
+	
+		</form>
+	</div>
+	
+	
+	<!-- 页脚 -->
+	<div id='footer'>
+		<iframe align="center" width="100%" height='280px' src="footer.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no">
+		</iframe>
+	</div>
+	
+	<script type="text/javascript">
+		
+			layui.use(['form', 'layedit', 'laydate'], function(){
+			  var form = layui.form
+			  ,layer = layui.layer
+			  ,layedit = layui.layedit
+			  ,laydate = layui.laydate;
+			  
+			    //自定义验证规则
+			    form.verify({
+			      title: function(value){
+			        if(value.length == 0){
+			          return 'Please enter your name';
+			        }
+			      },
+				  phone: function(value){
+				    if(value.length != 11){
+				      return 'Please enter your mobile phone number';
+				    }
+					
+				  },
+				  email: function(value){
+					 if(value.length == 0){
+					   return 'Please enter your E-mail';
+					 }
+									
+				  }
+			      ,message: function(value){
+					   if(value.length == 0){
+						 return 'Please enter your message contents';
+					   }
+			      }
+			    });
+			    
+
+			    //监听提交
+			    form.on('submit(demo2)', function(data){
+			      layer.alert(JSON.stringify(data.field), {
+			        title: '最终的提交信息'
+			      })
+			      return false;
+			    });
+			   
+
+			    
+			   
+			  
+			  
+			});
+		
+	</script>
+
+</body>
+</html>

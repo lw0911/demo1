@@ -1,0 +1,38 @@
+.tijiao{
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	padding-top: 50px;
+	justify-content: center;
+	margin-bottom: 35px;
+}
+.tijiao p{
+	padding-left: 22px;
+}
+.tijiao p span{
+	display: block;
+}
+.tijiao-tit{
+	font-size: 23px;
+	color: #007cda;
+	margin-bottom: 15px;
+}
+.tijiao-time{
+	font-size: 16px;
+}
+.tijiao-time b{
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: 5px;
+}
+.returnbtn{
+	padding: 10px 25px;
+	border: 1px solid #007cda;
+	font-size: 18px;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	background: #007cda;
+	color: #FFFFFF;
+	display: block;
+	margin: 0 auto;
+}

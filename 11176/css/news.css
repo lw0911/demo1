@@ -1,0 +1,224 @@
+/* banner 样式 */
+.banner{
+	width:100%;
+	position:relative;
+	/* height:400px; */
+}
+.banner>div:nth-child(1){
+	width:100%;
+	height:100%;
+	position:relative;
+	top:0;
+	left:0;
+}
+.banner>div>img{
+	width:100%;
+}
+.banner>div:nth-child(2){
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:#fff;
+}
+.banner>div:nth-child(2)>div:nth-child(1){
+	width:400px;
+	text-align:center;
+	color:#000;
+	font-size:40px;
+	font-weight: bold;
+	margin-bottom:20px;
+}
+.banner>div:nth-child(2)>div:nth-child(2){
+	width:80px;
+	height:4px;
+	background:#f7941d;
+}
+/* 选项卡 */
+.tab{
+	width:100%;
+	height:150px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom:solid #ddd 1px;
+	margin:0 auto;
+}
+.tab>div{
+	width:150px;
+	height:40px;
+	background:#666;
+	border-radius:20px;
+	margin:0 20px;
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tab>div:hover{
+	cursor: pointer;
+	background:#f7941d;
+}
+
+/* 正文内容 */
+.tab-title{
+	width:100%;
+	height:200px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.tab-title>div{
+	width:75%;
+	height:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size:40px;
+	border-bottom:solid #ddd 1px;
+}
+
+/* 正文内容 */
+.tab-content{
+	width:75%;
+	margin:30px auto;	
+}
+.tab-content>p{
+	margin-bottom:15px;
+	line-height:24px;
+}
+.tab-content>p>img{
+	width:100%;
+}
+
+/* 新闻内容 */
+.news{
+	width:100%;	
+	margin-top:50px;
+}
+.news>.news-content{
+	width:75%;
+	margin:0 auto;
+}
+.news>.news-content>div{
+	/* padding:0 20px; */
+	height:160px;
+	border: 1px solid transparent;
+	position: relative;
+	background: #f7f7f7;
+	transition: all .6s cubic-bezier(.215,.61,.355,1) 0s;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom:30px;
+}
+.news>.news-content>div:hover{
+	cursor: pointer;
+	border: 1px solid #efefef;
+	box-shadow: 0 6px 10px 5px rgba(0,0,0,.08);
+}
+.news>.news-content>div>div:nth-child(1){
+	width:230px;
+	height:160px;
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	transition: all .3s ease-out 0s;
+}
+.news>.news-content>div:hover>div:nth-child(1){
+	background:#ccc;
+}
+.news>.news-content>div>div:nth-child(1)>img{
+	width:200px;
+	height:130px;
+	margin-top:15px;
+}
+.news>.news-content>div>div:nth-child(2){
+	width:920px;
+	height:130px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.news>.news-content>div>div:nth-child(2)>div:nth-child(1){
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	width:700px;
+	height:100px;
+	transition: all .3s ease-out 0s;
+	margin-left:0;
+}
+.news>.news-content>div:hover>div:nth-child(2)>div:nth-child(1){
+	   margin-left:10px;
+}
+.news>.news-content>div>div:nth-child(2)>div:nth-child(1)>p:nth-child(1){
+	width:100%;
+	font-size: 16px;
+	color: #717171;
+	display: block;
+	height: 24px;
+	overflow: hidden;
+	margin-bottom: 20px;	
+}
+.news>.news-content>div>div:nth-child(2)>div:nth-child(1)>p:nth-child(2){
+	width:100%;
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden; 
+	line-height:24px;
+	word-wrap:break-word; 
+	color: #a2a2a2;
+	line-height: 24px;
+}
+.news>.news-content>div>div:nth-child(2)>div:nth-child(2){
+	display:flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+	width:180px;
+	height:100px;
+}
+
+.news>.news-content>div>div:nth-child(2)>div:nth-child(2)>p:nth-child(1){
+	    font-family: HELVETICANEUELTPRO-THEX,"微软雅黑";
+	    color: #999;
+	    transition: all .3s ease-out 0s;
+		height: 26px;
+		font-size: 19px;
+		width:130px;
+}
+.news>.news-content>div>div:nth-child(2)>div:nth-child(2)>p:nth-child(2){
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    transition: all .3s;
+    font-size: 12px;
+    color: #ccc;
+    border: solid #ccc 1px;
+    border-radius: 24px;
+    text-align: center;
+
+}
+.news>.news-content>div:hover>div:nth-child(2)>div:nth-child(2)>p:nth-child(2){
+	background:#ccc;
+	color:#fff;
+	margin-left:30px;
+}
+
+/* 分页 */
+#demo2-1{
+	margin:0 auto;
+	width:75%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}

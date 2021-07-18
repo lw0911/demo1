@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dreach自行车</title>
+	<link rel="shortcut icon" href="./img/favicon.ico">
+	<!-- 引入框架样式 -->
+	<link href='./lib/layui/css/layui.css' rel="stylesheet" />
+	<!-- 单独的样式 -->
+    <link href='./css/pcontent.css' rel='stylesheet' />
+	<!-- 引入框架js -->
+	<script src='./lib/layui/layui.js'></script>
+	<!--引入jquery-->
+	<script src='./js/jquery.min.js'></script>
+	
+	<script src='./js/comm.js'></script>
+</head>
+<body>
+	<!--导航-->
+	<div id='top'>		
+		<iframe align="center" width="100%" height="85px" src="top.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no">	
+		</iframe>	
+	</div>
+	<!-- banner -->
+	<div class='banner'>
+		<div><img src='./img/sbanner.png'></div>
+		<div>
+			<div>SERVICES</div>
+			<div>
+		</div></div>
+	</div>
+	
+	<!-- 选项卡 -->
+	<div class='tab'>
+		<div>
+			<div onclick='tab("index")'><img src='./img/home.png' /> Home</div>
+		    <div> &gt;&nbsp;&nbsp;&nbsp;&nbsp;<a href='javascript:;' onclick='tab("products","sd")'>products</a></div>
+			<div> &gt;&nbsp;&nbsp;&nbsp;&nbsp;<a href='javascript:;' onclick='tab("products","sd")'>自行车</a></div>
+		</div>
+	</div>
+	
+	<!-- 内容 -->
+	<div class='product'>
+	   <div>
+		   <div>
+			   <div>PRODUCTS</div>
+			   <div>
+				   <dl>
+					   <dt>自行车1</dt>
+					   <dd>自行车1-1</dd>
+					   <dd>自行车1-2</dd>
+					   <dd>自行车1-3</dd>
+					   <dd>自行车1-4</dd>
+				   </dl>
+				   <dl>
+					   <dt>自行车2</dt>
+					   <dd>自行车2-1</dd>
+					   <dd>自行车2-2</dd>
+					   <dd>自行车2-3</dd>
+					   <dd>自行车2-4</dd>
+				   </dl>
+			   </div>
+		   </div>
+		   <div>
+			   <div class='navname'>ALL PRODUCT</div>
+			   <div class='bickcontent'>
+				  <p>
+					  <img src='img/bike/we-OGoN0T4e0rWE5ri8uIw.jpg' />
+				  </p>
+				  
+				  <p>fasfjwoefnalfnoawefnfdafdmwonafjdmowifnalgjaovzcvmzoxcviwsefnodifzmvisodfnwoeinzldmvsidfnweolnlsfdmaiofnasdfdf</p>
+				   
+			   </div>
+		       
+			   <!-- 下一篇 -->
+			   <div>Next article:<a href=''>woem</a></div>
+		   </div>
+	   </div>
+	</div>
+	
+	
+	<!-- 页脚 -->
+	<div id='footer'>
+		<iframe align="center" width="100%" height='280px' src="footer.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no">
+		</iframe>
+	</div>
+	
+	<script>
+		
+		$(function(){
+			$('dl').click(function(){
+				var index = $(this).index();
+				$('dl').find('dd').hide();
+				$('dl').eq(index).find('dd').show();
+				$('dl').eq(index).find('dt').show();
+			});
+			
+			$('dd').hover(function(){
+				$(this).css('background','#F7941D');
+				$(this).css('color','#fff');
+			},function(){
+				$(this).css('background','#fff');
+				$(this).css('color','#000');
+			});
+			
+			$('dd').click(function(){	
+				$('.navname').text($(this).text());
+				$(this).css('background','#F7941D');
+				$(this).css('color','#fff');
+			});
+		})
+		
+	
+		function content(){
+			// window.location.href='pcontent.html?id='+id;
+			window.location.href='pcontent.html';
+		}
+		
+	</script>
+</body>
+</html>

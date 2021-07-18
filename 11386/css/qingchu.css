@@ -1,0 +1,8 @@
+*{
+	margin: 0;   /* 清除 body 身上的8px */
+	text-decoration: none;  /*  清除A的下划线 */
+}
+img{
+	width: 100%;
+	height: 100%;
+}

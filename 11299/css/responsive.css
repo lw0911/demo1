@@ -1,0 +1,237 @@
+/* Gocov - HTML Template */
+
+@media only screen and (max-width: 1800px) {
+	.main-slider .slider-wrapper .image img {
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	
+	
+}
+
+@media only screen and (max-width: 1300px) {
+	.page-wrapper {
+		overflow: hidden;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.five-column {
+		max-width: 20%;
+	}
+	.custom-row > div {
+	    padding-right: 30px;
+	    padding-left: 30px;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.container {
+		max-width: 100%;
+	}
+	.page-wrapper {
+		margin-bottom: 0px !important;
+	}
+	
+	.main-header .header-upper.style-two .upper-right {
+		padding: 0;
+	}
+	.main-header .header-upper.style-two .upper-right:before {
+		display: none;
+	}
+	
+	.owl-nav-style-four .owl-nav .owl-prev {
+		left: 10px;
+	}
+	.owl-nav-style-four .owl-nav .owl-next {
+		right: 10px;
+	}
+	
+}
+
+
+@media only screen and (max-width: 1143px){
+	.contact-section .contact-info .contact-feature h3 {
+	    padding: 48px 30px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.row.row-revers-lg {
+	  -webkit-box-orient: horizontal !important;
+	  -webkit-box-direction: reverse !important;
+	  -ms-flex-direction: row-reverse !important;
+	  flex-direction: row-reverse !important;
+	}
+}
+
+
+@media only screen and (max-width: 991px) {
+	.main-header .header-upper.style-two .upper-right{
+		display: block;
+	}
+	.main-slider .slide{
+		padding: 130px 0px;
+	}
+    .main-slider h1{
+    	font-size: 55px;
+    	line-height: 60px;
+    }
+    .feature-section{
+    	padding: 100px 0px 70px;
+    }
+    .feature-section .feature-inner{
+    	margin-top: 0px;
+    }
+    .about-section .about-content-block{
+    	margin-top: 0px;
+    }
+	.about-section .content-column {
+		width: 100%;
+		float: none;
+	}
+	.about-section .about-block-area {
+		float: none;
+	}
+	.about-section .image-column {
+		background-image: none !important;
+	    position: relative;
+	    width: 100%;
+	}
+	.about-section .image-column .image-box {
+		display: block;
+	}
+    .about-image-block:before {
+        top: 0;
+    }
+	.main-footer .posts-widget {
+		padding-right: 0px;
+		margin-left: 0px;
+	}
+	.blog-section-two:before {
+		display: none;
+	}
+	
+	.contact-section .contact-info .contact-feature h3 {
+	    padding: 70px 30px;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	.main-slider h1{
+    	font-size: 40px;
+    	line-height: 45px;
+    }
+    .slider-two {
+        padding: 100px 0 150px;
+    }
+    .logo-social {
+        width: 100%;
+        padding: 0 0 15px;
+    }
+    .right-content {
+        width: 100%;
+    }
+    .page-title h1{
+    	font-size: 38px;
+    	line-height: 45px;
+    }
+    .page-title{
+    	padding: 90px 0;
+    }
+    .error-section .inner-section h1{
+    	font-size: 100px;
+    }
+    .error-section .inner-section h2 {
+	    font-size: 30px;
+	    line-height: 35px;
+	}
+
+	.appointment .modal-dialog {
+	    max-width: 450px;
+	    margin: 0 auto;
+	}
+	.appointment-inner {
+	    padding: 25px;
+	}
+	.comment-box.pl-80{
+		padding-left: 0px !important;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	.main-slider h1 {
+		font-size: 35px;
+		line-height: 40px;
+	}
+	
+	.services-section .outer-box {
+		padding: 25px 0 0;
+	}
+	.page-title h1{
+    	font-size: 35px;
+    	line-height: 40px;
+    }
+
+    .appointment .modal-dialog {
+	    max-width: 400px;
+	    margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 571px){
+	.contact-section .contact-info .contact-feature h3 {
+	    padding: 48px 30px;
+	}
+	.about-img .image img:last-child {
+	    bottom: 12%;
+	}
+	.appointment .modal-dialog {
+	    max-width: 390px;
+	    margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 511px){
+	.about-img .image img:last-child {
+	    bottom: 15%;
+	}
+
+	.appointment .modal-dialog {
+	    max-width: 350px;
+	    margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 477px){
+	.contact-section .contact-info .contact-feature h3 {
+	    padding: 30px 30px;
+	}
+	.about-img .image img:last-child {
+	    bottom: 20%;
+	}
+	.about-img .image img:first-child{
+		display: none;
+	}
+	.about-img .image img:last-child{
+		position: relative;
+	}
+	.about-image-block{
+		margin-left: 0px;
+	}
+	.appointment .modal-dialog {
+	    max-width: 300px;
+	    margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.about-img .image img:first-child{
+
+	}
+	.appointment .modal-dialog {
+	    max-width: 250px;
+	    margin: 0 auto;
+	}	
+}

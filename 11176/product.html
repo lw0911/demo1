@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dreach自行车</title>
+	<link rel="shortcut icon" href="./img/favicon.ico">
+	<!-- 引入框架样式 -->
+	<link href='./lib/layui/css/layui.css' rel="stylesheet" />
+	<!-- 单独的样式 -->
+    <link href='./css/product.css' rel='stylesheet' />
+	<!-- 引入框架js -->
+	<script src='./lib/layui/layui.js'></script>
+	<!--引入jquery-->
+	<script src='./js/jquery.min.js'></script>
+	
+	<script src='./js/comm.js'></script>
+</head>
+<body>
+	<!--导航-->
+	<div id='top'>		
+		<iframe align="center" width="100%" height="85px" src="top.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no">	
+		</iframe>	
+	</div>
+	<!-- banner -->
+	<div class='banner'>
+		<div><img src='./img/sbanner.png'></div>
+		<div>
+			<div>SERVICES</div>
+			<div>
+		</div></div>
+	</div>
+	
+	<!-- 选项卡 -->
+	<div class='tab'>
+		<div>
+			<div onclick='tab("index")'><img src='./img/home.png' /> Home</div>
+		    <div> &gt;&nbsp;&nbsp;&nbsp;&nbsp;products</div>
+		</div>
+	</div>
+	
+	<!-- 内容 -->
+	<div class='product'>
+	   <div>
+		   <div>
+			   <div>PRODUCTS</div>
+			   <div>
+				   <dl>
+					   <dt>自行车1</dt>
+					   <dd>自行车1-1</dd>
+					   <dd>自行车1-2</dd>
+					   <dd>自行车1-3</dd>
+					   <dd>自行车1-4</dd>
+				   </dl>
+				   <dl>
+					   <dt>自行车2</dt>
+					   <dd>自行车2-1</dd>
+					   <dd>自行车2-2</dd>
+					   <dd>自行车2-3</dd>
+					   <dd>自行车2-4</dd>
+				   </dl>
+			   </div>
+		   </div>
+		   <div>
+			   <div class='navname'>ALL PRODUCT</div>
+			   <div id='product'>
+				   <!-- <div>
+					   <div><img src='img/bike/zxc.png' /></div>
+					   <div>
+						   <div>chanp1</div>
+						   <div>more</div>
+					   </div>
+				   </div>
+				   
+				   <div>
+					   <div><img src='img/bike/zxc.png' /></div>
+					   <div>
+						   <div>chanp1</div>
+						   <div>more</div>
+					   </div>
+				   </div>
+				   
+				   <div>
+					   <div><img src='img/bike/zxc.png' /></div>
+					   <div>
+						   <div>chanp1</div>
+						   <div>more</div>
+					   </div>
+				   </div>
+				   -->
+				   
+			   </div>
+		       
+			   <!-- 分页 -->
+			   <div id="demo2-1"></div>
+		   </div>
+	   </div>
+	</div>
+	
+	
+	<!-- 页脚 -->
+	<div id='footer'>
+		<iframe align="center" width="100%" height='280px' src="footer.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no">
+		</iframe>
+	</div>
+	
+	<script>
+		
+		$(function(){
+			$('dl').click(function(){
+				var index = $(this).index();
+				$('dl').find('dd').hide();
+				$('dl').eq(index).find('dd').show();
+				$('dl').eq(index).find('dt').show();
+			});
+			
+			$('dd').hover(function(){
+				$(this).css('background','#F7941D');
+				$(this).css('color','#fff');
+			},function(){
+				$(this).css('background','#fff');
+				$(this).css('color','#000');
+			});
+			
+			$('dd').click(function(){	
+				$('.navname').text($(this).text());
+				$(this).css('background','#F7941D');
+				$(this).css('color','#fff');
+			});
+		})
+		
+		layui.use(['laypage', 'layer'], function(){
+		  var laypage = layui.laypage
+		  ,layer = layui.layer;
+		  
+		  var data = [{
+			  'pic' : './img/bike/zxc.png',
+			  'title' : 'product1',
+		  }];
+		 
+		 laypage.render({
+		      elem: 'demo2-1'
+		      ,count: data.length
+		      ,theme: '#f7941d'
+			  ,limit:9
+			  ,jump: function(obj){
+				  //模拟渲染
+				  document.getElementById('product').innerHTML = function(){
+					var arr=[]
+					,thisData = data.concat().splice(obj.curr*obj.limit - obj.limit, obj.limit);
+					layui.each(thisData, function(index, item){
+					//  arr.push('<li>'+ item +'</li>');
+					  
+					  var str = '';
+					  str += '<div onclick="content()">';
+			
+						   str += '<div><img src="'+item['pic']+'" /></div>';
+						   str += '<div>';
+							   str += '<div>'+item["title"]+'</div>';
+							   str += '<div>more</div>';
+						   str += '</div>';
+				
+					  str += "</div>";
+					  		
+					   arr.push(str)
+					});
+					
+					
+					
+					return arr.join('');
+				  }();
+				}
+		  });
+	    });
+		
+		function content(){
+			// window.location.href='pcontent.html?id='+id;
+			window.location.href='pcontent.html';
+		}
+		
+	</script>
+</body>
+</html>

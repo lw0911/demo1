@@ -1,0 +1,942 @@
+
+/* Medium Layout: 1600px. */
+@media only screen and (min-width: 1200px){ 
+
+
+/* services-area Start */
+
+/* services-area End */
+
+
+
+ 
+}
+
+
+
+
+/* Medium Layout: 1200px. */
+@media only screen and (min-width: 991px) and (max-width: 1199px) { 
+
+
+
+
+
+/* top-bar-area Start */
+.top-bar-area-left {
+	width: 77%;
+}
+.top-bar-area-right {
+	width: 23%;
+}
+.top-bar-left-single-content > a {
+	font-size: 12px;
+	width: 23%;
+}
+.top-bar-left-single-content > a.low-width {
+    width: 28%;
+}
+.top-bar-left-single-content > a.middle-text {
+	width: 32%;
+}
+/* top-bar-area End */
+
+
+/* header-area Start */
+.header-area .nav.navbar-nav a {
+	padding: 21px 9px;
+}
+.is-sticky .header-area .nav.navbar-nav a {
+	padding: 15px 9px;
+}
+
+
+/* header-area End */
+
+/* services-area Start */
+.single-icon {
+	font-size: 25px;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+}
+
+.single-text {
+    width: 75%;
+}
+.single-text > p {
+	font-size: 12px;
+}
+/* services-area End */
+
+/* team-area Start */
+.team-member-social-icons li {
+	width: 89px;
+}
+/* team-area End */
+
+
+/* blog-area Start */
+
+.blog-area-single-content-middle > h3 {
+    font-size: 17px;
+}
+.blog-area-single-content-middle > h4 {
+    font-size: 11px;
+}
+.blog-area-single-content-text > p {
+    font-size: 12px;
+}
+
+/* blog-area End */
+
+/* google-map-area Start */
+.contact-area {
+    padding-right: 15px;
+    width: 45%;
+}
+
+/* google-map-area End */
+
+/* footer-top-area Start */
+
+.footer-top-single-widged > p {
+	font-size: 12px;
+}
+.single-widget-3 {
+	left: -45px;
+}
+/* footer-top-area End */
+
+
+
+
+
+
+/* service-area Start */
+
+
+.service-area-single-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* services-area End */
+
+
+/* price-area Start */
+
+.price-area-single-content-bottom {
+    padding: 40px;
+}
+
+/* price-area End */
+
+
+/* google-map-area Start */
+.contact-area-main-content {
+	left: calc(50% + 47px);
+}
+/* google-map-area End */
+
+
+
+
+ 
+ 
+ 
+}
+
+
+
+
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 990px) { 
+
+
+/* top-bar-area Starts */
+.is-sticky .header-area-content .navbar-brand > img {
+  padding-top: 20px;
+  transition: all 0.6s ease 0s;
+}
+/* top-bar-area End */
+
+
+/* header-area Starts */
+.hero-area .carousel {
+	top: 0;
+}
+.hero-area-table {
+    top: 0;
+}
+
+/* header-area Starts */
+
+
+/* header-area Starts */
+
+.main-menu {
+	float: left;
+}
+.main-menu .nav.navbar-nav a {
+	font-size: 11px;
+	padding: 52px 0 52px 25px;
+}
+
+.is-sticky .main-menu .nav.navbar-nav a {
+    padding-left: 10px;
+}
+
+/* header-area Start */
+
+
+/* Hero-area End */
+.hero-area-tablecell > h1 {
+	line-height: 1.5;
+}
+/* Hero-area End */
+
+
+/* service-area Start */
+
+.service-area-right {
+    padding-top: 95px;
+}
+.single-text {
+    padding-left: 0;
+    width: 100%;
+}
+.single-icon {
+    top: 0;
+}
+.single-text {
+    padding-top: 30px;
+}
+.single-text > h3 {
+    font-size: 16px;
+}
+
+/* service-area End */
+
+
+/* who-area Start */
+
+.who-area-left-bg {
+    height: 65%;
+    width: 100%;
+}
+.who-area-right {
+    padding-left: 15px;
+    padding-top: 0;
+}
+.who-area-right .single-text {
+    padding-left: 10px;
+    width: 25%;
+}
+.who-area-right-single-content .single-icon {
+    top: 33px;
+}
+
+/* who-area End */
+
+
+/* choose-area Start */
+.choose-area-single-contant-bottom {
+    padding-left: 0;
+    padding-right: 0;
+}
+.choose-area .col-md-4.col-sm-4 {
+    padding-left: 0;
+}
+.choose-area-single-contant-top > h1 {
+    font-size: 28px;
+}
+.choose-area-single-contant-top.active-content {
+    padding: 50px 0;
+}
+.choose-area-single-contant.choose-content-2 {
+    margin-top: -40px;
+}
+/* choose-area End */
+
+
+/* team-area Start */
+
+.team-member-social-icons li {
+    width: 83px;
+}
+
+/* team-area End */
+
+
+/* commited-area Start */
+.commited-area-text p {
+	font-size: 23px;
+}
+/* commited-area End */
+
+
+/* client-area Start */
+
+.client-message {
+    padding: 75px 15px;
+}
+
+/* client-area End */
+
+
+/* blog-area Start */
+
+.blog-area-single-content-middle > h4 {
+    font-size: 12px;
+}
+
+/* blog-area End */
+
+/* contact-area Start */
+
+.contact-area {
+    padding-left: 50px;
+    padding-right: 0;
+    width: 50%;
+}
+
+/* contact-area End */
+
+/* footer-top-area Start */
+.footer-top-area {
+    padding-bottom: 0;
+}
+.footer-top-single-widged ul li a {
+    padding-bottom: 15px;
+}
+.footer-top-single-widged {
+    padding-bottom: 100px;
+}
+
+/* footer-top-area End */
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+/* Mobile Layout: 320px. */
+	@media only screen and (max-width: 767px) { 
+
+
+
+/* =====================================================
+Header-area Starts
+========================================================*/	
+	
+/* Header-area Starts */	
+.header-area-content .nav.navbar-nav {
+	background: rgba(0, 0, 0, 0.95) none repeat scroll 0 0;
+	float: left;
+	width: 100%;
+	z-index: -1;
+}
+.hero-area .carousel {
+	top: 0;
+}
+.hero-area-table {
+	top: 15px;
+}
+.header-area-content .nav.navbar-nav a {
+    color: #fff;
+}
+.header-area-content .nav.navbar-nav > li a {
+	height: 53px;
+	line-height: 30px;
+	width: 100%;
+}
+.search-icon {
+	display: block;
+	position: absolute;
+	right: 2px;
+	top: -60px;
+}
+.form-control {
+	width: 150px;
+}
+.search-icon > span {
+	line-height: 96px;
+}
+.header-area-content .nav.navbar-nav {
+    margin: 0;
+}
+.header-area-content .navbar-collapse {
+    padding: 0;
+	top: 0;
+}
+.nav.navbar-nav a:hover {
+	background: rgba(0, 0, 0, 0.64) none repeat scroll 0 0;
+	color: #f79f12;
+}
+.header-area-content .navbar-toggle {
+	margin-right: 70px;
+	margin-top: 30px;
+}
+.single-button.about-btn {
+    margin-bottom: 15px;
+}
+
+.header-area a.navbar-brand {
+    padding-top: 15px;
+}
+.navbar-brand {
+    height: 40px;
+}
+.header-area-content .navbar-toggle {
+    top: -60px;
+}
+
+/* Sticky Menu for mobile version Start */
+.is-sticky .header-area-content .navbar-toggle {
+	margin-right: 70px;
+	margin-top: 23px;
+	top: -71px;
+}
+ .is-sticky .header-area-content .navbar-brand > img {
+    padding-top: 15px;
+    transition: all 0.6s ease 0s;
+}
+.is-sticky .search-icon > span.search-trigger {
+  line-height: 120px;
+  transition: all 0.6s ease 0s;
+}
+.is-sticky .search-icon {
+	top: -89px;
+	height: 90px;
+}
+/*
+=====================================================================
+	Dropdown Menu Starts when use dropdown for mobile Device
+===================================================================== */
+
+	ul.single-dropdown-menu {
+		left: 75px;
+		text-align: center;
+		top: 27px;
+		width: 200px;
+		z-index: 1;
+	}
+	.header-area-content .nav.navbar-nav ul.single-dropdown-menu li a {
+		background: transparent none repeat scroll 0 0;
+		transition: all 1s ease 0s;
+	}
+	.single-dropdown-menu > li {
+	  padding: 10px 16px 10px 0;
+	  width: 200px;
+	}
+	.is-sticky ul.single-dropdown-menu {
+		top: 40px;
+	}
+	
+	/* dropdown Menu for Go-Home Page-2 */
+	ul.single-dropdown-menu.transparent-header {
+		left: 60px;
+		top: 28px;
+	}
+	/* dropdown Menu for Go-Home Page-2 */
+	.is-sticky ul.single-dropdown-menu {
+		background: rgba(61, 61, 61, 0.8) none repeat scroll 0 0;
+	}
+
+/*
+=====================================================================
+	Dropdown Menu Ends when use dropdown for mobile Device
+=====================================================================
+*/
+
+/* Sticky Menu for mobile version End */
+
+
+/* ===========================================================================
+						Search Icon Serarch-box area Starts
+============================================================================== */
+	.search-icon {
+		right: 20px;
+	}
+	.search-box {
+		bottom: -10px;
+	}
+	.search-box.visible {
+		right: 35px;
+		width: 240px;
+	}
+	.search-box.visible > input {
+		width: 100%;
+	}
+	.is-sticky .search-box {
+		top: 80px;
+	}
+/* ===========================================================================
+						Search Icon Serarch-box area End
+============================================================================== */
+
+
+/* Header-area Ends */
+.is-sticky .header-area a.navbar-brand {
+	height: 64px;
+	padding: 8px 0 0;
+	width: 112px;
+}
+.header-area a.navbar-brand {
+	padding-top: 15px;
+	width: 130px;
+}
+
+
+
+
+/* hero-area Start */	
+
+.social-icons a {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+.hero-area-tablecell > h1 {
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+.hero-area-tablecell > p {
+    font-size: 12px;
+}
+.single-button {
+    height: 40px;
+    line-height: 40px;
+}
+.hero-area-button {
+    padding-top: 20px;
+}
+.carousel-indicators {
+    bottom: 0;
+}
+
+/* hero-area End */	
+
+
+/* services-area Start */	
+
+/* services-area End */	
+
+
+/* who-area-area Start */	
+
+.who-area-left-bg {
+    background-position: center center;
+    background-size: cover;
+    height: 51%;
+    width: 100%;
+}
+.who-area-left {
+    padding-bottom: 100px;
+    padding-right: 15px;
+}
+.who-area-left-content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.who-area-left-content > p {
+    font-size: 12px;
+}
+.who-area-right {
+    padding-left: 4px;
+}
+.who-area .col-md-5 {
+    padding-right: 3px;
+}
+
+/* who-area-area End */	
+
+
+	
+/* choose-area Start */	
+
+.choose-area {
+    padding: 50px 0;
+}
+.choose-area-contant {
+	padding-top: 0;
+}
+.section-title {
+    padding-bottom: 0;
+}
+.section-title {
+  text-align: left;
+}
+.section-title p::after {
+    left: 42%;
+    top: 75px;
+}
+
+.choose-area-single-contant-bottom {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.choose-area-single-contant.choose-content-2 {
+    margin-top: 0;
+}
+.choose-area-single-contant {
+    margin-bottom: 30px;
+}
+
+	
+/* choose-area End */	
+
+	
+/* team-area Start */	
+
+.tab-content {
+	margin-top: 90px;
+}
+.team-member-image {
+    left: 26%;
+}
+.team-member-social-icons li {
+	height: 60px;
+	line-height: 60px;
+	width: 70px;
+}	
+.team-member-social-icons a {
+	font-size: 20px;
+}
+
+
+
+/* team-area End */	
+
+	
+/* client-area Start */
+
+.client-message {
+    padding-left: 10px;
+    padding-right: 10px;
+}	
+.client-message::after {
+	bottom: -15px;
+}	
+/* client-area End */	
+
+	
+/* commited-area Start */
+	
+.section-title p {
+    margin-bottom: 50px;
+}
+.commited-area-text > p {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.commited-area-button {
+    text-align: center;
+}
+
+	
+/* commited-area End */	
+
+	
+/* blog-area Start */	
+
+.blog-area-single-content {
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+}
+.blog-area {
+    padding-bottom: 50px;
+}
+.blog-area-single-content-middle > h4 {
+	line-height: 2;
+}
+
+	
+/* blog-area End */		
+
+
+/* advice-area Start */	
+.advice-area-content > h3 {
+  font-size: 20px;
+  line-height:1.7;
+}	
+/* advice-area End */		
+
+
+/* request-area Start */	
+.request-area .section-title.text-center > p::after {
+    top: 55px;
+}
+.request-area .section-title.text-center > span {
+    font-size: 28px;
+}
+
+.request-form-input-area select {
+    font-size: 12px;
+}
+input.submit-btn {
+    width: 120px;
+}
+	
+/* request-area End */	
+
+	
+/* google-map-area Start */	
+
+.contact-area {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: static;
+    width: 100%;
+}
+.contact-area .section-title p::after {
+	left: 0;
+	top: 30px;
+}
+.google-map-area .section-title p {
+    font-size: 12px;
+}
+	
+/* google-map-area End */	
+
+	
+/* footer-area Start */	
+
+.footer-top-area {
+	padding-bottom: 0;
+}
+.footer-top-single-widged {
+    padding-bottom: 40px;
+	overflow:hidden;
+}
+.section-title.text-center > p {
+	margin-bottom: 30px;
+}
+.footer-top-menu > li {
+    text-align: left;
+}
+.footer-top-single-widged > h3 {
+    text-align: left;
+}
+.footer-top-single-widged h3::after {
+    left: 0;
+}
+.single-widget-3 {
+    left: 0;
+}
+.footer-top-single-widged h3.single-widget-3::after {
+    left: 0;
+}
+.single-widget-3-text > h4 {
+  font-size: 14px;
+}	
+/* footer-area End */		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+
+
+/* header-area Start */
+
+.header-area {
+    height: 88px;
+}
+
+.logo-area {
+  float: left;
+  width: 40%;
+}
+.main-menu {
+	float: right;
+	height: auto;
+	line-height: 56px;
+	position: relative;
+	top: 55px;
+	width: 100%;
+}
+.hero-area-table {
+	top: 20px;
+}
+.hero-area-tablecell > h1 {
+	font-size: 36px;
+	line-height: 1.5;
+}
+.single-button {
+	height: 50px;
+	line-height: 50px;
+}
+.hero-area-tablecell > p {
+	font-size: 14px;
+}
+.carousel-indicators {
+	bottom: 25px;
+}
+
+/* header-area End */
+
+/* team-area Start */
+.section-title p::after {
+	left: 46%;
+}
+.team-member-social-icons {
+	margin: 0 auto;
+	width: 280px;
+}
+.team-area-single-content > img {
+    width: 100%;
+}
+.hover-text-area {
+	margin-top: 70%;
+}
+.team-area-single-content:hover .hover-text-area {
+	margin-top: 70%;
+}
+.team-member-image {
+	left: 34%;
+}
+.team-member-social-icons li {
+	height: 70px;
+	line-height: 70px;
+	width: 70px;
+}
+/* team-area End */
+
+/* services-area Start */
+.services-area {
+	padding-bottom: 50px;
+}
+.counter-process-area-single-content {
+	float: left;
+	padding-left: 11%;
+	width: 50%;
+	margin-bottom: 30px;
+}
+.area-heading > p {
+	font-size: 13px;
+}
+.single-services-text-top {
+    top: 0;
+}
+.service-area-single-content {
+	margin-bottom: 15px;
+	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+
+/* services-area End */
+
+
+/* choose-area Start */
+.section-title.text-center > p {
+	font-size: 16px;
+}
+.choose-area-single-contant-bottom {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.choose-area-single-contant-top::before {
+	left: 46%;
+}
+.commited-area-button {
+	text-align: left;
+}
+/* choose-area End */
+
+/* client-area Start */
+.client-area-single-content {
+  padding-top: 60px;
+}
+/* client-area End */
+
+/* blog-area Start */
+.blog-area-single-content h3 {
+	font-size: 24px;
+	margin-bottom:10px;
+}
+.blog-area-single-content-middle::after {
+    width: 44%;
+}
+.blog-area-single-content-middle > h4 {
+	font-size: 16px;
+}
+/* blog-area End */
+
+
+/* request-area Start */
+.request-form-input-area select {
+	font-size: 18px;
+}
+input.submit-btn {
+	width: 200px;
+}
+/* request-area End */
+
+
+/* request-area End */
+
+/* request-area End */
+
+
+
+/* footer-area Start */
+
+.footer-left-text {
+    float: left;
+    width: 50%;
+}
+.footer-right-text {
+  float: left;
+  padding: 0;
+  width: 36%;
+}
+.footer-left-text > p {
+    line-height: 90px;
+}
+.footer-right-text li {
+    float: right;
+    line-height: 90px;
+}
+/* footer-area End */	
+
+
+
+
+	
+}
+

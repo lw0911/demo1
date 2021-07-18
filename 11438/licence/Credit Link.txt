@@ -1,0 +1,93 @@
+Javascript Plugins
+----------------
+smallenvelop: http://smallenvelop.com/display-loading-icon-page-loads-completely/
+
+Isotope: http://isotope.metafizzy.co/
+
+Flexslider: http://flexslider.woothemes.com/
+
+Magnific Popup: http://dimsemenov.com/plugins/magnific-popup/
+
+Masonry: http://masonry.desandro.com/
+
+jQuery: http://jquery.com/
+
+jQueryUi: http://jqueryui.com/
+
+owlCarousel: http://owlgraphic.com/owlcarousel/
+
+smoothproducts Product Zoom http://kthornbloom.com/smoothproducts/
+
+
+
+CSS
+-----------------
+Bootstrap v3.3.5: http://getbootstrap.com/
+
+Font Awesome: http://fortawesome.github.io/Font-Awesome/icons/
+
+Theme Google Font "Lato": https://www.google.com/fonts/specimen/Lato
+
+
+
+Images
+-----------------
+http://www.wallpaperjosh.xyz/leopard-wallpaper-hd-kjl012/
+
+https://pixabay.com/en/businessman-man-stock-broker-481113/
+
+https://www.flickr.com/photos/johnonolan/5378754404/sizes/l/
+
+https://pixabay.com/en/man-forrest-scotland-male-tree-uk-1022919/
+
+http://artaurea.com/profiles/ruegemer-ingrid-2/
+
+https://thefeatherbender.com/2012/09/26/contre-jour-fine-art-photographic-prints/
+
+http://theperpetualvagabond.com/tag/art/
+
+http://www.artsetter.com/artwork/albnegru/aiguille-du-chamonix-1
+
+https://wallpaperscraft.com/download/girl_brunette_shirt_smile_model_44235/1920x1080
+
+http://www.aliexpress.com/store/product/New-Model-2014-Summer-Dress-Cotton-Print-Clearance-Bohemian-Girl-Clothes-Beach-Party-Sexy-Women-Dress/1158316_1727021184.html
+
+http://thefeatherbender.com/2012/09/26/contre-jour-fine-art-photographic-prints/
+
+http://phantasm-nyx.blogspot.in/
+
+http://drawasamaniac.com/2015/08/3d-illustrations-by-maxim-shkret.html
+
+http://designspiration.net/image/4469584240125/
+
+https://wall.alphacoders.com/by_sub_category.php?id=134833&name=Lion+Wallpapers&page=8
+
+http://www.fubiz.net/2015/06/22/ophelia-photography-by-dorota-gorecka/dorota-gorecka-03/
+
+http://www.svengermann.com/album/art-nature-woman/
+
+www.saatchiart.com/art/Photography-Vagueness/657131/2360481/view
+
+http://www.saatchiart.com/art/Photography-UNTITLED/76182/2513132/view
+
+http://wallpaperbeta.com/art_nature_autumn_trees_river_forest_yellow_hd-wallpaper-401728/
+
+http://wallpaperswide.com/vintage_foggy_forest_road-wallpapers.html
+
+http://www.aliexpress.com/item-img/New-Model-2014-Summer-Dress-Cotton-Print-Clearance-Bohemian-Girl-Clothes-Beach-Party-Sexy-Women-Dress/1727021184.html
+
+http://www.fansshare.com/gallery/photos/13942529/tumblr-mbcz-nju-qd/?displaying
+
+http://www.fyqyfz.com/438081-model-girl-hd-wallpaper.html
+
+
+
+Video
+-----------------
+https://vimeo.com/37556813
+
+https://www.youtube.com/watch?v=D3mJAVGzb74
+
+
+
+Note: All images are for preview purposes only and are not included in the download files.

@@ -1,0 +1,101 @@
+/* =========================================
+          FIFTY-ONE STYLE SHEET - PINK
+   ========================================= */
+
+/*NAVIGATION BAR */
+.navbar-default .navbar-nav > .active > a {
+	background-color: #e08bae;
+}
+
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #e08bae;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar{
+	background-color: #e08bae;
+}
+
+/*NAVIGATION BAR ENDS */
+
+/* MAIN SECTION */
+
+.main-section hr{
+	border-color: #e08bae;
+}
+
+/*MAIN SECTION ENDS */
+
+/* ABOUT US */
+.icon{
+	background-color: #e08bae;
+}
+/* ABOUT US ENDS */
+
+/* STATISTICS */
+.stats-icon span{
+	color: #e08bae;
+}
+
+.stats-count{
+	color: #e08bae;
+}
+/* STATISTICS ENDS */
+
+/* FEATURES */
+.features-col-icon{
+	color: #e08bae;
+}
+/* FEATURES ENDS */
+
+/* PORTFOLIO */
+.portfolio-overlay{
+	background-color: #e08bae;
+}
+/* PORTFOLIO ENDS */
+
+/* OWL CAROUSEL */
+.owl-theme .owl-controls .owl-page span,
+.owl-theme .owl-controls .owl-buttons div{
+	background: #e08bae !important;
+}
+/* OWL CAROUSEL ENDS*/
+
+/* PRICING */
+.pricing-header{
+	border-bottom: 5px solid #e08bae;
+}
+
+.pricing-header-title{
+	background-color: #e08bae;
+}
+
+.most-popular-title{
+	background-color: #e08bae;
+}
+/* PRICING ENDS*/
+
+/* DOWNLOAD SECTION*/
+.download-link, .download-link:hover{
+	background-color: #e08bae;
+	border-color: #e08bae;
+}
+/* DOWNLOAD SECTION*/
+
+/* FORMS */
+.btn-primary{
+	background-color: #e08bae;
+	border-color: #e08bae;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus, .btn-primary.active{
+	background-color: rgba(224, 139, 174, 0.79);
+	border-color: rgba(224, 139, 174, 0.79);
+}
+
+/* FORMS ENDS */
+
+/* CONTACT US */
+.contact-heading hr{
+	border-color: #e08bae;
+}
+/* CONTACT US */

@@ -1,0 +1,470 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <!-- Required meta tags always come first -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+	<title></title>
+  
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <!--Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" /> 
+    <!--Bootstrap-select CSS-->
+	<link rel="stylesheet" type="text/css" href="vendors/bootstrap-select/bootstrap-select.min.css" media="all" />
+    <!--Flexslider CSS-->
+	<link rel="stylesheet" type="text/css" href="vendors/flexslider/css/flexslider.css" media="all" />
+    <!--Owl_Carousel CSS-->
+	<link rel="stylesheet" type="text/css" href="vendors/owl-carousel/owl.carousel.css" media="all" />
+    <!--Linearicons Icons CSS-->
+	<link rel="stylesheet" href="vendors/linearicons/Linearicons.css"> 
+    <!--Font-Awesome CSS-->
+	<link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css"> 
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<!-- jquery-ui css -->
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css" media="all" /> 
+   
+    <!--Theme Styles CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" /> 
+	
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body> 
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-xbox"></div>
+    </div>
+
+	<!-- Heder_Top -->
+	<header class="header_top_section row">
+		<div class="container coustome-container">
+			<div class="row top_header">  
+				<a href="#"><i class="lnr lnr-phone-handset"></i> +660-984-893</a> 
+				<a href="#"><i class="lnr lnr-envelope"></i> +660-984-893</a> 
+				<ul>
+					<li><a href="#">privacy policy</a></li>
+					<li><a href="#">support</a></li>
+					<li><a href="#">help</a></li>
+				</ul>
+			</div> 
+		</div>
+	</header>
+	<!-- End Heder_Top  -->
+   
+    <!-- Heder_Bottom -->
+    <nav class="navbar navbar-default nav_custom row">
+        <div class="container coustome-container">
+            <!-- Brand and mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand_logo" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            </div>
+
+            <!-- Collect the nav home, property  -->
+            <div class="row collapse navbar-collapse" id="main_menu">
+                <ul class="nav navbar-right nav_buttom">
+                    <li><a href="#">search property <i class="lnr lnr-arrow-right"></i></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="property_list.html">Property List</a></li>
+					<li><a href="property_single.html">Property Single</a></li>
+                </ul>
+            </div><!-- End navbar-collapse -->
+        </div> 
+    </nav>  
+    <!-- End Heder_Bottom --> 
+    
+     <!-- Banner area -->
+     <section class="banner-area row">
+         <h2>Property Listing</h2>
+         <div class="bottom-menu-area">
+             <a href="index.html">home</a>
+             <i class="lnr lnr-chevron-right"></i>
+             <a href="#">Property</a>
+             <i class="lnr lnr-chevron-right"></i>
+             <a href="property_list.html">Property list</a>
+         </div>
+     </section>
+     <!-- End Banner area -->
+    
+    <!-- Heading-item area -->
+    <section class="heading-item-area">
+        <div class="container coustome-container">
+            <div class="row m0 heading-list">
+                <div class="leftsite-by">
+                    <h3><i class="lnr lnr-funnel"></i> Sorts by:</h3>
+                   <div class="feature_left_content">
+                       <select class="selectpicker">
+                          <option>Latest Listing</option>
+                          <option>Default Listing</option>
+                          <option>Default sorting</option>
+                        </select> 
+                   </div>
+                </div>
+                <div class="center-site">
+                    <a href="#" class="active"><i class="fa fa-align-justify"></i></a>
+                    <a href="#"><i class="fa fa-th"></i></a>
+                </div>
+                <div class="right-site-bar pull-right">
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-custom" placeholder="&#xe86f; Search Here">
+                        </div>
+                        <button type="submit" class="btn btn-submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row all-widgets-area m0">
+                <div class="col-md-3 col-sm-6 p0">
+                    <div class="widgets">
+                        <h5>Location</h5>
+                        <ul class="list">
+                            <li>Alaska</li>
+                            <li>Miami</li>
+                            <li>Washington DC</li>
+                            <li>New York</li>
+                            <li>Russia</li>
+                        </ul>
+                    </div>
+                    <div class="widgets appartnemt">
+                        <h5>Appartnemt Type</h5>
+                        <form role="form" class="radio_area">
+                            <ul class="radio_style">
+                                <li>
+                                    <input type="radio" id="f-option" name="selector">
+                                    <label for="f-option">Residentsial</label>
+                                    <div class="check"></div>
+                                </li>
+                                <li>
+                                    <input type="radio" id="s-option" name="selector">
+                                    <label for="s-option">Office</label>
+                                    <div class="check"></div>
+                                    </li>
+                                <li>
+                                    <input type="radio" id="g-option" name="selector">
+                                    <label for="g-option">Commercial</label>
+                                    <div class="check"></div>
+                                </li>
+                                <li>
+                                    <input type="radio" id="h-option" name="selector">
+                                    <label for="h-option">Shop</label>
+                                    <div class="check"></div>
+                                </li>
+                            </ul>
+                        </form>   
+                        
+                    </div>
+                    <div class="widgets appartnemt">
+                        <h5>Property Status</h5>
+                        <form role="form" class="radio_area">
+                            <ul class="radio_style">
+                                <li>
+                                    <input type="radio" id="j-option" name="selector">
+                                    <label for="j-option">For Sale </label>
+                                    <div class="check"></div>
+                                </li>
+                                <li>
+                                    <input type="radio" id="k-option" name="selector">
+                                    <label for="k-option">For Rent</label>
+                                    <div class="check"></div>
+                                </li> 
+                            </ul>
+                        </form>   
+                    </div>
+                    <div class="widgets Price-Range">
+                        <h5>Price Range</h5>
+                        <ul class="list">
+                            <li>
+                                <div id="slider-range"></div>
+                                <input type="text" id="amount" readonly> 
+                            </li>
+                        </ul> 
+                    </div>
+                    <div class="widgets Flat-Filtering">
+                        <h5>Flat Filtering</h5>
+                        <div class="Bathrooms">
+                            <div class="Filtering">
+                                <label>Bathrooms</label>
+                                <select class="selectpicker">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select> 
+                            </div> 
+                            <div class="Filtering">
+                                <label>Bathrooms</label>
+                                <select class="selectpicker">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="widgets Size">
+                        <h5>Size</h5>
+                        <ul class="list">
+                            <li>Bellow 3,000 sqf</li>
+                            <li>3,000 - 5,000 sqf</li>
+                            <li>5,000 - 10,000 sqf</li>
+                            <li>10,000 - 20,000 sqf</li>
+                            <li>Above 20,000 sqf</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-6 post-area">
+                    <div class="Building-University">
+                        <div class="Building">
+                            <img src="img/property_listing/1.jpg" alt="">
+                        </div>
+                        <div class="Building-content">
+                            <div class="right-area"> 
+                                <h3>Building Rent For University</h3> 
+                                <a href="#" class="btn-slide">2800 Sq Ft</a>
+                                <a href="#" class="btn-slide activ">Available</a> 
+                                <ul class="info">
+                                    <li><i class="lnr lnr-tag"></i> Kitchen: 1</li>
+                                    <li><i class="lnr lnr-tag"></i> Bedroom: 5</li>
+                                    <li><i class="lnr lnr-tag"></i> Toilet: 6</li>
+                                    <li><i class="lnr lnr-tag"></i> Guest room: 2</li>
+                                    <li><i class="lnr lnr-tag"></i> Varanda: 3</li>
+                                    <li><i class="lnr lnr-tag"></i> Parking space: 3</li>
+                                </ul>
+                                <a href="#" class="Contact">Contact Agent <i class="lnr lnr-arrow-right"></i></a>
+                                <h2>$12,050</h2> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="Building-University">
+                        <div class="Building">
+                            <img src="img/property_listing/2.jpg" alt="">
+                        </div>
+                        <div class="Building-content">
+                            <div class="right-area"> 
+                                <h3>Big Appartment House</h3> 
+                                <a href="#" class="btn-slide">2800 Sq Ft</a>
+                                <a href="#" class="btn-slide activ">Available</a> 
+                                <ul class="info">
+                                    <li><i class="lnr lnr-tag"></i> Kitchen: 1</li>
+                                    <li><i class="lnr lnr-tag"></i> Bedroom: 5</li>
+                                    <li><i class="lnr lnr-tag"></i> Toilet: 6</li>
+                                    <li><i class="lnr lnr-tag"></i> Guest room: 2</li>
+                                    <li><i class="lnr lnr-tag"></i> Varanda: 3</li>
+                                    <li><i class="lnr lnr-tag"></i> Parking space: 3</li>
+                                </ul>
+                                <a href="#" class="Contact">Contact Agent <i class="lnr lnr-arrow-right"></i></a>
+                                <h2>$12,050</h2> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="Building-University">
+                        <div class="Building">
+                            <img src="img/property_listing/3.jpg" alt="">
+                        </div>
+                        <div class="Building-content">
+                            <div class="right-area"> 
+                                <h3>Good Position Appartment Selling</h3> 
+                                <a href="#" class="btn-slide">2800 Sq Ft</a>
+                                <a href="#" class="btn-slide activ">Available</a> 
+                                <ul class="info">
+                                    <li><i class="lnr lnr-tag"></i> Kitchen: 1</li>
+                                    <li><i class="lnr lnr-tag"></i> Bedroom: 5</li>
+                                    <li><i class="lnr lnr-tag"></i> Toilet: 6</li>
+                                    <li><i class="lnr lnr-tag"></i> Guest room: 2</li>
+                                    <li><i class="lnr lnr-tag"></i> Varanda: 3</li>
+                                    <li><i class="lnr lnr-tag"></i> Parking space: 3</li>
+                                </ul>
+                                <a href="#" class="Contact">Contact Agent <i class="lnr lnr-arrow-right"></i></a>
+                                <h2>$12,050</h2> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="Building-University">
+                        <div class="Building">
+                            <img src="img/property_listing/4.jpg" alt="">
+                        </div>
+                        <div class="Building-content">
+                            <div class="right-area"> 
+                                <h3>The Pink City Concord, New York</h3> 
+                                <a href="#" class="btn-slide">2800 Sq Ft</a>
+                                <a href="#" class="btn-slide activ">Available</a> 
+                                <ul class="info">
+                                    <li><i class="lnr lnr-tag"></i> Kitchen: 1</li>
+                                    <li><i class="lnr lnr-tag"></i> Bedroom: 5</li>
+                                    <li><i class="lnr lnr-tag"></i> Toilet: 6</li>
+                                    <li><i class="lnr lnr-tag"></i> Guest room: 2</li>
+                                    <li><i class="lnr lnr-tag"></i> Varanda: 3</li>
+                                    <li><i class="lnr lnr-tag"></i> Parking space: 3</li>
+                                </ul>
+                                <a href="#" class="Contact">Contact Agent <i class="lnr lnr-arrow-right"></i></a>
+                                <h2>$12,050</h2> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="Building-University">
+                        <div class="Building">
+                            <img src="img/property_listing/5.jpg" alt="">
+                        </div>
+                        <div class="Building-content">
+                            <div class="right-area"> 
+                                <h3>The Pink City Concord, New York</h3> 
+                                <a href="#" class="btn-slide">2800 Sq Ft</a>
+                                <a href="#" class="btn-slide activ">Available</a> 
+                                <ul class="info">
+                                    <li><i class="lnr lnr-tag"></i> Kitchen: 1</li>
+                                    <li><i class="lnr lnr-tag"></i> Bedroom: 5</li>
+                                    <li><i class="lnr lnr-tag"></i> Toilet: 6</li>
+                                    <li><i class="lnr lnr-tag"></i> Guest room: 2</li>
+                                    <li><i class="lnr lnr-tag"></i> Varanda: 3</li>
+                                    <li><i class="lnr lnr-tag"></i> Parking space: 3</li>
+                                </ul>
+                                <a href="#" class="Contact">Contact Agent <i class="lnr lnr-arrow-right"></i></a>
+                                <h2>$12,050</h2> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="Building-University">
+                        <div class="Building">
+                            <img src="img/property_listing/6.jpg" alt="">
+                        </div>
+                        <div class="Building-content">
+                            <div class="right-area"> 
+                                <h3>The Pink City Concord, New York</h3> 
+                                <a href="#" class="btn-slide">2800 Sq Ft</a>
+                                <a href="#" class="btn-slide activ">Available</a> 
+                                <ul class="info">
+                                    <li><i class="lnr lnr-tag"></i> Kitchen: 1</li>
+                                    <li><i class="lnr lnr-tag"></i> Bedroom: 5</li>
+                                    <li><i class="lnr lnr-tag"></i> Toilet: 6</li>
+                                    <li><i class="lnr lnr-tag"></i> Guest room: 2</li>
+                                    <li><i class="lnr lnr-tag"></i> Varanda: 3</li>
+                                    <li><i class="lnr lnr-tag"></i> Parking space: 3</li>
+                                </ul>
+                                <a href="#" class="Contact">Contact Agent <i class="lnr lnr-arrow-right"></i></a>
+                                <h2>$12,050</h2> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="Load-more">
+                        <a href="#">Load more properies <i class="lnr lnr-sync"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Heading-item area -->
+   
+    <!-- Footer Area -->
+    <footer class="footer_area row">
+    	<div class="container coustome-container">
+    		<div class="row m0">
+    			<div class="col-md-3 col-sm-6">
+    				<div class="about">
+    					<h4>About Homify</h4>
+    					<a href=""><img src="img/logo.png" alt=""></a>
+    					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex </p>
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="Subscribe">
+    					<h4>Subscribe to our Newsletter</h4>
+						<form class="footer-form">
+							<div class="form-imput">
+								<input type="email" class="form-email" placeholder="Enter Email Address">
+							</div>
+							<button type="submit" class="submit-btn">Submit now <i class="lnr lnr-arrow-right"></i></button>
+						</form> 
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="popular_tags">
+    					<h4>Popular Tags</h4>
+    					<div class="tags">
+    						<a href="#">Business</a>
+    						<a href="#">OSX</a>
+    						<a href="#">Windows 10</a>
+    						<a href="#">OSX Yosemite</a>
+    						<a href="#">Photoshop</a>
+    						<a href="#">CSS</a> 
+    						<a href="#">Business</a>
+    						<a href="#">OSX</a>
+    						<a href="#">Windows 10</a>
+    						<a href="#">OSX Yosemite</a>
+    						<a href="#">Photoshop</a>
+    						<a href="#">CSS</a> 
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6">
+    				<div class="twitter_feed">
+    					<h4>Twitter Feed</h4> 
+						<ul class="Feed">
+							<li>
+								<span><a href="#">@masum_rana:</a>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</span>
+							</li> 
+							<li>
+								<span><a href="#">@masum_rana:</a>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</span>
+							</li> 
+							<li>
+								<span><a href="#">@masum_rana:</a>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</span>
+							</li> 
+						</ul>   
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="copy_right">
+    		Copyright &copy; 2020.Company name All rights reserved.<a target="_blank" href="http://www.aizhanzhe.com/template.html">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+    	</div>
+    </footer>
+    <!-- End Footer Area -->
+
+    <!--jQuery JS-->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <!--Bootstrap JS-->
+    <script src="js/bootstrap.min.js"></script> 
+    <!--Bootstrap-select JS-->
+    <script src="vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <!--Flexslider JS-->
+    <script src="vendors/flexslider/js/jquery.flexslider.js"></script>
+    <!--Owl Carousel JS-->
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <!-- Counterup JS -->
+    <script src="js/waypoints.min.js"></script>
+    <script src="vendors/counter/jquery.counterup.min.js"></script>
+    <!--jQuery ui JS-->
+	<script src="js/jquery-ui.min.js"></script>
+   
+    <!--Theme-->
+    <script src="js/theme.js"></script>
+</body>
+</html>
+

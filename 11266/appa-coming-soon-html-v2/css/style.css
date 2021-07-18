@@ -1,0 +1,258 @@
+/**
+* Template Name: Appa - Coming Soon Page v2
+* Template URL: http://themehexa.com/themes/appa
+* Author: Themehexa
+* Author URI: http://themehexa.com
+* Description: Appa Coming Soon Page Version 2 Stylesheet
+* Version: 1.0.0
+**/
+
+
+/*
+=========================================
+Table of Contents
+=========================================
+1. Typography
+2. Main Container
+3. Container Inner
+4. Subscribe
+5. Media Queries
+*/
+
+
+/*===== Fonts =====*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300italic,400italic,700,700italic');
+
+/*===== Typography =====*/
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    color: #ffffff;
+}
+
+body {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+    background-color: #090909;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h1,
+.h1 {
+    font-size: 50px;
+}
+
+h2,
+.h2 {
+    font-size: 36px;
+}
+
+h3,
+.h3 {
+    font-size: 28px;
+}
+
+h4,
+.h4 {
+    font-size: 21px;
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+a {
+    color: #ffffff;
+    outline: none;
+}
+
+a:hover {
+    color: #7400ff;
+    text-decoration: none;
+}
+
+
+/*===== Main Container =====*/
+
+.main-container {
+    height: 100vh;
+}
+
+
+/*===== Container Inner =====*/
+
+.container-inner {
+    display: table;
+    height: 100%;
+}
+
+.container-inner.left-content {
+    background-image: url('../images/background-img.jpg');
+    background-size: cover;
+}
+
+.inner-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container-inner.left-content .inner-content img {
+    max-width: 300px;
+}
+
+.container-inner.right-content .inner-content {
+    padding: 0 100px;
+}
+
+.logo-content {
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.logo-content i {
+    color: #7400ff;
+}
+
+.subtitle {
+    color: #efefef;
+    margin-bottom: 20px;
+}
+
+.content {
+    color: #c5c5c5;
+    font-style: italic;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+
+
+/*===== Subscribe =====*/
+
+.subscribe-email-wrap {
+    overflow: hidden;
+}
+
+.subscribe-email-wrap label {
+    font-weight: 300;
+}
+
+.subscribe-email-wrap input[type="email"] {
+    background-color: transparent;
+    border: 1px solid #858585;
+    width: 300px;
+    padding: 10px 15px;
+    float: left;
+}
+
+.subscribe-email-wrap input[type="submit"] {
+    background-color: transparent;
+    border: 1px solid #7400ff;
+    padding: 10px 20px;
+    float: left;
+    background-color: #7400ff;
+    color: #ffffff;
+    margin-left: 5px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    -webkit-transition: background-color 0.30s ease-in-out;
+    -moz-transition: background-color 0.30s ease-in-out;
+    -o-transition: background-color 0.30s ease-in-out;
+    transition: background-color 0.30s ease-in-out;
+}
+
+.subscribe-email-wrap input[type="submit"]:hover {
+    background-color: rgba(116, 0, 255, .10);
+}
+
+.right-content .inner-content .bottom-links {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.right-content .inner-content .bottom-links li {
+    margin-right: 10px;
+}
+
+.right-content .inner-content .bottom-links li a {
+    font-size: 12px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+
+.right-content .inner-content .bottom-links li i {
+    margin-right: 2px;
+}
+
+
+/*===== Media Queries =====*/
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .container-inner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container-inner.right-content .inner-content {
+        padding: 0 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container-inner {
+        display: block;
+        height: auto;
+    }
+    .inner-content {
+        display: block;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .container-inner.right-content .inner-content {
+        padding: 50px 0;
+    }
+    .subscribe-email-wrap input[type="email"] {
+        width: 60%;
+    }
+    .subscribe-email-wrap input[type="submit"] {
+        width: 38%;
+        padding: 10px 0;
+    }
+}

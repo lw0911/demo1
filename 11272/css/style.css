@@ -1,0 +1,210 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+--*/
+:root {
+  --theme-color: #0B8E6A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.img-icon {
+  max-width: 100%;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.left-gap-to-view {
+  margin-left: 40px;
+}
+
+a.facebook {
+  background: #3b5998;
+  color: #fff;
+  font-size: 14px;
+  padding: 15px 35px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+a.twitter {
+  background: #1da1f2;
+  color: #fff;
+  font-size: 14px;
+  padding: 15px 35px;
+  border-radius: 4px;
+  display: inline-block;
+}
+a.facebook:hover, a.twitter:hover {
+  opacity: 0.9;
+  transition: 0.3s ease;;
+}
+
+a.facebook img, a.twitter img {
+  margin-right: 6px;
+  vertical-align: middle;
+  width: 16px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .left-gap-to-view {
+    margin-left: 0px;
+  }
+
+  /* Tables
+    parameters: width, alignment, padding */
+  table[class=w3l-scale] {
+    width: 100% !important;
+  }
+
+  table[class=w3l-scale-300] {
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  table[class=w3l-scale-90] {
+    width: 90% !important;
+  }
+
+  /* Td */
+  td[class=w3l-scale-left] {
+    width: 100% !important;
+    text-align: left !important;
+  }
+
+  td[class=w3l-scale-height] {
+    height: 70px !important;
+  }
+
+  td[class=w3l-scale-left-bottom] {
+    width: 100% !important;
+    text-align: left !important;
+    padding-bottom: 24px !important;
+  }
+
+  td[class=w3l-scale-left-top] {
+    width: 100% !important;
+    text-align: left !important;
+    padding-top: 24px !important;
+  }
+
+  td[class=w3l-scale-left-all] {
+    width: 100% !important;
+    text-align: left !important;
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+
+  td[class=w3l-scale-center] {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  td[class=w3l-scale-center-both] {
+    width: 100% !important;
+    text-align: center !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  td[class=w3l-scale-center-bottom] {
+    width: 100% !important;
+    text-align: center !important;
+    padding-bottom: 24px !important;
+  }
+
+  td[class=w3l-scale-center-top] {
+    width: 100% !important;
+    text-align: center !important;
+    padding-top: 24px !important;
+  }
+
+  td[class=w3l-scale-center-all] {
+    width: 100% !important;
+    text-align: center !important;
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  td[class=w3l-scale-right] {
+    width: 100% !important;
+    text-align: right !important;
+  }
+
+  td[class=w3l-scale-right-bottom] {
+    width: 100% !important;
+    text-align: right !important;
+    padding-bottom: 24px !important;
+  }
+
+  td[class=w3l-scale-right-top] {
+    width: 100% !important;
+    text-align: right !important;
+    padding-top: 24px !important;
+  }
+
+  td[class=w3l-scale-right-all] {
+    width: 100% !important;
+    text-align: right !important;
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+
+  td[class=w3l-scale-center-bottom-both] {
+    width: 100% !important;
+    text-align: center !important;
+    padding-bottom: 24px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  td[class=w3l-scale-center-top-both] {
+    width: 100% !important;
+    text-align: center !important;
+    padding-top: 24px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  td[class=reset] {
+    height: 0px !important;
+  }
+
+  td[class=w3l-scale-center-topextra] {
+    width: 100% !important;
+    text-align: center !important;
+    padding-top: 84px !important;
+  }
+
+  img[class="reset"] {
+    display: inline !important;
+  }
+
+  img[class="scale-inline"] {
+    display: inline !important;
+  }
+}

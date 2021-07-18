@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'rentcar';
+  src:  url('fonts/rentcar.eot?2l4b30');
+  src:  url('fonts/rentcar.eot?2l4b30#iefix') format('embedded-opentype'),
+    url('fonts/rentcar.ttf?2l4b30') format('truetype'),
+    url('fonts/rentcar.woff?2l4b30') format('woff'),
+    url('fonts/rentcar.svg?2l4b30#rentcar') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rentcar' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-telephone:before {
+  content: "\e900";
+}
+.icon-placeholder-for-map:before {
+  content: "\e901";
+}
+.icon-Cancellation:before {
+  content: "\e902";
+}
+.icon-commerce:before {
+  content: "\e903";
+}
+.icon-phone:before {
+  content: "\e904";
+}
+.icon-clock:before {
+  content: "\e905";
+}
+.icon-social:before {
+  content: "\e906";
+}
+.icon-correct-signal:before {
+  content: "\e907";
+}
+.icon-facebook-logo:before {
+  content: "\e908";
+}
+.icon-twitter-letter-logo:before {
+  content: "\e909";
+}
+.icon-google-plus:before {
+  content: "\e90a";
+}
+.icon-linkedin-logo:before {
+  content: "\e90b";
+}
+.icon-favourites-filled-star-symbol:before {
+  content: "\e90c";
+}
+.icon-magnifying-glass:before {
+  content: "\e90d";
+}
+.icon-plus-black-symbol:before {
+  content: "\e90e";
+}
+.icon-remove-symbol:before {
+  content: "\e90f";
+}
+.icon-three:before {
+  content: "\e910";
+}
+.icon-arrow-down-sign-to-navigate:before {
+  content: "\e911";
+}
+.icon-left-arrow:before {
+  content: "\e912";
+}
+.icon-arrows:before {
+  content: "\e913";
+}
+.icon-right-quote:before {
+  content: "\e914";
+}
+.icon-left-arrow2:before {
+  content: "\e915";
+}
+.icon-cup:before {
+  content: "\e916";
+}
+.icon-express-delivery:before {
+  content: "\e917";
+}
+.icon-calendar-with-a-clock-time-tools:before {
+  content: "\e918";
+}
+.icon-car:before {
+  content: "\e919";
+}
+.icon-user:before {
+  content: "\e91a";
+}
+.icon-arrow-down-sign-to-navigate2:before {
+  content: "\e91b";
+}
+.icon-check-mark:before {
+  content: "\e91c";
+}
+

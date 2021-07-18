@@ -1,0 +1,146 @@
+/* banner 样式 */
+.banner{
+	width:100%;
+	position:relative;
+	/* height:400px; */
+}
+.banner>div:nth-child(1){
+	width:100%;
+	height:100%;
+	position:relative;
+	top:0;
+	left:0;
+}
+.banner>div>img{
+	width:100%;
+}
+.banner>div:nth-child(2){
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:#fff;
+}
+.banner>div:nth-child(2)>div:nth-child(1){
+	width:400px;
+	text-align:center;
+	color:#000;
+	font-size:40px;
+	font-weight: bold;
+	margin-bottom:20px;
+}
+.banner>div:nth-child(2)>div:nth-child(2){
+	width:80px;
+	height:4px;
+	background:#f7941d;
+}
+/* 选项卡 */
+.tab{
+	width:100%;
+	height:150px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom:solid #ddd 1px;
+	margin:0 auto;
+}
+.tab>div{
+	width:150px;
+	height:40px;
+	background:#666;
+	border-radius:20px;
+	margin:0 20px;
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tab>div:hover{
+	cursor: pointer;
+	background:#f7941d;
+}
+
+/* 正文内容 */
+.tab-title{
+	width:100%;
+	height:200px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.tab-title>div{
+	width:75%;
+	height:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size:40px;
+	border-bottom:solid #ddd 1px;
+}
+
+/* 正文内容 */
+.tab-content{
+	width:75%;
+	margin:30px auto;	
+}
+.tab-content>p{
+	margin-bottom:15px;
+	line-height:24px;
+}
+.tab-content>p>img{
+	width:100%;
+}
+
+/* 荣誉证书 */
+.cert{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.cert>div{
+	width:25%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding:10px 0;
+	
+}
+.cert>div>img{
+	width:96%;
+}
+.cert>div>img:hover{
+	cur:pointer;
+}
+
+/* 历史记录 */
+.history{
+	display:flex;
+	flex-direction: column;
+}
+.history>div{
+	color:#666;
+	font-size:14px;
+	height:30px;
+	line-height:30px;
+}
+
+/* contact */
+.contact{
+	display:flex;
+	flex-direction: column;
+}
+.contact>div{
+	color:#666;
+	font-size:16px;
+	height:30px;
+	line-height:30px;
+}
+.contact>div:nth-child(1){
+	color:#333;
+}

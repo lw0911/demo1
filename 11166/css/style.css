@@ -1,0 +1,662 @@
+/*--
+    Author: W3layouts
+    Author URL: http://w3layouts.com
+    License: Creative Commons Attribution 3.0 Unported
+    License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+
+
+/*-- Reset Code --*/
+
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+	article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+	ol,ul{list-style:none;padding:0;margin:0;}
+	blockquote,q{quotes:none;}
+	blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+	table{border-collapse:collapse;border-spacing:0;}
+	a{text-decoration:none;}
+	.txt-rt{text-align:right;}
+	.txt-lt{text-align:left;}
+	.txt-center{text-align:center;}
+	.float-rt{float:right;}
+	.float-lt{float:left;}
+	.clear{clear:both;}
+	.pos-relative{position:relative;}
+	.pos-absolute{position:absolute;}
+	.vertical-base{vertical-align:baseline;}
+	.vertical-top{vertical-align:top;}
+	.underline{	padding-bottom:5px;	border-bottom:1px solid #eee;margin:0 0 20px 0;}
+	nav.vertical ul li{display:block;}
+	nav.horizontal ul li{display: inline-block;}
+	img{max-width:100%;}
+
+/*-- Reset Code --*/
+
+
+
+/*-- Index-Page-Styling --*/
+
+body {
+	background: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+
+input[type="button"], input[type="submit"] {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	color: #FFF;
+	letter-spacing: 2px;
+	margin: 30px auto;
+}
+
+.containerw3layouts-agileits {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.w3layoutscontactagileits h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding: 10px 0;
+	background-color: #0AD;
+	margin-bottom: 25px;
+}
+
+a.hiddenanchor{
+    display: none;
+}
+
+#wrapper {
+    width: 100%;
+    position: relative;
+}
+
+/*--w3layouts--*/
+/*--agileits--*/
+#register, #login{
+	position: absolute;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.90);
+}
+
+#toregister:target ~ #wrapper #register, #tologin:target ~ #wrapper #login{
+	-webkit-animation-name: fadeInLeft;
+	-moz-animation-name: fadeInLeft;
+	-ms-animation-name: fadeInLeft;
+	-o-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+	-webkit-animation-delay: .1s;
+	-moz-animation-delay: .1s;
+	-o-animation-delay: .1s;
+	-ms-animation-delay: .1s;
+	animation-delay: .1s;
+}
+
+#toregister:target ~ #wrapper #login, #tologin:target ~ #wrapper #register{
+	-webkit-animation-name: fadeOutLeftBig;
+	-moz-animation-name: fadeOutLeftBig;
+	-ms-animation-name: fadeOutLeftBig;
+	-o-animation-name: fadeOutLeftBig;
+	animation-name: fadeOutLeftBig;
+}
+
+.animate{
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;    
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;    
+	-o-animation-duration: 1s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;    
+	-ms-animation-duration: 1s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;    
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+/*--w3layouts--*/
+/*--agileits--*/
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #EEE;
+	padding: 10px 0;
+	border-bottom: 1px solid #CCC;
+}
+
+.ferry {
+	padding: 15px 30px 10px;
+	text-align: right;
+}
+
+.ferry-from {
+	background: url("../images/ship.png") no-repeat 100px 10px;
+}
+
+.ferry-to {
+	background: url("../images/to.png") no-repeat 100px 10px;
+}
+
+.ferry-return {
+	background: url("../images/return.png") no-repeat 100px 10px;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	text-align: left;
+	color: #EEE;
+}
+
+form {
+	margin-top: -25px;
+}
+
+select, .tickets input[type="number"] {
+	width: 70%;
+	padding: 7px;
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	font-size: 15px;
+	outline: none;
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.76);
+}
+
+select.dropdown, input#datepicker, input#datepicker1, input#datepicker2 {
+	width: 62.3%;
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px 15px;
+	margin-top: -5px;
+	margin-bottom: 20px;
+	outline: none;
+	border: none;
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.76);
+}
+
+.book-pag {
+	padding: 5px 30px 0;
+	text-align: left;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+
+.book-pag h4 {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #EEE;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#register .book-pag-frm1, #register .book-pag-frm2 {
+	width: 100%;
+	float: left;
+}
+
+.date {
+	background: url(../images/date-icon.png) no-repeat 95.5% 45% #fff;
+	cursor: pointer;
+	padding: 8px 0;
+}
+
+.book-pag-frm1 {
+	padding-top: 15px;
+}
+
+label {
+	font-size: 15px;
+	color: #EEE;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+}
+
+.tickets {
+	padding: 10px 30px;
+	text-align: right;
+}
+
+.persons {
+	padding: 10px 0 20px;
+	background: url("../images/person.png") no-repeat 70px 4px;
+}
+
+.tickets input[type="number"] {
+	width: 66%;
+}
+
+.vehicle {
+	padding: 10px 0 20px;
+	background: url("../images/car.png") no-repeat 70px 0px;
+	background-size: 40px;
+}
+
+.vehicle select {
+	width: 69.3%;
+}
+
+.wthreesubmitaits {
+	padding-bottom: 25px;
+}
+
+.wthreesubmitaits input[type="submit"] {
+	padding: 7px 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.wthreesubmitaits input[type="submit"]:hover {
+	background-color: #feea3a;
+}
+
+p.change_link {
+	font-family: 'Montserrat', sans-serif;
+	color: #EEE;
+	width: 100%;
+	font-size: 15px;
+	padding: 0 0 40px;
+}
+
+#wrapper p.change_link a {
+	color: #FFEB3B;
+	font-size: 18px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+	border-bottom: 3px solid #FFEB3B;
+}
+
+#wrapper p.change_link a:hover {
+	color: #FFC107;
+	border-bottom: 3px solid #FFC107;
+}
+
+::-webkit-input-placeholder {
+	color: #000;
+}
+
+::-moz-placeholder {
+	color: #000;
+}
+
+::-moz-placeholder {
+	color: #000;
+}
+
+::-ms-input-placeholder {
+	color: #000;
+}
+
+.w3lsfooteragileits {
+	margin: 700px 20px 20px;
+}
+
+.w3lsfooteragileits p a {
+	color: #FFF;
+}
+
+.w3lsfooteragileits p {
+	line-height: 25px;
+}
+
+.w3lsfooteragileits p a:hover {
+	color: #FFEB3B;
+}
+
+/*-- Index-Page-Styling --*/
+
+
+
+
+
+/*--- Responsive Code ---*/
+
+
+
+
+
+@media screen and (max-width: 1920px) {
+	h1 {
+		font-size: 40px;
+		margin: 50px 0;
+	}
+	.containerw3layouts-agileits {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 1680px) {
+	.containerw3layouts-agileits {
+		width: 28%;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	h1 {
+		font-size: 35px;
+		margin: 30px 0;
+	}
+	.containerw3layouts-agileits {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.containerw3layouts-agileits {
+		width: 32%;
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	.containerw3layouts-agileits {
+		width: 35%;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.containerw3layouts-agileits {
+		width: 38%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.containerw3layouts-agileits {
+		width: 43%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.containerw3layouts-agileits {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 966px) {
+	.containerw3layouts-agileits {
+		width: 48%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.containerw3layouts-agileits {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 853px) {
+	.containerw3layouts-agileits {
+		width: 53%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.containerw3layouts-agileits {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.containerw3layouts-agileits {
+		width: 58%;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.containerw3layouts-agileits {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	.containerw3layouts-agileits {
+		width: 68%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.containerw3layouts-agileits {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 603px) {
+	.containerw3layouts-agileits {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.containerw3layouts-agileits {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 533px) {
+	.containerw3layouts-agileits {
+		width: 83%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 32px;
+		margin: 25px 0;
+	}
+	.containerw3layouts-agileits {
+		width: 93%;
+	}
+	select, .tickets input[type="number"] {
+		width: 65%;
+		padding: 5px;
+		font-size: 14px;
+	}
+	select.dropdown, input#datepicker, input#datepicker1, input#datepicker2 {
+		width: 60.3%;
+		padding: 7px;
+	}
+	.tickets input[type="number"] {
+		width: 61%;
+	}
+	.vehicle select {
+		width: 63.3%;
+	}
+	p.change_link {
+		padding: 0 0 40px;
+	}
+	.w3lsfooteragileits {
+		margin-top: 675px;
+	}
+	.w3lsfooteragileits p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	h1 {
+		font-size: 30px;
+		letter-spacing: 1px;
+	}
+	h4 {
+		font-size: 14px;
+	}
+	label {
+		font-size: 14px;
+	}
+	.ferry-from {
+		background: url("../images/ship.png") no-repeat 90px 10px;
+	}
+
+	.ferry-to {
+		background: url("../images/to.png") no-repeat 90px 10px;
+	}
+
+	.ferry-return {
+		background: url("../images/return.png") no-repeat 90px 10px;
+	}
+	.persons {
+		background: url("../images/person.png") no-repeat 70px 4px;
+	}
+	.vehicle {
+		background: url("../images/car.png") no-repeat 70px 0px;
+		background-size: 35px;
+	}
+}
+
+@media screen and (max-width: 384px) {
+	h1 {
+		letter-spacing: 0;
+	}
+	.containerw3layouts-agileits {
+		width: 95%;
+	}
+	.ferry {
+		padding: 15px 20px 10px;
+	}
+	.book-pag {
+		padding: 5px 20px 0;
+	}
+	.tickets {
+		padding: 10px 20px;
+	}
+	h4 {
+		font-size: 13px;
+	}
+	label {
+		font-size: 13px;
+	}
+	.ferry-from {
+		background: url("../images/ship.png") no-repeat 80px 5px;
+	}
+
+	.ferry-to {
+		background: url("../images/to.png") no-repeat 80px 5px;
+	}
+
+	.ferry-return {
+		background: url("../images/return.png") no-repeat 80px 5px;
+	}
+	.persons {
+		background: url("../images/person.png") no-repeat 65px 4px;
+	}
+	.vehicle {
+		background: url("../images/car.png") no-repeat 65px 0px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	h1 {
+		font-size: 27px;
+	}
+	.w3layoutscontactagileits h2 {
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	h1 {
+		font-size: 24px;
+	}
+	.containerw3layouts-agileits {
+		width: 97%;
+	}
+	.ferry {
+		padding: 15px 15px 10px;
+	}
+	.book-pag {
+		padding: 5px 15px 0;
+	}
+	.tickets {
+		padding: 10px 15px;
+	}
+	select, .tickets input[type="number"] {
+		width: 60%;
+		font-size: 13px;
+	}
+	select.dropdown, input#datepicker, input#datepicker1, input#datepicker2 {
+		width: 55.3%;
+	}
+	.tickets input[type="number"] {
+		width: 56.3%;
+	}
+	.vehicle select {
+		width: 59.3%;
+	}
+	label {
+		padding-top: 3px;
+	}
+	.ferry-from {
+		background: url("../images/ship.png") no-repeat 80px 8px;
+	}
+	.ferry-to {
+		background: url("../images/to.png") no-repeat 80px 11px;
+	}
+	.ferry-return {
+		background: url("../images/return.png") no-repeat 80px 11px;
+	}
+	.persons {
+		background: url("../images/person.png") no-repeat 65px 5px;
+	}
+	.vehicle {
+		background: url("../images/car.png") no-repeat 65px 5px;
+	}
+	p.change_link {
+		font-size: 13px;
+	}
+	#wrapper p.change_link a {
+		font-size: 15px;
+		padding-bottom: 3px;
+		margin-left: 5px;
+		border-bottom: 1px solid #FFEB3B;
+	}
+	.w3lsfooteragileits {
+		margin-top: 650px;
+	}
+}
+
+
+
+
+
+/*--- Responsive Code ---*/

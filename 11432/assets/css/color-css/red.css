@@ -1,0 +1,100 @@
+/* =========================================
+          FIFTY-ONE STYLE SHEET - RED
+   ========================================= */
+
+/*NAVIGATION BAR */
+.navbar-default .navbar-nav > .active > a {
+	background-color: #a94442;
+}
+
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #a94442;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar{
+	background-color: #a94442;
+}
+
+/*NAVIGATION BAR ENDS */
+
+/* MAIN SECTION */
+
+.main-section hr{
+	border-color: #a94442;
+}
+
+/*MAIN SECTION ENDS */
+
+/* ABOUT US */
+.icon{
+	background-color: #a94442;
+}
+/* ABOUT US ENDS */
+
+/* STATISTICS */
+.stats-icon span{
+	color: #a94442;
+}
+
+.stats-count{
+	color: #a94442;
+}
+/* STATISTICS ENDS */
+
+/* FEATURES */
+.features-col-icon{
+	color: #a94442;
+}
+/* FEATURES ENDS */
+
+/* PORTFOLIO */
+.portfolio-overlay{
+	background-color: #a94442;
+}
+/* PORTFOLIO ENDS */
+
+/* OWL CAROUSEL */
+.owl-theme .owl-controls .owl-page span,
+.owl-theme .owl-controls .owl-buttons div{
+	background: #a94442 !important;
+}
+/* OWL CAROUSEL ENDS*/
+
+/* PRICING */
+.pricing-header{
+	border-bottom: 5px solid #a94442;
+}
+
+.pricing-header-title{
+	background-color: #a94442;
+}
+
+.most-popular-title{
+	background-color: #a94442;
+}
+/* PRICING ENDS*/
+
+/* DOWNLOAD SECTION*/
+.download-link, .download-link:hover{
+	background-color: #a94442;
+	border-color: #a94442;
+}
+/* DOWNLOAD SECTION*/
+
+/* FORMS */
+.btn-primary{
+	background-color: #a94442;
+	border-color: #a94442;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus, .btn-primary.active{
+	background-color: rgba(169, 68, 66, 0.79);
+	border-color: rgba(169, 68, 66, 0.79);
+}
+/* FORMS ENDS */
+
+/* CONTACT US */
+.contact-heading hr{
+	border-color: #a94442;
+}
+/* CONTACT US */

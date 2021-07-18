@@ -1,0 +1,76 @@
+/* 联系我们 */
+.contact{
+	width:100%;
+	padding:40px 0;
+}
+.contact>div{
+	width:60%;
+	margin:0 auto;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact>div>div{
+	width:50%;
+	border-right:solid #eee 1px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding:20px 0;
+}
+.contact>div>div:last-child{
+	border-left:solid #eee 1px;
+	border-right:none;
+}
+.contact>div>div>div:nth-child(2){
+	margin-left:20px;
+}
+.contact>div>div>div:nth-child(2)>div:nth-child(1){
+	font-size:18px;
+	font-weight: bold;
+	color:#000;
+}
+.contact>div>div>div:nth-child(2)>div:nth-child(2){
+	font-size:14px;
+	color:#666;
+	margin-top:10px;
+}
+.contact>div>div>div:nth-child(2)>div:nth-child(2)>span:nth-child(2){
+	margin-left:20px;
+}
+
+/* 页脚 */
+.footer{
+	width:100%;
+	padding:40px;
+	background:#2a2a2a;
+}
+.footer>div{
+	width:100%;
+	margin:0 auto;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+	/* border:solid red 1px; */
+}
+.footer>div>div{
+	width:50%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom:20px;
+}
+.footer>div>div>a,.footer>div>div>span{
+   	color:#fff;
+	font-size:14px;
+	margin:0 8px;
+}
+.footer>div>div>a{
+	border-right:solid #fff 1px;
+	padding-right:20px;
+}
+.footer>div>div>a:last-child{
+	border:none;
+	padding:0;
+}

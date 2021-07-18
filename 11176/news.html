@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dreach自行车</title>
+	<link rel="shortcut icon" href="./img/favicon.ico">
+	<!-- 引入框架样式 -->
+	<link href='./lib/layui/css/layui.css' rel="stylesheet" />
+	<!-- 子栏目的公共样式 -->
+	<link href='./css/child.css' rel='stylesheet'/>
+	<!-- 单独的样式 -->
+    <link href='./css/news.css' rel='stylesheet' />
+	<!-- 引入框架js -->
+	<script src='./lib/layui/layui.js'></script>
+	<!--引入jquery-->
+	<script src='./js/jquery.min.js'></script>
+	
+	<script src='./js/comm.js'></script>
+</head>
+<body>
+	<!--导航-->
+	<div id='top'>		
+		<iframe align="center" width="100%" height="85px" src="top.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no">	
+		</iframe>	
+	</div>
+	<!-- banner -->
+	<div class='banner'>
+		<div><img src='./img/nbanner.png'></div>
+		<div>
+			<div>NEWS CENTER</div>
+			<div>
+		</div></div>
+	</div>
+	
+	<!-- 选项卡 -->
+	<div class='tab'>
+		<div onclick='tab("news")'>Company news</div>
+		<div onclick='tab("industry")'>Industry news</div>
+	</div>
+	
+	<!-- 内容 -->
+	<div class='news'>
+		<div class='news-content' id='news'>
+			<div>
+				<div><img src='./img/bike/zxc.png' /></div>
+				<div>
+					<div>
+						<p>Warmly congratulate the official website of the company</p>
+						<p>Warmly congratulate the official website of the company. Warmly congratulate the official website of the company. Warmly congratulate the official website of the company. Warmly congratulate the offic</p>
+					</div>
+					<div>
+						<p>2019-10-12</p>
+						<p>View details</p>
+					</div>
+				</div>
+			</div>
+		
+		    <div>
+		    	<div><img src='./img/bike/zxc.png' /></div>
+		    	<div>
+		    		<div>
+		    			<p>Warmly congratulate the official website of the company</p>
+		    			<p>Warmly congratulate the official website of the company. Warmly congratulate the official website of the company. Warmly congratulate the official website of the company. Warmly congratulate the offic</p>
+		    		</div>
+		    		<div>
+		    			<p>2019-10-12</p>
+		    			<p>View details</p>
+		    		</div>
+		    	</div>
+		    </div>
+			
+		</div>
+		
+		<div id="demo2-1"></div>
+		
+	</div>
+	
+	
+	<!-- 页脚 -->
+	<div id='footer'>
+		<iframe align="center" width="100%" height='280px' src="footer.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no">
+		</iframe>
+	</div>
+	
+	<script>
+		
+		layui.use(['laypage', 'layer'], function(){
+		  var laypage = layui.laypage
+		  ,layer = layui.layer;
+		  
+		  var data = [{
+			  'pic' : './img/bike/zxc.png',
+			  'title' : 'Warmly congratulate the official website of the company',
+		  }];
+		 
+		 laypage.render({
+		      elem: 'demo2-1'
+		      ,count: data.length
+		      ,theme: '#f7941d'
+			  ,jump: function(obj){
+				  //模拟渲染
+				  document.getElementById('news').innerHTML = function(){
+					var arr=[]
+					,thisData = data.concat().splice(obj.curr*obj.limit - obj.limit, obj.limit);
+					layui.each(thisData, function(index, item){
+					//  arr.push('<li>'+ item +'</li>');
+					  
+					  var str = '';
+					  str += '<div onclick="content()">';
+					  str += "<div><img src='./img/bike/zxc.png' /></div>";
+					  	str += "<div>";
+					  		str += "<div>";
+					  			str += "<p>Warmly congratulate the official website of the company</p>";
+					  			str += "<p>Warmly congratulate the official website of the company. Warmly congratulate the official website of the company. Warmly congratulate the official website of the company. Warmly congratulate the offic</p>";
+					  		str += "</div>";
+					  		str += "<div>";
+					  			str += "<p>2019-10-12</p>";
+					  			str += "<p>View details</p>";
+					  		str += "</div>";
+					  	str += "</div>";
+					  str += "</div>";
+					  		
+					   arr.push(str)
+					});
+					
+					
+					
+					return arr.join('');
+				  }();
+				}
+		  });
+	    });
+		
+	</script>
+</body>
+</html>
